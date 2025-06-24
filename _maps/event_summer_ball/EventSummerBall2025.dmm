@@ -98,6 +98,7 @@
 /obj/structure/sign/poster/quirk/security_slogan{
 	pixel_x = -32
 	},
+/obj/machinery/light/directional/west,
 /turf/open/floor/iron,
 /area/station/security/brig/upper)
 "bJ" = (
@@ -229,6 +230,7 @@
 	pixel_y = -28
 	},
 /obj/structure/cable,
+/obj/machinery/light/directional/south,
 /turf/open/floor/iron,
 /area/station/security/brig/lower)
 "dU" = (
@@ -419,7 +421,7 @@
 	dir = 1
 	},
 /turf/open/floor/iron,
-/area/space)
+/area/station/security/brig/upper)
 "hu" = (
 /obj/structure/railing{
 	dir = 5
@@ -431,6 +433,7 @@
 	dir = 1
 	},
 /obj/structure/sign/poster/official/do_not_question/directional/north,
+/obj/machinery/light/directional/north,
 /turf/open/floor/iron,
 /area/station/command/heads_quarters/hos)
 "hA" = (
@@ -452,6 +455,7 @@
 /obj/effect/turf_decal/tile/neutral{
 	dir = 8
 	},
+/obj/machinery/light/directional/south,
 /turf/open/floor/iron,
 /area/station/security/brig/lower)
 "hJ" = (
@@ -711,6 +715,7 @@
 	dir = 4
 	},
 /obj/machinery/newscaster/directional/east,
+/obj/machinery/light/directional/east,
 /turf/open/floor/iron/dark,
 /area/station/security/brig/lower)
 "lv" = (
@@ -839,6 +844,7 @@
 /obj/machinery/mech_bay_recharge_port{
 	dir = 1
 	},
+/obj/machinery/light/directional/east,
 /turf/open/floor/iron/dark/textured,
 /area/station/security/brig/lower)
 "oI" = (
@@ -1068,6 +1074,7 @@
 /obj/machinery/recharger{
 	pixel_y = 4
 	},
+/obj/machinery/light/directional/south,
 /turf/open/floor/iron,
 /area/station/security/brig/upper)
 "sm" = (
@@ -1300,6 +1307,7 @@
 /obj/item/storage/lockbox/loyalty{
 	pixel_y = 3
 	},
+/obj/machinery/light/directional/east,
 /turf/open/floor/iron/dark/textured,
 /area/station/ai_monitored/security/armory)
 "wr" = (
@@ -1411,6 +1419,7 @@
 /obj/item/coffee_cartridge/decaf,
 /obj/item/coffee_cartridge/fancy,
 /obj/item/coffee_cartridge/bootleg,
+/obj/machinery/light/directional/east,
 /turf/open/floor/iron,
 /area/station/security/brig/upper)
 "xO" = (
@@ -1560,6 +1569,7 @@
 /obj/effect/turf_decal/tile/red/half/contrasted{
 	dir = 4
 	},
+/obj/machinery/light/directional/east,
 /turf/open/floor/iron/dark,
 /area/station/ai_monitored/security/armory)
 "Ax" = (
@@ -1705,7 +1715,7 @@
 "Dg" = (
 /obj/structure/railing,
 /turf/open/floor/iron,
-/area/space)
+/area/station/security/brig/upper)
 "Dh" = (
 /turf/open/water/beach,
 /area/space)
@@ -1816,6 +1826,7 @@
 /area/station/security/brig/upper)
 "Ev" = (
 /obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/cable,
 /turf/open/floor/plating,
 /area/station/maintenance/department/security/upper)
 "Ez" = (
@@ -1934,6 +1945,7 @@
 /obj/effect/turf_decal/tile/red/anticorner/contrasted{
 	dir = 8
 	},
+/obj/machinery/light/directional/west,
 /turf/open/floor/iron/dark/textured,
 /area/station/ai_monitored/security/armory)
 "Gd" = (
@@ -1981,6 +1993,11 @@
 	},
 /turf/open/misc/dirt/jungle,
 /area/space)
+"GM" = (
+/obj/effect/turf_decal/trimline/red/filled/line,
+/obj/machinery/light/directional/west,
+/turf/open/floor/iron/dark,
+/area/station/security/brig/lower)
 "GW" = (
 /obj/structure/fence/end{
 	dir = 4
@@ -2430,6 +2447,7 @@
 /obj/item/storage/box/rubbershot,
 /obj/item/storage/box/beanbag,
 /obj/item/storage/box/beanbag,
+/obj/machinery/light/directional/west,
 /turf/open/floor/iron/dark/textured,
 /area/station/ai_monitored/security/armory)
 "LQ" = (
@@ -2480,6 +2498,10 @@
 /obj/effect/spawner/random/trash/mess,
 /turf/open/floor/plating,
 /area/station/maintenance/department/security)
+"Mk" = (
+/obj/machinery/light/directional/south,
+/turf/open/floor/iron,
+/area/station/security/brig/upper)
 "MC" = (
 /obj/structure/table/reinforced,
 /obj/item/storage/toolbox/mechanical{
@@ -2605,8 +2627,16 @@
 "Ow" = (
 /obj/machinery/pdapainter/security,
 /obj/machinery/status_display/evac/directional/east,
+/obj/machinery/light/directional/south,
 /turf/open/floor/carpet/royalblack,
 /area/station/command/heads_quarters/hos)
+"Oz" = (
+/obj/machinery/suit_storage_unit/security,
+/obj/effect/turf_decal/tile/red/half/contrasted,
+/obj/effect/turf_decal/bot,
+/obj/machinery/light/directional/north,
+/turf/open/floor/iron/textured,
+/area/station/security/brig/upper)
 "OC" = (
 /obj/structure/stairs/stone,
 /obj/structure/railing{
@@ -2767,6 +2797,7 @@
 	dir = 8
 	},
 /obj/structure/sign/poster/official/cleanliness/directional/west,
+/obj/machinery/light/directional/west,
 /turf/open/floor/iron/textured,
 /area/station/security/brig/upper)
 "Rr" = (
@@ -2890,6 +2921,7 @@
 	},
 /obj/structure/sign/poster/official/no_erp/directional/west,
 /obj/effect/landmark/start/head_of_security,
+/obj/machinery/light/small/dim/directional/west,
 /turf/open/floor/carpet/royalblack,
 /area/station/command/heads_quarters/hos)
 "Tm" = (
@@ -3115,6 +3147,7 @@
 /obj/effect/turf_decal/tile/neutral/half/contrasted{
 	dir = 8
 	},
+/obj/machinery/light/directional/west,
 /turf/open/floor/iron,
 /area/station/security/brig/lower)
 "WP" = (
@@ -3322,6 +3355,7 @@
 /obj/effect/turf_decal/trimline/red/filled/line{
 	dir = 4
 	},
+/obj/machinery/light/directional/east,
 /turf/open/floor/iron,
 /area/station/security/processing)
 "ZJ" = (
@@ -96040,7 +96074,7 @@ sv
 LV
 TY
 zK
-Ag
+GM
 BE
 EA
 fV
@@ -160295,7 +160329,7 @@ iQ
 iQ
 iQ
 hh
-RM
+JI
 Dg
 iQ
 iQ
@@ -160552,7 +160586,7 @@ iQ
 iQ
 iQ
 hh
-RM
+JI
 Dg
 iQ
 iQ
@@ -160809,7 +160843,7 @@ iQ
 iQ
 iQ
 hh
-RM
+JI
 Dg
 iQ
 iQ
@@ -161066,7 +161100,7 @@ iQ
 iQ
 iQ
 hh
-RM
+JI
 Dg
 iQ
 iQ
@@ -162607,7 +162641,7 @@ CE
 If
 JI
 JI
-JI
+Mk
 bO
 bO
 LS
@@ -163631,7 +163665,7 @@ iQ
 iQ
 iQ
 Ei
-xp
+Oz
 Lv
 Ho
 Ei
