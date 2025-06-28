@@ -573,11 +573,18 @@
 	device_type = /obj/item/assembly/control/rail
 	var/starting_momentum = 20
 
+/obj/machinery/button/rail/setup_device()
+	. = ..()
+	if(id && istype(device, /obj/item/assembly/control/rail))
+		var/obj/item/assembly/control/rail/control_device = device
+		control_device.starting_momentum = starting_momentum
+
 /obj/item/assembly/control/rail
 	name = "coaster controller"
 	desc = "A small electronic device able to control a starter rail remotely."
 	// Gives us time to get goin
 	COOLDOWN_DECLARE(starting_cooldown)
+	var/starting_momentum
 
 /obj/item/assembly/control/rail/activate()
 	if(!COOLDOWN_FINISHED(src, starting_cooldown))
