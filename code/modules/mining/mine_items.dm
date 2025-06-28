@@ -575,7 +575,7 @@
 
 /obj/machinery/button/rail/setup_device()
 	. = ..()
-	if(id && istype(device, /obj/item/assembly/control/rail))
+	if(starting_momentum && istype(device, /obj/item/assembly/control/rail))
 		var/obj/item/assembly/control/rail/control_device = device
 		control_device.starting_momentum = starting_momentum
 
