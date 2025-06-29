@@ -1,0 +1,18 @@
+{
+	"version": 1,
+	"map_name": "EventSummerBall2025",
+	"map_path": "map_files/event_summer_ball",
+	"map_file": "EventSummerBall2025.dmm",
+	"give_players_hooks": 1,
+	"traits": [
+		{
+			"Baseturf": "/turf/open/misc/dirt/jungle"
+		},
+		{
+			"Baseturf": "/turf/open/openspace"
+		},
+		{
+			"Baseturf": "/turf/open/openspace"
+		}
+	]
+}
