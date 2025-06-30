@@ -4,15 +4,25 @@
 	"map_path": "map_files/event_summer_ball",
 	"map_file": "EventSummerBall2025.dmm",
 	"give_players_hooks": 1,
+	"space_ruin_levels": 0,
+	"space_empty_levels": 0,
+	"planetary": 1,
+	"minetype": "none",
 	"traits": [
 		{
-			"Baseturf": "/turf/open/misc/dirt/jungle"
+			"Baseturf": "/turf/open/misc/dirt/jungle",
+			"Gravity": true,
+			"No Parallax": true
 		},
 		{
-			"Baseturf": "/turf/open/openspace"
+			"Baseturf": "/turf/open/openspace",
+			"Gravity": true,
+			"No Parallax": true
 		},
 		{
-			"Baseturf": "/turf/open/openspace"
+			"Baseturf": "/turf/open/openspace",
+			"Gravity": true,
+			"No Parallax": true
 		}
 	]
 }
