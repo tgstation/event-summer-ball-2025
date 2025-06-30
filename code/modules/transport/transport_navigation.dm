@@ -106,3 +106,27 @@
 /obj/effect/landmark/transport/nav_beacon/tram/nav/immovable_rod
 	name = "DESTINATION/NOT/FOUND"
 	specific_transport_id = IMMOVABLE_ROD_DESTINATIONS
+
+//event-map
+
+/obj/effect/landmark/transport/transport_id/eventmap/line_1
+	specific_transport_id = "eventtram_1"
+
+/obj/effect/landmark/transport/nav_beacon/tram/nav/eventmap/main
+	name = "eventtram_1"
+	specific_transport_id = "eventtram_1"
+	dir = WEST
+
+/obj/effect/landmark/transport/nav_beacon/tram/platform/eventmap/west
+	name = "West Platform"
+	specific_transport_id = "eventtram_1"
+	platform_code = 1
+	tgui_icons = list("Port Platform" = "plane-departure")
+
+
+/obj/effect/landmark/transport/nav_beacon/tram/platform/eventmap/east
+	name = "East Platform"
+	specific_transport_id = "eventtram_1"
+	platform_code = 2
+	tgui_icons = list("Starboard Platform" = "plane-departure")
+
