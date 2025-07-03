@@ -107,26 +107,25 @@
 	name = "DESTINATION/NOT/FOUND"
 	specific_transport_id = IMMOVABLE_ROD_DESTINATIONS
 
-//event-map
+//event
 
-/obj/effect/landmark/transport/transport_id/eventmap/line_1
+/obj/effect/landmark/transport/transport_id/event_map/line_1
 	specific_transport_id = "eventtram_1"
 
-/obj/effect/landmark/transport/nav_beacon/tram/nav/eventmap/main
+/obj/effect/landmark/transport/nav_beacon/tram/nav/event_map/main
 	name = "eventtram_1"
 	specific_transport_id = "eventtram_1"
+	specific_transport_id = TRAM_NAV_BEACONS
 	dir = WEST
 
-/obj/effect/landmark/transport/nav_beacon/tram/platform/eventmap/west
+/obj/effect/landmark/transport/nav_beacon/tram/platform/event_map/west
 	name = "West Platform"
 	specific_transport_id = "eventtram_1"
-	platform_code = 1
+	platform_code = TRAMSTATION_WEST
 	tgui_icons = list("Port Platform" = "plane-departure")
 
-
-/obj/effect/landmark/transport/nav_beacon/tram/platform/eventmap/east
+/obj/effect/landmark/transport/nav_beacon/tram/platform/event_map/east
 	name = "East Platform"
 	specific_transport_id = "eventtram_1"
-	platform_code = 2
-	tgui_icons = list("Starboard Platform" = "plane-departure")
-
+	platform_code = TRAMSTATION_EAST
+	tgui_icons = list("Starboard Platform" = "plane-arrival")
