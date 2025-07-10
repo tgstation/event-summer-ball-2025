@@ -410,6 +410,9 @@
 	if(momentum <= 0)
 		return
 
+	start_moving_in_dir(movedir)
+
+/obj/structure/closet/crate/miningcar/proc/start_moving_in_dir(movedir)
 	setDir(movedir)
 	var/datum/move_loop/loop = GLOB.move_manager.move(src, dir, delay = calculate_delay(), subsystem = SSconveyors, flags = MOVEMENT_LOOP_START_FAST|MOVEMENT_LOOP_IGNORE_PRIORITY)
 	RegisterSignal(loop, COMSIG_MOVELOOP_PREPROCESS_CHECK, PROC_REF(check_rail))
@@ -561,3 +564,56 @@
 
 /obj/structure/minecart_rail/railbreak/rail_examine()
 	return span_notice("Run a powered cable underneath it to stop carts that pass over it.")
+
+/obj/machinery/button/rail
+	name = "coaster button"
+	desc = "A remote control switch for a rail starter."
+	icon_state= "button-warning"
+	skin = "-warning"
+	device_type = /obj/item/assembly/control/rail
+	var/starting_momentum = 20
+
+/obj/machinery/button/rail/setup_device()
+	. = ..()
+	if(starting_momentum && istype(device, /obj/item/assembly/control/rail))
+		var/obj/item/assembly/control/rail/control_device = device
+		control_device.starting_momentum = starting_momentum
+
+/obj/item/assembly/control/rail
+	name = "coaster controller"
+	desc = "A small electronic device able to control a starter rail remotely."
+	// Gives us time to get goin
+	COOLDOWN_DECLARE(starting_cooldown)
+	var/starting_momentum
+
+/obj/item/assembly/control/rail/activate()
+	if(!COOLDOWN_FINISHED(src, starting_cooldown))
+		return
+	COOLDOWN_START(src, starting_cooldown, 1 SECONDS)
+	for(var/obj/structure/minecart_rail/railbreak/starter/blastoff in GLOB.starter_rails)
+		if(blastoff.linked_button_id != src.id)
+			continue
+		blastoff.start_cart(starting_momentum)
+
+GLOBAL_LIST_EMPTY(starter_rails)
+/obj/structure/minecart_rail/railbreak/starter
+	name = "cart rail starter"
+	desc = "Starts carts a rollin. Like, down the line and such"
+	icon_state = "track_starter"
+	var/linked_button_id
+
+/obj/structure/minecart_rail/railbreak/starter/Initialize(mapload)
+	. = ..()
+	GLOB.starter_rails += src
+
+/obj/structure/minecart_rail/railbreak/starter/Destroy(force)
+	GLOB.starter_rails -= src
+	return ..()
+
+/obj/structure/minecart_rail/railbreak/starter/rail_examine()
+	return span_notice("Run a powered cable underneath it to stop and start carts that pass over it.")
+
+/obj/structure/minecart_rail/railbreak/starter/proc/start_cart(starting_momentum)
+	var/obj/structure/closet/crate/miningcar/pushin_down = locate() in loc
+	pushin_down.momentum = starting_momentum
+	pushin_down.start_moving_in_dir(dir)
