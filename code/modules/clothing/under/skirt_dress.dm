@@ -117,7 +117,7 @@
 /obj/item/clothing/under/dress/summerdress
 	name = "summer dress"
 	desc = "Fluffy and airy, just like a delicious cupcake."
-	icon_state = "summer"
+	icon_state = "summerdress"
 	custom_price = PAYCHECK_CREW
 	greyscale_colors = "#eeeeee"
 	greyscale_config = /datum/greyscale_config/summerdress
