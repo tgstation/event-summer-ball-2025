@@ -609,6 +609,12 @@
 /obj/structure/stairs/stone,
 /turf/open/floor/wood/large,
 /area/awaymission/secret)
+"df" = (
+/obj/effect/turf_decal/siding/wideplating/dark/end{
+	dir = 4
+	},
+/turf/open/floor/stone,
+/area/awaymission/secret/fullbright)
 "dg" = (
 /obj/structure/rack,
 /obj/item/storage/toolbox/fishing{
@@ -1269,6 +1275,15 @@
 /obj/item/clothing/suit/costume/pirate,
 /turf/open/floor/wood/large,
 /area/awaymission/secret)
+"gT" = (
+/obj/effect/turf_decal/siding/wideplating/dark/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/wideplating/dark/corner{
+	dir = 8
+	},
+/turf/open/floor/stone,
+/area/awaymission/secret/fullbright)
 "gW" = (
 /turf/closed/indestructible/syndicate,
 /area/station/medical/surgery/fore)
@@ -1322,6 +1337,12 @@
 	},
 /turf/open/misc/beach/sand,
 /area/awaymission/secret)
+"hp" = (
+/obj/effect/turf_decal/siding/wideplating/dark/end{
+	dir = 8
+	},
+/turf/open/floor/stone,
+/area/awaymission/secret/fullbright)
 "hu" = (
 /obj/structure/railing{
 	dir = 5
@@ -3852,6 +3873,13 @@
 "vX" = (
 /turf/open/openspace,
 /area/station/medical/treatment_center)
+"vZ" = (
+/obj/effect/turf_decal/siding/wideplating/dark/corner,
+/obj/effect/turf_decal/siding/wideplating/dark{
+	dir = 1
+	},
+/turf/open/floor/stone,
+/area/awaymission/secret/fullbright)
 "wc" = (
 /obj/effect/turf_decal/siding/thinplating/corner{
 	dir = 8
@@ -5257,6 +5285,10 @@
 /obj/machinery/light/small/directional/west,
 /turf/open/floor/iron/white,
 /area/awaymission/secret)
+"DX" = (
+/obj/effect/turf_decal/siding/wideplating/dark/end,
+/turf/open/floor/stone,
+/area/awaymission/secret/fullbright)
 "DY" = (
 /obj/effect/turf_decal/trimline/red/filled/warning{
 	dir = 9
@@ -6892,6 +6924,13 @@
 	},
 /turf/open/floor/wood/large,
 /area/station/medical/break_room)
+"ME" = (
+/obj/effect/turf_decal/siding/wideplating/dark/corner,
+/obj/effect/turf_decal/siding/wideplating/dark{
+	dir = 8
+	},
+/turf/open/floor/stone,
+/area/awaymission/secret/fullbright)
 "MF" = (
 /turf/open/floor/iron/white,
 /area/station/medical/storage)
@@ -111751,7 +111790,7 @@ yj
 HY
 US
 XJ
-XJ
+we
 GZ
 KL
 pU
@@ -112008,7 +112047,7 @@ aC
 HY
 US
 XJ
-XJ
+we
 pU
 sH
 KL
@@ -112265,7 +112304,7 @@ aC
 HY
 US
 XJ
-XJ
+we
 pU
 sH
 sH
@@ -112522,7 +112561,7 @@ aC
 HY
 US
 XJ
-XJ
+we
 pU
 sH
 iz
@@ -112779,7 +112818,7 @@ aC
 HY
 US
 XJ
-XJ
+we
 pU
 aC
 xZ
@@ -113036,7 +113075,7 @@ aC
 HY
 US
 XJ
-XJ
+we
 pU
 KL
 xZ
@@ -113293,7 +113332,7 @@ aC
 gI
 US
 XJ
-XJ
+we
 aC
 sH
 xZ
@@ -113550,7 +113589,7 @@ aC
 HY
 US
 XJ
-XJ
+we
 pU
 aC
 xZ
@@ -113807,7 +113846,7 @@ yj
 tn
 US
 XJ
-XJ
+we
 Px
 KL
 xZ
@@ -114064,7 +114103,7 @@ yj
 XJ
 XJ
 XJ
-XJ
+we
 sH
 sH
 xZ
@@ -114321,7 +114360,7 @@ yj
 XJ
 XJ
 XJ
-XJ
+we
 pU
 pU
 xZ
@@ -114578,7 +114617,7 @@ yj
 md
 US
 XJ
-XJ
+we
 AK
 fy
 xZ
@@ -114835,7 +114874,7 @@ yj
 HY
 US
 XJ
-XJ
+we
 AK
 pU
 xZ
@@ -115092,7 +115131,7 @@ aC
 HY
 US
 XJ
-XJ
+we
 sH
 pU
 cD
@@ -115349,7 +115388,7 @@ qq
 tn
 US
 XJ
-XJ
+we
 aC
 sH
 pU
@@ -115606,8 +115645,8 @@ US
 US
 US
 XJ
-XJ
-XJ
+Gi
+Mg
 aC
 sH
 yj
@@ -115864,9 +115903,9 @@ XJ
 XJ
 XJ
 XJ
-XJ
-XJ
-XJ
+Gi
+ME
+DX
 yj
 yj
 yj
@@ -116105,24 +116144,24 @@ XJ
 XJ
 XJ
 XJ
+OR
+OR
+OR
+OR
+OR
+OR
+OR
+OR
+OR
+OR
+OR
+OR
+OR
+JT
 XJ
 XJ
-XJ
-XJ
-XJ
-XJ
-XJ
-XJ
-XJ
-XJ
-XJ
-XJ
-XJ
-XJ
-XJ
-XJ
-XJ
-XJ
+Ri
+cb
 yj
 yj
 nA
@@ -116375,10 +116414,10 @@ pU
 jt
 Px
 aC
-XJ
-XJ
-XJ
-XJ
+QP
+JT
+Ri
+cb
 yj
 yj
 nA
@@ -116633,8 +116672,8 @@ Lc
 lC
 sH
 GZ
-XJ
-XJ
+vZ
+cb
 IF
 Js
 yj
@@ -116890,7 +116929,7 @@ pU
 hE
 IL
 sH
-XJ
+df
 yj
 Mh
 yC
@@ -119476,7 +119515,7 @@ qy
 YH
 QS
 yj
-XJ
+UC
 JO
 Ri
 cb
@@ -119733,7 +119772,7 @@ Wc
 Mh
 qr
 yj
-XJ
+cA
 XJ
 XJ
 aC
@@ -119990,7 +120029,7 @@ yj
 yj
 yj
 yj
-XJ
+cA
 XJ
 XJ
 aC
@@ -120246,8 +120285,8 @@ yj
 qB
 yj
 yj
-XJ
-XJ
+UC
+JO
 XJ
 XJ
 aC
@@ -120502,8 +120541,8 @@ yj
 yj
 yj
 yj
-XJ
-XJ
+UC
+JO
 XJ
 XJ
 aC
@@ -120750,16 +120789,16 @@ pU
 KL
 aC
 aC
-XJ
+hp
 yj
 yj
 yj
 yj
 yj
 yj
-XJ
-XJ
-XJ
+UC
+dI
+JO
 XJ
 XJ
 XJ
@@ -120989,14 +121028,14 @@ XJ
 XJ
 XJ
 XJ
-XJ
-XJ
-XJ
-XJ
-XJ
-XJ
-XJ
-XJ
+dI
+dI
+dI
+dI
+dI
+dI
+dI
+Mg
 aC
 aC
 sH
@@ -121005,16 +121044,16 @@ IL
 pU
 GZ
 aC
-XJ
-XJ
-XJ
-XJ
-XJ
-XJ
-XJ
-XJ
-XJ
-XJ
+UC
+dI
+gT
+dI
+dI
+dI
+dI
+dI
+dI
+JO
 XJ
 XJ
 XJ
@@ -121253,16 +121292,16 @@ XJ
 XJ
 XJ
 XJ
-XJ
-XJ
-XJ
-XJ
+Gi
+dI
+dI
+Mg
 GZ
 aC
 aC
-XJ
-XJ
-XJ
+UC
+dI
+JO
 XJ
 XJ
 XJ
@@ -121513,11 +121552,11 @@ XJ
 XJ
 XJ
 XJ
-XJ
-XJ
-XJ
-XJ
-XJ
+Gi
+dI
+dI
+dI
+JO
 XJ
 XJ
 XJ
