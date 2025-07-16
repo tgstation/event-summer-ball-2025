@@ -786,12 +786,6 @@
 	},
 /turf/open/misc/sandy_dirt,
 /area/awaymission/secret/fullbright)
-"dS" = (
-/obj/effect/step_trigger/teleporter/offset{
-	teleport_y_offset = 7
-	},
-/turf/open/floor/stone,
-/area/awaymission/secret/fullbright)
 "dT" = (
 /obj/structure/railing/corner{
 	dir = 4
@@ -974,15 +968,6 @@
 	},
 /turf/open/floor/iron/dark,
 /area/station/security/brig/lower)
-"eD" = (
-/obj/effect/step_trigger/teleporter/offset{
-	teleport_y_offset = 7
-	},
-/obj/effect/turf_decal/siding/thinplating_new{
-	dir = 8
-	},
-/turf/open/floor/asphalt,
-/area/awaymission/secret/fullbright)
 "eG" = (
 /obj/machinery/door/airlock/wood/glass,
 /turf/open/floor/wood/parquet,
@@ -4032,13 +4017,6 @@
 "to" = (
 /turf/open/floor/iron/freezer,
 /area/station/medical/storage)
-"tr" = (
-/obj/effect/step_trigger/teleporter/offset{
-	teleport_x_offset = -7
-	},
-/obj/effect/turf_decal/siding/thinplating_new,
-/turf/open/floor/asphalt,
-/area/awaymission/secret/fullbright)
 "ts" = (
 /obj/item/radio/intercom/directional/east,
 /turf/open/floor/iron/freezer,
@@ -4216,11 +4194,6 @@
 /area/awaymission/secret/fullbright)
 "ut" = (
 /turf/open/floor/glass,
-/area/awaymission/secret/fullbright)
-"uu" = (
-/turf/open/mirage{
-	target_turf_y = -7
-	},
 /area/awaymission/secret/fullbright)
 "uv" = (
 /obj/machinery/light/directional/south,
@@ -5165,12 +5138,6 @@
 	},
 /turf/open/misc/beach/sand,
 /area/awaymission/secret)
-"yP" = (
-/obj/effect/step_trigger/teleporter/offset{
-	teleport_y_offset = 7
-	},
-/turf/open/floor/asphalt,
-/area/awaymission/secret/fullbright)
 "yQ" = (
 /obj/structure/table/wood,
 /obj/machinery/fax{
@@ -5358,12 +5325,6 @@
 	dir = 5
 	},
 /turf/open/floor/grass,
-/area/awaymission/secret/fullbright)
-"zN" = (
-/turf/open/mirage{
-	dir = 8;
-	target_turf_x = -7
-	},
 /area/awaymission/secret/fullbright)
 "zQ" = (
 /turf/open/floor/iron/white/smooth_half{
@@ -5582,15 +5543,6 @@
 /obj/structure/railing,
 /turf/open/misc/asteroid,
 /area/awaymission/secret)
-"AS" = (
-/obj/effect/step_trigger/teleporter/offset{
-	teleport_x_offset = -7
-	},
-/obj/effect/turf_decal/siding/thinplating_new{
-	dir = 1
-	},
-/turf/open/floor/asphalt,
-/area/awaymission/secret/fullbright)
 "AV" = (
 /obj/machinery/door/poddoor/preopen{
 	id = "secdonger"
@@ -6003,12 +5955,6 @@
 /area/station/security/brig/upper)
 "Dh" = (
 /turf/open/water/beach,
-/area/awaymission/secret/fullbright)
-"Di" = (
-/obj/effect/step_trigger/teleporter/offset{
-	teleport_x_offset = -7
-	},
-/turf/open/floor/asphalt,
 /area/awaymission/secret/fullbright)
 "Dk" = (
 /obj/machinery/door/airlock/security/glass{
@@ -7132,15 +7078,6 @@
 /obj/structure/extinguisher_cabinet/directional/south,
 /turf/open/floor/iron/white,
 /area/station/medical/medbay/lobby)
-"Il" = (
-/obj/effect/step_trigger/teleporter/offset{
-	teleport_y_offset = 7
-	},
-/obj/effect/turf_decal/siding/thinplating_new{
-	dir = 4
-	},
-/turf/open/floor/asphalt,
-/area/awaymission/secret/fullbright)
 "Im" = (
 /obj/effect/turf_decal/trimline/red/filled/line{
 	dir = 8
@@ -9866,6 +9803,9 @@
 	},
 /turf/open/floor/bluespace,
 /area/awaymission/museum/mothroachvoid)
+"UD" = (
+/turf/closed/indestructible/binary,
+/area/awaymission/secret/fullbright)
 "UE" = (
 /turf/cordon,
 /area/space)
@@ -76919,12 +76859,12 @@ UE
 UE
 UE
 dU
-ZM
-bm
-bm
-bm
-bm
-Qq
+UD
+UD
+UD
+UD
+UD
+UD
 dU
 UE
 UE
@@ -76933,11 +76873,11 @@ UE
 UE
 UE
 dU
-ZM
-bm
-bm
-bm
-Qq
+UD
+UD
+UD
+UD
+UD
 dU
 UE
 UE
@@ -78461,12 +78401,12 @@ UE
 UE
 UE
 dU
-AS
-Di
-Di
-Di
-Di
-tr
+ZM
+bm
+bm
+bm
+bm
+Qq
 dU
 UE
 UE
@@ -78475,11 +78415,11 @@ UE
 UE
 UE
 dU
-AS
-Di
-yP
-Di
-tr
+ZM
+bm
+bm
+bm
+Qq
 dU
 UE
 UE
@@ -78718,12 +78658,12 @@ UE
 UE
 UE
 dU
-zN
-zN
-zN
-zN
-zN
-zN
+ZM
+bm
+bm
+bm
+bm
+Qq
 dU
 UE
 UE
@@ -78732,11 +78672,11 @@ UE
 UE
 UE
 dU
-zN
-zN
-zN
-zN
-zN
+ZM
+bm
+bm
+bm
+Qq
 dU
 UE
 UE
@@ -92886,14 +92826,14 @@ ru
 ru
 ru
 ru
-uu
-eD
 ru
 ru
 ru
 ru
 ru
 ru
+ru
+UD
 UE
 UE
 UE
@@ -93143,14 +93083,14 @@ bm
 bm
 bm
 bm
-uu
-yP
 bm
 bm
 bm
 bm
 bm
 bm
+bm
+UD
 UE
 UE
 UE
@@ -93400,14 +93340,14 @@ bm
 bm
 bm
 bm
-uu
-yP
 bm
 bm
 bm
 bm
 bm
 bm
+bm
+UD
 UE
 UE
 UE
@@ -93657,14 +93597,14 @@ bm
 bm
 bm
 bm
-uu
-yP
 bm
 bm
 bm
 bm
 bm
 bm
+bm
+UD
 UE
 UE
 UE
@@ -93914,14 +93854,14 @@ tQ
 tQ
 tQ
 tQ
-uu
-Il
 tQ
 tQ
 tQ
 tQ
 tQ
 tQ
+tQ
+UD
 UE
 UE
 UE
@@ -94171,14 +94111,14 @@ XJ
 XJ
 XJ
 XJ
-uu
-dS
 XJ
 XJ
 XJ
 XJ
 XJ
 XJ
+XJ
+UD
 UE
 UE
 UE
@@ -94428,14 +94368,14 @@ ru
 ru
 ru
 ru
-uu
-eD
 ru
 ru
 ru
 ru
 ru
 ru
+ru
+UD
 UE
 UE
 UE
@@ -94685,14 +94625,14 @@ bm
 bm
 bm
 bm
-uu
-yP
 bm
 bm
 bm
 bm
 bm
 bm
+bm
+UD
 UE
 UE
 UE
@@ -94942,14 +94882,14 @@ bm
 bm
 bm
 bm
-uu
-yP
 bm
 bm
 bm
 bm
 bm
 bm
+bm
+UD
 UE
 UE
 UE
@@ -95199,14 +95139,14 @@ bm
 bm
 bm
 bm
-uu
-yP
 bm
 bm
 bm
 bm
 bm
 bm
+bm
+UD
 UE
 UE
 UE
@@ -95456,14 +95396,14 @@ tQ
 tQ
 tQ
 tQ
-uu
-Il
 tQ
 tQ
 tQ
 tQ
 tQ
 tQ
+tQ
+UD
 UE
 UE
 UE
