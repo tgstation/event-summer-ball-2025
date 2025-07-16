@@ -1037,6 +1037,13 @@
 	},
 /turf/open/misc/beach/sand,
 /area/awaymission/secret)
+"fa" = (
+/obj/item/storage/basket{
+	pixel_x = -1;
+	pixel_y = 3
+	},
+/turf/open/floor/carpet/donk,
+/area/awaymission/secret/fullbright)
 "fb" = (
 /obj/item/toy/katana,
 /turf/open/floor/wood/parquet,
@@ -1388,6 +1395,14 @@
 	},
 /turf/open/floor/wood,
 /area/awaymission/secret/fullbright)
+"gM" = (
+/obj/structure/table,
+/obj/machinery/fax{
+	fax_name = "Coat Check Office";
+	name = "Coat Check Fax Machine"
+	},
+/turf/open/floor/iron/dark,
+/area/awaymission/secret/fullbright)
 "gN" = (
 /obj/structure/fluff/beach_umbrella/security,
 /turf/open/misc/beach/sand,
@@ -1494,6 +1509,13 @@
 /area/awaymission/secret/fullbright)
 "hs" = (
 /obj/structure/closet/crate/bin,
+/turf/open/floor/stone,
+/area/awaymission/secret/fullbright)
+"ht" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark/corner{
+	dir = 4
+	},
+/obj/machinery/vending/cigarette,
 /turf/open/floor/stone,
 /area/awaymission/secret/fullbright)
 "hu" = (
@@ -1858,6 +1880,18 @@
 "jd" = (
 /obj/effect/turf_decal/siding/wideplating/dark,
 /turf/open/floor/stone,
+/area/awaymission/secret/fullbright)
+"jf" = (
+/obj/structure/table,
+/obj/item/stamp/denied{
+	pixel_x = -6;
+	pixel_y = 8
+	},
+/obj/item/stamp/granted{
+	pixel_x = 0;
+	pixel_y = 2
+	},
+/turf/open/floor/iron/dark,
 /area/awaymission/secret/fullbright)
 "jg" = (
 /obj/structure/railing/corner{
@@ -2366,6 +2400,10 @@
 	},
 /turf/open/floor/iron,
 /area/awaymission/secret)
+"la" = (
+/obj/machinery/vending/cigarette,
+/turf/open/floor/stone,
+/area/awaymission/secret/fullbright)
 "lc" = (
 /obj/structure/thermoplastic/light,
 /obj/effect/landmark/transport/transport_id/event_map/line_1,
@@ -2774,6 +2812,11 @@
 	},
 /turf/open/floor/wood/large,
 /area/awaymission/secret)
+"ng" = (
+/obj/structure/disposalpipe/segment,
+/obj/machinery/vending/snack/teal,
+/turf/open/floor/iron,
+/area/awaymission/secret/fullbright)
 "nh" = (
 /obj/machinery/computer/operating{
 	dir = 1
@@ -2911,6 +2954,10 @@
 	},
 /obj/effect/turf_decal/siding/wideplating/dark,
 /turf/open/floor/stone,
+/area/awaymission/secret/fullbright)
+"nN" = (
+/obj/structure/flora/bush/jungle/a/style_random,
+/turf/open/floor/grass,
 /area/awaymission/secret/fullbright)
 "nO" = (
 /turf/closed/indestructible/syndicate,
@@ -3247,6 +3294,14 @@
 /obj/structure/fluff/shower_drain,
 /turf/open/floor/iron/freezer,
 /area/station/medical/storage)
+"pu" = (
+/obj/structure/table,
+/obj/item/papercutter{
+	pixel_x = 1;
+	pixel_y = 4
+	},
+/turf/open/floor/iron/dark,
+/area/awaymission/secret/fullbright)
 "py" = (
 /obj/effect/turf_decal/siding/wood/corner,
 /turf/open/floor/grass,
@@ -3290,6 +3345,19 @@
 "pH" = (
 /obj/machinery/pdapainter,
 /turf/open/floor/wood/large,
+/area/awaymission/secret/fullbright)
+"pI" = (
+/obj/item/toy/plush/moth{
+	pixel_x = -4;
+	pixel_y = 4;
+	name = "Soup";
+	desc = "A plushie depicting an adorable mothperson. This one smells faintly of... well..."
+	},
+/obj/effect/spawner/random/food_or_drink/soup{
+	pixel_x = 8;
+	pixel_y = -6
+	},
+/turf/open/floor/carpet/donk,
 /area/awaymission/secret/fullbright)
 "pM" = (
 /obj/structure/flora/grass/jungle/b/style_random,
@@ -4043,6 +4111,9 @@
 "tw" = (
 /turf/open/floor/iron/dark/textured_half,
 /area/station/medical/morgue)
+"tz" = (
+/turf/open/floor/carpet/donk,
+/area/awaymission/secret/fullbright)
 "tA" = (
 /obj/structure/railing,
 /turf/open/floor/plating,
@@ -4309,6 +4380,10 @@
 	},
 /turf/open/floor/stone,
 /area/awaymission/secret/fullbright)
+"uS" = (
+/obj/structure/flora/bush/flowers_yw/style_random,
+/turf/open/floor/grass,
+/area/awaymission/secret/fullbright)
 "uU" = (
 /obj/structure/sink/directional/east,
 /obj/structure/mirror/directional/west,
@@ -4340,6 +4415,19 @@
 /obj/item/pickaxe,
 /turf/open/misc/ashplanet/rocky/safe,
 /area/awaymission/secret)
+"vg" = (
+/obj/item/toy/plush/human{
+	pixel_x = 5;
+	pixel_y = 9;
+	name = "John Human";
+	desc = "They finally found him."
+	},
+/obj/item/food/sandwich/blt{
+	pixel_x = -13;
+	pixel_y = -3
+	},
+/turf/open/floor/carpet/donk,
+/area/awaymission/secret/fullbright)
 "vh" = (
 /obj/effect/turf_decal/siding/wideplating/dark/corner,
 /obj/effect/turf_decal/siding/wideplating/dark/corner{
@@ -5225,6 +5313,10 @@
 	},
 /turf/open/floor/carpet/royalblack,
 /area/station/command/heads_quarters/hos)
+"zk" = (
+/obj/structure/table,
+/turf/open/floor/iron,
+/area/awaymission/secret/fullbright)
 "zl" = (
 /turf/open/openspace,
 /area/awaymission/secret)
@@ -5774,6 +5866,7 @@
 /obj/structure/disposalpipe/trunk/multiz/down{
 	dir = 1
 	},
+/obj/machinery/vending/coffee,
 /turf/open/floor/iron,
 /area/awaymission/secret/fullbright)
 "Cc" = (
@@ -5796,6 +5889,10 @@
 /obj/effect/turf_decal/siding/wideplating/dark,
 /turf/open/floor/stone,
 /area/awaymission/secret/fullbright)
+"Cj" = (
+/obj/structure/filingcabinet,
+/turf/open/floor/iron/dark,
+/area/awaymission/secret/fullbright)
 "Cl" = (
 /obj/machinery/portable_atmospherics/scrubber/huge/movable,
 /turf/open/floor/plating,
@@ -5817,6 +5914,7 @@
 /obj/effect/turf_decal/siding/thinplating_new/dark/corner{
 	dir = 4
 	},
+/obj/machinery/vending/cigarette,
 /turf/open/floor/stone,
 /area/awaymission/secret/fullbright)
 "Cs" = (
@@ -5897,6 +5995,10 @@
 "CJ" = (
 /turf/open/floor/wood/large,
 /area/station/medical/break_room)
+"CK" = (
+/obj/structure/flora/bush/large/style_random,
+/turf/open/floor/grass,
+/area/awaymission/secret/fullbright)
 "CL" = (
 /obj/effect/turf_decal/siding/wood/end{
 	dir = 1
@@ -6255,6 +6357,7 @@
 /area/awaymission/secret/fullbright)
 "Es" = (
 /obj/machinery/light/directional/west,
+/obj/structure/filingcabinet,
 /turf/open/floor/iron/dark,
 /area/awaymission/secret/fullbright)
 "Et" = (
@@ -6946,6 +7049,9 @@
 	},
 /turf/open/floor/iron,
 /area/station/security/brig/lower)
+"HA" = (
+/turf/open/floor/grass,
+/area/awaymission/secret/fullbright)
 "HC" = (
 /turf/open/misc/beach/coast{
 	dir = 6
@@ -7397,6 +7503,26 @@
 "JA" = (
 /turf/open/floor/iron/white/small,
 /area/station/medical/paramedic)
+"JC" = (
+/obj/structure/window/reinforced/spawner/directional/east,
+/obj/structure/table,
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 4
+	},
+/obj/item/paper_bin/bundlenatural{
+	pixel_x = -7;
+	pixel_y = 5
+	},
+/obj/item/paper_bin/bundlenatural{
+	pixel_x = 5;
+	pixel_y = 5
+	},
+/obj/item/pen{
+	pixel_x = -6;
+	pixel_y = -8
+	},
+/turf/open/floor/iron/dark,
+/area/awaymission/secret/fullbright)
 "JD" = (
 /mob/living/basic/crab/evil,
 /obj/item/clothing/head/costume/pirate/bandana,
@@ -8282,6 +8408,12 @@
 /obj/effect/landmark/secequipment,
 /turf/open/floor/iron/textured,
 /area/station/security/brig/upper)
+"Ne" = (
+/obj/structure/chair/office{
+	dir = 4
+	},
+/turf/open/floor/iron/dark,
+/area/awaymission/secret/fullbright)
 "Nf" = (
 /obj/effect/spawner/structure/window/reinforced/indestructible,
 /turf/open/floor/plating,
@@ -8368,6 +8500,12 @@
 "Nw" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 4
+	},
+/turf/open/floor/iron/dark,
+/area/awaymission/secret/fullbright)
+"Nx" = (
+/obj/structure/chair/office{
+	dir = 1
 	},
 /turf/open/floor/iron/dark,
 /area/awaymission/secret/fullbright)
@@ -8462,6 +8600,10 @@
 	dir = 1
 	},
 /turf/open/floor/stone,
+/area/awaymission/secret/fullbright)
+"NT" = (
+/obj/structure/flora/grass/jungle/a/style_random,
+/turf/open/floor/grass,
 /area/awaymission/secret/fullbright)
 "NU" = (
 /obj/structure/chair/wood,
@@ -9424,6 +9566,10 @@
 /obj/effect/landmark/start/security_officer,
 /turf/open/floor/iron,
 /area/station/security/brig/upper)
+"SQ" = (
+/obj/machinery/vending/wardrobe/cargo_wardrobe,
+/turf/open/floor/iron,
+/area/awaymission/secret/fullbright)
 "SR" = (
 /obj/structure/cable,
 /obj/effect/decal/cleanable/blood/old,
@@ -9981,6 +10127,10 @@
 	pixel_y = 3
 	},
 /turf/open/floor/iron,
+/area/awaymission/secret/fullbright)
+"Vx" = (
+/obj/structure/flora/bush/jungle/c/style_random,
+/turf/open/floor/grass,
 /area/awaymission/secret/fullbright)
 "Vz" = (
 /obj/machinery/door/airlock/command{
@@ -83550,7 +83700,7 @@ Qq
 XJ
 XJ
 XJ
-XJ
+la
 dU
 dU
 dU
@@ -83566,9 +83716,9 @@ XJ
 XJ
 dY
 dU
-aC
-aC
-aC
+Vx
+Dz
+nN
 eW
 UE
 UE
@@ -83823,9 +83973,9 @@ XJ
 XJ
 Ay
 YB
-aC
-aC
-aC
+HA
+Ld
+HA
 eW
 UE
 UE
@@ -84080,9 +84230,9 @@ XJ
 XJ
 kd
 YB
-aC
-aC
-aC
+Dz
+Mh
+Dz
 eW
 UE
 UE
@@ -84337,9 +84487,9 @@ XJ
 XJ
 Sd
 YB
-aC
-aC
-aC
+HA
+HA
+Vx
 eW
 UE
 UE
@@ -84594,9 +84744,9 @@ XJ
 XJ
 ee
 dU
-aC
-aC
-aC
+CK
+Dz
+NT
 eW
 UE
 UE
@@ -84851,9 +85001,9 @@ XJ
 XJ
 jL
 dU
-aC
-aC
-aC
+HA
+Dz
+uS
 eW
 UE
 UE
@@ -85108,9 +85258,9 @@ XJ
 XJ
 Ay
 YB
-aC
-aC
-aC
+HA
+Ld
+Dz
 eW
 UE
 UE
@@ -85365,9 +85515,9 @@ XJ
 XJ
 kd
 YB
-aC
-aC
-aC
+Mh
+Vx
+NT
 eW
 UE
 UE
@@ -85622,9 +85772,9 @@ kO
 XJ
 Sd
 YB
-aC
-aC
-aC
+HA
+Dz
+nN
 eW
 UE
 UE
@@ -85879,9 +86029,9 @@ vL
 XJ
 ee
 dU
-aC
-aC
-aC
+HA
+Yl
+Dz
 eW
 UE
 UE
@@ -86136,9 +86286,9 @@ Qq
 XJ
 dY
 dU
-aC
-aC
-aC
+Vx
+HA
+HA
 eW
 UE
 UE
@@ -86393,9 +86543,9 @@ vL
 XJ
 Ay
 YB
-aC
-aC
-aC
+HA
+CK
+HA
 eW
 UE
 UE
@@ -86650,9 +86800,9 @@ Qq
 XJ
 kd
 YB
-aC
-aC
-aC
+nN
+NT
+nN
 eW
 UE
 UE
@@ -86907,9 +87057,9 @@ vL
 XJ
 Sd
 YB
-aC
-aC
-aC
+Ld
+HA
+Vx
 eW
 UE
 UE
@@ -87164,9 +87314,9 @@ Qq
 XJ
 ee
 dU
-aC
-aC
-aC
+Mh
+Dz
+HA
 eW
 UE
 UE
@@ -87421,9 +87571,9 @@ vL
 XJ
 dY
 dU
-aC
-aC
-aC
+NT
+uS
+HA
 eW
 UE
 UE
@@ -87678,9 +87828,9 @@ Qq
 XJ
 Ay
 YB
-aC
-aC
-aC
+Vx
+CK
+Dz
 eW
 UE
 UE
@@ -87935,9 +88085,9 @@ vL
 XJ
 kd
 YB
-aC
-aC
-aC
+HA
+HA
+nN
 eW
 UE
 UE
@@ -88192,9 +88342,9 @@ Qq
 XJ
 Sd
 YB
-aC
-aC
-aC
+HA
+Ld
+HA
 eW
 UE
 UE
@@ -88416,7 +88566,7 @@ aC
 aC
 aC
 dU
-qf
+ht
 XJ
 XJ
 XJ
@@ -88449,9 +88599,9 @@ vL
 XJ
 ee
 dU
-aC
-aC
-aC
+HA
+HA
+NT
 eW
 UE
 UE
@@ -88706,9 +88856,9 @@ dM
 XJ
 dY
 dU
-aC
-aC
-aC
+HA
+Yl
+Dz
 eW
 UE
 UE
@@ -88963,9 +89113,9 @@ dM
 XJ
 Ay
 YB
-aC
-aC
-aC
+HA
+Vx
+HA
 eW
 UE
 UE
@@ -89220,9 +89370,9 @@ iT
 XJ
 kd
 YB
-aC
-aC
-aC
+Ld
+NT
+Mh
 eW
 UE
 UE
@@ -89477,9 +89627,9 @@ Qq
 XJ
 Sd
 YB
-aC
-aC
-aC
+Vx
+pI
+tz
 eW
 UE
 UE
@@ -89696,10 +89846,10 @@ aC
 aC
 aC
 dU
-bR
-bR
+gM
+pu
 Es
-Hq
+Cj
 dU
 XJ
 XJ
@@ -89734,9 +89884,9 @@ iT
 XJ
 dH
 dU
-aC
-aC
-aC
+HA
+fa
+vg
 eW
 UE
 UE
@@ -89954,7 +90104,7 @@ aC
 aC
 dU
 bR
-Hq
+Nx
 Hq
 Hq
 dU
@@ -89991,9 +90141,9 @@ Qq
 XJ
 dY
 dU
-aC
-aC
-aC
+CK
+HA
+HA
 eW
 UE
 UE
@@ -90210,7 +90360,7 @@ aC
 aC
 aC
 dU
-bR
+jf
 Hq
 Hq
 Hq
@@ -90248,9 +90398,9 @@ iT
 XJ
 Ay
 YB
-aC
-aC
-aC
+Dz
+NT
+Vx
 eW
 UE
 UE
@@ -90470,7 +90620,7 @@ dU
 Xh
 Hq
 Hq
-Hq
+Ne
 dU
 XJ
 XJ
@@ -90505,9 +90655,9 @@ Qq
 XJ
 kd
 YB
-aC
-aC
-aC
+HA
+Yl
+HA
 eW
 UE
 UE
@@ -90726,7 +90876,7 @@ dU
 dU
 dT
 Nw
-Mp
+JC
 Mp
 dU
 XJ
@@ -90762,9 +90912,9 @@ iT
 XJ
 Sd
 YB
-aC
-aC
-aC
+HA
+nN
+Dz
 eW
 UE
 UE
@@ -90984,7 +91134,7 @@ iQ
 qU
 RM
 RM
-RM
+SQ
 dU
 XJ
 XJ
@@ -91019,9 +91169,9 @@ Qq
 XJ
 ee
 dU
-aC
-aC
-aC
+Mh
+HA
+HA
 eW
 UE
 UE
@@ -91241,7 +91391,7 @@ oS
 EJ
 RM
 RM
-RM
+zk
 dU
 cZ
 XJ
@@ -91276,9 +91426,9 @@ iT
 XJ
 XJ
 dU
-aC
-aC
-aC
+HA
+HA
+Mh
 eW
 UE
 UE
@@ -91498,7 +91648,7 @@ Mo
 RM
 RM
 RM
-RM
+zk
 dU
 FG
 bA
@@ -92268,7 +92418,7 @@ PL
 PA
 GJ
 GJ
-GJ
+ng
 Ca
 dU
 Dz
@@ -96156,7 +96306,7 @@ qf
 dY
 yJ
 js
-qf
+ht
 XJ
 dU
 UE
