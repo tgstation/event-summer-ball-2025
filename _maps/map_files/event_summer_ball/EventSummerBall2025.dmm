@@ -158,6 +158,13 @@
 /obj/structure/showcase/perfect_employee,
 /turf/open/floor/plating,
 /area/station/maintenance/department/security)
+"aQ" = (
+/obj/machinery/door/airlock/silver/glass{
+	name = "Toilet Stall";
+	desc = "Looks like privacy is a thing of the past."
+	},
+/turf/open/floor/iron/freezer,
+/area/awaymission/secret)
 "aR" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
@@ -218,6 +225,15 @@
 "bh" = (
 /obj/structure/falsewall/wood,
 /turf/open/floor/wood/large,
+/area/awaymission/secret)
+"bi" = (
+/obj/structure/toilet{
+	pixel_x = 0;
+	pixel_y = 10
+	},
+/obj/machinery/light/small/directional/east,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/freezer,
 /area/awaymission/secret)
 "bj" = (
 /obj/effect/light_emitter/fake_outdoors,
@@ -357,6 +373,14 @@
 /obj/effect/light_emitter/fake_outdoors,
 /turf/open/misc/dirt/station,
 /area/awaymission/secret/fullbright)
+"bR" = (
+/obj/structure/table,
+/turf/open/floor/iron/dark,
+/area/awaymission/secret/fullbright)
+"bS" = (
+/obj/structure/table/wood/fancy/blue,
+/turf/open/floor/wood/large,
+/area/awaymission/secret/fullbright)
 "bT" = (
 /obj/machinery/door/airlock/medical{
 	name = "Bathroom"
@@ -433,6 +457,13 @@
 "cf" = (
 /turf/open/floor/carpet/blue,
 /area/awaymission/secret)
+"cg" = (
+/obj/structure/flora/tree/jungle/small/style_random,
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/turf/open/floor/grass,
+/area/awaymission/secret/fullbright)
 "ci" = (
 /obj/structure/window/reinforced/spawner/directional/south,
 /obj/structure/table,
@@ -501,6 +532,12 @@
 	},
 /turf/open/misc/dirt/jungle,
 /area/awaymission/secret/fullbright)
+"cC" = (
+/obj/structure/sink/directional/north,
+/obj/structure/mirror/directional/south,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/freezer,
+/area/awaymission/secret)
 "cD" = (
 /obj/structure/fence/corner{
 	dir = 4
@@ -519,6 +556,12 @@
 "cK" = (
 /obj/item/clothing/suit/costume/pirate,
 /turf/open/floor/wood,
+/area/awaymission/secret)
+"cM" = (
+/obj/structure/disposalpipe/segment,
+/obj/structure/rack,
+/obj/effect/turf_decal/bot,
+/turf/open/floor/iron/large,
 /area/awaymission/secret)
 "cO" = (
 /obj/machinery/computer/records/security,
@@ -565,6 +608,19 @@
 	},
 /turf/open/floor/iron/dark,
 /area/station/security/brig/lower)
+"cW" = (
+/obj/machinery/door/airlock/command{
+	name = "Head of Personnel's Quarters"
+	},
+/obj/effect/mapping_helpers/airlock/access/all/command/hop,
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/turf/open/floor/iron/sepia,
+/area/awaymission/secret/fullbright)
 "cX" = (
 /obj/structure/railing{
 	dir = 4
@@ -627,6 +683,11 @@
 /obj/structure/railing/wooden_fence,
 /turf/open/floor/stone,
 /area/awaymission/secret/fullbright)
+"dq" = (
+/obj/machinery/light/small/directional/north,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/freezer,
+/area/awaymission/secret)
 "dr" = (
 /obj/structure/fence/corner{
 	dir = 9
@@ -669,6 +730,11 @@
 	dir = 1
 	},
 /turf/open/misc/sandy_dirt,
+/area/awaymission/secret/fullbright)
+"dD" = (
+/obj/structure/mirror/directional/west,
+/obj/structure/sink/directional/east,
+/turf/open/floor/iron/white/herringbone,
 /area/awaymission/secret/fullbright)
 "dE" = (
 /obj/item/toy/katana,
@@ -725,6 +791,15 @@
 	teleport_y_offset = 7
 	},
 /turf/open/floor/stone,
+/area/awaymission/secret/fullbright)
+"dT" = (
+/obj/structure/railing/corner{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 4
+	},
+/turf/open/floor/iron/dark,
 /area/awaymission/secret/fullbright)
 "dU" = (
 /turf/closed/indestructible/syndicate/nodiagonal,
@@ -783,6 +858,19 @@
 	dir = 5
 	},
 /turf/open/misc/asteroid,
+/area/awaymission/secret/fullbright)
+"eg" = (
+/obj/machinery/computer/accounting{
+	dir = 4
+	},
+/obj/machinery/requests_console/directional/west{
+	department = "Head of Personnel's Desk";
+	name = "Head of Personnel's Requests Console"
+	},
+/obj/effect/mapping_helpers/requests_console/assistance,
+/obj/effect/mapping_helpers/requests_console/announcement,
+/obj/effect/mapping_helpers/requests_console/information,
+/turf/open/floor/wood/large,
 /area/awaymission/secret/fullbright)
 "eh" = (
 /obj/effect/turf_decal/siding/dark/corner,
@@ -918,6 +1006,12 @@
 	},
 /turf/open/floor/wood/large,
 /area/station/medical/break_room)
+"eJ" = (
+/obj/effect/turf_decal/arrows/white{
+	dir = 4
+	},
+/turf/open/floor/stone,
+/area/awaymission/secret/fullbright)
 "eK" = (
 /obj/structure/transport/linear/tram,
 /obj/structure/tram/split,
@@ -1043,6 +1137,14 @@
 	},
 /turf/closed/indestructible/rock,
 /area/awaymission/secret)
+"fv" = (
+/obj/machinery/door/airlock/silver/glass{
+	name = "Toilet Stall";
+	desc = "Looks like privacy is a thing of the past."
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/freezer,
+/area/awaymission/secret)
 "fx" = (
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/iron,
@@ -1088,6 +1190,11 @@
 	},
 /turf/open/floor/stone,
 /area/awaymission/secret)
+"fI" = (
+/obj/structure/bed/dogbed/ian,
+/mob/living/basic/pet/dog/corgi/ian,
+/turf/open/floor/carpet/blue,
+/area/awaymission/secret/fullbright)
 "fL" = (
 /obj/structure/fluff/divine/defensepylon,
 /turf/open/floor/stone,
@@ -1205,6 +1312,18 @@
 /obj/item/toy/beach_ball,
 /turf/open/misc/beach/sand,
 /area/awaymission/secret)
+"gq" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/obj/structure/window/reinforced/spawner/directional/east,
+/obj/structure/window/reinforced/spawner/directional/west,
+/obj/structure/flora/bush/jungle/a/style_random,
+/turf/open/floor/grass,
+/area/awaymission/secret/fullbright)
 "gr" = (
 /turf/open/floor/wood/tile,
 /area/station/command/heads_quarters/hos)
@@ -1227,6 +1346,11 @@
 /obj/effect/turf_decal/tile/blue/fourcorners,
 /turf/open/floor/iron/white,
 /area/station/medical/storage)
+"gw" = (
+/obj/structure/urinal/directional/west,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/freezer,
+/area/awaymission/secret)
 "gC" = (
 /obj/effect/turf_decal/siding/blue{
 	dir = 8
@@ -1283,6 +1407,10 @@
 /obj/structure/fluff/beach_umbrella/security,
 /turf/open/misc/beach/sand,
 /area/awaymission/secret)
+"gP" = (
+/obj/machinery/vending/cart,
+/turf/open/floor/wood/large,
+/area/awaymission/secret/fullbright)
 "gS" = (
 /obj/item/clothing/suit/costume/pirate,
 /turf/open/floor/wood/large,
@@ -1332,6 +1460,11 @@
 /obj/effect/turf_decal/tile/red/half/contrasted,
 /turf/open/floor/iron/dark/textured,
 /area/station/ai_monitored/security/armory)
+"hf" = (
+/obj/structure/flora/grass/jungle/a/style_random,
+/obj/effect/turf_decal/siding/wood,
+/turf/open/floor/grass,
+/area/awaymission/secret/fullbright)
 "hg" = (
 /obj/effect/turf_decal/sand,
 /obj/machinery/button/door/directional/north{
@@ -1427,6 +1560,14 @@
 /obj/machinery/light/directional/south,
 /turf/open/floor/iron,
 /area/station/security/brig/lower)
+"hI" = (
+/obj/structure/extinguisher_cabinet/directional/east,
+/obj/effect/turf_decal/siding/thinplating_new{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/large,
+/area/awaymission/secret)
 "hJ" = (
 /obj/structure/fence/corner,
 /turf/open/misc/dirt/jungle,
@@ -1436,6 +1577,17 @@
 /obj/structure/sign/warning/cold_temp/directional/north,
 /turf/open/floor/iron/white,
 /area/station/medical/cryo)
+"hN" = (
+/obj/machinery/door/poddoor/shutters/preopen{
+	dir = 8;
+	id = "hopqueue";
+	name = "HoP Queue Shutters"
+	},
+/obj/effect/turf_decal/arrows/white{
+	dir = 4
+	},
+/turf/open/floor/stone,
+/area/awaymission/secret/fullbright)
 "hO" = (
 /obj/effect/turf_decal/tile/red/anticorner/contrasted{
 	dir = 8
@@ -1463,6 +1615,12 @@
 	},
 /turf/open/floor/stone,
 /area/awaymission/secret)
+"hR" = (
+/obj/structure/bed,
+/obj/item/bedsheet/hop,
+/obj/effect/landmark/start/head_of_personnel,
+/turf/open/floor/carpet/blue,
+/area/awaymission/secret/fullbright)
 "hV" = (
 /obj/machinery/door/airlock/public/glass{
 	name = "Locker Room"
@@ -1510,6 +1668,14 @@
 	pixel_y = 32
 	},
 /turf/open/misc/grass,
+/area/awaymission/secret/fullbright)
+"if" = (
+/obj/effect/turf_decal/siding/wood/end,
+/obj/structure/window/reinforced/spawner/directional/south,
+/obj/structure/window/reinforced/spawner/directional/east,
+/obj/structure/window/reinforced/spawner/directional/west,
+/obj/structure/flora/bush/jungle/a/style_random,
+/turf/open/floor/grass,
 /area/awaymission/secret/fullbright)
 "ih" = (
 /obj/structure/railing{
@@ -1715,6 +1881,16 @@
 /obj/effect/turf_decal/siding/wideplating/dark,
 /turf/open/floor/stone,
 /area/awaymission/secret/fullbright)
+"jh" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 1
+	},
+/obj/machinery/door/airlock/command{
+	name = "Head of Personnel's Office"
+	},
+/obj/effect/mapping_helpers/airlock/access/all/command/hop,
+/turf/open/floor/iron/dark/textured_half,
+/area/awaymission/secret/fullbright)
 "ji" = (
 /obj/machinery/newscaster/directional/west,
 /turf/open/misc/grass,
@@ -1808,6 +1984,14 @@
 	dir = 4
 	},
 /area/awaymission/secret)
+"jF" = (
+/obj/effect/turf_decal/tile/brown/diagonal_centre,
+/obj/effect/turf_decal/siding/thinplating_new{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/diagonal,
+/area/awaymission/secret)
 "jH" = (
 /obj/structure/railing/wooden_fence{
 	dir = 8
@@ -1820,6 +2004,15 @@
 "jJ" = (
 /turf/closed/indestructible/wood,
 /area/awaymission/secret/fullbright)
+"jK" = (
+/obj/effect/turf_decal/tile/red/half{
+	dir = 8
+	},
+/obj/machinery/photocopier/prebuilt,
+/turf/open/floor/iron/dark/smooth_edge{
+	dir = 8
+	},
+/area/awaymission/secret/fullbright)
 "jL" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark/corner,
 /obj/structure/closet/crate/bin,
@@ -1828,6 +2021,27 @@
 "jM" = (
 /turf/open/floor/iron/freezer,
 /area/station/medical/cryo)
+"jN" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 4
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/structure/table/reinforced,
+/obj/machinery/door/window/left/directional/west{
+	name = "Coat Check and Admissions Desk"
+	},
+/obj/structure/desk_bell{
+	pixel_x = 4;
+	pixel_y = 9
+	},
+/obj/item/hand_labeler{
+	pixel_x = 0;
+	pixel_y = -1
+	},
+/turf/open/floor/iron/dark/smooth_large,
+/area/awaymission/secret/fullbright)
 "jP" = (
 /obj/effect/turf_decal/stripes/white/line{
 	dir = 1
@@ -1849,6 +2063,23 @@
 /obj/structure/flora/grass/jungle/b/style_random,
 /turf/open/misc/grass,
 /area/awaymission/secret/fullbright)
+"jT" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron,
+/area/awaymission/secret)
+"jU" = (
+/obj/structure/flora/grass/jungle/b/style_random,
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/turf/open/floor/grass,
+/area/awaymission/secret/fullbright)
+"jW" = (
+/obj/structure/rack,
+/obj/effect/turf_decal/bot,
+/obj/effect/spawner/costume/nyangirl,
+/turf/open/floor/iron/large,
+/area/awaymission/secret)
 "jX" = (
 /obj/item/reagent_containers/cup/glass/bottle/beer/almost_empty{
 	pixel_y = 12;
@@ -2025,6 +2256,19 @@
 "kG" = (
 /turf/closed/indestructible/syndicate,
 /area/awaymission/secret/fullbright)
+"kJ" = (
+/obj/machinery/light/directional/east,
+/obj/structure/table/wood/fancy/blue,
+/obj/item/clipboard{
+	pixel_x = 0;
+	pixel_y = 3
+	},
+/obj/item/pen{
+	pixel_x = 0;
+	pixel_y = 2
+	},
+/turf/open/floor/wood/large,
+/area/awaymission/secret/fullbright)
 "kK" = (
 /obj/effect/turf_decal/stripes/white/line,
 /obj/effect/turf_decal/caution/white,
@@ -2055,6 +2299,32 @@
 	},
 /turf/open/floor/asphalt,
 /area/awaymission/secret/fullbright)
+"kP" = (
+/obj/structure/table/reinforced,
+/obj/item/paper_bin/carbon{
+	pixel_x = -5;
+	pixel_y = 4
+	},
+/obj/item/pen,
+/obj/machinery/button/photobooth{
+	pixel_x = -7;
+	pixel_y = 23;
+	req_access = list("hop")
+	},
+/obj/machinery/button/ticket_machine{
+	pixel_x = 7;
+	pixel_y = 23;
+	req_access = list("hop")
+	},
+/obj/machinery/button/flasher{
+	id = "hopflash";
+	pixel_y = 0;
+	req_access = list("hop");
+	pixel_x = -24
+	},
+/obj/effect/turf_decal/tile/dark_blue/diagonal_centre,
+/turf/open/floor/iron/dark,
+/area/awaymission/secret/fullbright)
 "kQ" = (
 /obj/structure/disposalpipe/segment{
 	dir = 6
@@ -2062,6 +2332,12 @@
 /obj/structure/cable,
 /turf/open/floor/iron,
 /area/station/security/brig/upper)
+"kS" = (
+/obj/structure/rack,
+/obj/effect/turf_decal/bot,
+/obj/effect/spawner/costume/pirate,
+/turf/open/floor/iron/large,
+/area/awaymission/secret)
 "kT" = (
 /obj/structure/tram/split,
 /obj/structure/transport/linear/tram,
@@ -2094,6 +2370,17 @@
 	},
 /turf/open/floor/asphalt,
 /area/awaymission/secret/fullbright)
+"kZ" = (
+/obj/structure/railing{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/item/stack/tile/iron/two{
+	pixel_x = 9;
+	pixel_y = 6
+	},
+/turf/open/floor/iron,
+/area/awaymission/secret)
 "lc" = (
 /obj/structure/thermoplastic/light,
 /obj/effect/landmark/transport/transport_id/event_map/line_1,
@@ -2142,6 +2429,13 @@
 /obj/machinery/computer/records/security,
 /turf/open/floor/iron/dark,
 /area/station/security/brig/lower)
+"lo" = (
+/obj/structure/rack,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/bot,
+/obj/effect/spawner/random/clothing/costume,
+/turf/open/floor/iron/large,
+/area/awaymission/secret)
 "lq" = (
 /obj/effect/turf_decal/stripes/corner,
 /obj/effect/turf_decal/trimline/red/filled/corner,
@@ -2175,6 +2469,16 @@
 	},
 /obj/effect/turf_decal/siding/wideplating/dark,
 /turf/open/floor/stone,
+/area/awaymission/secret/fullbright)
+"lA" = (
+/obj/effect/turf_decal/siding/wood/end{
+	dir = 1
+	},
+/obj/structure/window/reinforced/spawner/directional/north,
+/obj/structure/window/reinforced/spawner/directional/east,
+/obj/structure/window/reinforced/spawner/directional/west,
+/obj/structure/flora/bush/jungle/b/style_random,
+/turf/open/floor/grass,
 /area/awaymission/secret/fullbright)
 "lD" = (
 /obj/structure/fluff/bus/dense{
@@ -2428,6 +2732,10 @@
 	},
 /turf/open/water/beach,
 /area/awaymission/secret)
+"mT" = (
+/obj/effect/turf_decal/siding/wood,
+/turf/open/floor/wood/large,
+/area/awaymission/secret/fullbright)
 "mV" = (
 /obj/machinery/light/small/directional/west,
 /obj/item/soap/nanotrasen,
@@ -2492,6 +2800,14 @@
 /obj/effect/turf_decal/siding/blue,
 /turf/open/misc/beach/sand,
 /area/awaymission/secret)
+"nn" = (
+/obj/structure/table,
+/obj/machinery/digital_clock/directional/north,
+/obj/effect/turf_decal/tile/brown/diagonal_centre,
+/obj/effect/spawner/random/food_or_drink/donkpockets,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/diagonal,
+/area/awaymission/secret)
 "np" = (
 /obj/structure/stairs/stone{
 	dir = 8
@@ -2527,6 +2843,24 @@
 /obj/machinery/vending/boozeomat/syndicate,
 /turf/open/misc/ashplanet/rocky/safe,
 /area/awaymission/secret)
+"nv" = (
+/obj/structure/rack,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/bot,
+/turf/open/floor/iron/large,
+/area/awaymission/secret)
+"nw" = (
+/obj/machinery/ticket_machine/directional/north,
+/obj/machinery/door/poddoor/shutters/preopen{
+	dir = 8;
+	id = "hopqueue";
+	name = "HoP Queue Shutters"
+	},
+/obj/effect/turf_decal/arrows/white{
+	dir = 8
+	},
+/turf/open/floor/stone,
+/area/awaymission/secret/fullbright)
 "ny" = (
 /obj/structure/sign/poster/official/nanotrasen_logo/directional/west,
 /turf/open/floor/iron/white/small,
@@ -2596,6 +2930,11 @@
 "nO" = (
 /turf/closed/indestructible/syndicate,
 /area/station/medical/storage)
+"nP" = (
+/obj/effect/turf_decal/siding/wood,
+/obj/structure/closet/secure_closet/hop,
+/turf/open/floor/wood/large,
+/area/awaymission/secret/fullbright)
 "nQ" = (
 /turf/closed/indestructible/syndicate,
 /area/station/maintenance/department/security)
@@ -2699,6 +3038,16 @@
 	},
 /turf/open/floor/wood/large,
 /area/awaymission/secret)
+"oq" = (
+/obj/effect/turf_decal/tile/dark_blue/diagonal_centre,
+/turf/open/floor/iron/dark,
+/area/awaymission/secret/fullbright)
+"or" = (
+/obj/structure/disposalpipe/segment{
+	dir = 9
+	},
+/turf/open/floor/stone,
+/area/awaymission/secret/fullbright)
 "ot" = (
 /obj/structure/flora/grass/jungle/b/style_random,
 /obj/structure/chair/sofa/bamboo/right{
@@ -2778,6 +3127,21 @@
 	},
 /turf/open/floor/iron/white,
 /area/awaymission/secret)
+"oS" = (
+/obj/structure/railing{
+	dir = 9
+	},
+/obj/structure/table/reinforced,
+/obj/item/stack/arcadeticket/thirty{
+	pixel_x = -1;
+	pixel_y = 3
+	},
+/obj/item/hand_labeler{
+	pixel_x = 4;
+	pixel_y = -3
+	},
+/turf/open/floor/iron,
+/area/awaymission/secret/fullbright)
 "oU" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/freezer,
@@ -2796,6 +3160,14 @@
 /obj/effect/light_emitter/fake_outdoors,
 /turf/open/misc/dirt/jungle,
 /area/station/security/prison)
+"oZ" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/oil,
+/turf/open/floor/iron,
+/area/awaymission/secret)
 "pa" = (
 /mob/living/basic/mining/gutlunch/milk,
 /turf/open/misc/ashplanet/rocky/safe,
@@ -2831,6 +3203,10 @@
 	dir = 4
 	},
 /turf/open/floor/wood/parquet,
+/area/awaymission/secret/fullbright)
+"pi" = (
+/obj/structure/dresser,
+/turf/open/floor/carpet/blue,
 /area/awaymission/secret/fullbright)
 "pj" = (
 /obj/structure/fluff/tram_rail/electric{
@@ -2925,6 +3301,10 @@
 	},
 /obj/structure/flora/bush/jungle/c/style_random,
 /turf/open/floor/grass,
+/area/awaymission/secret/fullbright)
+"pH" = (
+/obj/machinery/pdapainter,
+/turf/open/floor/wood/large,
 /area/awaymission/secret/fullbright)
 "pM" = (
 /obj/structure/flora/grass/jungle/b/style_random,
@@ -3205,6 +3585,12 @@
 /obj/structure/sign/warning/no_smoking/circle/directional/west,
 /turf/open/floor/iron/white,
 /area/station/medical/medbay/lobby)
+"qU" = (
+/obj/structure/railing{
+	dir = 1
+	},
+/turf/open/floor/iron,
+/area/awaymission/secret/fullbright)
 "qW" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/light/directional/north,
@@ -3312,12 +3698,21 @@
 /obj/effect/turf_decal/siding/wood,
 /turf/open/floor/wood,
 /area/awaymission/secret/fullbright)
+"rB" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/freezer,
+/area/awaymission/secret)
 "rF" = (
 /obj/machinery/deployable_turret/ultimate{
 	dir = 8
 	},
 /turf/open/misc/asteroid,
 /area/awaymission/secret/fullbright)
+"rG" = (
+/obj/structure/rack,
+/obj/effect/turf_decal/bot,
+/turf/open/floor/iron/large,
+/area/awaymission/secret)
 "rK" = (
 /obj/structure/closet/crate/freezer,
 /obj/item/food/meat/slab/rawcrab,
@@ -3368,6 +3763,13 @@
 	dir = 1
 	},
 /area/awaymission/secret)
+"rV" = (
+/obj/machinery/door/airlock{
+	name = "Staff Entrance"
+	},
+/obj/effect/turf_decal/siding/thinplating_new/dark,
+/turf/open/floor/iron/dark/textured_half,
+/area/awaymission/secret/fullbright)
 "rX" = (
 /obj/structure/table/reinforced,
 /obj/item/paper_bin,
@@ -3488,6 +3890,10 @@
 "sy" = (
 /turf/open/floor/iron/white/small,
 /area/station/medical/storage)
+"sz" = (
+/obj/structure/chair/comfy/brown,
+/turf/open/floor/wood/large,
+/area/awaymission/secret/fullbright)
 "sA" = (
 /obj/structure/curtain/bounty/start_closed{
 	pixel_y = -32
@@ -3600,6 +4006,23 @@
 	},
 /turf/open/floor/wood/large,
 /area/awaymission/secret)
+"tl" = (
+/obj/structure/chair/office{
+	dir = 8
+	},
+/obj/effect/landmark/start/head_of_personnel,
+/obj/effect/turf_decal/tile/dark_blue/diagonal_centre,
+/turf/open/floor/iron/dark,
+/area/awaymission/secret/fullbright)
+"tm" = (
+/obj/structure/disposalpipe/segment{
+	dir = 10
+	},
+/obj/structure/rack,
+/obj/effect/decal/cleanable/cobweb/cobweb2,
+/obj/effect/turf_decal/bot,
+/turf/open/floor/iron/large,
+/area/awaymission/secret)
 "tn" = (
 /obj/structure/fence/end{
 	dir = 8
@@ -3620,9 +4043,25 @@
 /obj/item/radio/intercom/directional/east,
 /turf/open/floor/iron/freezer,
 /area/station/medical/storage)
+"tt" = (
+/obj/effect/turf_decal/siding/wood/end,
+/obj/structure/window/reinforced/spawner/directional/south,
+/obj/structure/window/reinforced/spawner/directional/east,
+/obj/structure/window/reinforced/spawner/directional/west,
+/obj/structure/flora/bush/jungle/c/style_random,
+/turf/open/floor/grass,
+/area/awaymission/secret/fullbright)
 "tu" = (
 /turf/open/floor/iron/dark,
 /area/station/ai_monitored/security/armory)
+"tv" = (
+/obj/structure/table/wood,
+/obj/item/papercutter{
+	pixel_x = 3;
+	pixel_y = 3
+	},
+/turf/open/floor/wood/large,
+/area/awaymission/secret/fullbright)
 "tw" = (
 /turf/open/floor/iron/dark/textured_half,
 /area/station/medical/morgue)
@@ -3663,6 +4102,22 @@
 /obj/structure/cable,
 /turf/open/floor/iron,
 /area/station/security/brig/upper)
+"tK" = (
+/obj/structure/window/reinforced/spawner/directional/north,
+/obj/structure/table,
+/obj/item/hand_labeler{
+	pixel_x = -3;
+	pixel_y = 4
+	},
+/obj/item/hand_labeler{
+	pixel_x = 2;
+	pixel_y = 0
+	},
+/obj/effect/turf_decal/siding/thinplating_new{
+	dir = 1
+	},
+/turf/open/floor/iron/large,
+/area/awaymission/secret)
 "tL" = (
 /turf/open/misc/beach/coast{
 	dir = 8
@@ -3767,6 +4222,17 @@
 	target_turf_y = -7
 	},
 /area/awaymission/secret/fullbright)
+"uv" = (
+/obj/machinery/light/directional/south,
+/obj/effect/turf_decal/tile/brown/diagonal_centre,
+/obj/effect/turf_decal/siding/thinplating_new{
+	dir = 8
+	},
+/obj/structure/chair/plastic{
+	dir = 1
+	},
+/turf/open/floor/iron/diagonal,
+/area/awaymission/secret)
 "uw" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
@@ -4034,6 +4500,19 @@
 /obj/structure/cable,
 /turf/open/floor/iron,
 /area/station/security/brig/upper)
+"vQ" = (
+/obj/structure/disposalpipe/trunk{
+	dir = 1
+	},
+/obj/structure/disposaloutlet{
+	dir = 8;
+	name = "Rapid Coat Throwing Machine 9000 (TM)";
+	desc = "Fool me once..."
+	},
+/obj/structure/window/reinforced/spawner/directional/north,
+/obj/effect/turf_decal/delivery,
+/turf/open/floor/iron/large,
+/area/awaymission/secret)
 "vR" = (
 /obj/structure/flora/grass/jungle/b/style_random,
 /obj/structure/flora/tree/jungle/style_random,
@@ -4050,9 +4529,27 @@
 /obj/structure/cable,
 /turf/closed/indestructible/syndicate,
 /area/station/security/processing)
+"vV" = (
+/obj/effect/turf_decal/tile/dark_blue/diagonal_centre,
+/obj/machinery/holopad,
+/turf/open/floor/iron/dark,
+/area/awaymission/secret/fullbright)
 "vX" = (
 /turf/open/openspace,
 /area/station/medical/treatment_center)
+"vY" = (
+/obj/machinery/door/airlock/silver{
+	name = "Bathroom"
+	},
+/obj/effect/mapping_helpers/airlock_note_placer{
+	note_name = "LISTEN UP, WAGIES";
+	note_info = "Every minute you spend in the bathroom will be deducted from your PTO. We will be watching. -Mgmt."
+	},
+/obj/effect/turf_decal/siding/thinplating_new{
+	dir = 4
+	},
+/turf/open/floor/iron/freezer,
+/area/awaymission/secret)
 "wd" = (
 /obj/effect/turf_decal/trimline/red/filled/line,
 /obj/structure/table,
@@ -4292,6 +4789,16 @@
 /obj/structure/thermoplastic,
 /turf/open/openspace,
 /area/awaymission/museum/mothroachvoid)
+"xh" = (
+/obj/structure/mirror/directional/south,
+/obj/structure/sink/directional/north,
+/obj/structure/fluff/fake_camera{
+	name = "wagie watcher";
+	desc = "Guess they weren't kidding about watching."
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/freezer,
+/area/awaymission/secret)
 "xi" = (
 /obj/structure/fake_stairs/wood/directional/east,
 /turf/open/misc/beach/sand,
@@ -4372,6 +4879,14 @@
 	dir = 8
 	},
 /turf/open/indestructible/tram,
+/area/awaymission/secret/fullbright)
+"xE" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/dark_blue/diagonal_centre,
+/obj/machinery/light_switch/directional/north,
+/turf/open/floor/iron/dark,
 /area/awaymission/secret/fullbright)
 "xG" = (
 /obj/item/clothing/head/costume/pirate,
@@ -4486,6 +5001,12 @@
 /obj/effect/turf_decal/siding/wood/corner,
 /turf/open/floor/wood/large,
 /area/awaymission/secret)
+"ye" = (
+/obj/structure/stairs/east,
+/turf/open/floor/iron/stairs{
+	dir = 8
+	},
+/area/awaymission/secret)
 "yf" = (
 /obj/machinery/newscaster/directional/west,
 /turf/open/floor/iron/white,
@@ -4531,6 +5052,12 @@
 	},
 /turf/open/floor/plating,
 /area/station/security/brig/lower)
+"yq" = (
+/obj/structure/fluff/fokoff_sign{
+	name = "these overhanging walls exist to give the illusion that the wall continues"
+	},
+/turf/cordon,
+/area/space)
 "yr" = (
 /obj/structure/reagent_dispensers/watertank,
 /obj/effect/turf_decal/tile/green/full,
@@ -4644,6 +5171,14 @@
 	},
 /turf/open/floor/asphalt,
 /area/awaymission/secret/fullbright)
+"yQ" = (
+/obj/structure/table/wood,
+/obj/machinery/fax{
+	fax_name = "Head of Personnel's Office";
+	name = "Head of Personnel's Fax Machine"
+	},
+/turf/open/floor/wood/large,
+/area/awaymission/secret/fullbright)
 "yS" = (
 /obj/effect/turf_decal/stripes/white/line{
 	dir = 8
@@ -4668,6 +5203,16 @@
 	},
 /turf/open/floor/glass,
 /area/awaymission/secret/fullbright)
+"yX" = (
+/obj/structure/table,
+/obj/effect/turf_decal/tile/brown/diagonal_centre,
+/obj/machinery/microwave{
+	pixel_x = 0;
+	pixel_y = 0
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/diagonal,
+/area/awaymission/secret)
 "zb" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark/corner{
 	dir = 1
@@ -4748,6 +5293,12 @@
 	},
 /turf/open/misc/asteroid,
 /area/station/security/prison)
+"zw" = (
+/obj/structure/fluff/fokoff_sign{
+	name = "docking port goes here"
+	},
+/turf/open/floor/asphalt,
+/area/awaymission/secret/fullbright)
 "zz" = (
 /obj/structure/cable,
 /turf/open/floor/iron,
@@ -4863,6 +5414,13 @@
 	},
 /turf/open/floor/wood/large,
 /area/awaymission/secret)
+"Ad" = (
+/obj/effect/turf_decal/siding/thinplating_new{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/large,
+/area/awaymission/secret)
 "Ag" = (
 /obj/effect/turf_decal/trimline/red/filled/line,
 /turf/open/floor/iron/dark,
@@ -4920,6 +5478,12 @@
 	},
 /turf/open/floor/iron,
 /area/station/security/brig/lower)
+"As" = (
+/obj/structure/chair/comfy/brown{
+	dir = 1
+	},
+/turf/open/floor/wood/large,
+/area/awaymission/secret/fullbright)
 "Av" = (
 /obj/effect/turf_decal/tile/red/half/contrasted{
 	dir = 4
@@ -4927,6 +5491,15 @@
 /obj/machinery/light/directional/east,
 /turf/open/floor/iron/dark,
 /area/station/ai_monitored/security/armory)
+"Aw" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/item/stack/tile/iron{
+	pixel_x = -5;
+	pixel_y = -6
+	},
+/obj/effect/decal/cleanable/oil,
+/turf/open/floor/iron,
+/area/awaymission/secret)
 "Ax" = (
 /turf/open/floor/iron/dark,
 /area/station/security/brig/lower)
@@ -4946,6 +5519,14 @@
 	},
 /turf/open/floor/stone,
 /area/awaymission/secret/fullbright)
+"AA" = (
+/obj/structure/disposalpipe/segment,
+/obj/structure/rack,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/bot,
+/obj/effect/spawner/random/clothing/costume,
+/turf/open/floor/iron/large,
+/area/awaymission/secret)
 "AB" = (
 /obj/structure/closet/secure_closet/medical2,
 /obj/effect/turf_decal/tile/blue/full,
@@ -4955,6 +5536,15 @@
 /obj/structure/flora/rock/style_random,
 /turf/open/water/beach,
 /area/awaymission/secret)
+"AH" = (
+/obj/machinery/door/airlock{
+	name = "Coat Check"
+	},
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 1
+	},
+/turf/open/floor/iron/textured_half,
+/area/awaymission/secret/fullbright)
 "AJ" = (
 /obj/structure/flora/grass/jungle/b/style_random,
 /obj/effect/light_emitter/fake_outdoors,
@@ -4963,6 +5553,21 @@
 "AL" = (
 /obj/item/flashlight/lantern/syndicate,
 /turf/open/floor/stone,
+/area/awaymission/secret)
+"AM" = (
+/obj/structure/rack,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/bot,
+/obj/effect/spawner/costume/highlander,
+/turf/open/floor/iron/large,
+/area/awaymission/secret)
+"AN" = (
+/obj/structure/railing{
+	dir = 9
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/garbage,
+/turf/open/floor/iron,
 /area/awaymission/secret)
 "AO" = (
 /obj/effect/turf_decal/siding/wood{
@@ -4997,6 +5602,13 @@
 /obj/structure/cable,
 /turf/open/floor/iron,
 /area/station/security/brig/lower)
+"AW" = (
+/obj/machinery/door/window/right/directional/north{
+	name = "Coat Chute"
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/large,
+/area/awaymission/secret)
 "AY" = (
 /obj/structure/grille,
 /turf/open/floor/plating,
@@ -5036,6 +5648,11 @@
 	},
 /turf/open/floor/wood/large,
 /area/awaymission/secret)
+"Bf" = (
+/obj/effect/turf_decal/siding/wood,
+/obj/effect/turf_decal/tile/dark_blue/diagonal_centre,
+/turf/open/floor/iron/dark,
+/area/awaymission/secret/fullbright)
 "Bg" = (
 /obj/structure/closet/athletic_mixed,
 /turf/open/floor/iron/freezer,
@@ -5095,6 +5712,14 @@
 /obj/structure/cable,
 /turf/open/floor/iron/dark,
 /area/station/ai_monitored/security/armory)
+"Bw" = (
+/obj/structure/window/reinforced/spawner/directional/north,
+/obj/effect/turf_decal/loading_area{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/large,
+/area/awaymission/secret)
 "By" = (
 /obj/item/clothing/suit/costume/pirate,
 /turf/open/floor/wood/parquet,
@@ -5193,11 +5818,23 @@
 /obj/effect/turf_decal/caution/stand_clear/white,
 /turf/open/floor/stone,
 /area/awaymission/secret/fullbright)
+"Ca" = (
+/obj/structure/disposalpipe/trunk/multiz/down{
+	dir = 1
+	},
+/turf/open/floor/iron,
+/area/awaymission/secret/fullbright)
 "Cc" = (
 /turf/open/misc/grass,
 /area/awaymission/secret)
 "Cd" = (
 /turf/open/floor/wood/large,
+/area/awaymission/secret)
+"Cg" = (
+/obj/structure/rack,
+/obj/item/soap,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/freezer,
 /area/awaymission/secret)
 "Ch" = (
 /obj/structure/railing,
@@ -5268,6 +5905,12 @@
 	},
 /turf/open/floor/wood/large,
 /area/station/medical/break_room)
+"CA" = (
+/obj/effect/turf_decal/siding/thinplating_new{
+	dir = 1
+	},
+/turf/open/floor/iron/large,
+/area/awaymission/secret)
 "CE" = (
 /obj/structure/sign/poster/official/bless_this_spess/directional/north,
 /obj/effect/turf_decal/stripes/line{
@@ -5302,6 +5945,16 @@
 "CJ" = (
 /turf/open/floor/wood/large,
 /area/station/medical/break_room)
+"CL" = (
+/obj/effect/turf_decal/siding/wood/end{
+	dir = 1
+	},
+/obj/structure/window/reinforced/spawner/directional/north,
+/obj/structure/window/reinforced/spawner/directional/east,
+/obj/structure/window/reinforced/spawner/directional/west,
+/obj/structure/flora/bush/jungle/c/style_random,
+/turf/open/floor/grass,
+/area/awaymission/secret/fullbright)
 "CN" = (
 /obj/structure/railing,
 /obj/structure/flora/bush/grassy/style_random,
@@ -5333,6 +5986,10 @@
 /obj/structure/cable,
 /turf/open/floor/iron/dark,
 /area/station/security/brig/lower)
+"Da" = (
+/obj/structure/chair/office,
+/turf/open/floor/wood/large,
+/area/awaymission/secret/fullbright)
 "Df" = (
 /obj/machinery/conveyor/auto{
 	id = "secexecution";
@@ -5366,6 +6023,11 @@
 /obj/effect/mapping_helpers/airlock/access/all/security/brig,
 /turf/open/floor/iron,
 /area/station/security/processing)
+"Dl" = (
+/obj/machinery/photocopier/prebuilt,
+/obj/structure/extinguisher_cabinet/directional/east,
+/turf/open/floor/wood/large,
+/area/awaymission/secret/fullbright)
 "Dm" = (
 /obj/item/reagent_containers/cup/glass/bottle/beer/light{
 	pixel_x = -7;
@@ -5403,6 +6065,12 @@
 	dir = 9
 	},
 /turf/open/floor/stone,
+/area/awaymission/secret/fullbright)
+"Ds" = (
+/obj/structure/railing/corner/end{
+	dir = 8
+	},
+/turf/open/floor/iron,
 /area/awaymission/secret/fullbright)
 "Dt" = (
 /obj/effect/turf_decal/siding/wood{
@@ -5447,6 +6115,11 @@
 	},
 /turf/open/misc/grass,
 /area/station/security/prison)
+"Dx" = (
+/turf/open/floor/iron/stairs{
+	dir = 8
+	},
+/area/awaymission/secret)
 "Dz" = (
 /obj/structure/flora/grass/jungle/b/style_random,
 /turf/open/floor/grass,
@@ -5634,6 +6307,15 @@
 	name = "Underground Garage"
 	},
 /area/awaymission/secret/fullbright)
+"Es" = (
+/obj/machinery/light/directional/west,
+/turf/open/floor/iron/dark,
+/area/awaymission/secret/fullbright)
+"Et" = (
+/obj/machinery/light/directional/north,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron,
+/area/awaymission/secret)
 "Eu" = (
 /obj/structure/fluff/tram_rail/electric,
 /obj/structure/thermoplastic,
@@ -5729,6 +6411,12 @@
 /obj/effect/mapping_helpers/airlock/access/any/medical/morgue,
 /turf/open/floor/iron/dark,
 /area/station/medical/morgue)
+"EJ" = (
+/obj/structure/railing/corner{
+	dir = 1
+	},
+/turf/open/floor/iron,
+/area/awaymission/secret/fullbright)
 "EM" = (
 /obj/structure/table,
 /obj/item/storage/bag/tray/cafeteria{
@@ -5816,6 +6504,10 @@
 /obj/effect/turf_decal/tile/red/half/contrasted,
 /turf/open/floor/iron/dark/textured,
 /area/station/ai_monitored/security/armory)
+"Fc" = (
+/obj/structure/urinal/directional/west,
+/turf/open/floor/iron/freezer,
+/area/awaymission/secret)
 "Ff" = (
 /turf/open/floor/wood,
 /area/awaymission/secret/fullbright)
@@ -5826,6 +6518,11 @@
 	},
 /obj/structure/fake_stairs/directional/west,
 /turf/open/misc/beach/sand,
+/area/awaymission/secret)
+"Fh" = (
+/obj/effect/turf_decal/tile/brown/diagonal_centre,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/diagonal,
 /area/awaymission/secret)
 "Fi" = (
 /obj/structure/chair/sofa/bamboo/left{
@@ -5849,6 +6546,10 @@
 	},
 /turf/open/floor/iron/white,
 /area/station/medical/treatment_center)
+"Fo" = (
+/obj/effect/decal/cleanable/cobweb,
+/turf/open/floor/iron/large,
+/area/awaymission/secret)
 "Fp" = (
 /obj/structure/railing,
 /obj/effect/turf_decal/siding/wideplating/dark,
@@ -6080,6 +6781,10 @@
 	dir = 1
 	},
 /area/station/medical/cryo)
+"GJ" = (
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/iron,
+/area/awaymission/secret/fullbright)
 "GK" = (
 /obj/structure/fence/end{
 	dir = 1
@@ -6157,6 +6862,18 @@
 	},
 /turf/open/floor/wood/large,
 /area/awaymission/secret)
+"Ha" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/obj/structure/window/reinforced/spawner/directional/east,
+/obj/structure/window/reinforced/spawner/directional/west,
+/obj/structure/flora/bush/jungle/b/style_random,
+/turf/open/floor/grass,
+/area/awaymission/secret/fullbright)
 "Hc" = (
 /obj/effect/turf_decal/stripes/white/line,
 /obj/effect/turf_decal/caution/white,
@@ -6256,6 +6973,13 @@
 /obj/item/bedsheet/pirate,
 /turf/open/floor/wood/large,
 /area/awaymission/secret)
+"Hv" = (
+/obj/structure/rack,
+/obj/structure/window/reinforced/spawner/directional/east,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/bot,
+/turf/open/floor/iron/large,
+/area/awaymission/secret)
 "Hw" = (
 /obj/effect/turf_decal/stripes/white/line{
 	dir = 4
@@ -6281,6 +7005,15 @@
 	dir = 6
 	},
 /area/awaymission/secret)
+"HD" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark,
+/obj/machinery/disposal/bin{
+	name = "Rapid Coat Storage Machine 9000 (TM)";
+	desc = "The Rapid Coat Storage Machine 9000 (TM) is a patented device designed to aid in streamlining coat check systems. Using pneumatic tubes, the RCSM9000 (TM) is able to swiftly move personal belongings to storage. With modern AI integration, it automatically tags- wait a minute, this is just a disposal bin with a sticker on it!"
+	},
+/obj/structure/disposalpipe/trunk,
+/turf/open/floor/iron/dark/smooth_large,
+/area/awaymission/secret/fullbright)
 "HE" = (
 /obj/effect/turf_decal/siding/wood,
 /turf/open/floor/iron,
@@ -6370,6 +7103,12 @@
 	dir = 4
 	},
 /turf/open/misc/dirt/station,
+/area/awaymission/secret)
+"Ie" = (
+/obj/effect/turf_decal/tile/brown/diagonal_centre,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/closet/crate/bin,
+/turf/open/floor/iron/diagonal,
 /area/awaymission/secret)
 "If" = (
 /obj/effect/turf_decal/stripes/corner{
@@ -6513,11 +7252,23 @@
 /obj/structure/sign/poster/official/work_for_a_future/directional/east,
 /turf/open/floor/iron/textured,
 /area/station/security/brig/upper)
+"IF" = (
+/turf/open/floor/carpet/blue,
+/area/awaymission/secret/fullbright)
 "IG" = (
 /obj/structure/fence/corner{
 	dir = 8
 	},
 /turf/open/misc/dirt/jungle,
+/area/awaymission/secret/fullbright)
+"IL" = (
+/obj/effect/spawner/structure/window/reinforced/indestructible,
+/obj/machinery/door/poddoor/shutters/preopen{
+	dir = 8;
+	id = "hop";
+	name = "Privacy Shutters"
+	},
+/turf/open/floor/plating,
 /area/awaymission/secret/fullbright)
 "IN" = (
 /turf/open/misc/ashplanet,
@@ -6640,6 +7391,10 @@
 /obj/machinery/newscaster/directional/west,
 /turf/open/floor/iron/textured,
 /area/station/security/brig/upper)
+"Jq" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/awaymission/secret)
 "Jr" = (
 /obj/item/reagent_containers/cup/glass/bottle/beer{
 	pixel_y = 8;
@@ -6664,6 +7419,13 @@
 	name = "placeholder plaque put something inspiring here or w/e idk bro"
 	},
 /area/awaymission/secret/fullbright)
+"Jx" = (
+/obj/structure/rack,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/bot,
+/obj/effect/spawner/costume/maid,
+/turf/open/floor/iron/large,
+/area/awaymission/secret)
 "Jy" = (
 /obj/structure/fluff/tram_rail/end{
 	dir = 4
@@ -6672,6 +7434,29 @@
 /obj/structure/transport/linear/tram,
 /turf/open/openspace,
 /area/awaymission/secret/fullbright)
+"Jz" = (
+/obj/structure/railing/corner{
+	dir = 1
+	},
+/obj/structure/table,
+/obj/item/clothing/suit/hazardvest{
+	pixel_x = -4;
+	pixel_y = 7
+	},
+/obj/item/clothing/suit/hazardvest{
+	pixel_x = -2;
+	pixel_y = 4
+	},
+/obj/item/clothing/suit/hazardvest{
+	pixel_x = 0;
+	pixel_y = 1
+	},
+/obj/effect/turf_decal/tile/brown/diagonal_centre,
+/obj/effect/turf_decal/siding/thinplating_new{
+	dir = 8
+	},
+/turf/open/floor/iron/diagonal,
+/area/awaymission/secret)
 "JA" = (
 /turf/open/floor/iron/white/small,
 /area/station/medical/paramedic)
@@ -6824,6 +7609,14 @@
 "Ke" = (
 /turf/open/misc/sandy_dirt,
 /area/awaymission/secret)
+"Ki" = (
+/obj/machinery/modular_computer/preset/id{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/wood,
+/obj/effect/turf_decal/tile/dark_blue/diagonal_centre,
+/turf/open/floor/iron/dark,
+/area/awaymission/secret/fullbright)
 "Kk" = (
 /obj/effect/turf_decal/siding/white/corner{
 	dir = 4
@@ -6958,6 +7751,34 @@
 /obj/structure/tram,
 /turf/open/openspace,
 /area/awaymission/museum/mothroachvoid)
+"KJ" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 8
+	},
+/obj/structure/table/reinforced,
+/obj/machinery/door/window/left/directional/west{
+	name = "Head of Personnel's Desk"
+	},
+/obj/machinery/door/window/brigdoor/right/directional/east{
+	name = "Head of Personnel's Desk";
+	req_access = list("hop")
+	},
+/obj/structure/desk_bell{
+	pixel_x = -5;
+	pixel_y = 7
+	},
+/obj/machinery/flasher/directional/north{
+	id = "hopflash";
+	pixel_x = 0;
+	pixel_y = 22
+	},
+/obj/machinery/door/poddoor/shutters/preopen{
+	dir = 8;
+	id = "hop";
+	name = "Privacy Shutters"
+	},
+/turf/open/floor/iron/dark/smooth_large,
+/area/awaymission/secret/fullbright)
 "KK" = (
 /obj/structure/table,
 /obj/item/storage/medkit/regular,
@@ -7329,6 +8150,21 @@
 /obj/effect/decal/remains/human,
 /turf/open/floor/wood/large,
 /area/awaymission/secret)
+"Mo" = (
+/obj/structure/railing{
+	dir = 1
+	},
+/obj/machinery/photocopier/prebuilt,
+/turf/open/floor/iron,
+/area/awaymission/secret/fullbright)
+"Mp" = (
+/obj/structure/window/reinforced/spawner/directional/east,
+/obj/structure/table,
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 4
+	},
+/turf/open/floor/iron/dark,
+/area/awaymission/secret/fullbright)
 "Mt" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 5
@@ -7439,6 +8275,14 @@
 /obj/machinery/light/directional/north,
 /turf/open/floor/iron/freezer,
 /area/station/medical/cryo)
+"MS" = (
+/obj/structure/window/reinforced/spawner/directional/north,
+/obj/structure/table,
+/obj/effect/turf_decal/siding/thinplating_new{
+	dir = 1
+	},
+/turf/open/floor/iron/large,
+/area/awaymission/secret)
 "MT" = (
 /obj/structure/railing{
 	dir = 8
@@ -7584,6 +8428,12 @@
 /obj/structure/tram,
 /turf/open/openspace,
 /area/awaymission/secret/fullbright)
+"Nw" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 4
+	},
+/turf/open/floor/iron/dark,
+/area/awaymission/secret/fullbright)
 "Ny" = (
 /obj/effect/turf_decal/siding/wideplating/dark{
 	dir = 6
@@ -7684,6 +8534,21 @@
 /obj/structure/cable,
 /turf/open/floor/iron,
 /area/station/command/heads_quarters/hos)
+"NV" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/item/stack/tile/iron{
+	pixel_x = 5;
+	pixel_y = 6
+	},
+/obj/item/crowbar/large{
+	pixel_x = 6;
+	pixel_y = -12
+	},
+/turf/open/floor/plating,
+/area/awaymission/secret)
 "NX" = (
 /obj/structure/altar_of_gods,
 /turf/open/floor/stone,
@@ -7721,6 +8586,14 @@
 	dir = 1
 	},
 /turf/open/floor/grass,
+/area/awaymission/secret/fullbright)
+"Of" = (
+/obj/structure/table/wood,
+/obj/item/flashlight/lamp/green{
+	pixel_x = -6;
+	pixel_y = 9
+	},
+/turf/open/floor/wood/large,
 /area/awaymission/secret/fullbright)
 "Oi" = (
 /obj/structure/table,
@@ -7863,6 +8736,12 @@
 	},
 /turf/open/floor/wood/large,
 /area/awaymission/secret)
+"OK" = (
+/obj/machinery/light/small/directional/north,
+/obj/effect/turf_decal/siding/wood/corner,
+/obj/machinery/digital_clock/directional/north,
+/turf/open/floor/wood/large,
+/area/awaymission/secret/fullbright)
 "OL" = (
 /obj/effect/turf_decal/tile/blue/fourcorners,
 /obj/machinery/door/airlock/medical/glass{
@@ -7914,6 +8793,13 @@
 /obj/effect/turf_decal/bot,
 /turf/open/floor/plating,
 /area/station/maintenance/department/security/upper)
+"Pa" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/dark_blue/diagonal_centre,
+/turf/open/floor/iron/dark,
+/area/awaymission/secret/fullbright)
 "Pl" = (
 /obj/item/reagent_containers/cup/glass/bottle/beer/almost_empty{
 	pixel_y = 13;
@@ -7936,6 +8822,13 @@
 /obj/structure/sign/poster/official/help_others/directional/west,
 /turf/open/floor/wood/large,
 /area/station/medical/break_room)
+"Pq" = (
+/obj/structure/railing/corner/end/flip{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron,
+/area/awaymission/secret)
 "Ps" = (
 /obj/structure/railing/wooden_fence,
 /obj/effect/light_emitter/fake_outdoors,
@@ -7965,6 +8858,15 @@
 /obj/effect/turf_decal/tile/blue/full,
 /turf/open/floor/iron/white/smooth_large,
 /area/station/medical/storage)
+"PA" = (
+/obj/structure/disposalpipe/segment{
+	dir = 6
+	},
+/obj/structure/chair/office{
+	dir = 4
+	},
+/turf/open/floor/iron,
+/area/awaymission/secret/fullbright)
 "PB" = (
 /obj/machinery/light/directional/south,
 /turf/open/floor/iron/white,
@@ -8002,6 +8904,26 @@
 	},
 /turf/open/misc/beach/sand,
 /area/awaymission/secret)
+"PL" = (
+/obj/structure/table/reinforced,
+/obj/item/hand_labeler_refill{
+	pixel_x = 5;
+	pixel_y = 2
+	},
+/obj/item/hand_labeler_refill{
+	pixel_x = 8;
+	pixel_y = -1
+	},
+/obj/item/clipboard{
+	pixel_x = -8;
+	pixel_y = 2
+	},
+/obj/item/pen{
+	pixel_x = -8;
+	pixel_y = 1
+	},
+/turf/open/floor/iron,
+/area/awaymission/secret/fullbright)
 "PN" = (
 /obj/structure/table,
 /obj/item/paper_bin,
@@ -8064,6 +8986,12 @@
 /obj/structure/fermenting_barrel,
 /turf/open/water/beach,
 /area/awaymission/secret/fullbright)
+"Qe" = (
+/obj/structure/disposalpipe/trunk/multiz{
+	dir = 4
+	},
+/turf/open/floor/iron,
+/area/awaymission/secret)
 "Qf" = (
 /obj/structure/fluff/bus/dense{
 	icon_state = "hoodtop"
@@ -8110,6 +9038,13 @@
 /obj/structure/thermoplastic/light,
 /turf/open/openspace,
 /area/awaymission/museum/mothroachvoid)
+"Qp" = (
+/obj/machinery/door/airlock/silver{
+	name = "Bathroom"
+	},
+/obj/effect/turf_decal/siding/thinplating_new/light,
+/turf/open/floor/iron/white/herringbone,
+/area/awaymission/secret/fullbright)
 "Qq" = (
 /obj/effect/turf_decal/siding/thinplating_new,
 /turf/open/floor/asphalt,
@@ -8752,6 +9687,16 @@
 	},
 /turf/open/floor/stone,
 /area/awaymission/secret/fullbright)
+"TK" = (
+/obj/machinery/light/directional/south,
+/obj/structure/table/wood,
+/obj/machinery/keycard_auth/wall_mounted/directional/south,
+/obj/item/stamp/head/hop{
+	pixel_x = 7;
+	pixel_y = 9
+	},
+/turf/open/floor/wood/large,
+/area/awaymission/secret/fullbright)
 "TL" = (
 /turf/open/floor/carpet/green,
 /area/awaymission/secret)
@@ -8770,6 +9715,13 @@
 	},
 /turf/open/misc/dirt/station,
 /area/awaymission/secret/fullbright)
+"TU" = (
+/obj/effect/turf_decal/tile/brown/diagonal_centre,
+/obj/structure/chair/plastic{
+	dir = 1
+	},
+/turf/open/floor/iron/diagonal,
+/area/awaymission/secret)
 "TW" = (
 /obj/effect/turf_decal/trimline/red/filled/line{
 	dir = 1
@@ -8790,6 +9742,11 @@
 	},
 /turf/open/floor/iron,
 /area/station/security/brig/upper)
+"Ub" = (
+/obj/machinery/photobooth,
+/obj/effect/turf_decal/siding/thinplating_new/dark,
+/turf/open/floor/iron/dark/smooth_large,
+/area/awaymission/secret/fullbright)
 "Uc" = (
 /obj/structure/fluff/beach_umbrella,
 /obj/item/reagent_containers/cup/soda_cans/lemon_lime{
@@ -8810,6 +9767,13 @@
 "Ue" = (
 /turf/open/misc/asteroid/moon,
 /area/awaymission/museum/mothroachvoid)
+"Uf" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 6
+	},
+/obj/effect/turf_decal/tile/dark_blue/diagonal_centre,
+/turf/open/floor/iron/dark,
+/area/awaymission/secret/fullbright)
 "Ug" = (
 /obj/structure/railing{
 	dir = 1
@@ -9061,6 +10025,23 @@
 	},
 /turf/open/floor/iron/textured,
 /area/station/security/brig/upper)
+"Vv" = (
+/obj/structure/table/reinforced,
+/obj/item/paper_bin{
+	pixel_x = 9;
+	pixel_y = 6
+	},
+/obj/machinery/light/directional/north,
+/obj/item/folder/yellow{
+	pixel_x = -7;
+	pixel_y = 5
+	},
+/obj/item/folder/yellow{
+	pixel_x = -6;
+	pixel_y = 3
+	},
+/turf/open/floor/iron,
+/area/awaymission/secret/fullbright)
 "Vz" = (
 /obj/machinery/door/airlock/command{
 	name = "Head of Security's Office"
@@ -9207,6 +10188,35 @@
 	},
 /turf/open/floor/wood/parquet,
 /area/awaymission/secret)
+"Wi" = (
+/obj/structure/table/reinforced,
+/obj/item/folder/blue{
+	pixel_x = -14;
+	pixel_y = 5
+	},
+/obj/item/folder/blue{
+	pixel_x = -10;
+	pixel_y = 2
+	},
+/obj/machinery/recharger{
+	pixel_x = 6;
+	pixel_y = 7
+	},
+/obj/machinery/button/door/directional/north{
+	id = "hop";
+	name = "privacy shutter control";
+	pixel_x = -7;
+	pixel_y = 23
+	},
+/obj/machinery/button/door/directional/north{
+	id = "hopqueue";
+	name = "queue shutter control";
+	pixel_x = 7;
+	pixel_y = 23
+	},
+/obj/effect/turf_decal/tile/dark_blue/diagonal_centre,
+/turf/open/floor/iron/dark,
+/area/awaymission/secret/fullbright)
 "Wj" = (
 /obj/machinery/light/directional/north,
 /turf/open/floor/wood/large,
@@ -9269,6 +10279,15 @@
 	},
 /turf/open/openspace,
 /area/awaymission/museum/mothroachvoid)
+"WB" = (
+/obj/effect/turf_decal/siding/thinplating_new/light/end{
+	dir = 8
+	},
+/obj/structure/fluff/shower_drain,
+/obj/machinery/shower/directional/west,
+/obj/structure/curtain,
+/turf/open/floor/iron/freezer,
+/area/awaymission/secret/fullbright)
 "WD" = (
 /turf/open/floor/iron/white,
 /area/station/medical/cryo)
@@ -9388,6 +10407,13 @@
 /obj/effect/mapping_helpers/airlock/access/any/medical/general,
 /turf/open/floor/iron/white,
 /area/station/medical/break_room)
+"Xh" = (
+/obj/machinery/computer/arcade/amputation{
+	name = "ticket printing station";
+	desc = "It looks like a normal arcade machine, but instead of a coin slot, there's an ominous-looking tube with a pair of bloodied shears at its entrance. It seems like you could fit an entire arm in there!"
+	},
+/turf/open/floor/iron/dark,
+/area/awaymission/secret/fullbright)
 "Xn" = (
 /obj/structure/closet/secure_closet/freezer/fridge/all_access,
 /obj/effect/turf_decal/bot,
@@ -9445,7 +10471,10 @@
 /turf/open/misc/ashplanet/rocky/safe,
 /area/awaymission/museum/mothroachvoid)
 "XC" = (
-/turf/closed/indestructible/sandstone,
+/obj/effect/turf_decal/arrows/white{
+	dir = 8
+	},
+/turf/open/floor/stone,
 /area/awaymission/secret/fullbright)
 "XD" = (
 /obj/structure/railing{
@@ -9472,6 +10501,14 @@
 /area/awaymission/secret)
 "XJ" = (
 /turf/open/floor/stone,
+/area/awaymission/secret/fullbright)
+"XK" = (
+/obj/structure/toilet{
+	pixel_x = 0;
+	pixel_y = 10
+	},
+/obj/machinery/light/small/directional/south,
+/turf/open/floor/iron/white/herringbone,
 /area/awaymission/secret/fullbright)
 "XL" = (
 /obj/structure/table/reinforced,
@@ -9568,6 +10605,9 @@
 /obj/effect/turf_decal/bot_red,
 /turf/open/floor/iron/white/smooth_large,
 /area/station/medical/surgery/aft)
+"Yb" = (
+/turf/open/floor/iron/stairs,
+/area/awaymission/secret)
 "Ye" = (
 /turf/open/misc/grass/jungle,
 /area/awaymission/museum/mothroachvoid)
@@ -9609,6 +10649,13 @@
 /obj/effect/mapping_helpers/airlock/cyclelink_helper,
 /turf/open/floor/iron,
 /area/station/security/brig/lower)
+"Ys" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/obj/structure/table/wood,
+/turf/open/floor/wood/large,
+/area/awaymission/secret/fullbright)
 "Yt" = (
 /obj/structure/railing/corner/end{
 	dir = 8
@@ -9820,6 +10867,12 @@
 /obj/effect/spawner/structure/window/reinforced/indestructible,
 /turf/open/floor/plating,
 /area/station/medical/storage)
+"ZI" = (
+/obj/structure/rack,
+/obj/effect/turf_decal/bot,
+/obj/effect/spawner/random/clothing/costume,
+/turf/open/floor/iron/large,
+/area/awaymission/secret)
 "ZJ" = (
 /obj/effect/turf_decal/stripes/line,
 /obj/effect/turf_decal/trimline/red/filled/line{
@@ -22910,10 +23963,10 @@ gu
 gu
 gu
 gu
-gu
-gu
-gu
-gu
+zg
+zg
+zg
+zg
 gu
 gu
 gu
@@ -23165,12 +24218,12 @@ gu
 gu
 gu
 gu
-gu
-gu
-gu
-gu
-gu
-gu
+zg
+zg
+zg
+gw
+Fc
+zg
 gu
 gu
 gu
@@ -23422,12 +24475,12 @@ gu
 gu
 gu
 gu
-gu
-gu
-gu
-gu
-gu
-gu
+zg
+bi
+fv
+SO
+cC
+zg
 gu
 gu
 gu
@@ -23679,12 +24732,12 @@ gu
 gu
 gu
 gu
-gu
-gu
-gu
-gu
-gu
-gu
+zg
+zg
+zg
+dq
+xh
+zg
 gu
 gu
 gu
@@ -23936,12 +24989,12 @@ gu
 gu
 gu
 gu
-gu
-gu
-gu
-gu
-gu
-gu
+zg
+bi
+aQ
+rB
+Cg
+zg
 gu
 gu
 gu
@@ -24193,17 +25246,17 @@ gu
 gu
 gu
 zg
-gu
-gu
-gu
-gu
-gu
-gu
 zg
-gu
-gu
-gu
-gu
+zg
+zg
+vY
+zg
+zg
+zg
+zg
+zg
+zg
+zg
 gu
 gu
 gu
@@ -24449,18 +25502,18 @@ gu
 gu
 gu
 gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
+zg
+Fo
+Yb
+si
+jT
+Ad
+ZI
+nv
+rG
+Jx
+nv
+zg
 gu
 gu
 gu
@@ -24706,18 +25759,18 @@ gu
 gu
 gu
 gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
+zg
+Dx
+AN
+Pq
+si
+CA
+jT
+Jq
+Aw
+si
+rG
+zg
 gu
 gu
 gu
@@ -24964,17 +26017,17 @@ ed
 ed
 ed
 ed
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
+ye
+kZ
+Jq
+jT
+hI
+jT
+AM
+nv
+jT
+lo
+zg
 gu
 gu
 gu
@@ -25222,16 +26275,16 @@ ah
 ah
 ed
 ed
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
+Jz
+jF
+uv
+zg
+Et
+jT
+jT
+Jq
+kS
+zg
 gu
 gu
 gu
@@ -25479,16 +26532,16 @@ WD
 WD
 WD
 ed
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
+nn
+Fh
+TU
+tK
+si
+rG
+ZI
+jT
+nv
+zg
 gu
 gu
 gu
@@ -25736,16 +26789,16 @@ it
 it
 WD
 ed
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
+yX
+Fh
+Ie
+MS
+Qe
+jT
+si
+jT
+Hv
+zg
 gu
 gu
 gu
@@ -25994,15 +27047,15 @@ bs
 PB
 ed
 ed
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
+zg
+zg
+zg
+oZ
+lo
+jW
+si
+AW
+zg
 gu
 gu
 gu
@@ -26253,13 +27306,13 @@ ah
 ed
 gu
 gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
+zg
+NV
+jT
+jT
+jT
+Bw
+zg
 gu
 gu
 gu
@@ -26510,13 +27563,13 @@ ah
 ed
 gu
 gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
+zg
+tm
+AA
+AA
+cM
+vQ
+zg
 gu
 gu
 gu
@@ -26767,13 +27820,13 @@ ed
 ed
 gu
 gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
+zg
+zg
+zg
+zg
+zg
+zg
+zg
 gu
 gu
 gu
@@ -30360,14 +31413,14 @@ gu
 gu
 gu
 gu
-zg
 gu
 gu
 gu
 gu
 gu
 gu
-zg
+gu
+gu
 gu
 gu
 gu
@@ -80229,7 +81282,7 @@ UE
 UE
 UE
 UE
-UE
+yq
 UE
 UE
 UE
@@ -82543,7 +83596,7 @@ aC
 aC
 aC
 aC
-XC
+dU
 uY
 XJ
 XJ
@@ -82572,7 +83625,7 @@ XJ
 XJ
 XJ
 dY
-XC
+dU
 aC
 aC
 aC
@@ -82816,7 +83869,7 @@ XJ
 XJ
 XJ
 dU
-ok
+jK
 cv
 MA
 ZM
@@ -83314,7 +84367,7 @@ aC
 aC
 aC
 aC
-XC
+dU
 ZN
 XJ
 XJ
@@ -83570,8 +84623,8 @@ aC
 aC
 aC
 aC
-XC
-XC
+dU
+dU
 XJ
 XJ
 XJ
@@ -83600,7 +84653,7 @@ XJ
 XJ
 XJ
 ee
-XC
+dU
 aC
 aC
 aC
@@ -83827,7 +84880,7 @@ aC
 aC
 aC
 aC
-XC
+dU
 XJ
 XJ
 XJ
@@ -83857,7 +84910,7 @@ XJ
 XJ
 XJ
 jL
-XC
+dU
 aC
 aC
 aC
@@ -84083,8 +85136,8 @@ aC
 aC
 aC
 aC
-XC
-XC
+dU
+dU
 XJ
 XJ
 XJ
@@ -84340,7 +85393,7 @@ aC
 aC
 aC
 aC
-XC
+dU
 XJ
 XJ
 XJ
@@ -84597,7 +85650,7 @@ aC
 aC
 aC
 aC
-XC
+dU
 qf
 XJ
 XJ
@@ -84885,7 +85938,7 @@ kq
 vL
 XJ
 ee
-XC
+dU
 aC
 aC
 aC
@@ -85142,7 +86195,7 @@ bm
 Qq
 XJ
 dY
-XC
+dU
 aC
 aC
 aC
@@ -85368,7 +86421,7 @@ aC
 aC
 aC
 aC
-XC
+dU
 ZN
 XJ
 XJ
@@ -85625,8 +86678,8 @@ aC
 aC
 aC
 aC
-XC
-XJ
+dU
+qf
 XJ
 XJ
 ZM
@@ -86170,7 +87223,7 @@ bm
 Qq
 XJ
 ee
-XC
+dU
 aC
 aC
 aC
@@ -86396,7 +87449,7 @@ aC
 aC
 aC
 aC
-XC
+dU
 zb
 XJ
 XJ
@@ -86427,7 +87480,7 @@ kq
 vL
 XJ
 dY
-XC
+dU
 aC
 aC
 aC
@@ -86652,8 +87705,8 @@ aC
 aC
 aC
 aC
-XC
-XC
+dU
+dU
 XJ
 XJ
 XJ
@@ -86661,7 +87714,7 @@ ZM
 bm
 bm
 Qq
-SJ
+cg
 HS
 ZM
 bm
@@ -86909,7 +87962,7 @@ aC
 aC
 aC
 aC
-XC
+dU
 XJ
 XJ
 XJ
@@ -87165,8 +88218,8 @@ aC
 aC
 aC
 aC
-XC
-XC
+dU
+dU
 XJ
 XJ
 XJ
@@ -87422,7 +88475,7 @@ aC
 aC
 aC
 aC
-XC
+dU
 qf
 XJ
 XJ
@@ -87455,7 +88508,7 @@ kq
 vL
 XJ
 ee
-XC
+dU
 aC
 aC
 aC
@@ -87712,7 +88765,7 @@ pb
 dM
 XJ
 dY
-XC
+dU
 aC
 aC
 aC
@@ -88193,7 +89246,7 @@ aC
 aC
 aC
 aC
-XC
+dU
 ZN
 XJ
 XJ
@@ -88445,12 +89498,12 @@ aC
 aC
 aC
 aC
-XC
-XC
-XC
-XC
-XC
-XC
+dU
+dU
+dU
+dU
+dU
+dU
 XJ
 XJ
 XJ
@@ -88702,12 +89755,12 @@ aC
 aC
 aC
 aC
-XC
-RM
-RM
-RM
-RM
-XC
+dU
+bR
+bR
+Es
+Hq
+dU
 XJ
 XJ
 XJ
@@ -88740,7 +89793,7 @@ Ek
 iT
 XJ
 dH
-XC
+dU
 aC
 aC
 aC
@@ -88959,12 +90012,12 @@ aC
 aC
 aC
 aC
-XC
-RM
-RM
-RM
-RM
-XC
+dU
+bR
+Hq
+Hq
+Hq
+dU
 XJ
 XJ
 XJ
@@ -88997,7 +90050,7 @@ bm
 Qq
 XJ
 dY
-XC
+dU
 aC
 aC
 aC
@@ -89216,12 +90269,12 @@ aC
 aC
 aC
 aC
-XC
-RM
-RM
-RM
-RM
-RM
+dU
+bR
+Hq
+Hq
+Hq
+rV
 XJ
 XJ
 XJ
@@ -89473,12 +90526,12 @@ aC
 aC
 aC
 aC
-XC
-RM
-RM
-RM
-RM
-XC
+dU
+Xh
+Hq
+Hq
+Hq
+dU
 XJ
 XJ
 XJ
@@ -89728,14 +90781,14 @@ aC
 aC
 aC
 aC
-XC
-XC
-XC
-RM
-RM
-RM
-RM
-XC
+dU
+dU
+dU
+dT
+Nw
+Mp
+Mp
+dU
 XJ
 XJ
 XJ
@@ -89985,14 +91038,14 @@ aC
 aC
 aC
 aC
-XC
+dU
+iQ
+iQ
+qU
 RM
 RM
 RM
-RM
-RM
-RM
-XC
+dU
 XJ
 XJ
 XJ
@@ -90025,7 +91078,7 @@ bm
 Qq
 XJ
 ee
-XC
+dU
 aC
 aC
 aC
@@ -90242,14 +91295,14 @@ aC
 aC
 aC
 aC
-XC
+dU
+iQ
+oS
+EJ
 RM
 RM
 RM
-RM
-RM
-RM
-XC
+dU
 cZ
 XJ
 XJ
@@ -90282,7 +91335,7 @@ Ek
 iT
 XJ
 XJ
-XC
+dU
 aC
 aC
 aC
@@ -90499,14 +91552,14 @@ aC
 aC
 XJ
 XJ
-XC
+dU
+iQ
+Mo
 RM
 RM
 RM
 RM
-RM
-RM
-XC
+dU
 FG
 bA
 XJ
@@ -90756,14 +91809,14 @@ aC
 aC
 XJ
 XJ
+AH
+RM
+Ds
 RM
 RM
 RM
 RM
-RM
-RM
-RM
-XC
+dU
 Ld
 QS
 XJ
@@ -90773,16 +91826,16 @@ ZM
 bm
 bm
 Qq
-Ll
+jU
 fi
 ZM
 bm
 bm
-bm
+zw
 bm
 Qq
 Wf
-HS
+hf
 uO
 Ek
 Ek
@@ -91013,14 +92066,14 @@ kG
 aC
 XJ
 XJ
-XC
+dU
+Vv
 RM
 RM
 RM
 RM
 RM
-RM
-XC
+dU
 Mh
 fi
 XJ
@@ -91270,14 +92323,14 @@ kG
 aC
 XJ
 XJ
-XC
-RM
-RM
-RM
-RM
-RM
-RM
-XC
+dU
+PL
+PA
+GJ
+GJ
+GJ
+Ca
+dU
 Dz
 HS
 XJ
@@ -91527,14 +92580,14 @@ kG
 aC
 XJ
 XJ
-XC
-RM
-RM
-RM
-RM
-RM
-RM
-XC
+dU
+dU
+jN
+MA
+MA
+dU
+dU
+dU
 Yl
 fi
 XJ
@@ -91784,14 +92837,14 @@ kG
 aC
 XJ
 XJ
-XC
-RM
-RM
-RM
-RM
-RM
-RM
-XC
+dU
+HD
+or
+XJ
+XJ
+XJ
+XJ
+dU
 py
 Wa
 XJ
@@ -92041,14 +93094,14 @@ kG
 aC
 XJ
 XJ
+dU
+dU
+eJ
+CL
+Ha
+if
 XC
-XC
-RM
-RM
-RM
-RM
-XC
-XC
+dU
 Iz
 XJ
 XJ
@@ -92813,12 +93866,12 @@ aC
 XJ
 XJ
 XJ
-XC
+dU
 cp
 Th
 Tp
 gH
-XC
+dU
 XJ
 XJ
 FZ
@@ -93583,14 +94636,14 @@ XJ
 XJ
 XJ
 XJ
-XC
-XC
-RM
-RM
-RM
-RM
-XC
-XC
+dU
+dU
+nw
+lA
+gq
+tt
+hN
+dU
 bA
 XJ
 XJ
@@ -93840,14 +94893,14 @@ XJ
 XJ
 XJ
 XJ
-XC
-RM
-RM
-RM
-RM
-RM
-RM
-XC
+dU
+Ub
+XJ
+XJ
+XJ
+XJ
+XJ
+dU
 QU
 bc
 XJ
@@ -94097,15 +95150,15 @@ XJ
 aC
 XJ
 XJ
-XC
-RM
-RM
-RM
-RM
-RM
-RM
-XC
-Ld
+dU
+dU
+KJ
+IL
+IL
+dU
+dU
+dU
+Yl
 fi
 XJ
 XJ
@@ -94354,14 +95407,14 @@ aC
 aC
 XJ
 XJ
-XC
-RM
-RM
-RM
-RM
-RM
-RM
-XC
+dU
+kP
+tl
+Ki
+gP
+eg
+yQ
+dU
 iH
 HS
 XJ
@@ -94611,14 +95664,14 @@ aC
 aC
 XJ
 XJ
-XC
-RM
-RM
-RM
-RM
-RM
-RM
-XC
+dU
+Wi
+oq
+Bf
+HH
+Da
+TK
+dU
 iH
 lQ
 XJ
@@ -94868,15 +95921,15 @@ aC
 aC
 XJ
 XJ
-RM
-RM
-RM
-RM
-RM
-RM
-RM
-XC
-Ld
+jh
+oq
+vV
+Bf
+HH
+HH
+tv
+dU
+Yl
 fi
 XJ
 XJ
@@ -95125,14 +96178,14 @@ aC
 aC
 XJ
 XJ
-XC
-RM
-RM
-RM
-RM
-RM
-RM
-XC
+dU
+xE
+Pa
+Uf
+Dl
+HH
+pH
+dU
 py
 Wa
 XJ
@@ -95382,14 +96435,14 @@ aC
 aC
 aC
 aC
-XC
-RM
-RM
-RM
-RM
-RM
-RM
-XC
+dU
+HH
+bS
+HH
+dU
+cW
+dU
+dU
 cm
 XJ
 XJ
@@ -95404,24 +96457,24 @@ XJ
 XJ
 XJ
 XJ
-XC
-XC
+dU
+dU
 aC
 sv
 sv
 sv
 sv
 aC
-XC
-XC
+dU
+dU
 YB
 YB
-XC
-XC
+dU
+dU
 YB
 YB
-XC
-XC
+dU
+dU
 dU
 UE
 UE
@@ -95639,14 +96692,14 @@ kG
 kG
 aC
 aC
-XC
-RM
-RM
-RM
-RM
-RM
-RM
-XC
+dU
+sz
+kJ
+As
+dU
+HH
+Of
+dU
 XJ
 dY
 yJ
@@ -95658,10 +96711,10 @@ Cq
 yJ
 js
 qf
-XC
-XC
-XC
-XC
+dU
+dU
+dU
+dU
 aC
 aC
 aC
@@ -95896,26 +96949,26 @@ RM
 kG
 aC
 aC
-XC
-XC
-XC
-XC
-XC
-XC
-XC
-XC
-XC
-XC
+dU
+dU
+dU
+dU
+dU
+OK
+Ys
+dU
+dU
+dU
 YB
 YB
-XC
+dU
 YB
 YB
-XC
+dU
 YB
 YB
-XC
-XC
+dU
+dU
 aC
 aC
 aC
@@ -96155,13 +97208,13 @@ aC
 aC
 aC
 aC
-aC
-aC
-aC
-aC
-aC
-aC
-aC
+dU
+dD
+Qp
+mT
+IF
+fI
+dU
 aC
 aC
 aC
@@ -96412,13 +97465,13 @@ aC
 aC
 aC
 aC
-aC
-aC
-aC
-aC
-aC
-aC
-aC
+dU
+XK
+dU
+nP
+hR
+pi
+dU
 aC
 aC
 aC
@@ -96669,13 +97722,13 @@ aC
 aC
 aC
 aC
-aC
-aC
-aC
-aC
-aC
-aC
-aC
+dU
+WB
+dU
+dU
+dU
+dU
+dU
 aC
 aC
 aC
@@ -96926,9 +97979,9 @@ aC
 aC
 aC
 aC
-aC
-aC
-aC
+dU
+dU
+dU
 aC
 aC
 aC
@@ -159119,14 +160172,14 @@ iQ
 iQ
 iQ
 iQ
-Rb
-Rb
-Rb
-Rb
-Rb
-Rb
-Rb
-Rb
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
 iQ
 iQ
 iQ
@@ -159376,14 +160429,14 @@ iQ
 iQ
 iQ
 iQ
-Rb
-Rb
-Rb
-Rb
-Rb
-Rb
-Rb
-Rb
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
 iQ
 iQ
 iQ
@@ -159633,14 +160686,14 @@ iQ
 iQ
 iQ
 iQ
-Rb
-Rb
-Rb
-Rb
-Rb
-Rb
-Rb
-Rb
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
 iQ
 iQ
 iQ
@@ -159890,14 +160943,14 @@ iQ
 iQ
 iQ
 iQ
-Rb
-Rb
-Rb
-Rb
-Rb
-Rb
-Rb
-Rb
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
 iQ
 iQ
 iQ
@@ -160147,14 +161200,14 @@ iQ
 iQ
 iQ
 iQ
-Rb
-Rb
-Rb
-Rb
-Rb
-Rb
-Rb
-Rb
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
 iQ
 iQ
 iQ
@@ -160404,14 +161457,14 @@ iQ
 iQ
 iQ
 iQ
-Rb
-Rb
-Rb
-Rb
-Rb
-Rb
-Rb
-Rb
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
 iQ
 iQ
 iQ
@@ -160661,14 +161714,14 @@ iQ
 iQ
 iQ
 iQ
-Rb
-Rb
-Rb
-Rb
-Rb
-Rb
-Rb
-Rb
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
 iQ
 iQ
 iQ
@@ -160918,14 +161971,14 @@ iQ
 iQ
 iQ
 iQ
-Rb
-Rb
-Rb
-Rb
-Rb
-Rb
-Rb
-Rb
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
 iQ
 iQ
 iQ
@@ -161175,14 +162228,14 @@ iQ
 iQ
 iQ
 iQ
-Rb
-Rb
-Rb
-Rb
-Rb
-Rb
-Rb
-Rb
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
 iQ
 iQ
 iQ
@@ -161432,15 +162485,15 @@ iQ
 iQ
 iQ
 iQ
-Rb
-Rb
-Rb
-Rb
-Rb
-Rb
-Rb
-Rb
-iQ
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
 iQ
 iQ
 iQ
@@ -161691,13 +162744,13 @@ iQ
 iQ
 iQ
 iQ
-iQ
-iQ
-iQ
-iQ
-iQ
-iQ
-iQ
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
 iQ
 iQ
 iQ
@@ -161948,13 +163001,13 @@ iQ
 iQ
 iQ
 iQ
-iQ
-iQ
-iQ
-iQ
-iQ
-iQ
-iQ
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
 iQ
 iQ
 iQ
@@ -162205,13 +163258,13 @@ iQ
 iQ
 iQ
 iQ
-iQ
-iQ
-iQ
-iQ
-iQ
-iQ
-iQ
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
+Wp
 iQ
 iQ
 iQ
@@ -162462,9 +163515,9 @@ iQ
 iQ
 iQ
 iQ
-iQ
-iQ
-iQ
+Wp
+Wp
+Wp
 iQ
 iQ
 iQ
