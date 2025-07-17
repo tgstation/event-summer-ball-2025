@@ -226,7 +226,7 @@
  *
 **/
 /datum/move_manager/proc/move_multiz(moving, direction, delay, timeout, subsystem, priority, flags, datum/extra_info)
-	return add_to_loop(moving, subsystem, /datum/move_loop/move, priority, flags, extra_info, delay, timeout, direction)
+	return add_to_loop(moving, subsystem, /datum/move_loop/move/multiz, priority, flags, extra_info, delay, timeout, direction)
 
 /datum/move_loop/move/multiz
 	var/currently_z_moving_value = CURRENTLY_Z_MOVING_MINERAIL
