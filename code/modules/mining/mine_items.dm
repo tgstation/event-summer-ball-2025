@@ -194,7 +194,7 @@
 	if(!on_rails)
 		return ..()
 	// Allows people to drag minecarts along the rails rather than solely shoving it
-	if(can_travel_on_turf(get_turf(newloc), direct))
+	if(can_travel_on_turf(get_turf(newloc), direct) || currently_z_moving == CURRENTLY_Z_MOVING_MINERAIL)
 		return ..()
 	momentum = 0
 	return FALSE
@@ -302,7 +302,8 @@
 	return NONE
 
 /obj/structure/closet/crate/miningcar/forceMove(atom/destination)
-	update_rail_state(FALSE)
+	if(currently_z_moving != CURRENTLY_Z_MOVING_MINERAIL)
+		update_rail_state(FALSE)
 	return ..()
 
 /obj/structure/closet/crate/miningcar/mouse_drop_dragged(atom/over, mob/user, src_location, over_location, params)
@@ -414,7 +415,7 @@
 
 /obj/structure/closet/crate/miningcar/proc/start_moving_in_dir(movedir)
 	setDir(movedir)
-	var/datum/move_loop/loop = GLOB.move_manager.move(src, dir, delay = calculate_delay(), subsystem = SSconveyors, flags = MOVEMENT_LOOP_START_FAST|MOVEMENT_LOOP_IGNORE_PRIORITY)
+	var/datum/move_loop/loop = GLOB.move_manager.move_multiz(src, dir, delay = calculate_delay(), subsystem = SSconveyors, flags = MOVEMENT_LOOP_START_FAST|MOVEMENT_LOOP_IGNORE_PRIORITY )
 	RegisterSignal(loop, COMSIG_MOVELOOP_PREPROCESS_CHECK, PROC_REF(check_rail))
 	RegisterSignal(loop, COMSIG_MOVELOOP_POSTPROCESS, PROC_REF(decay_momentum))
 
@@ -440,6 +441,17 @@
 			break
 		source.direction = next_dir
 		return NONE
+	// Go down, first move forward over open space then zmove down
+	if(can_travel_on_turf(get_step_multiz(src, dir | DOWN)))
+		momentum += 1 //whee
+		source.direction = dir | DOWN
+		return NONE
+	// Go up first zmove upwards then forward
+	if(can_travel_on_turf(get_step_multiz(src, dir | UP)))
+		//momentum -= 1
+		source.direction = dir | UP
+		return NONE
+
 	// Can't go straight and cant turn = STOP
 	GLOB.move_manager.stop_looping(src, SSconveyors)
 	if(momentum >= 8)
@@ -550,6 +562,14 @@
 /obj/structure/minecart_rail/examine(mob/user)
 	. = ..()
 	. += rail_examine()
+
+/obj/structure/minecart_rail/intercept_zImpact(list/falling_movables, levels = 1)
+	. = ..()
+	if(levels != 1)
+		return
+	var/obj/structure/closet/crate/miningcar/falling_car = locate() in falling_movables
+	if(falling_car)
+		. |= FALL_INTERCEPTED | FALL_NO_MESSAGE | FALL_RETAIN_PULL
 
 /obj/structure/minecart_rail/proc/rail_examine()
 	return span_notice("Run a powered cable underneath it to power carts as they travel, maintaining their speed.")
