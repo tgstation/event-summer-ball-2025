@@ -295,6 +295,24 @@
 	name = "Trek Uniform (Worn)"
 	icon_file = 'icons/mob/clothing/under/trek.dmi'
 
+/datum/greyscale_config/summerfit
+	name = "Summer Outfit"
+	icon_file = 'icons/obj/clothing/under/misc.dmi'
+	json_config = 'code/datums/greyscale/json_configs/summerfit.json'
+
+/datum/greyscale_config/summerfit/worn
+	name = "Summer Outfit (Worn)"
+	icon_file = 'icons/mob/clothing/under/misc.dmi'
+
+/datum/greyscale_config/tanktop
+	name = "Tank Top Outfit"
+	icon_file = 'icons/obj/clothing/under/misc.dmi'
+	json_config = 'code/datums/greyscale/json_configs/tanktop.json'
+
+/datum/greyscale_config/tanktop/worn
+	name "Tank Top Outfit (Worn)"
+	icon_file = 'icons/mob/clothing/under/misc.dmi'
+
 // DRESSES AND SKIRTS
 /datum/greyscale_config/plaidskirt
 	name = "Plaid Skirt"
@@ -367,6 +385,24 @@
 
 /datum/greyscale_config/sailor_dress/worn
 	name = "Sailor Dress(Worn)"
+	icon_file = 'icons/mob/clothing/under/dress.dmi'
+
+/datum/greyscale_config/summerdress
+	name = "Summer Dress"
+	icon_file = 'icon/obj/clothing/under/dress.dmi'
+	json_config = 'code/datums/greyscale/json_configs/summerdress.json'
+
+/datum/greyscale_config/summerdress/worn
+	name = "Summer Dress (Worn)"
+	icon_file = 'icons/mob/clothing/under/dress.dmi'
+
+/datum/greyscale_config/longstriped
+	name = "Long Striped Dress"
+	icon_file = 'icons/obj/clothing/under/dress.dmi'
+	json_config = 'code/datums/greyscale/json_configs/longstriped.json'
+
+/datum/greyscale_config/longstriped/worn
+	name = "Long Striped Dress (Worn)"
 	icon_file = 'icons/mob/clothing/under/dress.dmi'
 
 // SHIRTS, PANTS AND SHORTS

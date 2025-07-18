@@ -113,3 +113,23 @@
 	greyscale_config = /datum/greyscale_config/sundress
 	greyscale_config_worn = /datum/greyscale_config/sundress/worn
 	flags_1 = IS_PLAYER_COLORABLE_1
+
+/obj/item/clothing/under/dress/summerdress
+	name = "summer dress"
+	desc = "Fluffy and airy, just like a delicious cupcake."
+	icon_state = "summerdress"
+	custom_price = PAYCHECK_CREW
+	greyscale_colors = "#eeeeee"
+	greyscale_config = /datum/greyscale_config/summerdress
+	greyscale_config_worn = /datum/greyscale_config/summerdress/worn
+	flags_1 = IS_PLAYER_COLORABLE_1
+
+/obj/item/clothing/under/dress/longstriped
+	name = "long striped dress"
+	desc = "A long fresh dress for when the summer starts to hit."
+	icon_state = "longstriped"
+	custom_price = PAYCHECK_CREW
+	greyscale_colors = "#cd769a#e4ad86"
+	greyscale_config = /datum/greyscale_config/longstriped
+	greyscale_config_worn = /datum/grescale_config/longstriped/worn
+	flags_1 = IS_PLAYER_COLORABLE_1

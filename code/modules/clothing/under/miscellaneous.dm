@@ -148,3 +148,25 @@
 	sensor_mode = NO_SENSORS
 	can_adjust = FALSE
 	female_sprite_flags = FEMALE_UNIFORM_TOP_ONLY
+
+/obj/item/clothing/under/misc/summerfit
+	name = "summer outfit"
+	desc = "A loose button-up shirt and a pair of shorts."
+	icon_state = "summerfit"
+	inhand_icon_state = null
+	can_adjust = FALSE
+	greyscale_colors = "#eeeeee#7598e4#d2ba83"
+	greyscale_config = /datum/greyscale_config/summerfit
+	greyscale_config_worn = /datum/greyscale_config/summerfit/worn
+	flags_1 = IS_PLAYER_COLORABLE_1
+
+/obj/item/clothing/under/misc/tanktop
+	name = "tank top outfit"
+	desc = "A tank top with a pair of synthetic shorts."
+	icon_state = "tanktop"
+	inhand_icon_state = null
+	can_adjust = FALSE
+	greyscale_colors = "#ac3232#463b64"
+	greyscale_config = /datum/greyscale_config/tanktop
+	greyscale_config_worn = /datum/greyscale_config/tanktop/worn
+	flags_1 = IS_PLAYER_COLORABLE_1
