@@ -131,5 +131,5 @@
 	custom_price = PAYCHECK_CREW
 	greyscale_colors = "#cd769a#e4ad86"
 	greyscale_config = /datum/greyscale_config/longstriped
-	greyscale_config_worn = /datum/grescale_config/longstriped/worn
+	greyscale_config_worn = /datum/greyscale_config/longstriped/worn
 	flags_1 = IS_PLAYER_COLORABLE_1

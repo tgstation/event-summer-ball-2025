@@ -2,6 +2,7 @@
 // HEAD
 //
 
+
 /datum/greyscale_config/sombrero
 	name = "Sombrero"
 	icon_file = 'icons/obj/clothing/head/sombrero.dmi'
@@ -310,7 +311,7 @@
 	json_config = 'code/datums/greyscale/json_configs/tanktop.json'
 
 /datum/greyscale_config/tanktop/worn
-	name "Tank Top Outfit (Worn)"
+	name = "Tank Top Outfit (Worn)"
 	icon_file = 'icons/mob/clothing/under/misc.dmi'
 
 // DRESSES AND SKIRTS
@@ -389,7 +390,7 @@
 
 /datum/greyscale_config/summerdress
 	name = "Summer Dress"
-	icon_file = 'icon/obj/clothing/under/dress.dmi'
+	icon_file = 'icons/obj/clothing/under/dress.dmi'
 	json_config = 'code/datums/greyscale/json_configs/summerdress.json'
 
 /datum/greyscale_config/summerdress/worn
