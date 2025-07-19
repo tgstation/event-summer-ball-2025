@@ -209,46 +209,6 @@
 	return old_loc != moving?.loc ? MOVELOOP_SUCCESS : MOVELOOP_FAILURE
 
 
-
-/**
- * Replacement for walk()
- *
- * Returns TRUE if the loop sucessfully started, or FALSE if it failed
- *
- * Arguments:
- * moving - The atom we want to move
- * direction - The direction we want to move in
- * delay - How many deci-seconds to wait between fires. Defaults to the lowest value, 0.1
- * timeout - Time in deci-seconds until the moveloop self expires. Defaults to infinity
- * subsystem - The movement subsystem to use. Defaults to SSmovement. Only one loop can exist for any one subsystem
- * priority - Defines how different move loops override each other. Lower numbers beat higher numbers, equal defaults to what currently exists. Defaults to MOVEMENT_DEFAULT_PRIORITY
- * flags - Set of bitflags that effect move loop behavior in some way. Check _DEFINES/movement.dm
- *
-**/
-/datum/move_manager/proc/move_multiz(moving, direction, delay, timeout, subsystem, priority, flags, datum/extra_info)
-	return add_to_loop(moving, subsystem, /datum/move_loop/move/multiz, priority, flags, extra_info, delay, timeout, direction)
-
-/datum/move_loop/move/multiz
-	var/currently_z_moving_value = CURRENTLY_Z_MOVING_MINERAIL
-
-/datum/move_loop/move/multiz/move()
-	var/atom/old_loc = moving.loc
-	var/moving_down = direction & DOWN
-	var/moving_up = direction & UP
-	var/flat_direction = direction & ~(UP | DOWN)
-	if(moving_up || moving_down)
-		var/list/affected = moving.get_z_move_affected()
-		for(var/atom/movable/affected_movable as anything in affected)
-			affected_movable.set_currently_z_moving(CURRENTLY_Z_MOVING_MINERAIL)
-	if(moving_up)
-		moving.zMove(UP, z_move_flags = ZMOVE_CHECK_PULLS|ZMOVE_ALLOW_BUCKLED|ZMOVE_INCLUDE_PULLED)
-	moving.Move(get_step(moving, flat_direction), flat_direction, FALSE, !(flags & MOVEMENT_LOOP_NO_DIR_UPDATE))
-	if(moving_down)
-		moving.zMove(DOWN, z_move_flags = ZMOVE_CHECK_PULLS|ZMOVE_ALLOW_BUCKLED|ZMOVE_INCLUDE_PULLED)
-	// We cannot rely on the return value of Move(), we care about teleports and it doesn't
-	// Moving also can be null on occasion, if the move deleted it and therefor us
-	return old_loc != moving?.loc ? MOVELOOP_SUCCESS : MOVELOOP_FAILURE
-
 /**
  * Like move(), but we don't care about collision at all
  *
