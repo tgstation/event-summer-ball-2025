@@ -68,8 +68,6 @@ GLOBAL_VAR_INIT(glide_size_multiplier, 1.0)
 #define CURRENTLY_Z_FALLING_FROM_MOVE 3
 /// This one is for going upstairs.
 #define CURRENTLY_Z_ASCENDING 4
-/// Minerail controlled descend/ascend
-#define CURRENTLY_Z_MOVING_MINERAIL 5
 
 /// possible bitflag return values of [atom/proc/intercept_zImpact] calls
 /// Stops the movable from falling further and crashing on the ground. Example: stairs.
