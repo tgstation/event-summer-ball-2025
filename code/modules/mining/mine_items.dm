@@ -637,3 +637,46 @@ GLOBAL_LIST_EMPTY(starter_rails)
 	var/obj/structure/closet/crate/miningcar/pushin_down = locate() in loc
 	pushin_down.momentum = starting_momentum
 	pushin_down.start_moving_in_dir(dir)
+
+/obj/structure/closet/crate/miningcar/rollercoaster
+	name = "coaster cart"
+	desc = "WEEEEEE!!!!"
+
+/obj/structure/closet/crate/miningcar/rollercoaster/start_moving_in_dir(movedir)
+	setDir(movedir)
+	var/datum/move_loop/loop = GLOB.move_manager.move_multiz(src, dir, delay = calculate_delay(), subsystem = SSconveyors, flags = MOVEMENT_LOOP_START_FAST|MOVEMENT_LOOP_IGNORE_PRIORITY )
+	RegisterSignal(loop, COMSIG_MOVELOOP_PREPROCESS_CHECK, PROC_REF(check_rail))
+	RegisterSignal(loop, COMSIG_MOVELOOP_POSTPROCESS, PROC_REF(moment))
+
+/obj/structure/closet/crate/miningcar/rollercoaster/proc/moment(datum/move_loop/move/source)
+	SIGNAL_HANDLER
+
+	if(momentum > 0)
+		var/obj/structure/minecart_rail/railbreak/stop_break = locate() in loc
+		var/obj/structure/cable/cable = locate() in loc
+		// There is a break and it is powered, so STOP
+		if(stop_break && cable?.avail(10 KILO JOULES))
+			if(momentum >= 8)
+				visible_message(span_notice("[src] comes to a sudden stop."))
+			else
+				visible_message(span_notice("[src] comes to a stop."))
+			momentum = 0
+			GLOB.move_manager.stop_looping(src, SSconveyors)
+			cable.add_delayedload(10 KILO JOULES)
+			return
+		// All rails count as powered for this subtype
+		if(momentum <= 5)
+			momentum = 5
+		else if(momentum <= 10)
+			momentum = 10
+		return
+
+	// No more momentum = STOP
+	if(momentum <= 0)
+		GLOB.move_manager.stop_looping(src, SSconveyors)
+		visible_message(span_notice("[src] comes to a slow stop."))
+		return
+
+	// Handles slowing down the move loop / cart
+	var/datum/move_loop/loop = GLOB.move_manager.processing_on(src, SSconveyors)
+	loop?.set_delay(calculate_delay())

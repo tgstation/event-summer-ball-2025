@@ -160,6 +160,14 @@
 		/obj/item/clothing/suit/costume/hawaiian,
 	)
 
+/obj/structure/mannequin/plastic/assistant
+	name = "assistant model"
+	starting_items = list(
+		/obj/item/clothing/under/color/grey,
+		/obj/item/clothing/shoes/sneakers/black,
+		/obj/item/clothing/gloves/color/yellow,
+	)
+
 GLOBAL_LIST_INIT(strippable_mannequin_items, create_strippable_list(list(
 	/datum/strippable_item/mannequin_slot/head,
 	/datum/strippable_item/mannequin_slot/eyes,
