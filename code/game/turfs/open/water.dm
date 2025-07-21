@@ -102,29 +102,6 @@
 	. = ..()
 	ADD_TRAIT(src, TRAIT_MESSAGE_IN_A_BOTTLE_LOCATION, INNATE_TRAIT)
 
-/// Summer Ball 2025 Turfs. These are Varients of /beach for other nuture-y Turf types.
-
-/turf/open/water/grass_shore
-	planetary_atmos = FALSE
-	gender = PLURAL
-	desc = ""
-	icon = 'icons/turf/grass_shore.dmi'
-	icon_state = "water"
-	base_icon_state = "water"
-	baseturfs = /turf/open/water/beach
-	immerse_overlay_color = "#7799AA"
-	fishing_datum = /datum/fish_source/ocean/beach
-
-/turf/open/water/mud_shore
-	planetary_atmos = FALSE
-	gender = PLURAL
-	desc = "The nearby stream makes this mud hard to trudge through."
-	icon = 'icons/turf/mud_shore.dmi'
-	icon_state = "water"
-	base_icon_state = "water"
-	baseturfs = /turf/open/water/beach
-	immerse_overlay_color = "#7799AA"
-	fishing_datum = /datum/fish_source/ocean/beach
 
 /// Deep water drains stamina and starts drowning you
 /turf/open/water/deep_beach

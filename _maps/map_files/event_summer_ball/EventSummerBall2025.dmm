@@ -156,6 +156,11 @@
 /obj/effect/light_emitter/fake_outdoors,
 /turf/open/misc/ashplanet/rocky/safe,
 /area/awaymission/secret)
+"bA" = (
+/turf/open/misc/beach/grass_shore{
+	dir = 4
+	},
+/area/awaymission/secret)
 "bD" = (
 /obj/structure/sign/poster/quirk/security_slogan{
 	pixel_x = -32
@@ -515,6 +520,10 @@
 	dir = 8
 	},
 /area/awaymission/secret/fullbright)
+"fF" = (
+/obj/structure/flora/rock/pile/jungle/style_random,
+/turf/open/misc/beach/sand,
+/area/awaymission/secret)
 "fG" = (
 /obj/structure/moisture_trap,
 /turf/open/floor/plating,
@@ -703,6 +712,11 @@
 /obj/structure/railing,
 /turf/open/floor/iron/textured,
 /area/station/security/brig/upper)
+"hR" = (
+/turf/open/misc/beach/grass_shore{
+	dir = 9
+	},
+/area/awaymission/secret)
 "hS" = (
 /obj/structure/flora/tree/jungle/style_6,
 /turf/open/misc/dirt/jungle/dark,
@@ -854,6 +868,11 @@
 "jJ" = (
 /turf/closed/indestructible/wood,
 /area/awaymission/secret/fullbright)
+"jN" = (
+/turf/open/misc/beach/grass_shore/corner{
+	dir = 1
+	},
+/area/awaymission/secret)
 "jR" = (
 /obj/effect/turf_decal/stripes/white/line{
 	dir = 4
@@ -1196,6 +1215,9 @@
 	},
 /turf/open/water/beach,
 /area/awaymission/secret/fullbright)
+"nN" = (
+/turf/open/misc/beach/grass_shore/corner,
+/area/awaymission/secret)
 "nQ" = (
 /turf/closed/indestructible/syndicate,
 /area/station/maintenance/department/security)
@@ -1263,6 +1285,11 @@
 /obj/machinery/door/airlock/tram,
 /turf/open/openspace,
 /area/awaymission/museum/mothroachvoid)
+"oK" = (
+/turf/open/misc/beach/grass_shore/corner{
+	dir = 4
+	},
+/area/awaymission/secret)
 "oV" = (
 /obj/effect/turf_decal/tile/neutral/tram,
 /obj/structure/transport/linear/tram,
@@ -2143,6 +2170,11 @@
 	},
 /turf/open/misc/dirt/jungle/dark,
 /area/awaymission/secret)
+"yB" = (
+/turf/open/misc/beach/grass_shore/corner{
+	dir = 8
+	},
+/area/awaymission/secret)
 "yE" = (
 /obj/structure/flora/rock/pile,
 /turf/open/misc/ashplanet/rocky/safe,
@@ -2247,6 +2279,11 @@
 	},
 /obj/effect/light_emitter/fake_outdoors,
 /turf/open/floor/wood,
+/area/awaymission/secret)
+"zY" = (
+/turf/open/misc/beach/grass_shore{
+	dir = 10
+	},
 /area/awaymission/secret)
 "zZ" = (
 /obj/structure/flora/bush/large/style_3{
@@ -2897,7 +2934,7 @@
 /obj/effect/turf_decal/siding/wood{
 	dir = 8
 	},
-/turf/open/misc/beach/coast{
+/turf/open/misc/beach/grass_shore{
 	dir = 4
 	},
 /area/awaymission/secret)
@@ -3073,8 +3110,9 @@
 /turf/open/floor/iron,
 /area/station/security/brig/lower)
 "In" = (
-/obj/structure/flora/rock/pile/jungle/style_random,
-/turf/open/misc/beach/sand,
+/turf/open/misc/beach/grass_shore{
+	dir = 6
+	},
 /area/awaymission/secret)
 "Io" = (
 /obj/structure/rack,
@@ -3347,7 +3385,7 @@
 	pixel_x = -7;
 	pixel_y = -17
 	},
-/turf/open/misc/beach/coast{
+/turf/open/misc/beach/grass_shore{
 	dir = 4
 	},
 /area/awaymission/secret)
@@ -3632,7 +3670,7 @@
 /obj/effect/turf_decal/siding/wood{
 	dir = 8
 	},
-/turf/open/misc/beach/coast/corner,
+/turf/open/misc/beach/grass_shore/corner,
 /area/awaymission/secret)
 "MX" = (
 /obj/effect/turf_decal/tile/neutral/tram,
@@ -3937,8 +3975,15 @@
 /turf/open/openspace,
 /area/awaymission/museum/mothroachvoid)
 "Qq" = (
-/obj/structure/flora/bush/stalky/style_2,
-/turf/open/misc/beach/sand,
+/turf/open/misc/beach/grass_shore,
+/area/awaymission/secret)
+"Qs" = (
+/obj/structure/flora/tree/jungle/style_6{
+	pixel_y = -5;
+	pixel_x = -38
+	},
+/obj/structure/flora/bush/jungle/c/style_random,
+/turf/open/water/beach,
 /area/awaymission/secret)
 "Qx" = (
 /obj/structure/disposalpipe/segment{
@@ -4012,7 +4057,7 @@
 	pixel_x = -30;
 	pixel_y = 2
 	},
-/turf/open/misc/beach/coast{
+/turf/open/misc/beach/grass_shore{
 	dir = 8
 	},
 /area/awaymission/secret)
@@ -4158,7 +4203,7 @@
 /obj/effect/turf_decal/siding/wood{
 	dir = 8
 	},
-/turf/open/misc/beach/coast/corner{
+/turf/open/misc/beach/grass_shore/corner{
 	dir = 8
 	},
 /area/awaymission/secret)
@@ -4597,6 +4642,11 @@
 "Yj" = (
 /turf/closed/indestructible/rock,
 /area/awaymission/museum/mothroachvoid)
+"Yk" = (
+/turf/open/misc/beach/grass_shore{
+	dir = 5
+	},
+/area/awaymission/secret)
 "Ym" = (
 /obj/structure/table/wood,
 /obj/item/gun/energy/disabler/smoothbore/prime,
@@ -4614,6 +4664,11 @@
 /obj/effect/mapping_helpers/airlock/cyclelink_helper,
 /turf/open/floor/iron,
 /area/station/security/brig/lower)
+"Ys" = (
+/turf/open/misc/beach/grass_shore{
+	dir = 1
+	},
+/area/awaymission/secret)
 "Yw" = (
 /obj/structure/closet/secure_closet{
 	name = "contraband locker";
@@ -42695,9 +42750,9 @@ cG
 ig
 Xj
 Xj
-qD
-VZ
-mG
+nN
+bA
+yB
 Xj
 Xj
 CB
@@ -42952,9 +43007,9 @@ cG
 ig
 Xj
 Xj
-FY
+jN
 RG
-jE
+oK
 Xj
 kS
 CB
@@ -45262,12 +45317,12 @@ Mf
 hl
 aA
 Xj
-qD
+nN
 Kv
-HC
+In
 lW
-Ru
-mG
+Yk
+yB
 Xj
 kS
 ig
@@ -45519,12 +45574,12 @@ Bk
 qn
 aA
 zM
-sR
+Qq
 lW
 lW
 lW
 zZ
-rU
+Ys
 Xj
 Xj
 hS
@@ -45776,12 +45831,12 @@ qn
 qn
 fi
 hS
-FY
-WE
+jN
+zY
 lW
 lW
 lW
-rU
+Ys
 Xj
 Xj
 CB
@@ -46033,12 +46088,12 @@ uO
 uO
 ac
 Nl
+zM
 Qq
-sR
 wL
 lW
-dv
-jE
+hR
+oK
 CB
 CB
 kS
@@ -46289,14 +46344,14 @@ fi
 fi
 ac
 ac
-LC
-LC
+CB
+Xj
 sR
 lW
-dv
-jE
-LC
+hR
+oK
 CB
+Xj
 CB
 kS
 Xj
@@ -46546,13 +46601,13 @@ cG
 cG
 cG
 cG
-LC
-In
+Xj
+fF
 sR
 lW
-rU
-LC
-LC
+Ys
+CB
+Xj
 lP
 Jz
 Xj
@@ -46803,13 +46858,13 @@ cG
 cG
 cG
 cG
-LC
-LC
-sR
-lW
-rU
-LC
+Xj
+Xj
+Qq
+Qs
+Ys
 CB
+Xj
 cG
 cG
 cG
@@ -47061,12 +47116,12 @@ gu
 cG
 cG
 kS
-LC
-sR
+Xj
+Qq
 lW
-rU
-LC
-CB
+Ys
+zM
+Xj
 cG
 cG
 cG
@@ -47318,11 +47373,11 @@ gu
 cG
 cG
 kS
-LC
-sR
+Xj
+Qq
 qs
-rU
-CB
+Ys
+Xj
 LB
 cG
 cG
