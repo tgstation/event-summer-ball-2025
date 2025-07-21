@@ -431,6 +431,7 @@
 		return MOVELOOP_SKIP_STEP
 	// Going straight
 	if(can_travel_on_turf(get_step(src, dir)))
+		source.direction = dir
 		return NONE
 	// Trying to turn
 	for(var/next_dir in shuffle(list(turn(dir, 90), turn(dir, -90))))
