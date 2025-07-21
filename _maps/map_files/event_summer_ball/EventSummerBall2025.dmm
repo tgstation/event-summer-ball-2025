@@ -276,6 +276,12 @@
 /obj/item/bedsheet/nanotrasen/double,
 /turf/open/floor/carpet/royalblack,
 /area/station/command/heads_quarters/hos)
+"cT" = (
+/obj/vehicle/ridden/bicycle{
+	dir = 4
+	},
+/turf/open/floor/vault,
+/area/awaymission/secret)
 "cV" = (
 /obj/structure/window/reinforced/spawner/directional/south,
 /obj/structure/table,
@@ -520,10 +526,6 @@
 	dir = 8
 	},
 /area/awaymission/secret/fullbright)
-"fF" = (
-/obj/structure/flora/rock/pile/jungle/style_random,
-/turf/open/misc/beach/sand,
-/area/awaymission/secret)
 "fG" = (
 /obj/structure/moisture_trap,
 /turf/open/floor/plating,
@@ -578,6 +580,11 @@
 /obj/structure/table/wood,
 /obj/item/paper/fluff/old_pirate_note,
 /turf/open/misc/ashplanet/rocky/safe,
+/area/awaymission/secret)
+"gk" = (
+/turf/open/misc/beach/grass_shore/corner{
+	dir = 8
+	},
 /area/awaymission/secret)
 "gr" = (
 /turf/open/floor/wood/tile,
@@ -868,11 +875,6 @@
 "jJ" = (
 /turf/closed/indestructible/wood,
 /area/awaymission/secret/fullbright)
-"jN" = (
-/turf/open/misc/beach/grass_shore/corner{
-	dir = 1
-	},
-/area/awaymission/secret)
 "jR" = (
 /obj/effect/turf_decal/stripes/white/line{
 	dir = 4
@@ -1190,6 +1192,13 @@
 	},
 /turf/open/floor/stone,
 /area/awaymission/secret)
+"nt" = (
+/obj/vehicle/ridden/bicycle{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/oil/streak,
+/turf/open/floor/vault,
+/area/awaymission/secret)
 "nu" = (
 /obj/machinery/vending/boozeomat/syndicate,
 /turf/open/misc/ashplanet/rocky/safe,
@@ -1215,9 +1224,6 @@
 	},
 /turf/open/water/beach,
 /area/awaymission/secret/fullbright)
-"nN" = (
-/turf/open/misc/beach/grass_shore/corner,
-/area/awaymission/secret)
 "nQ" = (
 /turf/closed/indestructible/syndicate,
 /area/station/maintenance/department/security)
@@ -1285,11 +1291,6 @@
 /obj/machinery/door/airlock/tram,
 /turf/open/openspace,
 /area/awaymission/museum/mothroachvoid)
-"oK" = (
-/turf/open/misc/beach/grass_shore/corner{
-	dir = 4
-	},
-/area/awaymission/secret)
 "oV" = (
 /obj/effect/turf_decal/tile/neutral/tram,
 /obj/structure/transport/linear/tram,
@@ -1391,6 +1392,14 @@
 /area/awaymission/secret)
 "qc" = (
 /turf/open/misc/ashplanet/rocky/safe,
+/area/awaymission/secret)
+"qk" = (
+/obj/structure/flora/tree/jungle/style_6{
+	pixel_y = -5;
+	pixel_x = -38
+	},
+/obj/structure/flora/bush/jungle/c/style_random,
+/turf/open/water/beach,
 /area/awaymission/secret)
 "qn" = (
 /turf/open/floor/plastic,
@@ -1902,6 +1911,9 @@
 	},
 /turf/open/floor/wood/large,
 /area/awaymission/secret)
+"wm" = (
+/turf/open/misc/beach/grass_shore/corner,
+/area/awaymission/secret)
 "wn" = (
 /obj/structure/fence/corner{
 	dir = 1
@@ -2169,11 +2181,6 @@
 	pixel_y = 8
 	},
 /turf/open/misc/dirt/jungle/dark,
-/area/awaymission/secret)
-"yB" = (
-/turf/open/misc/beach/grass_shore/corner{
-	dir = 8
-	},
 /area/awaymission/secret)
 "yE" = (
 /obj/structure/flora/rock/pile,
@@ -2565,6 +2572,11 @@
 	},
 /turf/open/floor/stone,
 /area/awaymission/secret/fullbright)
+"Ds" = (
+/obj/item/trash/tray,
+/obj/item/stack/rods/two,
+/turf/open/floor/vault,
+/area/awaymission/secret)
 "Dt" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 4
@@ -2801,6 +2813,9 @@
 /area/awaymission/secret/fullbright)
 "Fx" = (
 /obj/structure/table/greyscale,
+/obj/item/paper/pamphlet/centcom/visitor_info{
+	pixel_y = 4
+	},
 /turf/open/floor/plastic,
 /area/awaymission/secret)
 "FB" = (
@@ -3257,6 +3272,11 @@
 /obj/structure/flora/bush/lavendergrass/style_4,
 /turf/open/misc/dirt/jungle/dark,
 /area/awaymission/secret)
+"JA" = (
+/turf/open/misc/beach/grass_shore/corner{
+	dir = 4
+	},
+/area/awaymission/secret)
 "JD" = (
 /mob/living/basic/crab/evil,
 /obj/item/clothing/head/costume/pirate/bandana,
@@ -3380,6 +3400,12 @@
 /obj/structure/cable,
 /turf/open/floor/iron/dark/textured,
 /area/station/ai_monitored/security/armory)
+"Ku" = (
+/obj/structure/rack,
+/obj/item/crowbar/large/old,
+/obj/item/trash/popcorn/caramel,
+/turf/open/floor/vault,
+/area/awaymission/secret)
 "Kv" = (
 /obj/structure/flora/bush/large/style_3{
 	pixel_x = -7;
@@ -3926,6 +3952,10 @@
 "PQ" = (
 /turf/open/misc/dirt/jungle,
 /area/awaymission/secret)
+"PS" = (
+/obj/structure/flora/rock/pile/jungle/style_random,
+/turf/open/misc/beach/sand,
+/area/awaymission/secret)
 "PU" = (
 /obj/structure/rack,
 /obj/effect/spawner/random/armory/riot_armor,
@@ -3976,14 +4006,6 @@
 /area/awaymission/museum/mothroachvoid)
 "Qq" = (
 /turf/open/misc/beach/grass_shore,
-/area/awaymission/secret)
-"Qs" = (
-/obj/structure/flora/tree/jungle/style_6{
-	pixel_y = -5;
-	pixel_x = -38
-	},
-/obj/structure/flora/bush/jungle/c/style_random,
-/turf/open/water/beach,
 /area/awaymission/secret)
 "Qx" = (
 /obj/structure/disposalpipe/segment{
@@ -4277,6 +4299,11 @@
 /obj/structure/extinguisher_cabinet/directional/east,
 /turf/open/floor/carpet/royalblack,
 /area/station/command/heads_quarters/hos)
+"TQ" = (
+/turf/open/misc/beach/grass_shore/corner{
+	dir = 1
+	},
+/area/awaymission/secret)
 "TW" = (
 /obj/effect/turf_decal/trimline/red/filled/line{
 	dir = 1
@@ -42750,9 +42777,9 @@ cG
 ig
 Xj
 Xj
-nN
+wm
 bA
-yB
+gk
 Xj
 Xj
 CB
@@ -43007,9 +43034,9 @@ cG
 ig
 Xj
 Xj
-jN
+TQ
 RG
-oK
+JA
 Xj
 kS
 CB
@@ -43254,10 +43281,10 @@ Kd
 Kd
 Kd
 Jm
-Oa
-Oa
-Oa
-Oa
+cT
+cT
+Ku
+nt
 UZ
 xB
 zT
@@ -43514,7 +43541,7 @@ XY
 Oa
 Oa
 Oa
-Oa
+Ds
 UZ
 kS
 Xj
@@ -45317,12 +45344,12 @@ Mf
 hl
 aA
 Xj
-nN
+wm
 Kv
 In
 lW
 Yk
-yB
+gk
 Xj
 kS
 ig
@@ -45831,7 +45858,7 @@ qn
 qn
 fi
 hS
-jN
+TQ
 zY
 lW
 lW
@@ -46093,7 +46120,7 @@ Qq
 wL
 lW
 hR
-oK
+JA
 CB
 CB
 kS
@@ -46349,7 +46376,7 @@ Xj
 sR
 lW
 hR
-oK
+JA
 CB
 Xj
 CB
@@ -46602,7 +46629,7 @@ cG
 cG
 cG
 Xj
-fF
+PS
 sR
 lW
 Ys
@@ -46861,7 +46888,7 @@ cG
 Xj
 Xj
 Qq
-Qs
+qk
 Ys
 CB
 Xj
