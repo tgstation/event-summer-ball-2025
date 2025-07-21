@@ -1,4 +1,12 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"ab" = (
+/obj/item/flashlight/flare{
+	light_on = 1;
+	randomize_fuel = 0;
+	fuel = INFINITY
+	},
+/turf/open/floor/plating,
+/area/awaymission/secret)
 "ac" = (
 /turf/closed/indestructible/wood,
 /area/awaymission/secret)
@@ -340,6 +348,10 @@
 /obj/structure/flora/bush/flowers_br/style_random,
 /turf/open/misc/grass,
 /area/awaymission/secret/fullbright)
+"bR" = (
+/obj/machinery/smartfridge/organ,
+/turf/open/floor/iron/white,
+/area/awaymission/secret)
 "bS" = (
 /obj/structure/railing{
 	dir = 4
@@ -479,6 +491,33 @@
 /obj/effect/turf_decal/siding/wideplating/dark,
 /turf/open/floor/stone,
 /area/awaymission/secret/fullbright)
+"cx" = (
+/obj/structure/minecart_rail{
+	dir = 9
+	},
+/obj/structure/railing{
+	dir = 5
+	},
+/obj/structure/railing/corner{
+	dir = 8
+	},
+/obj/effect/step_trigger/sound_effect{
+	sound = 'sound/items/weapons/bite.ogg';
+	name = "carp_sound"
+	},
+/turf/open/floor/wood/large,
+/area/awaymission/secret)
+"cy" = (
+/obj/machinery/door/airlock/maintenance{
+	name = "Library Maintenance"
+	},
+/obj/structure/disposalpipe/segment,
+/obj/structure/cable,
+/obj/effect/mapping_helpers/airlock/access/any/service/maintenance,
+/obj/effect/mapping_helpers/airlock/access/any/service/library,
+/obj/effect/mapping_helpers/airlock/unres,
+/turf/open/floor/plating,
+/area/awaymission/secret)
 "cz" = (
 /obj/structure/fence{
 	dir = 4
@@ -568,6 +607,10 @@
 	},
 /turf/open/floor/iron/dark,
 /area/station/security/brig/lower)
+"cW" = (
+/obj/item/toy/plush/carpplushie,
+/turf/open/floor/fakespace,
+/area/awaymission/secret)
 "cX" = (
 /obj/structure/railing{
 	dir = 4
@@ -658,6 +701,22 @@
 	dir = 9
 	},
 /area/awaymission/secret)
+"dw" = (
+/obj/structure/minecart_rail,
+/obj/structure/railing{
+	dir = 8
+	},
+/obj/structure/railing{
+	dir = 4
+	},
+/obj/machinery/door/airlock/medical/glass{
+	id_tag = "MedbayFoyer";
+	name = "Medbay Clinic";
+	density = 0;
+	locked = 1
+	},
+/turf/open/floor/wood/large,
+/area/awaymission/secret)
 "dz" = (
 /obj/effect/turf_decal/siding/wood,
 /turf/open/floor/wood,
@@ -727,6 +786,11 @@
 	},
 /turf/open/floor/iron/dark,
 /area/station/security/brig/lower)
+"dY" = (
+/obj/structure/girder,
+/obj/effect/spawner/random/structure/grille,
+/turf/open/floor/plating,
+/area/awaymission/secret)
 "ea" = (
 /obj/structure/table/wood,
 /obj/effect/turf_decal/siding/wood,
@@ -907,6 +971,11 @@
 "fe" = (
 /turf/open/misc/beach/coast,
 /area/awaymission/museum/mothroachvoid)
+"ff" = (
+/obj/effect/spawner/random/trash/janitor_supplies,
+/obj/effect/mapping_helpers/broken_floor,
+/turf/open/floor/plating,
+/area/awaymission/secret)
 "fh" = (
 /obj/structure/table/reinforced,
 /obj/item/storage/box/prisoner{
@@ -1018,6 +1087,10 @@
 	dir = 4
 	},
 /turf/open/floor/wood,
+/area/awaymission/secret)
+"fJ" = (
+/obj/effect/mob_spawn/corpse/human/doctor,
+/turf/open/floor/plating,
 /area/awaymission/secret)
 "fL" = (
 /obj/structure/fluff/divine/defensepylon,
@@ -1300,6 +1373,21 @@
 	},
 /turf/open/misc/beach/sand,
 /area/awaymission/secret)
+"ht" = (
+/obj/structure/disposalpipe/sorting/mail/flip{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/effect/mapping_helpers/mail_sorting/service/library,
+/obj/structure/minecart_rail{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/awaymission/secret)
 "hu" = (
 /obj/structure/railing{
 	dir = 5
@@ -1337,6 +1425,18 @@
 /obj/structure/cable,
 /turf/open/floor/iron,
 /area/station/security/brig/upper)
+"hC" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/structure/sign/poster/contraband/random/directional/north,
+/obj/structure/minecart_rail{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/awaymission/secret)
 "hD" = (
 /obj/structure/closet/bombcloset/security,
 /obj/effect/turf_decal/tile/red/anticorner/contrasted{
@@ -1349,6 +1449,10 @@
 /obj/machinery/light/directional/south,
 /turf/open/floor/iron,
 /area/station/security/brig/lower)
+"hI" = (
+/obj/structure/sign/warning/secure_area/directional/west,
+/turf/open/floor/stone,
+/area/awaymission/secret/fullbright)
 "hJ" = (
 /obj/structure/fence/corner,
 /turf/open/misc/dirt/jungle,
@@ -1482,6 +1586,12 @@
 	},
 /turf/closed/indestructible/iron,
 /area/awaymission/secret)
+"iy" = (
+/obj/effect/turf_decal/trimline/blue/filled/corner{
+	dir = 4
+	},
+/turf/open/floor/iron/white,
+/area/awaymission/secret)
 "iz" = (
 /obj/structure/fence/corner{
 	dir = 8
@@ -1515,6 +1625,18 @@
 /obj/item/reagent_containers/cup/glass/trophy/gold_cup,
 /obj/structure/table/reinforced/plasmarglass,
 /turf/open/floor/stone,
+/area/awaymission/secret)
+"iE" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/minecart_rail{
+	dir = 4
+	},
+/turf/open/floor/plating,
 /area/awaymission/secret)
 "iG" = (
 /obj/effect/turf_decal/tile/blue/half/contrasted,
@@ -1567,6 +1689,14 @@
 /obj/structure/mirror/directional/west,
 /turf/open/floor/iron/freezer,
 /area/station/medical/storage)
+"iZ" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/effect/spawner/random/trash/mess,
+/obj/structure/chair/stool/bar/directional/west,
+/turf/open/floor/plating,
+/area/awaymission/secret)
 "ja" = (
 /obj/structure/table/glass,
 /obj/item/storage/box/bodybags,
@@ -1601,6 +1731,11 @@
 /obj/effect/turf_decal/stripes/line,
 /turf/open/misc/asteroid,
 /area/station/security/prison)
+"jl" = (
+/obj/structure/reagent_dispensers/fueltank,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/plating,
+/area/awaymission/secret)
 "jn" = (
 /obj/item/radio/intercom/directional/west,
 /turf/open/floor/iron/white/smooth_half{
@@ -1616,6 +1751,20 @@
 	},
 /turf/open/floor/iron/white,
 /area/station/medical/treatment_center)
+"jp" = (
+/obj/structure/minecart_rail{
+	dir = 4
+	},
+/obj/structure/railing,
+/obj/structure/railing{
+	dir = 1
+	},
+/obj/effect/step_trigger/sound_effect{
+	name = "robusting";
+	sound = 'sound/items/weapons/smash.ogg'
+	},
+/turf/open/floor/wood/large,
+/area/awaymission/secret)
 "js" = (
 /obj/machinery/door/poddoor/shutters{
 	id = "BeachBoats"
@@ -1909,6 +2058,9 @@
 /obj/structure/cable,
 /turf/open/floor/iron,
 /area/station/security/brig/upper)
+"kU" = (
+/turf/closed/wall,
+/area/awaymission/secret/fullbright)
 "kV" = (
 /obj/machinery/conveyor/auto/inverted{
 	id = "secexecution";
@@ -2008,6 +2160,10 @@
 /obj/machinery/light/small/directional/west,
 /turf/open/floor/iron,
 /area/awaymission/secret)
+"lt" = (
+/obj/effect/spawner/random/structure/grille,
+/turf/open/floor/plating,
+/area/awaymission/secret)
 "lv" = (
 /obj/structure/bed/maint,
 /turf/open/misc/asteroid,
@@ -2067,6 +2223,10 @@
 /obj/item/clothing/neck/stethoscope,
 /turf/open/floor/iron/white,
 /area/station/command/heads_quarters/cmo)
+"lI" = (
+/obj/effect/mob_spawn/corpse/human/assistant,
+/turf/open/floor/plating,
+/area/awaymission/secret)
 "lK" = (
 /obj/structure/chair/sofa/bamboo/left{
 	dir = 4
@@ -2279,6 +2439,16 @@
 /obj/effect/turf_decal/tile/blue/full,
 /turf/open/floor/iron/white/smooth_large,
 /area/station/medical/surgery/aft)
+"nk" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/item/flashlight/flare{
+	light_on = 1;
+	randomize_fuel = 0;
+	fuel = INFINITY
+	},
+/turf/open/floor/plating,
+/area/awaymission/secret)
 "nn" = (
 /obj/effect/turf_decal/siding/wideplating/dark,
 /obj/structure/chair/sofa/bench/right{
@@ -2291,6 +2461,10 @@
 	dir = 1
 	},
 /turf/open/floor/stone,
+/area/awaymission/secret)
+"nr" = (
+/obj/effect/mob_spawn/corpse/human/monkey,
+/turf/open/floor/plating,
 /area/awaymission/secret)
 "ns" = (
 /obj/structure/railing/wooden_fence,
@@ -2363,6 +2537,12 @@
 "nO" = (
 /turf/closed/indestructible/syndicate,
 /area/station/medical/storage)
+"nP" = (
+/obj/effect/turf_decal/trimline/blue/filled/line{
+	dir = 1
+	},
+/turf/open/floor/iron/white,
+/area/awaymission/secret)
 "nQ" = (
 /turf/closed/indestructible/syndicate,
 /area/station/maintenance/department/security)
@@ -2524,6 +2704,13 @@
 	},
 /turf/open/floor/stone,
 /area/awaymission/secret/fullbright)
+"oS" = (
+/obj/effect/spawner/random/structure/grille,
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/awaymission/secret)
 "oU" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/freezer,
@@ -2666,6 +2853,14 @@
 	},
 /turf/open/floor/wood/parquet,
 /area/awaymission/secret)
+"pL" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/structure/minecart_rail{
+	dir = 9
+	},
+/turf/open/floor/plating,
+/area/awaymission/secret)
 "pM" = (
 /obj/structure/railing/corner/end/flip{
 	dir = 4
@@ -2777,6 +2972,10 @@
 "qn" = (
 /turf/open/floor/iron/white,
 /area/station/medical/treatment_center)
+"qo" = (
+/obj/effect/spawner/random/engineering/atmospherics_portable,
+/turf/open/floor/plating,
+/area/awaymission/secret)
 "qp" = (
 /obj/machinery/door/airlock/security/glass{
 	name = "Secway Escape"
@@ -3167,6 +3366,20 @@
 "sE" = (
 /turf/closed/indestructible/syndicate/nodiagonal,
 /area/awaymission/secret)
+"sF" = (
+/obj/structure/minecart_rail{
+	dir = 5
+	},
+/obj/structure/railing{
+	dir = 9
+	},
+/obj/structure/railing/corner,
+/obj/effect/step_trigger/sound_effect{
+	sound = 'sound/items/weapons/gun/shotgun/shot_alt.ogg';
+	name = "nukie_sounds"
+	},
+/turf/open/floor/wood/large,
+/area/awaymission/secret)
 "sG" = (
 /obj/structure/railing{
 	dir = 1
@@ -3188,6 +3401,11 @@
 /turf/open/misc/beach/coast{
 	dir = 1
 	},
+/area/awaymission/secret)
+"sP" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/plating,
 /area/awaymission/secret)
 "sQ" = (
 /obj/structure/disposalpipe/segment{
@@ -3215,6 +3433,10 @@
 /obj/structure/table/wood,
 /obj/item/clothing/head/helmet/space/pirate/tophat,
 /turf/open/misc/ashplanet/rocky/safe,
+/area/awaymission/secret)
+"sU" = (
+/obj/item/storage/box,
+/turf/open/floor/plating,
 /area/awaymission/secret)
 "sV" = (
 /obj/structure/stairs/stone{
@@ -3277,6 +3499,22 @@
 "to" = (
 /turf/open/floor/iron/freezer,
 /area/station/medical/storage)
+"tq" = (
+/obj/structure/minecart_rail{
+	dir = 4
+	},
+/obj/machinery/door/airlock/maintenance{
+	locked = 1;
+	state_open = 1;
+	density = 0
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/stripes/line,
+/obj/effect/spawner/random/structure/steam_vent,
+/turf/open/floor/plating,
+/area/awaymission/secret/fullbright)
 "tr" = (
 /obj/structure/thermoplastic/light,
 /obj/effect/landmark/transport/nav_beacon/tram/platform/event_map/west,
@@ -3389,6 +3627,10 @@
 /obj/structure/table/glass,
 /turf/open/floor/iron/white/smooth_large,
 /area/station/medical/surgery/aft)
+"ud" = (
+/obj/item/toy/plush/carpplushie,
+/turf/open/misc/asteroid,
+/area/awaymission/secret)
 "ug" = (
 /obj/structure/fluff/tram_rail/electric,
 /turf/open/openspace,
@@ -3417,6 +3659,11 @@
 /obj/structure/window/reinforced/spawner/directional/west,
 /turf/open/floor/iron/white,
 /area/station/medical/patients_rooms)
+"up" = (
+/obj/effect/turf_decal/tile/blue/fourcorners,
+/obj/machinery/iv_drip,
+/turf/open/floor/iron/white,
+/area/awaymission/secret)
 "uq" = (
 /turf/open/misc/grass/jungle,
 /area/awaymission/secret/fullbright)
@@ -3431,6 +3678,11 @@
 /obj/structure/plasticflaps/opaque,
 /turf/open/floor/plating,
 /area/station/maintenance/department/security/upper)
+"ut" = (
+/obj/structure/table/glass,
+/obj/effect/turf_decal/tile/blue/fourcorners,
+/turf/open/floor/iron/white,
+/area/awaymission/secret)
 "uw" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
@@ -3489,6 +3741,25 @@
 /obj/structure/flora/grass/jungle/b/style_random,
 /turf/open/misc/dirt/station,
 /area/awaymission/secret/fullbright)
+"uJ" = (
+/obj/item/cardboard_cutout/nuclear_operative,
+/obj/item/ammo_casing/shotgun/buckshot/spent,
+/turf/open/floor/plating,
+/area/awaymission/secret)
+"uK" = (
+/obj/structure/minecart_rail,
+/obj/structure/railing{
+	dir = 8
+	},
+/obj/structure/railing{
+	dir = 4
+	},
+/obj/effect/step_trigger/sound_effect{
+	sound = 'sound/items/weapons/gun/shotgun/shot_alt.ogg';
+	name = "nukie_sounds"
+	},
+/turf/open/floor/wood/large,
+/area/awaymission/secret)
 "uL" = (
 /obj/structure/railing/wooden_fence{
 	dir = 8
@@ -3635,6 +3906,16 @@
 	dir = 1
 	},
 /obj/effect/turf_decal/sand/plating,
+/turf/open/floor/plating,
+/area/awaymission/secret/fullbright)
+"vF" = (
+/obj/structure/minecart_rail{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/stripes/line,
 /turf/open/floor/plating,
 /area/awaymission/secret/fullbright)
 "vG" = (
@@ -3959,6 +4240,17 @@
 	},
 /turf/open/floor/stone,
 /area/awaymission/secret/fullbright)
+"xo" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/structure/minecart_rail{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/awaymission/secret)
 "xp" = (
 /obj/machinery/suit_storage_unit/security,
 /obj/effect/turf_decal/tile/red/half/contrasted,
@@ -4020,6 +4312,11 @@
 	},
 /turf/open/indestructible/tram,
 /area/awaymission/secret/fullbright)
+"xE" = (
+/obj/effect/decal/cleanable/blood,
+/obj/effect/mob_spawn/corpse/human/intern,
+/turf/open/floor/plating,
+/area/awaymission/secret)
 "xF" = (
 /obj/structure/fluff/beach_umbrella/security,
 /turf/open/misc/beach/sand,
@@ -4159,6 +4456,9 @@
 	},
 /turf/open/floor/plating,
 /area/station/security/brig/lower)
+"yq" = (
+/turf/open/floor/iron/white,
+/area/awaymission/secret)
 "yr" = (
 /obj/structure/reagent_dispensers/watertank,
 /obj/effect/turf_decal/tile/green/full,
@@ -4326,6 +4626,14 @@
 	},
 /turf/open/floor/iron,
 /area/station/security/brig/lower)
+"zo" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/structure/minecart_rail{
+	dir = 6
+	},
+/turf/open/floor/plating,
+/area/awaymission/secret)
 "zp" = (
 /obj/item/reagent_containers/cup/bucket/wooden{
 	pixel_y = -5;
@@ -4533,6 +4841,14 @@
 /obj/item/flashlight/lantern/syndicate,
 /turf/open/floor/stone,
 /area/awaymission/secret)
+"AM" = (
+/obj/machinery/stasis,
+/obj/machinery/light/cold/directional/north,
+/obj/machinery/defibrillator_mount/directional/north,
+/obj/effect/turf_decal/tile/blue/fourcorners,
+/obj/effect/mob_spawn/corpse/human/engineer,
+/turf/open/floor/iron/white,
+/area/awaymission/secret)
 "AP" = (
 /obj/structure/railing{
 	dir = 4
@@ -4557,6 +4873,16 @@
 /obj/effect/turf_decal/caution/stand_clear/white,
 /turf/open/floor/stone,
 /area/awaymission/secret/fullbright)
+"AU" = (
+/obj/structure/disposalpipe/segment,
+/obj/machinery/door/airlock/maintenance,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/effect/mapping_helpers/airlock/unres,
+/obj/effect/mapping_helpers/airlock/access/any/medical/maintenance,
+/obj/effect/mapping_helpers/airlock/access/any/service/maintenance,
+/turf/open/floor/plating,
+/area/awaymission/secret)
 "AV" = (
 /obj/machinery/door/poddoor/preopen{
 	id = "secdonger"
@@ -4596,6 +4922,19 @@
 /obj/effect/turf_decal/tile/green/full,
 /turf/open/floor/iron/white/smooth_large,
 /area/station/medical/cryo)
+"Be" = (
+/obj/structure/minecart_rail{
+	dir = 9
+	},
+/obj/structure/railing{
+	dir = 5
+	},
+/obj/structure/railing/corner{
+	dir = 8
+	},
+/obj/structure/sign/warning/secure_area/directional/east,
+/turf/open/floor/wood/large,
+/area/awaymission/secret/fullbright)
 "Bi" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -4740,6 +5079,21 @@
 	},
 /turf/open/misc/beach/sand,
 /area/awaymission/secret)
+"Cc" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/minecart_rail{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/awaymission/secret)
 "Cd" = (
 /turf/open/floor/wood/large,
 /area/awaymission/secret)
@@ -4869,6 +5223,10 @@
 	},
 /turf/open/floor/iron,
 /area/station/security/brig/lower)
+"CH" = (
+/obj/effect/spawner/random/engineering/vending_restock,
+/turf/open/floor/plating,
+/area/awaymission/secret)
 "CI" = (
 /obj/effect/spawner/structure/window/reinforced/tinted,
 /turf/open/floor/plating,
@@ -4884,6 +5242,10 @@
 /obj/structure/lattice/catwalk,
 /turf/open/openspace,
 /area/awaymission/secret/fullbright)
+"CO" = (
+/obj/effect/light_emitter/fake_outdoors,
+/turf/open/floor/fakespace,
+/area/awaymission/secret)
 "CQ" = (
 /obj/effect/turf_decal/siding/blue{
 	dir = 1
@@ -4932,6 +5294,17 @@
 /obj/structure/transport/linear/tram,
 /turf/open/openspace,
 /area/awaymission/secret/fullbright)
+"Dd" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/structure/minecart_rail{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/awaymission/secret)
 "Df" = (
 /obj/machinery/conveyor/auto{
 	id = "secexecution";
@@ -4946,6 +5319,11 @@
 "Dh" = (
 /turf/open/water/beach,
 /area/awaymission/secret/fullbright)
+"Dj" = (
+/obj/effect/spawner/random/engineering/atmospherics_portable,
+/obj/effect/mapping_helpers/broken_floor,
+/turf/open/floor/plating,
+/area/awaymission/secret)
 "Dk" = (
 /obj/machinery/door/airlock/security/glass{
 	id_tag = "permaouter";
@@ -5020,6 +5398,11 @@
 	},
 /turf/open/misc/grass,
 /area/station/security/prison)
+"DA" = (
+/obj/effect/spawner/random/structure/closet_maintenance,
+/obj/effect/spawner/random/maintenance/three,
+/turf/open/floor/plating,
+/area/awaymission/secret)
 "DB" = (
 /turf/open/floor/iron,
 /area/station/security/processing)
@@ -5059,6 +5442,16 @@
 /obj/structure/fluff/drake_statue,
 /turf/open/floor/stone,
 /area/awaymission/secret)
+"DK" = (
+/obj/structure/minecart_rail{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/line,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/awaymission/secret/fullbright)
 "DO" = (
 /obj/structure/toilet{
 	dir = 4
@@ -5213,6 +5606,9 @@
 	},
 /turf/open/floor/iron,
 /area/station/security/brig/lower)
+"EC" = (
+/turf/closed/wall/space,
+/area/awaymission/secret)
 "EE" = (
 /obj/effect/turf_decal/stripes/white/line,
 /obj/effect/turf_decal/caution/white,
@@ -5417,6 +5813,10 @@
 /mob/living/basic/crab,
 /turf/open/misc/beach/sand,
 /area/awaymission/secret/fullbright)
+"FN" = (
+/obj/effect/spawner/random/structure/crate,
+/turf/open/floor/plating,
+/area/awaymission/secret)
 "FO" = (
 /mob/living/basic/crab/evil,
 /turf/open/floor/wood/parquet,
@@ -5537,6 +5937,10 @@
 /obj/structure/statue/bone/skull,
 /turf/open/water/beach,
 /area/awaymission/secret/fullbright)
+"Gu" = (
+/obj/machinery/atmospherics/pipe/layer_manifold/scrubbers/hidden,
+/turf/closed/wall,
+/area/awaymission/secret)
 "Gw" = (
 /obj/structure/chair/sofa/bamboo/left{
 	dir = 8
@@ -5673,6 +6077,10 @@
 /obj/item/key/security,
 /turf/open/floor/iron/textured,
 /area/station/security/brig/upper)
+"Hm" = (
+/obj/structure/sign/warning/secure_area/directional/east,
+/turf/open/floor/stone,
+/area/awaymission/secret/fullbright)
 "Hn" = (
 /obj/machinery/door/poddoor/preopen{
 	id = "secdonger2"
@@ -5702,6 +6110,10 @@
 	},
 /turf/open/floor/iron,
 /area/station/security/brig/lower)
+"Hq" = (
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/plating,
+/area/awaymission/secret)
 "Hu" = (
 /mob/living/basic/crab,
 /obj/item/bedsheet/pirate,
@@ -5853,6 +6265,18 @@
 	},
 /turf/open/misc/dirt/station,
 /area/awaymission/secret/fullbright)
+"Il" = (
+/obj/effect/spawner/random/maintenance,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/structure/minecart_rail{
+	dir = 4
+	},
+/obj/item/flashlight/glowstick{
+	light_on = 1
+	},
+/turf/open/floor/plating,
+/area/awaymission/secret)
 "Im" = (
 /obj/effect/turf_decal/trimline/red/filled/line{
 	dir = 8
@@ -5892,6 +6316,15 @@
 	},
 /turf/open/misc/sandy_dirt,
 /area/awaymission/secret/fullbright)
+"Is" = (
+/obj/effect/mob_spawn/corpse/human/monkey,
+/obj/item/flashlight/flare{
+	light_on = 1;
+	randomize_fuel = 0;
+	fuel = INFINITY
+	},
+/turf/open/floor/plating,
+/area/awaymission/secret)
 "It" = (
 /obj/structure/lattice/catwalk,
 /turf/open/floor/plating,
@@ -6214,6 +6647,21 @@
 	},
 /turf/open/floor/wood,
 /area/awaymission/secret)
+"Ko" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/minecart_rail{
+	dir = 4
+	},
+/obj/item/flashlight/glowstick{
+	light_on = 1
+	},
+/turf/open/floor/plating,
+/area/awaymission/secret)
 "Kp" = (
 /obj/effect/turf_decal/trimline/red/filled/line{
 	dir = 4
@@ -6226,6 +6674,10 @@
 /obj/structure/cable,
 /turf/open/floor/iron/dark/textured,
 /area/station/ai_monitored/security/armory)
+"Ks" = (
+/obj/item/toy/plush/carpplushie,
+/turf/closed/wall/space,
+/area/awaymission/secret)
 "Kt" = (
 /obj/item/reagent_containers/cup/bucket/wooden{
 	pixel_y = 19;
@@ -6456,6 +6908,9 @@
 	},
 /turf/open/floor/stone,
 /area/awaymission/secret/fullbright)
+"LF" = (
+/turf/closed/mineral/asteroid,
+/area/awaymission/secret)
 "LG" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 8
@@ -6589,6 +7044,12 @@
 	},
 /turf/open/floor/stone,
 /area/awaymission/secret/fullbright)
+"Mh" = (
+/obj/effect/turf_decal/trimline/blue/filled/line{
+	dir = 5
+	},
+/turf/open/floor/iron/white,
+/area/awaymission/secret)
 "Mk" = (
 /obj/machinery/light/directional/south,
 /turf/open/floor/iron,
@@ -6691,6 +7152,14 @@
 	},
 /turf/open/misc/asteroid,
 /area/awaymission/secret/fullbright)
+"ML" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/structure/minecart_rail{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/awaymission/secret)
 "MM" = (
 /obj/effect/light_emitter/fake_outdoors,
 /turf/open/misc/dirt/station,
@@ -6737,6 +7206,13 @@
 	},
 /turf/open/floor/stone,
 /area/awaymission/secret/fullbright)
+"Nb" = (
+/obj/structure/disposalpipe/segment,
+/obj/effect/turf_decal/stripes/line,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/plating,
+/area/awaymission/secret)
 "Nd" = (
 /obj/effect/turf_decal/tile/red/anticorner/contrasted{
 	dir = 1
@@ -7154,6 +7630,12 @@
 /obj/effect/turf_decal/bot,
 /turf/open/floor/plating,
 /area/station/maintenance/department/security/upper)
+"Pa" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/structure/minecart_rail,
+/turf/open/floor/plating,
+/area/awaymission/secret)
 "Pd" = (
 /obj/structure/tram/spoiler{
 	dir = 1
@@ -7183,6 +7665,20 @@
 	},
 /turf/open/water/beach,
 /area/awaymission/secret)
+"Pi" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/door/airlock/maintenance,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/mapping_helpers/airlock/unres{
+	dir = 8
+	},
+/obj/effect/mapping_helpers/airlock/access/any/service/maintenance,
+/turf/open/floor/plating,
+/area/awaymission/secret)
 "Pn" = (
 /obj/machinery/power/apc/auto_name/directional/north,
 /obj/structure/cable,
@@ -7195,6 +7691,22 @@
 /obj/structure/sign/poster/official/help_others/directional/west,
 /turf/open/floor/wood/large,
 /area/station/medical/break_room)
+"Pp" = (
+/obj/structure/minecart_rail{
+	dir = 4
+	},
+/obj/machinery/door/airlock/maintenance{
+	locked = 1;
+	state_open = 1;
+	density = 0
+	},
+/obj/effect/turf_decal/stripes/line,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/effect/spawner/random/structure/steam_vent,
+/turf/open/floor/plating,
+/area/awaymission/secret/fullbright)
 "Pt" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 4
@@ -7640,6 +8152,10 @@
 /obj/machinery/airalarm/directional/north,
 /turf/open/floor/iron/dark,
 /area/station/ai_monitored/security/armory)
+"Sa" = (
+/obj/item/ammo_casing/shotgun/buckshot/spent,
+/turf/open/floor/plating,
+/area/awaymission/secret)
 "Sc" = (
 /obj/effect/turf_decal/siding/green,
 /turf/open/floor/iron/white/smooth_half{
@@ -7651,6 +8167,10 @@
 /obj/effect/turf_decal/siding/blue/corner,
 /turf/open/floor/iron/white,
 /area/station/medical/treatment_center)
+"Sh" = (
+/obj/structure/reagent_dispensers/watertank,
+/turf/open/floor/plating,
+/area/awaymission/secret)
 "Sj" = (
 /obj/effect/turf_decal/trimline/red/filled/line{
 	dir = 1
@@ -7749,6 +8269,16 @@
 "SC" = (
 /turf/closed/indestructible/syndicate,
 /area/station/medical/paramedic)
+"SD" = (
+/obj/machinery/door/poddoor/shutters{
+	dir = 4;
+	id = "abandoned_kitchen"
+	},
+/obj/structure/displaycase/forsale/kitchen{
+	pixel_y = 8
+	},
+/turf/open/floor/plating,
+/area/awaymission/secret)
 "SE" = (
 /obj/structure/railing,
 /turf/open/floor/stone,
@@ -8083,6 +8613,9 @@
 /obj/machinery/vending/wallmed/directional/south,
 /turf/open/floor/iron/white,
 /area/station/medical/medbay/lobby)
+"Uw" = (
+/turf/open/floor/plating,
+/area/awaymission/secret)
 "Ux" = (
 /obj/effect/turf_decal/tile/blue/fourcorners,
 /obj/machinery/door/airlock/medical{
@@ -8249,6 +8782,22 @@
 	},
 /turf/open/floor/iron/textured,
 /area/station/security/brig/upper)
+"Vv" = (
+/obj/structure/disposalpipe/segment{
+	dir = 6
+	},
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/structure/minecart_rail{
+	dir = 4
+	},
+/obj/item/flashlight/flare{
+	light_on = 1;
+	randomize_fuel = 0;
+	fuel = INFINITY
+	},
+/turf/open/floor/plating,
+/area/awaymission/secret)
 "Vy" = (
 /obj/structure/flora/tree/palm/style_2{
 	pixel_y = 4
@@ -8289,6 +8838,14 @@
 /area/awaymission/museum/mothroachvoid)
 "VI" = (
 /obj/effect/spawner/structure/window/reinforced/indestructible,
+/turf/open/floor/plating,
+/area/awaymission/secret)
+"VL" = (
+/obj/structure/table/reinforced,
+/obj/machinery/door/poddoor/shutters{
+	dir = 4;
+	id = "abandoned_kitchen"
+	},
 /turf/open/floor/plating,
 /area/awaymission/secret)
 "VP" = (
@@ -8332,6 +8889,10 @@
 	dir = 10
 	},
 /turf/open/misc/grass,
+/area/awaymission/secret/fullbright)
+"Wf" = (
+/obj/structure/statue/sandstone/assistant,
+/turf/open/floor/engine/hull/air,
 /area/awaymission/secret/fullbright)
 "Wg" = (
 /turf/closed/indestructible/sandstone,
@@ -8415,6 +8976,12 @@
 "Ww" = (
 /turf/closed/indestructible/syndicate,
 /area/station/medical/treatment_center)
+"Wx" = (
+/obj/structure/rack,
+/obj/effect/spawner/random/maintenance,
+/obj/effect/spawner/random/bureaucracy/paper,
+/turf/open/floor/plating,
+/area/awaymission/secret)
 "Wy" = (
 /obj/structure/flora/grass/jungle/b,
 /turf/open/misc/grass,
@@ -8777,6 +9344,13 @@
 /obj/effect/mapping_helpers/airlock/cyclelink_helper,
 /turf/open/floor/iron,
 /area/station/security/brig/lower)
+"Yt" = (
+/obj/structure/sign/departments/medbay/alt/directional/north,
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
+/turf/open/floor/iron,
+/area/awaymission/secret)
 "Yw" = (
 /obj/structure/closet/secure_closet{
 	name = "contraband locker";
@@ -9062,6 +9636,16 @@
 /obj/machinery/flasher/portable,
 /turf/open/floor/iron/dark/textured,
 /area/station/ai_monitored/security/armory)
+"ZV" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/effect/spawner/random/structure/steam_vent,
+/obj/effect/mapping_helpers/burnt_floor,
+/obj/structure/minecart_rail{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/awaymission/secret)
 "ZX" = (
 /obj/structure/mop_bucket,
 /obj/item/mop,
@@ -37666,14 +38250,14 @@ UE
 UE
 UE
 UE
-UE
-gu
-gu
-gu
-gu
-gu
-gu
-gu
+Kz
+Kz
+Kz
+Kz
+Kz
+Kz
+Kz
+Kz
 gu
 gu
 gu
@@ -37923,14 +38507,14 @@ UE
 UE
 UE
 UE
-UE
-gu
-gu
-gu
-gu
-gu
-gu
-gu
+Kz
+Uw
+nr
+ab
+Uw
+Uw
+Uw
+Kz
 gu
 gu
 gu
@@ -38180,14 +38764,14 @@ UE
 UE
 UE
 UE
-UE
-gu
-gu
-gu
-gu
-gu
-gu
-gu
+Kz
+Uw
+Uw
+Sa
+uJ
+Hq
+lI
+Kz
 gu
 gu
 gu
@@ -38438,13 +39022,13 @@ gu
 gu
 gu
 Kz
-gu
-gu
+fJ
+Hq
 mN
-Nr
+uK
 Ut
-gu
-gu
+Uw
+Kz
 gu
 gu
 gu
@@ -38695,13 +39279,13 @@ gu
 gu
 gu
 Kz
-gu
-gu
+Uw
+Uw
 sr
-gu
+Uw
 sr
-gu
-gu
+Uw
+Kz
 gu
 gu
 gu
@@ -38952,13 +39536,13 @@ gu
 gu
 gu
 Kz
-gu
-gu
+Kz
+Kz
 sr
-gu
+Kz
 sr
-gu
-gu
+Kz
+Kz
 gu
 gu
 gu
@@ -39209,13 +39793,13 @@ gu
 gu
 gu
 Kz
-gu
-gu
+Uw
+Hq
 DH
-Nr
+uK
 Nr
 Ut
-gu
+Kz
 gu
 gu
 gu
@@ -39466,13 +40050,13 @@ gu
 gu
 gu
 Kz
-gu
-gu
-gu
-gu
-gu
+Uw
+uJ
+Sa
+Uw
+Uw
 sr
-gu
+Kz
 gu
 gu
 gu
@@ -39716,20 +40300,20 @@ UE
 UE
 UE
 gu
-gu
+EC
+EC
+EC
+LF
+EC
+EC
 Kz
-Kz
-Kz
-Kz
-Kz
-Kz
-gu
-gu
-mN
+Is
+Uw
+sF
 Nr
 Nr
 Sq
-gu
+Kz
 gu
 gu
 gu
@@ -39973,20 +40557,20 @@ UE
 UE
 UE
 gu
-gu
-gu
-gu
-gu
+EC
+VB
+CO
+VB
 sr
-gu
+CO
+EC
 Kz
 Nr
-Nr
 Sq
-gu
-gu
-gu
-gu
+Uw
+xE
+Uw
+Kz
 gu
 gu
 gu
@@ -40230,14 +40814,14 @@ UE
 UE
 UE
 gu
-gu
-gu
-gu
-gu
-DH
+EC
+VB
+ud
+VB
+cx
 Nr
 Ut
-Kz
+EC
 Kz
 Kz
 Kz
@@ -40487,14 +41071,14 @@ UE
 UE
 UE
 gu
-gu
-gu
-gu
-gu
-ac
-ac
+EC
+LF
+VB
+VB
+ud
+EC
 sr
-Kz
+Ks
 gu
 gu
 gu
@@ -40744,14 +41328,14 @@ UE
 UE
 UE
 gu
-gu
-gu
-gu
-gu
+EC
+cW
+CO
+LF
 mN
 Nr
 Sq
-Kz
+EC
 gu
 gu
 gu
@@ -41001,14 +41585,14 @@ UE
 UE
 UE
 gu
-gu
-gu
-gu
-gu
+EC
+VB
+cW
+VB
 sr
-gu
-gu
-Kz
+CO
+LF
+EC
 gu
 gu
 gu
@@ -41258,14 +41842,14 @@ UE
 UE
 UE
 gu
-gu
-Kz
-Kz
-Kz
-Kz
-Kz
-Kz
-Kz
+EC
+EC
+EC
+EC
+EC
+EC
+EC
+EC
 gu
 gu
 gu
@@ -41512,12 +42096,12 @@ UE
 UE
 UE
 UE
-UE
-UE
-gu
-gu
-gu
-gu
+Kz
+Kz
+Kz
+Kz
+Kz
+Kz
 gu
 gu
 gu
@@ -41769,12 +42353,12 @@ UE
 UE
 UE
 UE
-UE
-UE
-gu
-gu
-gu
-gu
+Kz
+bR
+yq
+yq
+yq
+Kz
 gu
 gu
 gu
@@ -42026,14 +42610,14 @@ UE
 UE
 UE
 UE
-UE
-UE
-gu
+Kz
+Mh
+iy
 mN
 Nr
-gu
-gu
-gu
+Kz
+Kz
+Kz
 gu
 gu
 gu
@@ -42283,14 +42867,14 @@ UE
 UE
 UE
 UE
-UE
-UE
-gu
+Kz
+up
+nP
 sr
-gu
-gu
-gu
-gu
+yq
+Kz
+Yt
+Kz
 gu
 gu
 gu
@@ -42540,14 +43124,14 @@ UE
 UE
 UE
 UE
-UE
-UE
-gu
+Kz
+AM
+Mh
 DH
 Nr
+dw
 Nr
-Nr
-gu
+Kz
 gu
 gu
 gu
@@ -42797,14 +43381,14 @@ UE
 UE
 UE
 UE
-UE
-UE
-gu
-gu
-gu
-gu
-gu
-gu
+Kz
+ut
+ut
+Mh
+yq
+Kz
+Yt
+Kz
 gu
 gu
 gu
@@ -43054,14 +43638,14 @@ UE
 UE
 UE
 UE
-UE
-UE
-gu
-gu
-gu
-gu
-gu
-gu
+Kz
+Kz
+Kz
+Kz
+Kz
+Kz
+Kz
+Kz
 gu
 gu
 Kz
@@ -43843,7 +44427,7 @@ Zg
 gy
 VB
 HQ
-VB
+CO
 gu
 gu
 gu
@@ -44085,16 +44669,16 @@ UE
 UE
 UE
 gu
-gu
-gu
-gu
-gu
-gu
-gu
+Kz
+Dd
+Kz
+SD
+VL
+Kz
 gu
 Kz
 si
-sr
+jp
 si
 wa
 gy
@@ -44342,12 +44926,12 @@ UE
 UE
 UE
 gu
-gu
-gu
-gu
-gu
-gu
-gu
+Kz
+pL
+zo
+oS
+iZ
+Kz
 gu
 Kz
 Lf
@@ -44598,14 +45182,14 @@ UE
 UE
 UE
 UE
-UE
-UE
-UE
-UE
-UE
-UE
-UE
-UE
+gu
+Kz
+lt
+pL
+Pa
+zo
+Kz
+gu
 Kz
 Kz
 Kz
@@ -44855,14 +45439,14 @@ UE
 UE
 UE
 UE
-UE
-UE
-UE
-UE
-UE
-UE
-UE
-UE
+gu
+Kz
+sP
+nk
+lt
+ML
+Kz
+gu
 gu
 gu
 gu
@@ -45112,14 +45696,14 @@ UE
 UE
 UE
 UE
-UE
-UE
-UE
-UE
-UE
-UE
-UE
-UE
+gu
+Kz
+sU
+Wx
+lt
+ML
+Kz
+Kz
 gu
 gu
 gu
@@ -45369,15 +45953,15 @@ UE
 UE
 UE
 UE
-UE
-UE
-UE
-UE
-UE
-UE
-UE
-UE
 gu
+Kz
+Kz
+Kz
+Kz
+Il
+Kz
+Dj
+Kz
 gu
 gu
 gu
@@ -45626,15 +46210,15 @@ UE
 UE
 UE
 UE
-UE
-UE
-UE
-UE
-UE
-UE
-UE
-UE
 gu
+gu
+gu
+gu
+Kz
+ML
+dY
+CH
+Kz
 gu
 gu
 gu
@@ -45883,15 +46467,15 @@ UE
 UE
 UE
 UE
-UE
-UE
-UE
-UE
-UE
-UE
-UE
-UE
 gu
+gu
+gu
+gu
+Kz
+ZV
+Kz
+FN
+Kz
 gu
 gu
 gu
@@ -46140,14 +46724,14 @@ UE
 UE
 UE
 UE
-UE
-UE
-UE
-UE
-UE
-UE
-UE
-UE
+gu
+gu
+gu
+gu
+Kz
+ML
+Kz
+Kz
 gu
 gu
 gu
@@ -46397,14 +46981,14 @@ UE
 UE
 UE
 UE
-UE
-UE
-UE
-UE
-UE
-UE
-UE
-UE
+gu
+gu
+gu
+gu
+Kz
+Vv
+Nb
+AU
 gu
 gu
 gu
@@ -46654,14 +47238,14 @@ UE
 UE
 UE
 UE
-UE
-UE
-UE
-UE
-UE
-UE
-UE
-UE
+gu
+gu
+gu
+gu
+Kz
+xo
+FN
+Kz
 gu
 gu
 gu
@@ -46911,14 +47495,14 @@ UE
 UE
 UE
 UE
-UE
-UE
-UE
-UE
-UE
-UE
-UE
-UE
+gu
+gu
+gu
+gu
+Kz
+hC
+DA
+Kz
 gu
 gu
 gu
@@ -47168,14 +47752,14 @@ UE
 UE
 UE
 UE
-UE
-UE
-UE
-UE
-UE
-UE
-UE
-UE
+gu
+gu
+gu
+Kz
+cy
+ht
+lt
+Kz
 gu
 gu
 gu
@@ -47425,14 +48009,14 @@ UE
 UE
 UE
 UE
-UE
-UE
-UE
-UE
-UE
-UE
-UE
-UE
+gu
+gu
+gu
+gu
+Kz
+iE
+jl
+Gu
 gu
 gu
 gu
@@ -47682,14 +48266,14 @@ UE
 UE
 UE
 UE
-UE
-UE
-UE
-UE
-UE
-UE
-UE
-UE
+gu
+gu
+gu
+Kz
+lt
+Ko
+ff
+Kz
 gu
 gu
 gu
@@ -47939,14 +48523,14 @@ UE
 UE
 UE
 UE
-UE
-UE
-UE
-UE
-UE
-UE
-UE
-UE
+gu
+gu
+gu
+Kz
+Sh
+Cc
+qo
+Kz
 gu
 gu
 gu
@@ -48196,14 +48780,14 @@ UE
 UE
 UE
 UE
-UE
-UE
-UE
-UE
-UE
-UE
-UE
-UE
+gu
+gu
+gu
+Kz
+Kz
+Pi
+Kz
+Kz
 gu
 gu
 gu
@@ -48453,14 +49037,14 @@ UE
 UE
 UE
 UE
-UE
-UE
-UE
-UE
-UE
-UE
-UE
-UE
+gu
+gu
+gu
+gu
+gu
+Kz
+gu
+gu
 gu
 gu
 gu
@@ -48710,14 +49294,14 @@ UE
 UE
 UE
 UE
-UE
-UE
-UE
-UE
-UE
-UE
-UE
-UE
+gu
+gu
+gu
+gu
+gu
+gu
+gu
+gu
 gu
 gu
 gu
@@ -48967,14 +49551,14 @@ UE
 UE
 UE
 UE
-UE
-UE
-UE
-UE
-UE
-UE
-UE
-UE
+gu
+gu
+gu
+gu
+gu
+gu
+gu
+gu
 gu
 gu
 gu
@@ -49224,14 +49808,14 @@ UE
 UE
 UE
 UE
-UE
-UE
-UE
-UE
-UE
-UE
-UE
-UE
+gu
+gu
+gu
+gu
+gu
+gu
+gu
+gu
 gu
 gu
 gu
@@ -49481,14 +50065,14 @@ UE
 UE
 UE
 UE
-UE
-UE
-UE
-UE
-UE
-UE
-UE
-UE
+gu
+gu
+gu
+gu
+gu
+gu
+gu
+gu
 gu
 gu
 gu
@@ -49738,14 +50322,14 @@ UE
 UE
 UE
 UE
-UE
-UE
-UE
-UE
-UE
-UE
-UE
-UE
+gu
+gu
+gu
+gu
+gu
+gu
+gu
+gu
 gu
 gu
 gu
@@ -49995,14 +50579,14 @@ UE
 UE
 UE
 UE
-UE
-UE
-UE
-UE
-UE
-UE
-UE
-UE
+gu
+gu
+gu
+gu
+gu
+gu
+gu
+gu
 gu
 gu
 gu
@@ -50252,14 +50836,14 @@ UE
 UE
 UE
 UE
-UE
-UE
-UE
-UE
-UE
-UE
-UE
-UE
+gu
+gu
+gu
+gu
+gu
+gu
+gu
+gu
 gu
 gu
 gu
@@ -50509,14 +51093,14 @@ UE
 UE
 UE
 UE
-UE
-UE
-UE
-UE
-UE
-UE
-UE
-UE
+gu
+gu
+gu
+gu
+gu
+gu
+gu
+gu
 gu
 gu
 gu
@@ -50766,14 +51350,14 @@ UE
 UE
 UE
 UE
-UE
-UE
-UE
-UE
-UE
-UE
-UE
-UE
+gu
+gu
+gu
+gu
+gu
+gu
+gu
+gu
 gu
 gu
 gu
@@ -51023,14 +51607,14 @@ UE
 UE
 UE
 UE
-UE
-UE
-UE
-UE
-UE
-UE
-UE
-UE
+gu
+gu
+gu
+gu
+gu
+gu
+gu
+gu
 gu
 gu
 gu
@@ -51280,14 +51864,14 @@ UE
 UE
 UE
 UE
-UE
-UE
-UE
-UE
-UE
-UE
-UE
-UE
+gu
+gu
+gu
+gu
+gu
+gu
+gu
+gu
 gu
 gu
 gu
@@ -103975,10 +104559,10 @@ XJ
 XJ
 XJ
 XJ
-iQ
-iQ
-iQ
-iQ
+XJ
+XJ
+XJ
+XJ
 cz
 jb
 XJ
@@ -104232,10 +104816,10 @@ XJ
 XJ
 XJ
 XJ
-iQ
-iQ
-iQ
-iQ
+XJ
+XJ
+gd
+XJ
 cz
 jb
 XJ
@@ -104489,9 +105073,9 @@ jJ
 jJ
 KJ
 Yc
-iQ
-iQ
-iQ
+XJ
+XJ
+XJ
 iQ
 cz
 jb
@@ -104746,9 +105330,9 @@ XJ
 XJ
 XJ
 GK
-iQ
-iQ
-iQ
+XJ
+XJ
+XJ
 GK
 cz
 jb
@@ -105003,9 +105587,9 @@ hR
 KJ
 KJ
 Wi
-iQ
-iQ
-iQ
+XJ
+XJ
+XJ
 GK
 cz
 jb
@@ -105259,10 +105843,10 @@ jJ
 GK
 XJ
 XJ
-iQ
-iQ
-iQ
-iQ
+XJ
+XJ
+gd
+XJ
 jJ
 cz
 jb
@@ -105516,10 +106100,10 @@ jJ
 iQ
 jJ
 KJ
+KJ
 iQ
-iQ
-iQ
-iQ
+XJ
+XJ
 jJ
 cz
 jb
@@ -105770,9 +106354,9 @@ XJ
 XJ
 XJ
 XJ
-iQ
-iQ
-iQ
+XJ
+XJ
+XJ
 jJ
 jJ
 KJ
@@ -106029,7 +106613,7 @@ jJ
 jJ
 jJ
 jJ
-iQ
+gd
 jJ
 XJ
 XJ
@@ -106284,9 +106868,9 @@ XJ
 XJ
 jJ
 XJ
-iQ
-iQ
-iQ
+XJ
+XJ
+XJ
 jJ
 jJ
 KJ
@@ -107565,7 +108149,7 @@ aC
 aC
 cz
 jb
-iQ
+XJ
 iQ
 KJ
 KJ
@@ -107822,9 +108406,9 @@ aC
 aC
 cz
 jb
-iQ
-iQ
-XJ
+gd
+jJ
+jJ
 XJ
 XJ
 XJ
@@ -108079,9 +108663,9 @@ aC
 aC
 cz
 jb
-iQ
-iQ
-iQ
+XJ
+jJ
+GK
 iQ
 KJ
 KJ
@@ -108337,8 +108921,8 @@ aC
 cz
 jb
 XJ
-XJ
-XJ
+GK
+GK
 XJ
 XJ
 XJ
@@ -108593,11 +109177,11 @@ aC
 aC
 cz
 jb
-XJ
-XJ
-XJ
-XJ
-XJ
+Hm
+GK
+Be
+KJ
+Yc
 XJ
 XJ
 XJ
@@ -108850,12 +109434,12 @@ aC
 aC
 cz
 jb
+kU
+vF
+kU
 XJ
-XJ
-XJ
-XJ
-XJ
-XJ
+lb
+KJ
 jJ
 jJ
 iQ
@@ -109107,9 +109691,9 @@ aC
 aC
 cz
 jb
-XJ
-XJ
-XJ
+kU
+vF
+kU
 XJ
 XJ
 XJ
@@ -109364,16 +109948,16 @@ aC
 aC
 cz
 jb
+kU
+tq
+kU
 XJ
 XJ
 XJ
 XJ
 XJ
 XJ
-XJ
-XJ
-XJ
-iQ
+FT
 XJ
 XJ
 cz
@@ -109621,9 +110205,9 @@ aC
 aC
 cz
 jb
-XJ
-XJ
-XJ
+kU
+iQ
+kU
 XJ
 XJ
 XJ
@@ -109878,9 +110462,9 @@ aC
 aC
 cz
 jb
-XJ
-XJ
-XJ
+kU
+kU
+kU
 XJ
 XJ
 XJ
@@ -110137,11 +110721,11 @@ cz
 jb
 XJ
 XJ
+AW
+AW
+AW
 XJ
-XJ
-XJ
-XJ
-XJ
+GK
 XJ
 XJ
 GK
@@ -110396,9 +110980,9 @@ XJ
 XJ
 XJ
 XJ
+AW
 XJ
-XJ
-XJ
+GK
 XJ
 XJ
 GK
@@ -110653,9 +111237,9 @@ XJ
 XJ
 XJ
 XJ
+AW
 XJ
-XJ
-XJ
+jJ
 jJ
 TN
 WK
@@ -110910,9 +111494,9 @@ XJ
 XJ
 XJ
 XJ
+AW
 XJ
-XJ
-XJ
+jJ
 jJ
 TN
 xd
@@ -111167,9 +111751,9 @@ XJ
 XJ
 XJ
 XJ
+AW
 XJ
-XJ
-XJ
+GK
 jJ
 TN
 dK
@@ -111424,9 +112008,9 @@ XJ
 XJ
 XJ
 XJ
+AW
 XJ
-XJ
-XJ
+GK
 jJ
 TN
 dK
@@ -111681,9 +112265,9 @@ XJ
 XJ
 XJ
 XJ
+AW
 XJ
-XJ
-XJ
+jJ
 jJ
 TN
 dK
@@ -111938,9 +112522,9 @@ XJ
 XJ
 XJ
 XJ
+AW
 XJ
-XJ
-XJ
+jJ
 jJ
 TN
 dK
@@ -112195,9 +112779,9 @@ XJ
 XJ
 XJ
 XJ
+AW
 XJ
-XJ
-XJ
+GK
 jJ
 TN
 dK
@@ -112452,9 +113036,9 @@ XJ
 XJ
 XJ
 XJ
+AW
 XJ
-XJ
-XJ
+GK
 jJ
 TN
 dK
@@ -112709,9 +113293,9 @@ XJ
 XJ
 XJ
 XJ
+AW
 XJ
-XJ
-XJ
+jJ
 XJ
 XJ
 kJ
@@ -112966,9 +113550,9 @@ XJ
 XJ
 XJ
 XJ
+AW
 XJ
-XJ
-XJ
+jJ
 XJ
 XJ
 kJ
@@ -113220,12 +113804,12 @@ aC
 cz
 jb
 XJ
-XJ
-XJ
-XJ
-XJ
-XJ
-XJ
+jJ
+jJ
+kU
+kU
+kU
+jJ
 XJ
 XJ
 kJ
@@ -113477,11 +114061,11 @@ aC
 cz
 jb
 XJ
+jJ
 XJ
-XJ
-XJ
-XJ
-XJ
+kU
+iQ
+kU
 XJ
 XJ
 XJ
@@ -113734,11 +114318,11 @@ aC
 cz
 jb
 XJ
+jJ
 XJ
-XJ
-XJ
-XJ
-XJ
+kU
+Pp
+kU
 XJ
 XJ
 XJ
@@ -113991,11 +114575,11 @@ aC
 cz
 jb
 XJ
+GK
 XJ
-XJ
-XJ
-XJ
-XJ
+kU
+DK
+kU
 XJ
 XJ
 XJ
@@ -114248,11 +114832,11 @@ aC
 cz
 jb
 XJ
+GK
 XJ
-XJ
-XJ
-XJ
-XJ
+kU
+DK
+kU
 XJ
 XJ
 XJ
@@ -114505,11 +115089,11 @@ aC
 cz
 jb
 XJ
+GK
 XJ
-XJ
-XJ
-XJ
-XJ
+hI
+GK
+hI
 XJ
 XJ
 XJ
@@ -114762,10 +115346,10 @@ aC
 cz
 jb
 XJ
-XJ
-XJ
-XJ
-XJ
+lb
+KJ
+KJ
+Wi
 XJ
 XJ
 XJ
@@ -170542,7 +171126,7 @@ iQ
 iQ
 iQ
 iQ
-GK
+iQ
 iQ
 iQ
 iQ
@@ -173102,8 +173686,8 @@ iQ
 iQ
 iQ
 iQ
-iQ
-iQ
+hR
+Yc
 iQ
 KJ
 KJ
@@ -173359,8 +173943,8 @@ iQ
 iQ
 iQ
 iQ
-iQ
-iQ
+GK
+GK
 iQ
 iQ
 iQ
@@ -173616,7 +174200,7 @@ iQ
 iQ
 iQ
 iQ
-iQ
+GK
 iQ
 iQ
 iQ
@@ -174386,9 +174970,9 @@ iQ
 iQ
 iQ
 iQ
-iQ
-iQ
-iQ
+PF
+Wf
+PF
 iQ
 iQ
 iQ
@@ -174643,9 +175227,9 @@ iQ
 iQ
 iQ
 iQ
-iQ
-iQ
-iQ
+PF
+PF
+PF
 iQ
 iQ
 iQ
@@ -174900,9 +175484,9 @@ iQ
 iQ
 iQ
 iQ
-iQ
-iQ
-iQ
+PF
+PF
+PF
 iQ
 iQ
 iQ
@@ -175157,9 +175741,9 @@ iQ
 iQ
 iQ
 iQ
-iQ
-iQ
-iQ
+PF
+PF
+PF
 iQ
 iQ
 iQ
@@ -175414,9 +175998,9 @@ iQ
 iQ
 iQ
 iQ
-iQ
-iQ
-iQ
+PF
+PF
+PF
 iQ
 iQ
 iQ
@@ -176191,7 +176775,7 @@ iQ
 iQ
 iQ
 iQ
-iQ
+GK
 iQ
 iQ
 iQ
@@ -176448,7 +177032,7 @@ iQ
 iQ
 iQ
 iQ
-iQ
+GK
 iQ
 iQ
 iQ
@@ -177219,7 +177803,7 @@ iQ
 iQ
 iQ
 iQ
-iQ
+GK
 iQ
 iQ
 iQ
@@ -177476,7 +178060,7 @@ iQ
 iQ
 iQ
 iQ
-iQ
+GK
 iQ
 iQ
 iQ
@@ -178247,7 +178831,7 @@ iQ
 iQ
 iQ
 iQ
-iQ
+GK
 iQ
 iQ
 iQ
@@ -178504,7 +179088,7 @@ iQ
 iQ
 iQ
 iQ
-iQ
+GK
 iQ
 iQ
 iQ
@@ -178756,12 +179340,12 @@ iQ
 iQ
 iQ
 iQ
-iQ
-iQ
-iQ
-iQ
-iQ
-iQ
+hR
+KJ
+KJ
+KJ
+KJ
+Wi
 iQ
 iQ
 iQ
@@ -179013,11 +179597,11 @@ iQ
 iQ
 iQ
 iQ
+GK
 iQ
-iQ
-iQ
-iQ
-iQ
+PF
+PF
+PF
 iQ
 iQ
 iQ
@@ -179270,11 +179854,11 @@ iQ
 iQ
 iQ
 iQ
+GK
 iQ
-iQ
-iQ
-iQ
-iQ
+PF
+PF
+PF
 iQ
 iQ
 iQ
@@ -179529,9 +180113,9 @@ iQ
 iQ
 iQ
 iQ
-iQ
-iQ
-iQ
+PF
+PF
+PF
 iQ
 iQ
 iQ
@@ -179786,9 +180370,9 @@ iQ
 iQ
 iQ
 iQ
-iQ
-iQ
-iQ
+PF
+PF
+PF
 iQ
 iQ
 iQ

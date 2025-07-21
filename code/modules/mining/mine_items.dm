@@ -634,6 +634,11 @@ GLOBAL_LIST_EMPTY(starter_rails)
 /obj/structure/minecart_rail/railbreak/starter/rail_examine()
 	return span_notice("Run a powered cable underneath it to stop and start carts that pass over it.")
 
+/obj/structure/minecart_rail/slowdown
+	name = "cart rail slowdown"
+	desc = "Slows down the cart so one can appriciate the scenery more."
+	icon_state = "track_break"
+
 /obj/structure/minecart_rail/railbreak/starter/proc/start_cart(starting_momentum)
 	var/obj/structure/closet/crate/miningcar/pushin_down = locate() in loc
 	pushin_down.momentum = starting_momentum
@@ -654,6 +659,7 @@ GLOBAL_LIST_EMPTY(starter_rails)
 
 	if(momentum > 0)
 		var/obj/structure/minecart_rail/railbreak/stop_break = locate() in loc
+		var/obj/structure/minecart_rail/slowdown/slow = locate() in loc
 		var/obj/structure/cable/cable = locate() in loc
 		// There is a break and it is powered, so STOP
 		if(stop_break && cable?.avail(10 KILO JOULES))
@@ -665,10 +671,11 @@ GLOBAL_LIST_EMPTY(starter_rails)
 			GLOB.move_manager.stop_looping(src, SSconveyors)
 			cable.add_delayedload(10 KILO JOULES)
 			return
-		// All rails count as powered for this subtype
-		if(momentum <= 5)
-			momentum = 5
-		else if(momentum <= 10)
+
+		if(slow)
+			momentum = 3
+
+		if(momentum <= 10)
 			momentum = 10
 		return
 
