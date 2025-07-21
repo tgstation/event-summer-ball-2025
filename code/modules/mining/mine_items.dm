@@ -641,6 +641,9 @@ GLOBAL_LIST_EMPTY(starter_rails)
 
 /obj/structure/minecart_rail/railbreak/starter/proc/start_cart(starting_momentum)
 	var/obj/structure/closet/crate/miningcar/pushin_down = locate() in loc
+	if(!pushin_down)
+		new /obj/structure/closet/crate/miningcar/rollercoaster(loc)
+		return
 	pushin_down.momentum = starting_momentum
 	pushin_down.start_moving_in_dir(dir)
 
@@ -673,18 +676,16 @@ GLOBAL_LIST_EMPTY(starter_rails)
 			return
 
 		if(slow)
-			momentum = 3
-
-		if(momentum <= 10)
-			momentum = 10
-		return
+			momentum = 15
+		else if(momentum <= 20)
+			momentum = 20
 
 	// No more momentum = STOP
 	if(momentum <= 0)
 		GLOB.move_manager.stop_looping(src, SSconveyors)
 		visible_message(span_notice("[src] comes to a slow stop."))
+		qdel(src)
 		return
 
-	// Handles slowing down the move loop / cart
 	var/datum/move_loop/loop = GLOB.move_manager.processing_on(src, SSconveyors)
 	loop?.set_delay(calculate_delay())
