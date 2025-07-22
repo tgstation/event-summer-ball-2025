@@ -1603,11 +1603,13 @@
 /turf/open/misc/beach/sand,
 /area/awaymission/secret)
 "iS" = (
-/obj/machinery/deployable_turret/ultimate{
-	dir = 4
+/obj/structure/closet/firecloset/full,
+/obj/effect/turf_decal/bot,
+/obj/effect/turf_decal/trimline/red/filled/line{
+	dir = 8
 	},
-/turf/open/misc/asteroid,
-/area/awaymission/secret/fullbright)
+/turf/open/floor/iron,
+/area/station/security/brig/lower)
 "iU" = (
 /obj/structure/sink/directional/east,
 /turf/open/misc/beach/sand,
@@ -1865,6 +1867,13 @@
 	},
 /turf/open/floor/wood/large,
 /area/awaymission/secret)
+"km" = (
+/obj/structure/cable,
+/obj/effect/turf_decal/trimline/red/filled/line{
+	dir = 8
+	},
+/turf/open/floor/iron,
+/area/station/security/brig/lower)
 "kn" = (
 /obj/structure/fluff/tram_rail/electric/anchor{
 	dir = 1
@@ -2533,9 +2542,6 @@
 /obj/machinery/light/small/directional/north,
 /turf/open/floor/iron/white/small,
 /area/station/medical/cryo)
-"od" = (
-/turf/open/floor/plating/reinforced,
-/area/station/security/brig/upper)
 "oe" = (
 /obj/effect/turf_decal/siding/wideplating/dark{
 	dir = 9
@@ -3116,11 +3122,8 @@
 /turf/open/floor/wood,
 /area/awaymission/secret/fullbright)
 "rF" = (
-/obj/machinery/deployable_turret/ultimate{
-	dir = 8
-	},
-/turf/open/misc/asteroid,
-/area/awaymission/secret/fullbright)
+/turf/open/floor/plating/reinforced,
+/area/station/security/brig/upper)
 "rH" = (
 /obj/structure/window/reinforced/spawner/directional/east,
 /obj/structure/window/reinforced/spawner/directional/north,
@@ -3799,13 +3802,13 @@
 /turf/open/misc/asteroid,
 /area/station/security/prison)
 "vD" = (
-/obj/machinery/photobooth/security,
 /obj/effect/turf_decal/tile/red/half/contrasted{
 	dir = 8
 	},
 /obj/effect/turf_decal/tile/neutral/half/contrasted{
 	dir = 4
 	},
+/obj/machinery/photobooth/security,
 /turf/open/floor/iron,
 /area/station/security/brig/lower)
 "vE" = (
@@ -5583,6 +5586,17 @@
 	},
 /turf/open/floor/wood/parquet,
 /area/awaymission/secret)
+"FF" = (
+/obj/effect/turf_decal/tile/red/half/contrasted{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/neutral/half/contrasted{
+	dir = 4
+	},
+/obj/effect/turf_decal/bot,
+/obj/machinery/recharge_station,
+/turf/open/floor/iron,
+/area/station/security/brig/lower)
 "FG" = (
 /obj/item/toy/plush/abductor{
 	name = "Jerry"
@@ -102066,7 +102080,7 @@ XJ
 we
 jG
 US
-iS
+sv
 US
 sv
 sv
@@ -102337,7 +102351,7 @@ by
 mt
 Im
 Im
-sn
+km
 sn
 Hd
 vq
@@ -102594,7 +102608,7 @@ WY
 WY
 WY
 Kp
-Ar
+Kp
 Ar
 TY
 OW
@@ -102851,7 +102865,7 @@ Sy
 lG
 UM
 Qg
-vD
+FF
 vD
 TY
 pY
@@ -105421,7 +105435,7 @@ lk
 DU
 UG
 MC
-ps
+iS
 ps
 Oo
 yx
@@ -105678,7 +105692,7 @@ ev
 ev
 ev
 ev
-Ud
+ev
 Ud
 wt
 Ev
@@ -105935,7 +105949,7 @@ lh
 lq
 ms
 ms
-EH
+ms
 EH
 Oo
 yk
@@ -106178,7 +106192,7 @@ qk
 we
 jG
 US
-rF
+sv
 US
 sv
 sv
@@ -167365,7 +167379,7 @@ Ei
 Ei
 Ei
 Ei
-od
+rF
 iQ
 iQ
 iQ
@@ -167622,7 +167636,7 @@ Jp
 tR
 TZ
 Ei
-od
+rF
 iQ
 iQ
 iQ
@@ -167879,7 +167893,7 @@ JI
 JI
 wd
 Ei
-od
+rF
 iQ
 iQ
 iQ
@@ -168136,7 +168150,7 @@ JI
 JI
 JW
 Ei
-od
+rF
 iQ
 iQ
 iQ
@@ -168393,7 +168407,7 @@ MG
 iA
 kc
 Ei
-od
+rF
 iQ
 iQ
 iQ
@@ -168650,7 +168664,7 @@ LS
 bO
 bO
 bO
-od
+rF
 iQ
 iQ
 iQ
@@ -168907,7 +168921,7 @@ vv
 wT
 Gc
 bO
-od
+rF
 iQ
 iQ
 iQ
@@ -169164,7 +169178,7 @@ Ec
 tu
 Io
 bO
-od
+rF
 iQ
 iQ
 iQ
@@ -169421,7 +169435,7 @@ il
 tu
 hd
 bO
-od
+rF
 iQ
 iQ
 iQ
@@ -169678,7 +169692,7 @@ zh
 tu
 Fb
 bO
-od
+rF
 iQ
 iQ
 iQ
@@ -169935,7 +169949,7 @@ Eh
 tu
 ca
 bO
-od
+rF
 iQ
 iQ
 iQ
@@ -170192,7 +170206,7 @@ OE
 tu
 PU
 bO
-od
+rF
 iQ
 iQ
 iQ
@@ -170449,7 +170463,7 @@ aS
 Av
 Yw
 bO
-od
+rF
 iQ
 iQ
 iQ
@@ -170706,7 +170720,7 @@ Am
 Am
 Am
 Am
-od
+rF
 iQ
 iQ
 iQ
@@ -170963,7 +170977,7 @@ Am
 cS
 Tl
 Am
-od
+rF
 iQ
 iQ
 iQ
@@ -171220,7 +171234,7 @@ Am
 Dt
 Pt
 Am
-od
+rF
 iQ
 iQ
 iQ
@@ -171477,7 +171491,7 @@ jB
 gr
 WR
 Am
-od
+rF
 iQ
 iQ
 iQ
@@ -171734,7 +171748,7 @@ Am
 Dv
 FH
 Am
-od
+rF
 iQ
 iQ
 iQ
@@ -171991,7 +172005,7 @@ Am
 Am
 Am
 Am
-od
+rF
 iQ
 iQ
 iQ
