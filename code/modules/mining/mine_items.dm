@@ -689,3 +689,9 @@ GLOBAL_LIST_EMPTY(starter_rails)
 
 	var/datum/move_loop/loop = GLOB.move_manager.processing_on(src, SSconveyors)
 	loop?.set_delay(calculate_delay())
+
+// Cant unbuckle whilst moving
+/obj/structure/closet/crate/miningcar/rollercoaster/user_unbuckle_mob(mob/living/buckled_mob, mob/user)
+	if(momentum > 0)
+		return FALSE
+	return ..()
