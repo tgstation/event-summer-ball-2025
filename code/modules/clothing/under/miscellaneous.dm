@@ -170,3 +170,25 @@
 	greyscale_config = /datum/greyscale_config/tanktop
 	greyscale_config_worn = /datum/greyscale_config/tanktop/worn
 	flags_1 = IS_PLAYER_COLORABLE_1
+
+/obj/item/clothing/under/misc/pareoswimop
+	name = "one piece swimsuit with pareo"
+	desc = "A one piece swimsuit with a flowy pareo."
+	icon_state = "pareoswimop"
+	inhand_icon_state = null
+	can_adjust = FALSE
+	greyscale_colors = "#eeeeee#7598e4#d2ba83"
+	greyscale_config = /datum/greyscale_config/pareoswimop
+	greyscale_config_worn = /datum/greyscale_config/pareoswimop/worn
+	flags_1 = IS_PLAYER_COLORABLE_1
+
+/obj/item/clothing/under/misc/pareoswimbk
+	name = "bikini swimsuit with pareo"
+	desc = "A bikini swimsuit with a flowy pareo."
+	icon_state = "pareoswimbk"
+	inhand_icon_state = null
+	can_adjust = FALSE
+	greyscale_colors = "#ac3232#463b64"
+	greyscale_config = /datum/greyscale_config/pareoswimbk
+	greyscale_config_worn = /datum/greyscale_config/pareoswimbk/worn
+	flags_1 = IS_PLAYER_COLORABLE_1
