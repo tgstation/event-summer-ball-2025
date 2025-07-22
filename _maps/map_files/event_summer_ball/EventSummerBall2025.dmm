@@ -893,11 +893,10 @@
 /turf/open/floor/stone,
 /area/awaymission/secret/fullbright)
 "eT" = (
-/obj/structure/flora/bush/flowers_yw/style_random,
-/obj/effect/turf_decal/siding/wood{
-	dir = 8
+/obj/effect/turf_decal/siding/wideplating/dark{
+	dir = 1
 	},
-/turf/open/misc/grass,
+/turf/open/floor/stone,
 /area/awaymission/secret)
 "eV" = (
 /obj/structure/table/reinforced/rglass,
@@ -1327,6 +1326,15 @@
 	},
 /turf/open/misc/grass,
 /area/awaymission/secret/fullbright)
+"hv" = (
+/obj/effect/turf_decal/siding/wideplating/dark{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/dark{
+	dir = 4
+	},
+/turf/open/floor/stone,
+/area/awaymission/secret)
 "hw" = (
 /obj/structure/railing{
 	dir = 4
@@ -2019,10 +2027,8 @@
 /turf/open/floor/iron,
 /area/station/security/brig/upper)
 "kS" = (
-/obj/effect/turf_decal/siding/wood{
-	dir = 8
-	},
-/turf/open/misc/grass,
+/obj/effect/turf_decal/siding/wideplating/dark,
+/turf/open/floor/stone,
 /area/awaymission/secret)
 "kV" = (
 /obj/machinery/conveyor/auto/inverted{
@@ -2146,6 +2152,12 @@
 /obj/structure/railing,
 /turf/open/misc/dirt/station,
 /area/awaymission/secret/fullbright)
+"lD" = (
+/obj/effect/turf_decal/siding/wideplating/dark/corner{
+	dir = 8
+	},
+/turf/open/floor/stone,
+/area/awaymission/secret)
 "lE" = (
 /obj/structure/railing{
 	dir = 9
@@ -3417,13 +3429,13 @@
 	},
 /area/station/medical/cryo)
 "sF" = (
-/obj/structure/railing/wooden_fence{
-	dir = 1
+/obj/structure/chair/pew/right{
+	dir = 4
 	},
 /obj/effect/turf_decal/siding/wood{
-	dir = 8
+	dir = 9
 	},
-/turf/open/misc/grass,
+/turf/open/floor/wood/parquet,
 /area/awaymission/secret)
 "sH" = (
 /obj/structure/table,
@@ -3691,6 +3703,14 @@
 /obj/effect/light_emitter/fake_outdoors,
 /turf/open/misc/dirt/station,
 /area/awaymission/secret/fullbright)
+"tX" = (
+/obj/structure/railing/wooden_fence{
+	dir = 8
+	},
+/obj/structure/flora/bush/leavy/style_2,
+/obj/structure/flora/bush/flowers_br/style_random,
+/turf/open/misc/grass,
+/area/awaymission/secret)
 "tY" = (
 /obj/structure/flora/grass/jungle/b/style_random,
 /obj/effect/light_emitter/fake_outdoors,
@@ -3745,6 +3765,15 @@
 	},
 /turf/open/floor/stone,
 /area/awaymission/secret/fullbright)
+"uk" = (
+/obj/structure/chair/pew/left{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 5
+	},
+/turf/open/floor/wood/parquet,
+/area/awaymission/secret)
 "ul" = (
 /obj/structure/railing{
 	dir = 1
@@ -6823,6 +6852,15 @@
 	},
 /turf/open/misc/asteroid,
 /area/station/security/prison)
+"JH" = (
+/obj/structure/chair/pew/right{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 6
+	},
+/turf/open/floor/wood/parquet,
+/area/awaymission/secret)
 "JI" = (
 /turf/open/floor/iron,
 /area/station/security/brig/upper)
@@ -7045,6 +7083,13 @@
 /obj/structure/table/wood,
 /obj/item/reagent_containers/cup/glass/bottle/rum/aged,
 /turf/open/floor/wood/large,
+/area/awaymission/secret)
+"KO" = (
+/obj/structure/table/wood,
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/turf/open/floor/wood/parquet,
 /area/awaymission/secret)
 "KQ" = (
 /obj/structure/railing{
@@ -7598,6 +7643,8 @@
 /obj/structure/railing/wooden_fence{
 	dir = 8
 	},
+/obj/structure/flora/bush/leavy,
+/obj/structure/flora/bush/flowers_yw/style_random,
 /turf/open/misc/grass,
 /area/awaymission/secret)
 "Nd" = (
@@ -8248,9 +8295,6 @@
 	sign_change_name = "Information - Safari Area";
 	obj_flags = sssss
 	},
-/obj/effect/turf_decal/siding/wood{
-	dir = 4
-	},
 /turf/open/misc/grass,
 /area/awaymission/secret)
 "Qj" = (
@@ -8338,6 +8382,13 @@
 	},
 /turf/open/floor/stone,
 /area/awaymission/secret/fullbright)
+"QB" = (
+/obj/effect/turf_decal/siding/wideplating/dark,
+/obj/effect/turf_decal/siding/dark{
+	dir = 4
+	},
+/turf/open/floor/stone,
+/area/awaymission/secret)
 "QE" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
@@ -8872,6 +8923,15 @@
 /obj/structure/cable,
 /turf/open/floor/iron/dark,
 /area/station/security/brig/lower)
+"Ty" = (
+/obj/structure/chair/pew/left{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 10
+	},
+/turf/open/floor/wood/parquet,
+/area/awaymission/secret)
 "Tz" = (
 /obj/machinery/stasis{
 	dir = 4
@@ -9405,6 +9465,11 @@
 /obj/effect/turf_decal/siding/wideplating/dark,
 /turf/open/floor/stone,
 /area/awaymission/secret/fullbright)
+"Ws" = (
+/obj/structure/table/wood,
+/obj/effect/turf_decal/siding/wood,
+/turf/open/floor/wood/parquet,
+/area/awaymission/secret)
 "Wu" = (
 /obj/structure/railing,
 /obj/structure/railing{
@@ -9878,9 +9943,10 @@
 	},
 /area/awaymission/secret)
 "YN" = (
-/obj/effect/turf_decal/siding/wood{
-	dir = 4
+/obj/structure/railing/wooden_fence{
+	dir = 8
 	},
+/obj/structure/flora/bush/leafy,
 /turf/open/misc/grass,
 /area/awaymission/secret)
 "YO" = (
@@ -46989,8 +47055,8 @@ Yo
 Yo
 BJ
 mM
-Nc
-Nc
+tX
+YN
 Nc
 uU
 zS
@@ -47758,10 +47824,10 @@ BJ
 BJ
 Yo
 Yo
-Yo
+kS
 rm
-nn
-nn
+sF
+Ty
 nn
 uU
 LK
@@ -48014,12 +48080,12 @@ BJ
 BJ
 BJ
 BJ
-Yo
-Yo
+eT
+kS
 Lt
-nn
-nn
-nn
+KO
+Ws
+BJ
 uU
 al
 tx
@@ -48271,12 +48337,12 @@ BJ
 BJ
 BJ
 BJ
-Yo
-Yo
+eT
+kS
 Lt
-nn
-nn
-nn
+uk
+JH
+BJ
 uU
 uU
 uU
@@ -48528,12 +48594,12 @@ BJ
 BJ
 BJ
 BJ
-Yo
-Yo
+eT
+kS
 Lt
 nn
 nn
-nn
+BJ
 Mi
 XY
 XY
@@ -48785,12 +48851,12 @@ BJ
 BJ
 BJ
 BJ
-Yo
-Yo
+eT
+kS
 Lt
 nn
 nn
-nn
+BJ
 NY
 TU
 TU
@@ -49042,12 +49108,12 @@ BJ
 BJ
 BJ
 BJ
-Yo
-Yo
+eT
+kS
 Lt
 nn
 nn
-nn
+BJ
 ac
 ac
 ee
@@ -49299,12 +49365,12 @@ BJ
 BJ
 BJ
 BJ
-Yo
-Yo
+eT
+kS
 Lt
 nn
 nn
-nn
+BJ
 ac
 Fc
 iK
@@ -49556,12 +49622,12 @@ BJ
 BJ
 BJ
 BJ
-Yo
-Yo
+eT
+kS
 Qi
-YN
-YN
-YN
+nn
+nn
+BJ
 gh
 Rs
 Rs
@@ -49813,12 +49879,12 @@ BJ
 BJ
 BJ
 BJ
-Yo
-Yo
-Yo
-Yo
-Yo
-Yo
+eT
+lD
+hS
+hS
+hS
+hS
 uf
 fg
 fg
@@ -50070,12 +50136,12 @@ BJ
 BJ
 BJ
 BJ
-Yo
-Yo
-Yo
-Yo
-Yo
-Yo
+eT
+bi
+hj
+hj
+hj
+hj
 uf
 fg
 fg
@@ -50327,12 +50393,12 @@ BJ
 BJ
 BJ
 BJ
-Yo
-Yo
-sF
-kS
-kS
 eT
+kS
+Lt
+nn
+nn
+ii
 gh
 NZ
 NZ
@@ -50584,8 +50650,8 @@ BJ
 BJ
 BJ
 BJ
-Yo
-Yo
+eT
+kS
 Lt
 ii
 nn
@@ -50841,8 +50907,8 @@ gu
 BJ
 BJ
 BJ
-ok
-ok
+hv
+QB
 Lt
 nn
 ii
@@ -113808,7 +113874,7 @@ iQ
 iQ
 iQ
 iQ
-kG
+iQ
 iQ
 iQ
 iQ
@@ -114065,7 +114131,7 @@ iQ
 iQ
 iQ
 iQ
-kG
+iQ
 iQ
 iQ
 iQ
@@ -114322,7 +114388,7 @@ iQ
 iQ
 iQ
 iQ
-kG
+iQ
 iQ
 iQ
 iQ
@@ -114579,7 +114645,7 @@ iQ
 FT
 iQ
 iQ
-kG
+iQ
 iQ
 iQ
 iQ
@@ -114836,7 +114902,7 @@ iQ
 iQ
 iQ
 iQ
-kG
+iQ
 iQ
 iQ
 iQ
@@ -115093,7 +115159,7 @@ iQ
 iQ
 iQ
 iQ
-kG
+iQ
 iQ
 iQ
 iQ
@@ -115350,7 +115416,7 @@ iQ
 iQ
 iQ
 iQ
-kG
+iQ
 iQ
 iQ
 iQ
@@ -115607,7 +115673,7 @@ iQ
 FT
 iQ
 iQ
-kG
+iQ
 iQ
 iQ
 iQ
