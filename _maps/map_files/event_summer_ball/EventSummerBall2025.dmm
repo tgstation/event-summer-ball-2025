@@ -1603,11 +1603,8 @@
 /turf/open/misc/beach/sand,
 /area/awaymission/secret)
 "iS" = (
-/obj/machinery/deployable_turret/ultimate{
-	dir = 4
-	},
-/turf/open/misc/asteroid,
-/area/awaymission/secret/fullbright)
+/turf/open/floor/plating/reinforced,
+/area/station/security/brig/upper)
 "iU" = (
 /obj/structure/sink/directional/east,
 /turf/open/misc/beach/sand,
@@ -2626,6 +2623,14 @@
 /obj/machinery/door/airlock/tram,
 /turf/open/openspace,
 /area/awaymission/museum/mothroachvoid)
+"oM" = (
+/obj/structure/closet/firecloset/full,
+/obj/effect/turf_decal/bot,
+/obj/effect/turf_decal/trimline/red/filled/line{
+	dir = 8
+	},
+/turf/open/floor/iron,
+/area/station/security/brig/lower)
 "oN" = (
 /obj/structure/fence/corner{
 	dir = 8
@@ -3113,11 +3118,12 @@
 /turf/open/floor/wood,
 /area/awaymission/secret/fullbright)
 "rF" = (
-/obj/machinery/deployable_turret/ultimate{
+/obj/structure/cable,
+/obj/effect/turf_decal/trimline/red/filled/line{
 	dir = 8
 	},
-/turf/open/misc/asteroid,
-/area/awaymission/secret/fullbright)
+/turf/open/floor/iron,
+/area/station/security/brig/lower)
 "rH" = (
 /obj/structure/window/reinforced/spawner/directional/east,
 /obj/structure/window/reinforced/spawner/directional/north,
@@ -3796,13 +3802,13 @@
 /turf/open/misc/asteroid,
 /area/station/security/prison)
 "vD" = (
-/obj/machinery/photobooth/security,
 /obj/effect/turf_decal/tile/red/half/contrasted{
 	dir = 8
 	},
 /obj/effect/turf_decal/tile/neutral/half/contrasted{
 	dir = 4
 	},
+/obj/machinery/photobooth/security,
 /turf/open/floor/iron,
 /area/station/security/brig/lower)
 "vE" = (
@@ -7652,6 +7658,12 @@
 /obj/structure/thermoplastic/light,
 /turf/open/openspace,
 /area/awaymission/museum/mothroachvoid)
+"Qq" = (
+/obj/machinery/power/emitter/prototype,
+/obj/effect/turf_decal/bot,
+/obj/item/wrench/caravan,
+/turf/open/floor/iron/dark/textured,
+/area/station/ai_monitored/security/armory)
 "Qr" = (
 /obj/machinery/door/airlock/medical{
 	name = "Toilet Stall"
@@ -8270,6 +8282,17 @@
 /obj/structure/extinguisher_cabinet/directional/east,
 /turf/open/floor/carpet/royalblack,
 /area/station/command/heads_quarters/hos)
+"TS" = (
+/obj/effect/turf_decal/tile/red/half/contrasted{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/neutral/half/contrasted{
+	dir = 4
+	},
+/obj/effect/turf_decal/bot,
+/obj/machinery/recharge_station,
+/turf/open/floor/iron,
+/area/station/security/brig/lower)
 "TW" = (
 /obj/effect/turf_decal/trimline/red/filled/line{
 	dir = 1
@@ -100271,7 +100294,7 @@ kG
 aC
 aC
 aC
-aC
+aZ
 aZ
 aZ
 aZ
@@ -100528,7 +100551,7 @@ kG
 aC
 aC
 aC
-aC
+aZ
 aZ
 aZ
 aZ
@@ -100785,7 +100808,7 @@ aC
 aC
 aC
 aC
-aC
+aZ
 aZ
 aZ
 kG
@@ -101042,7 +101065,7 @@ aC
 aC
 aC
 aC
-aC
+aZ
 aZ
 aZ
 aZ
@@ -101299,7 +101322,7 @@ aC
 aC
 aC
 aC
-aC
+aZ
 aZ
 aZ
 aZ
@@ -101556,7 +101579,7 @@ px
 US
 Up
 aC
-aC
+aZ
 aZ
 aZ
 aZ
@@ -102063,7 +102086,7 @@ XJ
 we
 jG
 US
-iS
+sv
 US
 sv
 sv
@@ -102334,7 +102357,7 @@ by
 mt
 Im
 Im
-sn
+rF
 sn
 Hd
 vq
@@ -102591,7 +102614,7 @@ WY
 WY
 WY
 Kp
-Ar
+Kp
 Ar
 TY
 OW
@@ -102848,7 +102871,7 @@ Sy
 lG
 UM
 Qg
-vD
+TS
 vD
 TY
 pY
@@ -105418,7 +105441,7 @@ lk
 DU
 UG
 MC
-ps
+oM
 ps
 Oo
 yx
@@ -105675,7 +105698,7 @@ ev
 ev
 ev
 ev
-Ud
+ev
 Ud
 wt
 Ev
@@ -105932,7 +105955,7 @@ lh
 lq
 ms
 ms
-EH
+ms
 EH
 Oo
 yk
@@ -106175,7 +106198,7 @@ qk
 we
 jG
 US
-rF
+sv
 US
 sv
 sv
@@ -166324,10 +166347,10 @@ iQ
 iQ
 iQ
 iQ
-iQ
 hh
 JI
 Dg
+iQ
 iQ
 iQ
 iQ
@@ -166581,10 +166604,10 @@ iQ
 iQ
 iQ
 iQ
-iQ
 hh
 JI
 Dg
+iQ
 iQ
 iQ
 iQ
@@ -166838,10 +166861,10 @@ iQ
 iQ
 iQ
 iQ
-iQ
 hh
 JI
 Dg
+iQ
 iQ
 iQ
 iQ
@@ -167095,10 +167118,10 @@ iQ
 iQ
 iQ
 iQ
-iQ
 hh
 JI
 Dg
+iQ
 iQ
 iQ
 iQ
@@ -167347,7 +167370,6 @@ iQ
 iQ
 iQ
 iQ
-iQ
 Ei
 Ei
 Ei
@@ -167363,6 +167385,7 @@ Ei
 Ei
 Ei
 Ei
+iS
 iQ
 iQ
 iQ
@@ -167604,7 +167627,6 @@ iQ
 iQ
 iQ
 iQ
-iQ
 FQ
 cO
 bD
@@ -167620,6 +167642,7 @@ Jp
 tR
 TZ
 Ei
+iS
 iQ
 iQ
 iQ
@@ -167861,7 +167884,6 @@ iQ
 iQ
 iQ
 iQ
-iQ
 FQ
 Vt
 SP
@@ -167877,6 +167899,7 @@ JI
 JI
 wd
 Ei
+iS
 iQ
 iQ
 iQ
@@ -168118,7 +168141,6 @@ iQ
 iQ
 iQ
 iQ
-iQ
 Ei
 qH
 pS
@@ -168134,6 +168156,7 @@ JI
 JI
 JW
 Ei
+iS
 iQ
 iQ
 iQ
@@ -168375,7 +168398,6 @@ iQ
 iQ
 iQ
 iQ
-iQ
 Ei
 kf
 Go
@@ -168391,6 +168413,7 @@ MG
 iA
 kc
 Ei
+iS
 iQ
 iQ
 iQ
@@ -168632,7 +168655,6 @@ iQ
 iQ
 iQ
 iQ
-iQ
 Ei
 CE
 If
@@ -168648,6 +168670,7 @@ LS
 bO
 bO
 bO
+iS
 iQ
 iQ
 iQ
@@ -168889,7 +168912,6 @@ iQ
 iQ
 iQ
 iQ
-iQ
 Ei
 Pn
 kQ
@@ -168905,6 +168927,7 @@ vv
 wT
 Gc
 bO
+iS
 iQ
 iQ
 iQ
@@ -169146,7 +169169,6 @@ iQ
 iQ
 iQ
 iQ
-iQ
 Ei
 ka
 Lv
@@ -169162,6 +169184,7 @@ Ec
 tu
 Io
 bO
+iS
 iQ
 iQ
 iQ
@@ -169403,7 +169426,6 @@ iQ
 iQ
 iQ
 iQ
-iQ
 Ei
 xp
 Lv
@@ -169419,6 +169441,7 @@ il
 tu
 hd
 bO
+iS
 iQ
 iQ
 iQ
@@ -169660,7 +169683,6 @@ iQ
 iQ
 iQ
 iQ
-iQ
 Ei
 Oz
 Lv
@@ -169676,6 +169698,7 @@ zh
 tu
 Fb
 bO
+iS
 iQ
 iQ
 iQ
@@ -169917,7 +169940,6 @@ iQ
 iQ
 iQ
 iQ
-iQ
 Ei
 xp
 Lv
@@ -169933,6 +169955,7 @@ Eh
 tu
 ca
 bO
+iS
 iQ
 iQ
 iQ
@@ -170174,7 +170197,6 @@ iQ
 iQ
 iQ
 iQ
-iQ
 Ei
 Jo
 Lv
@@ -170184,12 +170206,13 @@ Ei
 bO
 xt
 Xv
-tu
-tu
+Qq
+Qq
 OE
 tu
 PU
 bO
+iS
 iQ
 iQ
 iQ
@@ -170431,7 +170454,6 @@ iQ
 iQ
 iQ
 iQ
-iQ
 Ei
 JI
 Fa
@@ -170447,6 +170469,7 @@ aS
 Av
 Yw
 bO
+iS
 iQ
 iQ
 iQ
@@ -170688,7 +170711,6 @@ iQ
 iQ
 iQ
 iQ
-iQ
 Ei
 xY
 wV
@@ -170704,6 +170726,7 @@ Am
 Am
 Am
 Am
+iS
 iQ
 iQ
 iQ
@@ -170945,7 +170968,6 @@ iQ
 iQ
 iQ
 iQ
-iQ
 Ei
 eV
 sQ
@@ -170961,6 +170983,7 @@ Am
 cS
 Tl
 Am
+iS
 iQ
 iQ
 iQ
@@ -171202,7 +171225,6 @@ iQ
 iQ
 iQ
 iQ
-iQ
 Ei
 Iq
 vO
@@ -171218,6 +171240,7 @@ Am
 Dt
 Pt
 Am
+iS
 iQ
 iQ
 iQ
@@ -171459,7 +171482,6 @@ iQ
 iQ
 iQ
 iQ
-iQ
 FQ
 hY
 lX
@@ -171475,6 +171497,7 @@ jB
 gr
 WR
 Am
+iS
 iQ
 iQ
 iQ
@@ -171716,7 +171739,6 @@ iQ
 iQ
 iQ
 iQ
-iQ
 FQ
 xK
 xO
@@ -171732,6 +171754,7 @@ Am
 Dv
 FH
 Am
+iS
 iQ
 iQ
 iQ
@@ -171973,7 +171996,6 @@ iQ
 iQ
 iQ
 iQ
-iQ
 Ei
 Ei
 Ei
@@ -171989,6 +172011,7 @@ Am
 Am
 Am
 Am
+iS
 iQ
 iQ
 iQ
