@@ -1604,8 +1604,7 @@
 "gK" = (
 /obj/structure/fluff/bus/passable/seat/driver,
 /obj/machinery/requests_console/directional/north{
-	department = "Arrival shuttle";
-	name = "Bus Driver Requests Console";
+	department = "Bus Driver";
 	pixel_y = 0;
 	pixel_z = 30
 	},
@@ -2100,6 +2099,7 @@
 /area/awaymission/secret)
 "iT" = (
 /obj/structure/fluff/bus/passable,
+/obj/effect/landmark/start/cyborg,
 /turf/open/floor/iron/dark{
 	icon_state = "bus"
 	},
@@ -2804,7 +2804,9 @@
 /area/awaymission/secret/fullbright)
 "lJ" = (
 /obj/structure/fluff/bus/passable{
-	icon_state = "bottomdoor"
+	icon_state = "bottomdoor";
+	plane = -4;
+	layer = 3
 	},
 /turf/open/floor/bluespace,
 /area/awaymission/museum/mothroachvoid)
@@ -4114,6 +4116,7 @@
 /area/awaymission/secret/fullbright)
 "rm" = (
 /obj/effect/decal/cleanable/dirt,
+/obj/effect/landmark/start/cyborg,
 /turf/open/floor/iron/dark{
 	icon_state = "bus"
 	},
@@ -9144,6 +9147,7 @@
 /turf/open/floor/stone,
 /area/awaymission/secret/fullbright)
 "Nc" = (
+/obj/effect/landmark/start/cyborg,
 /turf/open/floor/iron/dark{
 	icon_state = "bus"
 	},
@@ -10020,8 +10024,7 @@
 "QF" = (
 /obj/structure/fluff/bus/passable/seat/driver,
 /obj/machinery/requests_console/directional/north{
-	department = "Arrival shuttle";
-	name = "Bus Driver Requests Console";
+	department = "Bus Driver";
 	pixel_y = 0;
 	pixel_z = 30
 	},
@@ -12015,7 +12018,9 @@
 /area/awaymission/museum/mothroachvoid)
 "YW" = (
 /obj/structure/fluff/bus/passable{
-	icon_state = "bottomdoor"
+	icon_state = "bottomdoor";
+	plane = -4;
+	layer = 3
 	},
 /turf/open/floor/asphalt,
 /area/awaymission/secret/fullbright)
