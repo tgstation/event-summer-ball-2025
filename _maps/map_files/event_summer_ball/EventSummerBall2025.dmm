@@ -1603,13 +1603,8 @@
 /turf/open/misc/beach/sand,
 /area/awaymission/secret)
 "iS" = (
-/obj/structure/closet/firecloset/full,
-/obj/effect/turf_decal/bot,
-/obj/effect/turf_decal/trimline/red/filled/line{
-	dir = 8
-	},
-/turf/open/floor/iron,
-/area/station/security/brig/lower)
+/turf/open/floor/plating/reinforced,
+/area/station/security/brig/upper)
 "iU" = (
 /obj/structure/sink/directional/east,
 /turf/open/misc/beach/sand,
@@ -1867,13 +1862,6 @@
 	},
 /turf/open/floor/wood/large,
 /area/awaymission/secret)
-"km" = (
-/obj/structure/cable,
-/obj/effect/turf_decal/trimline/red/filled/line{
-	dir = 8
-	},
-/turf/open/floor/iron,
-/area/station/security/brig/lower)
 "kn" = (
 /obj/structure/fluff/tram_rail/electric/anchor{
 	dir = 1
@@ -2635,6 +2623,14 @@
 /obj/machinery/door/airlock/tram,
 /turf/open/openspace,
 /area/awaymission/museum/mothroachvoid)
+"oM" = (
+/obj/structure/closet/firecloset/full,
+/obj/effect/turf_decal/bot,
+/obj/effect/turf_decal/trimline/red/filled/line{
+	dir = 8
+	},
+/turf/open/floor/iron,
+/area/station/security/brig/lower)
 "oN" = (
 /obj/structure/fence/corner{
 	dir = 8
@@ -3122,8 +3118,12 @@
 /turf/open/floor/wood,
 /area/awaymission/secret/fullbright)
 "rF" = (
-/turf/open/floor/plating/reinforced,
-/area/station/security/brig/upper)
+/obj/structure/cable,
+/obj/effect/turf_decal/trimline/red/filled/line{
+	dir = 8
+	},
+/turf/open/floor/iron,
+/area/station/security/brig/lower)
 "rH" = (
 /obj/structure/window/reinforced/spawner/directional/east,
 /obj/structure/window/reinforced/spawner/directional/north,
@@ -5586,17 +5586,6 @@
 	},
 /turf/open/floor/wood/parquet,
 /area/awaymission/secret)
-"FF" = (
-/obj/effect/turf_decal/tile/red/half/contrasted{
-	dir = 8
-	},
-/obj/effect/turf_decal/tile/neutral/half/contrasted{
-	dir = 4
-	},
-/obj/effect/turf_decal/bot,
-/obj/machinery/recharge_station,
-/turf/open/floor/iron,
-/area/station/security/brig/lower)
 "FG" = (
 /obj/item/toy/plush/abductor{
 	name = "Jerry"
@@ -7669,6 +7658,12 @@
 /obj/structure/thermoplastic/light,
 /turf/open/openspace,
 /area/awaymission/museum/mothroachvoid)
+"Qq" = (
+/obj/machinery/power/emitter/prototype,
+/obj/effect/turf_decal/bot,
+/obj/item/wrench/caravan,
+/turf/open/floor/iron/dark/textured,
+/area/station/ai_monitored/security/armory)
 "Qr" = (
 /obj/machinery/door/airlock/medical{
 	name = "Toilet Stall"
@@ -8287,6 +8282,17 @@
 /obj/structure/extinguisher_cabinet/directional/east,
 /turf/open/floor/carpet/royalblack,
 /area/station/command/heads_quarters/hos)
+"TS" = (
+/obj/effect/turf_decal/tile/red/half/contrasted{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/neutral/half/contrasted{
+	dir = 4
+	},
+/obj/effect/turf_decal/bot,
+/obj/machinery/recharge_station,
+/turf/open/floor/iron,
+/area/station/security/brig/lower)
 "TW" = (
 /obj/effect/turf_decal/trimline/red/filled/line{
 	dir = 1
@@ -100288,7 +100294,7 @@ kG
 aC
 aC
 aC
-aC
+aZ
 aZ
 aZ
 aZ
@@ -100545,7 +100551,7 @@ kG
 aC
 aC
 aC
-aC
+aZ
 aZ
 aZ
 aZ
@@ -100802,7 +100808,7 @@ aC
 aC
 aC
 aC
-aC
+aZ
 aZ
 aZ
 kG
@@ -101059,7 +101065,7 @@ aC
 aC
 aC
 aC
-aC
+aZ
 aZ
 aZ
 aZ
@@ -101316,7 +101322,7 @@ aC
 aC
 aC
 aC
-aC
+aZ
 aZ
 aZ
 aZ
@@ -101573,7 +101579,7 @@ px
 US
 Up
 aC
-aC
+aZ
 aZ
 aZ
 aZ
@@ -102351,7 +102357,7 @@ by
 mt
 Im
 Im
-km
+rF
 sn
 Hd
 vq
@@ -102865,7 +102871,7 @@ Sy
 lG
 UM
 Qg
-FF
+TS
 vD
 TY
 pY
@@ -105435,7 +105441,7 @@ lk
 DU
 UG
 MC
-iS
+oM
 ps
 Oo
 yx
@@ -167379,7 +167385,7 @@ Ei
 Ei
 Ei
 Ei
-rF
+iS
 iQ
 iQ
 iQ
@@ -167636,7 +167642,7 @@ Jp
 tR
 TZ
 Ei
-rF
+iS
 iQ
 iQ
 iQ
@@ -167893,7 +167899,7 @@ JI
 JI
 wd
 Ei
-rF
+iS
 iQ
 iQ
 iQ
@@ -168150,7 +168156,7 @@ JI
 JI
 JW
 Ei
-rF
+iS
 iQ
 iQ
 iQ
@@ -168407,7 +168413,7 @@ MG
 iA
 kc
 Ei
-rF
+iS
 iQ
 iQ
 iQ
@@ -168664,7 +168670,7 @@ LS
 bO
 bO
 bO
-rF
+iS
 iQ
 iQ
 iQ
@@ -168921,7 +168927,7 @@ vv
 wT
 Gc
 bO
-rF
+iS
 iQ
 iQ
 iQ
@@ -169178,7 +169184,7 @@ Ec
 tu
 Io
 bO
-rF
+iS
 iQ
 iQ
 iQ
@@ -169435,7 +169441,7 @@ il
 tu
 hd
 bO
-rF
+iS
 iQ
 iQ
 iQ
@@ -169692,7 +169698,7 @@ zh
 tu
 Fb
 bO
-rF
+iS
 iQ
 iQ
 iQ
@@ -169949,7 +169955,7 @@ Eh
 tu
 ca
 bO
-rF
+iS
 iQ
 iQ
 iQ
@@ -170200,13 +170206,13 @@ Ei
 bO
 xt
 Xv
-tu
-tu
+Qq
+Qq
 OE
 tu
 PU
 bO
-rF
+iS
 iQ
 iQ
 iQ
@@ -170463,7 +170469,7 @@ aS
 Av
 Yw
 bO
-rF
+iS
 iQ
 iQ
 iQ
@@ -170720,7 +170726,7 @@ Am
 Am
 Am
 Am
-rF
+iS
 iQ
 iQ
 iQ
@@ -170977,7 +170983,7 @@ Am
 cS
 Tl
 Am
-rF
+iS
 iQ
 iQ
 iQ
@@ -171234,7 +171240,7 @@ Am
 Dt
 Pt
 Am
-rF
+iS
 iQ
 iQ
 iQ
@@ -171491,7 +171497,7 @@ jB
 gr
 WR
 Am
-rF
+iS
 iQ
 iQ
 iQ
@@ -171748,7 +171754,7 @@ Am
 Dv
 FH
 Am
-rF
+iS
 iQ
 iQ
 iQ
@@ -172005,7 +172011,7 @@ Am
 Am
 Am
 Am
-rF
+iS
 iQ
 iQ
 iQ
