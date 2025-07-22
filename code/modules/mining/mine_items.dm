@@ -194,7 +194,7 @@
 	if(!on_rails)
 		return ..()
 	// Allows people to drag minecarts along the rails rather than solely shoving it
-	if(can_travel_on_turf(get_turf(newloc), direct))
+	if(can_travel_on_turf(get_turf(newloc), direct) || currently_z_moving == CURRENTLY_Z_MOVING_MINERAIL)
 		return ..()
 	momentum = 0
 	return FALSE
@@ -302,7 +302,8 @@
 	return NONE
 
 /obj/structure/closet/crate/miningcar/forceMove(atom/destination)
-	update_rail_state(FALSE)
+	if(currently_z_moving != CURRENTLY_Z_MOVING_MINERAIL)
+		update_rail_state(FALSE)
 	return ..()
 
 /obj/structure/closet/crate/miningcar/mouse_drop_dragged(atom/over, mob/user, src_location, over_location, params)
@@ -410,8 +411,11 @@
 	if(momentum <= 0)
 		return
 
+	start_moving_in_dir(movedir)
+
+/obj/structure/closet/crate/miningcar/proc/start_moving_in_dir(movedir)
 	setDir(movedir)
-	var/datum/move_loop/loop = GLOB.move_manager.move(src, dir, delay = calculate_delay(), subsystem = SSconveyors, flags = MOVEMENT_LOOP_START_FAST|MOVEMENT_LOOP_IGNORE_PRIORITY)
+	var/datum/move_loop/loop = GLOB.move_manager.move_multiz(src, dir, delay = calculate_delay(), subsystem = SSconveyors, flags = MOVEMENT_LOOP_START_FAST|MOVEMENT_LOOP_IGNORE_PRIORITY )
 	RegisterSignal(loop, COMSIG_MOVELOOP_PREPROCESS_CHECK, PROC_REF(check_rail))
 	RegisterSignal(loop, COMSIG_MOVELOOP_POSTPROCESS, PROC_REF(decay_momentum))
 
@@ -437,6 +441,17 @@
 			break
 		source.direction = next_dir
 		return NONE
+	// Go down, first move forward over open space then zmove down
+	if(can_travel_on_turf(get_step_multiz(src, dir | DOWN)))
+		momentum += 1 //whee
+		source.direction = dir | DOWN
+		return NONE
+	// Go up first zmove upwards then forward
+	if(can_travel_on_turf(get_step_multiz(src, dir | UP)))
+		//momentum -= 1
+		source.direction = dir | UP
+		return NONE
+
 	// Can't go straight and cant turn = STOP
 	GLOB.move_manager.stop_looping(src, SSconveyors)
 	if(momentum >= 8)
@@ -548,6 +563,14 @@
 	. = ..()
 	. += rail_examine()
 
+/obj/structure/minecart_rail/intercept_zImpact(list/falling_movables, levels = 1)
+	. = ..()
+	if(levels != 1)
+		return
+	var/obj/structure/closet/crate/miningcar/falling_car = locate() in falling_movables
+	if(falling_car)
+		. |= FALL_INTERCEPTED | FALL_NO_MESSAGE | FALL_RETAIN_PULL
+
 /obj/structure/minecart_rail/proc/rail_examine()
 	return span_notice("Run a powered cable underneath it to power carts as they travel, maintaining their speed.")
 
@@ -561,3 +584,56 @@
 
 /obj/structure/minecart_rail/railbreak/rail_examine()
 	return span_notice("Run a powered cable underneath it to stop carts that pass over it.")
+
+/obj/machinery/button/rail
+	name = "coaster button"
+	desc = "A remote control switch for a rail starter."
+	icon_state= "button-warning"
+	skin = "-warning"
+	device_type = /obj/item/assembly/control/rail
+	var/starting_momentum = 20
+
+/obj/machinery/button/rail/setup_device()
+	. = ..()
+	if(starting_momentum && istype(device, /obj/item/assembly/control/rail))
+		var/obj/item/assembly/control/rail/control_device = device
+		control_device.starting_momentum = starting_momentum
+
+/obj/item/assembly/control/rail
+	name = "coaster controller"
+	desc = "A small electronic device able to control a starter rail remotely."
+	// Gives us time to get goin
+	COOLDOWN_DECLARE(starting_cooldown)
+	var/starting_momentum
+
+/obj/item/assembly/control/rail/activate()
+	if(!COOLDOWN_FINISHED(src, starting_cooldown))
+		return
+	COOLDOWN_START(src, starting_cooldown, 1 SECONDS)
+	for(var/obj/structure/minecart_rail/railbreak/starter/blastoff in GLOB.starter_rails)
+		if(blastoff.linked_button_id != src.id)
+			continue
+		blastoff.start_cart(starting_momentum)
+
+GLOBAL_LIST_EMPTY(starter_rails)
+/obj/structure/minecart_rail/railbreak/starter
+	name = "cart rail starter"
+	desc = "Starts carts a rollin. Like, down the line and such"
+	icon_state = "track_starter"
+	var/linked_button_id
+
+/obj/structure/minecart_rail/railbreak/starter/Initialize(mapload)
+	. = ..()
+	GLOB.starter_rails += src
+
+/obj/structure/minecart_rail/railbreak/starter/Destroy(force)
+	GLOB.starter_rails -= src
+	return ..()
+
+/obj/structure/minecart_rail/railbreak/starter/rail_examine()
+	return span_notice("Run a powered cable underneath it to stop and start carts that pass over it.")
+
+/obj/structure/minecart_rail/railbreak/starter/proc/start_cart(starting_momentum)
+	var/obj/structure/closet/crate/miningcar/pushin_down = locate() in loc
+	pushin_down.momentum = starting_momentum
+	pushin_down.start_moving_in_dir(dir)
