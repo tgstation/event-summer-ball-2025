@@ -6,12 +6,26 @@
 /obj/structure/fans/tiny/invisible,
 /turf/template_noop,
 /area/shuttle/arrival)
+"d" = (
+/obj/structure/fluff/bus/passable/seat,
+/obj/effect/light_emitter/fake_outdoors,
+/turf/open/floor/iron/dark{
+	icon_state = "bus"
+	},
+/area/shuttle/arrival)
 "g" = (
 /obj/structure/fluff/bus/dense{
 	icon_state = "fronttire"
 	},
 /obj/structure/fans/tiny/invisible,
 /turf/template_noop,
+/area/shuttle/arrival)
+"j" = (
+/obj/structure/fluff/bus/passable,
+/obj/effect/light_emitter/fake_outdoors,
+/turf/open/floor/iron/dark{
+	icon_state = "bus"
+	},
 /area/shuttle/arrival)
 "m" = (
 /obj/structure/fluff/bus/passable/seat{
@@ -104,6 +118,12 @@
 /area/shuttle/arrival)
 "Z" = (
 /obj/structure/fluff/bus/passable/seat/driver,
+/obj/machinery/requests_console/directional/north{
+	department = "Arrival shuttle";
+	name = "Bus Driver Requests Console";
+	pixel_y = 0;
+	pixel_z = 30
+	},
 /turf/open/floor/iron/dark{
 	icon_state = "bus"
 	},
@@ -123,8 +143,8 @@ a
 "}
 (3,1,1) = {"
 V
-J
-o
+d
+j
 R
 "}
 (4,1,1) = {"
@@ -147,8 +167,8 @@ a
 "}
 (7,1,1) = {"
 V
-J
-o
+d
+j
 a
 "}
 (8,1,1) = {"
