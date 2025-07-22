@@ -673,6 +673,7 @@ GLOBAL_LIST_EMPTY(starter_rails)
 			momentum = 0
 			GLOB.move_manager.stop_looping(src, SSconveyors)
 			cable.add_delayedload(10 KILO JOULES)
+			qdel(src)
 			return
 
 		if(slow)
@@ -680,7 +681,7 @@ GLOBAL_LIST_EMPTY(starter_rails)
 		else if(momentum <= 20)
 			momentum = 20
 
-	// No more momentum = STOP
+	// No more momentum = destroy
 	if(momentum <= 0)
 		GLOB.move_manager.stop_looping(src, SSconveyors)
 		visible_message(span_notice("[src] comes to a slow stop."))
