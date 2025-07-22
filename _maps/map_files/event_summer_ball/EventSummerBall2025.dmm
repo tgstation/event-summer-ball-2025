@@ -164,6 +164,12 @@
 /obj/structure/showcase/perfect_employee,
 /turf/open/floor/plating,
 /area/station/maintenance/department/security)
+"aR" = (
+/obj/structure/fluff/bus/dense{
+	icon_state = "frontwallbottom"
+	},
+/turf/open/floor/asphalt,
+/area/awaymission/secret/fullbright)
 "aS" = (
 /obj/effect/turf_decal/tile/red/half/contrasted{
 	dir = 4
@@ -468,6 +474,12 @@
 /obj/structure/railing/wooden_fence,
 /obj/effect/turf_decal/siding/wood,
 /turf/open/floor/wood,
+/area/awaymission/secret/fullbright)
+"bY" = (
+/obj/structure/sign/nanotrasen{
+	pixel_y = 32
+	},
+/turf/open/floor/stone,
 /area/awaymission/secret/fullbright)
 "ca" = (
 /obj/structure/rack,
@@ -1003,6 +1015,14 @@
 /obj/effect/turf_decal/sand/plating,
 /turf/open/floor/plating,
 /area/awaymission/secret/fullbright)
+"eq" = (
+/obj/structure/fluff/bus/passable/seat,
+/obj/effect/landmark/latejoin,
+/obj/effect/landmark/start/assistant,
+/turf/open/floor/iron/dark{
+	icon_state = "bus"
+	},
+/area/awaymission/secret/fullbright)
 "eu" = (
 /obj/structure/chair/office,
 /turf/open/floor/wood/large,
@@ -1303,6 +1323,10 @@
 	},
 /turf/open/floor/wood/parquet,
 /area/awaymission/secret/fullbright)
+"fF" = (
+/obj/structure/flora/bush/reed/style_random,
+/turf/open/water/no_planet_atmos,
+/area/awaymission/secret/fullbright)
 "fG" = (
 /obj/structure/moisture_trap,
 /turf/open/floor/plating,
@@ -1404,6 +1428,14 @@
 /obj/structure/tram/spoiler,
 /turf/open/openspace,
 /area/awaymission/museum/mothroachvoid)
+"fY" = (
+/obj/structure/fluff/bus/passable,
+/obj/effect/landmark/latejoin,
+/obj/effect/landmark/start/assistant,
+/turf/open/floor/iron/dark{
+	icon_state = "bus"
+	},
+/area/awaymission/secret/fullbright)
 "fZ" = (
 /obj/structure/extinguisher_cabinet/directional/east,
 /obj/effect/turf_decal/siding/thinplating_new{
@@ -1482,6 +1514,12 @@
 /obj/effect/spawner/random/trash/crushed_can,
 /turf/open/misc/grass,
 /area/awaymission/secret/fullbright)
+"gn" = (
+/obj/structure/fluff/bus/passable{
+	icon_state = "wheredahoodat"
+	},
+/turf/open/floor/asphalt,
+/area/awaymission/secret/fullbright)
 "go" = (
 /obj/structure/table,
 /obj/machinery/light/directional/south,
@@ -1529,6 +1567,10 @@
 	},
 /turf/open/floor/tram,
 /area/awaymission/secret/fullbright)
+"gB" = (
+/obj/structure/flora/rock/pile/jungle/style_random,
+/turf/open/misc/grass,
+/area/awaymission/secret/fullbright)
 "gD" = (
 /obj/structure/bonfire/prelit,
 /turf/open/misc/ashplanet/rocky/safe,
@@ -1558,6 +1600,20 @@
 	dir = 4
 	},
 /turf/open/misc/sandy_dirt,
+/area/awaymission/secret/fullbright)
+"gK" = (
+/obj/structure/fluff/bus/passable/seat/driver,
+/obj/machinery/requests_console/directional/north{
+	department = "Arrival shuttle";
+	name = "Bus Driver Requests Console";
+	pixel_y = 0;
+	pixel_z = 30
+	},
+/obj/effect/landmark/latejoin,
+/obj/effect/landmark/start/assistant,
+/turf/open/floor/iron/dark{
+	icon_state = "bus"
+	},
 /area/awaymission/secret/fullbright)
 "gM" = (
 /obj/structure/railing,
@@ -1649,6 +1705,15 @@
 	},
 /turf/open/floor/iron,
 /area/station/security/brig/upper)
+"hi" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 1
+	},
+/obj/structure/chair/sofa/bench/right,
+/obj/effect/landmark/latejoin,
+/obj/effect/landmark/latejoin,
+/turf/open/floor/stone,
+/area/awaymission/secret/fullbright)
 "hj" = (
 /obj/structure/sign/nanotrasen{
 	pixel_x = 32
@@ -1886,6 +1951,12 @@
 	},
 /turf/open/floor/iron,
 /area/station/security/checkpoint/arrivals)
+"if" = (
+/obj/structure/fluff/bus/dense{
+	icon_state = "frontwallbottomrear"
+	},
+/turf/open/floor/asphalt,
+/area/awaymission/secret/fullbright)
 "ih" = (
 /obj/structure/railing{
 	dir = 5
@@ -1953,6 +2024,11 @@
 	},
 /turf/closed/indestructible/iron,
 /area/awaymission/secret)
+"ix" = (
+/obj/effect/light_emitter/fake_outdoors,
+/obj/structure/flora/grass/jungle/b/style_random,
+/turf/open/misc/grass,
+/area/awaymission/secret/fullbright)
 "iz" = (
 /obj/structure/fence/corner{
 	dir = 8
@@ -2012,18 +2088,6 @@
 	},
 /turf/open/floor/wood/parquet,
 /area/awaymission/secret)
-"iM" = (
-/obj/docking_port/stationary{
-	dir = 8;
-	dwidth = 2;
-	height = 10;
-	name = "arrivals";
-	roundstart_template = /datum/map_template/shuttle/arrival/bus;
-	shuttle_id = "arrival_stationary";
-	width = 4
-	},
-/turf/open/floor/asphalt,
-/area/awaymission/secret/fullbright)
 "iP" = (
 /turf/open/misc/asteroid,
 /area/station/security/prison)
@@ -2034,6 +2098,12 @@
 /obj/item/toy/seashell,
 /turf/open/misc/beach/sand,
 /area/awaymission/secret)
+"iT" = (
+/obj/structure/fluff/bus/passable,
+/turf/open/floor/iron/dark{
+	icon_state = "bus"
+	},
+/area/awaymission/secret/fullbright)
 "iU" = (
 /obj/structure/sink/directional/east,
 /turf/open/misc/beach/sand,
@@ -2084,6 +2154,10 @@
 	},
 /turf/open/misc/beach/sand,
 /area/awaymission/secret)
+"jg" = (
+/obj/structure/flora/bush/reed/style_random,
+/turf/open/water/no_planet_atmos/deep,
+/area/awaymission/secret/fullbright)
 "jh" = (
 /obj/structure/reagent_dispensers/water_cooler,
 /obj/effect/turf_decal/tile/red/half{
@@ -2215,6 +2289,15 @@
 /obj/structure/flora/bush/ferny/style_random,
 /turf/open/misc/beach/sand,
 /area/awaymission/secret)
+"jI" = (
+/obj/effect/turf_decal/siding/thinplating_new{
+	dir = 4
+	},
+/obj/structure/sign/nanotrasen{
+	pixel_x = 32
+	},
+/turf/open/floor/asphalt,
+/area/awaymission/secret/fullbright)
 "jJ" = (
 /turf/closed/indestructible/wood,
 /area/awaymission/secret/fullbright)
@@ -2812,6 +2895,16 @@
 	},
 /turf/open/floor/iron/white,
 /area/station/medical/patients_rooms)
+"mj" = (
+/obj/structure/fluff/bus/passable/seat{
+	pixel_y = 15
+	},
+/obj/effect/landmark/latejoin,
+/obj/effect/landmark/start/assistant,
+/turf/open/floor/iron/dark{
+	icon_state = "bus"
+	},
+/area/awaymission/secret/fullbright)
 "ml" = (
 /obj/structure/railing{
 	dir = 8
@@ -3379,6 +3472,12 @@
 /obj/structure/fluff/divine/powerpylon,
 /turf/open/floor/stone,
 /area/awaymission/secret)
+"oE" = (
+/obj/structure/fluff/bus/dense{
+	icon_state = "hoodbottom"
+	},
+/turf/open/floor/asphalt,
+/area/awaymission/secret/fullbright)
 "oF" = (
 /obj/effect/turf_decal/tile/neutral/tram,
 /turf/closed/indestructible/sandstone,
@@ -3472,6 +3571,10 @@
 /obj/effect/light_emitter/fake_outdoors,
 /turf/open/misc/dirt/jungle,
 /area/station/security/prison)
+"oX" = (
+/obj/structure/flora/tree/jungle/small/style_random,
+/turf/open/misc/grass,
+/area/awaymission/secret/fullbright)
 "oY" = (
 /obj/effect/turf_decal/siding/wideplating/dark{
 	dir = 10
@@ -3661,6 +3764,10 @@
 	},
 /turf/open/floor/wood/parquet,
 /area/awaymission/secret)
+"pN" = (
+/obj/structure/flora/rock/pile/jungle/large/style_random,
+/turf/open/misc/grass,
+/area/awaymission/secret/fullbright)
 "pO" = (
 /obj/machinery/stasis{
 	dir = 4
@@ -4004,6 +4111,12 @@
 	dir = 4
 	},
 /turf/open/floor/asphalt,
+/area/awaymission/secret/fullbright)
+"rm" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/dark{
+	icon_state = "bus"
+	},
 /area/awaymission/secret/fullbright)
 "rn" = (
 /obj/structure/chair/sofa/bench/right{
@@ -4555,6 +4668,12 @@
 /obj/structure/fence/cut/large,
 /turf/open/misc/sandy_dirt,
 /area/awaymission/secret/fullbright)
+"tW" = (
+/obj/structure/fluff/bus/dense{
+	icon_state = "fronttire"
+	},
+/turf/open/floor/asphalt,
+/area/awaymission/secret/fullbright)
 "tY" = (
 /obj/machinery/light/directional/north,
 /obj/effect/decal/cleanable/dirt,
@@ -4726,6 +4845,15 @@
 /obj/structure/sign/poster/official/cleanliness/directional/north,
 /turf/open/floor/iron/freezer,
 /area/station/medical/storage)
+"uV" = (
+/obj/structure/fluff/bus/passable,
+/obj/effect/light_emitter/fake_outdoors,
+/obj/effect/landmark/latejoin,
+/obj/effect/landmark/start/assistant,
+/turf/open/floor/iron/dark{
+	icon_state = "bus"
+	},
+/area/awaymission/secret/fullbright)
 "uW" = (
 /obj/effect/turf_decal/trimline/green/filled/line{
 	dir = 6
@@ -4913,6 +5041,16 @@
 	},
 /turf/open/floor/wood/parquet,
 /area/awaymission/secret)
+"vQ" = (
+/obj/structure/fluff/bus/passable{
+	icon_state = "topdoor"
+	},
+/obj/effect/landmark/latejoin,
+/obj/effect/landmark/start/assistant,
+/turf/open/floor/iron/dark{
+	icon_state = "bus"
+	},
+/area/awaymission/secret/fullbright)
 "vU" = (
 /obj/structure/cable,
 /turf/closed/indestructible/syndicate,
@@ -5436,6 +5574,11 @@
 /obj/machinery/newscaster/directional/west,
 /turf/open/floor/iron/white/smooth_large,
 /area/station/medical/cryo)
+"yc" = (
+/obj/structure/flora/grass/jungle/b/style_random,
+/obj/structure/flora/rock/pile/jungle/style_random,
+/turf/open/floor/grass,
+/area/awaymission/secret/fullbright)
 "ye" = (
 /obj/effect/turf_decal/siding/wood,
 /turf/open/misc/beach/sand,
@@ -5784,6 +5927,13 @@
 /obj/structure/cable,
 /turf/open/floor/iron,
 /area/station/security/brig/upper)
+"zA" = (
+/obj/effect/turf_decal/siding/thinplating_new,
+/obj/structure/sign/nanotrasen{
+	pixel_y = -32
+	},
+/turf/open/floor/asphalt,
+/area/awaymission/secret/fullbright)
 "zE" = (
 /obj/item/storage/cans/sixbeer,
 /turf/open/misc/ashplanet/rocky/safe,
@@ -5860,6 +6010,11 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron,
 /area/station/security/checkpoint/arrivals)
+"zT" = (
+/obj/structure/flora/grass/jungle/a/style_random,
+/obj/structure/flora/bush/large/style_random,
+/turf/open/misc/grass,
+/area/awaymission/secret/fullbright)
 "zU" = (
 /turf/open/floor/iron/stairs,
 /area/station/security/checkpoint/arrivals)
@@ -6317,6 +6472,10 @@
 /obj/item/fishing_rod,
 /turf/open/misc/beach/sand,
 /area/awaymission/secret)
+"Cf" = (
+/obj/structure/flora/rock/pile/jungle/style_random,
+/turf/open/floor/grass,
+/area/awaymission/secret/fullbright)
 "Cg" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 4
@@ -7098,6 +7257,10 @@
 /mob/living/basic/rabbit/easter/space,
 /turf/open/floor/stone,
 /area/awaymission/secret)
+"Ft" = (
+/obj/structure/fluff/bus/dense,
+/turf/open/floor/asphalt,
+/area/awaymission/secret/fullbright)
 "Fu" = (
 /obj/machinery/door/airlock/silver{
 	name = "Bathroom"
@@ -7635,6 +7798,15 @@
 "HP" = (
 /turf/open/misc/dirt/jungle,
 /area/awaymission/museum/mothroachvoid)
+"HQ" = (
+/obj/structure/fluff/bus/passable,
+/obj/effect/landmark/latejoin,
+/obj/effect/landmark/start/assistant,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/dark{
+	icon_state = "bus"
+	},
+/area/awaymission/secret/fullbright)
 "HR" = (
 /obj/structure/disposalpipe/trunk/multiz/down{
 	dir = 1
@@ -7642,6 +7814,14 @@
 /obj/machinery/vending/coffee,
 /turf/open/floor/iron,
 /area/station/security/checkpoint/arrivals)
+"HS" = (
+/obj/structure/sign/nanotrasen{
+	pixel_y = 32
+	},
+/obj/structure/flora/grass/jungle/a/style_random,
+/obj/structure/flora/grass/jungle/b/style_random,
+/turf/open/misc/grass,
+/area/awaymission/secret/fullbright)
 "HT" = (
 /obj/structure/table/reinforced,
 /obj/item/paper_bin/carbon{
@@ -7849,6 +8029,9 @@
 	dir = 1
 	},
 /obj/structure/closet/crate/bin,
+/obj/structure/sign/nanotrasen{
+	pixel_y = 32
+	},
 /turf/open/floor/stone,
 /area/awaymission/secret/fullbright)
 "IE" = (
@@ -7967,6 +8150,16 @@
 /obj/structure/flora/grass/jungle/b/style_random,
 /turf/open/floor/grass,
 /area/awaymission/secret/fullbright)
+"Je" = (
+/obj/structure/fluff/bus/passable,
+/obj/effect/light_emitter/fake_outdoors,
+/obj/effect/landmark/latejoin,
+/obj/effect/landmark/start/assistant,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/dark{
+	icon_state = "bus"
+	},
+/area/awaymission/secret/fullbright)
 "Jf" = (
 /obj/machinery/vending/wardrobe/sec_wardrobe,
 /obj/structure/railing,
@@ -8061,6 +8254,11 @@
 "JA" = (
 /turf/open/floor/iron/white/small,
 /area/station/medical/paramedic)
+"JC" = (
+/obj/structure/flora/grass/jungle/b/style_random,
+/obj/structure/flora/bush/jungle/a/style_random,
+/turf/open/misc/grass,
+/area/awaymission/secret/fullbright)
 "JD" = (
 /mob/living/basic/crab/evil,
 /obj/item/clothing/head/costume/pirate/bandana,
@@ -8438,6 +8636,11 @@
 /obj/structure/cable,
 /turf/open/floor/iron/dark,
 /area/station/security/brig/lower)
+"KZ" = (
+/obj/effect/turf_decal/siding/wood/corner,
+/obj/structure/flora/rock/pile/jungle/style_random,
+/turf/open/floor/grass,
+/area/awaymission/secret/fullbright)
 "Lb" = (
 /obj/structure/railing{
 	dir = 1
@@ -8749,6 +8952,15 @@
 	},
 /turf/open/floor/stone,
 /area/awaymission/secret/fullbright)
+"Ms" = (
+/obj/structure/fluff/bus/passable/seat,
+/obj/effect/light_emitter/fake_outdoors,
+/obj/effect/landmark/latejoin,
+/obj/effect/landmark/start/assistant,
+/turf/open/floor/iron/dark{
+	icon_state = "bus"
+	},
+/area/awaymission/secret/fullbright)
 "Mt" = (
 /obj/structure/disposalpipe/segment{
 	dir = 6
@@ -8868,6 +9080,12 @@
 	},
 /turf/open/misc/asteroid,
 /area/awaymission/secret/fullbright)
+"ML" = (
+/obj/structure/fluff/bus/dense{
+	icon_state = "hoodtop"
+	},
+/turf/open/floor/asphalt,
+/area/awaymission/secret/fullbright)
 "MM" = (
 /obj/effect/light_emitter/fake_outdoors,
 /turf/open/misc/dirt/station,
@@ -8924,6 +9142,11 @@
 	dir = 8
 	},
 /turf/open/floor/stone,
+/area/awaymission/secret/fullbright)
+"Nc" = (
+/turf/open/floor/iron/dark{
+	icon_state = "bus"
+	},
 /area/awaymission/secret/fullbright)
 "Nd" = (
 /obj/effect/turf_decal/tile/red/anticorner/contrasted{
@@ -9494,6 +9717,11 @@
 	},
 /turf/open/floor/stone,
 /area/awaymission/secret/fullbright)
+"Pg" = (
+/obj/structure/flora/grass/jungle/b/style_random,
+/obj/structure/flora/bush/jungle/b/style_random,
+/turf/open/misc/grass,
+/area/awaymission/secret/fullbright)
 "Ph" = (
 /obj/item/bikehorn/rubberducky,
 /obj/item/bikehorn/rubberducky{
@@ -9762,6 +9990,12 @@
 /obj/structure/cable,
 /turf/open/floor/iron,
 /area/station/security/brig/lower)
+"Qy" = (
+/obj/effect/light_emitter/fake_outdoors,
+/obj/structure/flora/grass/jungle/b/style_random,
+/obj/structure/flora/bush/jungle/a/style_random,
+/turf/open/misc/grass,
+/area/awaymission/secret/fullbright)
 "Qz" = (
 /turf/closed/indestructible/syndicate/nodiagonal,
 /area/station/security/checkpoint)
@@ -9783,6 +10017,21 @@
 /obj/effect/turf_decal/tile/blue/fourcorners,
 /turf/open/floor/iron/white,
 /area/station/medical/treatment_center)
+"QF" = (
+/obj/structure/fluff/bus/passable/seat/driver,
+/obj/machinery/requests_console/directional/north{
+	department = "Arrival shuttle";
+	name = "Bus Driver Requests Console";
+	pixel_y = 0;
+	pixel_z = 30
+	},
+/obj/effect/landmark/latejoin,
+/obj/effect/landmark/start/assistant,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/dark{
+	icon_state = "bus"
+	},
+/area/awaymission/secret/fullbright)
 "QH" = (
 /obj/structure/flora/bush/flowers_yw/style_random,
 /obj/effect/light_emitter/fake_outdoors,
@@ -10148,6 +10397,12 @@
 	},
 /turf/open/floor/iron/textured_large,
 /area/awaymission/secret/fullbright)
+"Si" = (
+/obj/structure/fluff/bus/dense{
+	icon_state = "reartire"
+	},
+/turf/open/floor/asphalt,
+/area/awaymission/secret/fullbright)
 "Sj" = (
 /obj/effect/turf_decal/trimline/red/filled/line{
 	dir = 1
@@ -10378,6 +10633,15 @@
 /obj/structure/table/glass,
 /turf/open/floor/iron/white/smooth_large,
 /area/station/medical/paramedic)
+"Tj" = (
+/obj/structure/fluff/bus/passable/seat,
+/obj/effect/landmark/latejoin,
+/obj/effect/landmark/start/assistant,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/dark{
+	icon_state = "bus"
+	},
+/area/awaymission/secret/fullbright)
 "Tk" = (
 /obj/structure/window/reinforced/spawner/directional/south,
 /obj/machinery/smartfridge,
@@ -10420,6 +10684,17 @@
 /obj/machinery/computer/tram_controls/split/directional/south,
 /turf/open/openspace,
 /area/awaymission/museum/mothroachvoid)
+"Ts" = (
+/obj/structure/fluff/bus/passable/seat{
+	pixel_y = 15
+	},
+/obj/effect/landmark/latejoin,
+/obj/effect/landmark/start/assistant,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/dark{
+	icon_state = "bus"
+	},
+/area/awaymission/secret/fullbright)
 "Tt" = (
 /obj/structure/table/wood,
 /obj/item/papercutter{
@@ -10700,6 +10975,11 @@
 	},
 /turf/open/floor/stone,
 /area/awaymission/secret/fullbright)
+"UD" = (
+/obj/structure/flora/tree/jungle/style_random,
+/obj/structure/flora/grass/jungle/a/style_random,
+/turf/open/misc/grass,
+/area/awaymission/secret/fullbright)
 "UE" = (
 /turf/cordon,
 /area/space)
@@ -10827,6 +11107,15 @@
 /obj/structure/sign/warning/no_smoking/circle/directional/east,
 /turf/open/floor/iron/white,
 /area/station/medical/treatment_center)
+"Vh" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark/corner{
+	dir = 4
+	},
+/obj/structure/sign/nanotrasen{
+	pixel_y = 32
+	},
+/turf/open/floor/stone,
+/area/awaymission/secret/fullbright)
 "Vi" = (
 /obj/effect/turf_decal/siding/wideplating/dark{
 	dir = 6
@@ -10913,6 +11202,15 @@
 /obj/structure/flora/bush/jungle/c/style_random,
 /turf/open/floor/grass,
 /area/station/security/checkpoint/arrivals)
+"Vx" = (
+/obj/effect/turf_decal/siding/thinplating_new{
+	dir = 8
+	},
+/obj/structure/sign/nanotrasen{
+	pixel_x = -32
+	},
+/turf/open/floor/asphalt,
+/area/awaymission/secret/fullbright)
 "Vy" = (
 /obj/structure/flora/tree/palm/style_2{
 	pixel_y = 4
@@ -11007,6 +11305,15 @@
 "VT" = (
 /obj/structure/fluff/tram_rail/floor,
 /turf/open/floor/stone,
+/area/awaymission/secret/fullbright)
+"VV" = (
+/obj/effect/turf_decal/siding/thinplating_new{
+	dir = 1
+	},
+/obj/structure/sign/nanotrasen{
+	pixel_y = 32
+	},
+/turf/open/floor/asphalt,
 /area/awaymission/secret/fullbright)
 "VX" = (
 /turf/cordon,
@@ -11124,6 +11431,11 @@
 "Ww" = (
 /turf/closed/indestructible/syndicate,
 /area/station/medical/treatment_center)
+"Wx" = (
+/obj/structure/flora/grass/jungle/b/style_random,
+/obj/structure/flora/bush/jungle/c/style_random,
+/turf/open/misc/grass,
+/area/awaymission/secret/fullbright)
 "Wy" = (
 /obj/structure/flora/grass/jungle/b,
 /turf/open/misc/grass,
@@ -11701,6 +12013,12 @@
 	icon_state = "bus"
 	},
 /area/awaymission/museum/mothroachvoid)
+"YW" = (
+/obj/structure/fluff/bus/passable{
+	icon_state = "bottomdoor"
+	},
+/turf/open/floor/asphalt,
+/area/awaymission/secret/fullbright)
 "YY" = (
 /obj/effect/turf_decal/tile/neutral/tram,
 /obj/structure/transport/linear/tram,
@@ -11711,6 +12029,11 @@
 /obj/structure/table/reinforced,
 /obj/item/plate,
 /turf/open/floor/iron/large,
+/area/awaymission/secret/fullbright)
+"Za" = (
+/obj/effect/light_emitter/fake_outdoors,
+/obj/structure/flora/rock/pile/jungle/large/style_random,
+/turf/open/floor/grass,
 /area/awaymission/secret/fullbright)
 "Zc" = (
 /obj/item/clothing/suit/costume/pirate/captain,
@@ -11889,6 +12212,10 @@
 /obj/effect/spawner/structure/window/reinforced/indestructible,
 /turf/open/floor/plating,
 /area/station/medical/storage)
+"ZI" = (
+/obj/effect/light_emitter/fake_outdoors,
+/turf/open/water/no_planet_atmos,
+/area/awaymission/secret/fullbright)
 "ZJ" = (
 /obj/effect/turf_decal/stripes/line,
 /obj/effect/turf_decal/trimline/red/filled/line{
@@ -84338,12 +84665,12 @@ Qz
 Yy
 Qz
 Qz
-HZ
+VV
 bm
 bm
 bm
 bm
-Dc
+zA
 sE
 sE
 nP
@@ -84352,21 +84679,21 @@ sE
 UE
 UE
 sE
-HZ
+VV
 bm
 bm
 bm
-Dc
+zA
 sE
 nP
 sE
 sE
 sE
 sE
-eW
-eW
-eW
-eW
+gu
+gu
+gu
+gu
 UE
 UE
 UE
@@ -84623,8 +84950,8 @@ sE
 Fg
 Jd
 DA
-eW
-UE
+gu
+gu
 UE
 UE
 UE
@@ -84848,7 +85175,7 @@ sH
 HL
 aC
 kg
-rY
+hi
 gd
 XJ
 XJ
@@ -84879,9 +85206,9 @@ yQ
 kg
 gR
 Iv
+EF
 gR
-eW
-UE
+gu
 UE
 UE
 UE
@@ -85137,8 +85464,8 @@ kg
 Jd
 io
 Jd
-eW
-UE
+DA
+gu
 UE
 UE
 UE
@@ -85350,7 +85677,7 @@ Et
 aC
 aC
 aC
-aC
+pN
 jr
 sH
 sH
@@ -85392,10 +85719,10 @@ XJ
 zZ
 kg
 gR
-Nt
+Za
 Fg
-eW
-UE
+gu
+gu
 UE
 UE
 UE
@@ -85601,7 +85928,7 @@ my
 aC
 nx
 aC
-aC
+gB
 aC
 aC
 jr
@@ -85609,17 +85936,17 @@ aC
 sH
 aC
 sH
-aC
+gB
 aC
 aC
 pU
 aC
 nx
 aC
-aC
+gB
 sE
 sE
-XJ
+bY
 XJ
 XJ
 ld
@@ -85651,7 +85978,7 @@ sE
 EF
 Jd
 Ga
-eW
+gu
 UE
 UE
 UE
@@ -85865,7 +86192,7 @@ sH
 aC
 nx
 aC
-aC
+oX
 sH
 aC
 aC
@@ -85908,7 +86235,7 @@ sE
 gR
 Jd
 qZ
-eW
+gu
 UE
 UE
 UE
@@ -86113,7 +86440,7 @@ aC
 aC
 aC
 dj
-aC
+gB
 sH
 aC
 SQ
@@ -86165,7 +86492,7 @@ kg
 gR
 Iv
 Jd
-eW
+gu
 UE
 UE
 UE
@@ -86373,7 +86700,7 @@ aC
 aC
 jr
 aC
-aC
+oX
 aC
 sH
 aC
@@ -86422,7 +86749,7 @@ kg
 io
 Fg
 Ga
-eW
+gu
 UE
 UE
 UE
@@ -86633,7 +86960,7 @@ aC
 aC
 aC
 aC
-dj
+oX
 pU
 sH
 aC
@@ -86645,7 +86972,7 @@ sH
 oL
 aC
 sE
-NE
+Vh
 gd
 XJ
 ld
@@ -86679,7 +87006,7 @@ kg
 gR
 Jd
 DA
-eW
+gu
 UE
 UE
 UE
@@ -86912,20 +87239,20 @@ bm
 bm
 bm
 bm
-bm
-bm
-bm
-bm
+Ft
+rm
+iT
+if
 Dc
 GE
 Nx
 Xx
 yT
 yT
-bm
-bm
-bm
-bm
+Ft
+rm
+iT
+if
 bm
 yT
 yT
@@ -86936,7 +87263,7 @@ sE
 gR
 Kj
 Jd
-eW
+gu
 UE
 UE
 UE
@@ -87169,20 +87496,20 @@ bm
 bm
 bm
 bm
-bm
-bm
-bm
-bm
+Ft
+eq
+HQ
+aR
 Dc
 vG
 PA
 HZ
 bm
 bm
-bm
-bm
-bm
-bm
+Ft
+eq
+HQ
+aR
 bm
 bm
 bm
@@ -87193,7 +87520,7 @@ sE
 Fg
 gR
 gR
-eW
+gu
 UE
 UE
 UE
@@ -87398,7 +87725,7 @@ sH
 aC
 aC
 aC
-dj
+oX
 aC
 Et
 aC
@@ -87426,20 +87753,20 @@ bm
 bm
 bm
 bm
-bm
-bm
-bm
-bm
+Ft
+Ms
+uV
+Si
 Dc
 LI
 Ty
 Xx
 yT
 yT
-bm
-bm
-bm
-bm
+Ft
+Ms
+uV
+Si
 bm
 yT
 yT
@@ -87450,7 +87777,7 @@ kg
 gR
 EF
 gR
-eW
+gu
 UE
 UE
 UE
@@ -87653,9 +87980,9 @@ aC
 sH
 nx
 aC
+oX
 aC
-aC
-aC
+pN
 aC
 aC
 aC
@@ -87671,7 +87998,7 @@ sH
 sH
 pU
 HF
-aC
+gB
 sE
 NE
 XJ
@@ -87683,20 +88010,20 @@ bm
 bm
 bm
 bm
-bm
-bm
-bm
-bm
+Ft
+eq
+fY
+aR
 Dc
 zu
 sD
 HZ
 bm
 bm
-bm
-bm
-bm
-bm
+Ft
+eq
+HQ
+aR
 bm
 bm
 bm
@@ -87707,7 +88034,7 @@ kg
 DA
 Ga
 DA
-eW
+gu
 UE
 UE
 UE
@@ -87940,20 +88267,20 @@ bm
 bm
 bm
 bm
-bm
-bm
-bm
-bm
+Ft
+Ts
+HQ
+aR
 Dc
 Yl
 PA
 Xx
 yT
 yT
-bm
-bm
-bm
-bm
+Ft
+Ts
+fY
+aR
 bm
 yT
 yT
@@ -87964,7 +88291,7 @@ kg
 Iv
 gR
 Fg
-eW
+gu
 UE
 UE
 UE
@@ -88197,20 +88524,20 @@ FP
 Ih
 Ih
 rd
-bm
-bm
-bm
-bm
+Ft
+Tj
+fY
+aR
 Dc
 vG
 RU
 HZ
 bm
 bm
-bm
-bm
-bm
-bm
+Ft
+Tj
+HQ
+aR
 bm
 bm
 bm
@@ -88221,7 +88548,7 @@ sE
 io
 Jd
 gR
-eW
+gu
 UE
 UE
 UE
@@ -88424,7 +88751,7 @@ aC
 aC
 sH
 sH
-aC
+gB
 pe
 sH
 sH
@@ -88454,20 +88781,20 @@ Dc
 pC
 mZ
 HZ
-bm
-bm
-bm
-bm
+Ft
+Ms
+uV
+aR
 Dc
 yX
 RU
 Xx
 yT
 yT
-bm
-bm
-bm
-bm
+Ft
+Ms
+uV
+aR
 bm
 yT
 yT
@@ -88478,7 +88805,7 @@ sE
 Ga
 QH
 gR
-eW
+gu
 UE
 UE
 UE
@@ -88697,7 +89024,7 @@ aC
 aC
 aC
 aC
-aC
+pN
 aC
 sE
 sE
@@ -88711,20 +89038,20 @@ Dc
 Ly
 VE
 HZ
-bm
-bm
-bm
-bm
+Ft
+Tj
+HQ
+aR
 Dc
 eO
 VE
 HZ
 bm
 bm
-bm
-bm
-bm
-bm
+Ft
+Tj
+HQ
+aR
 bm
 bm
 bm
@@ -88735,7 +89062,7 @@ kg
 Fg
 EF
 Jd
-eW
+gu
 UE
 UE
 UE
@@ -88937,7 +89264,7 @@ aC
 aC
 aC
 aC
-aC
+gB
 aC
 sH
 sH
@@ -88950,7 +89277,7 @@ aC
 aC
 aC
 aC
-dj
+oX
 aC
 pe
 aC
@@ -88968,20 +89295,20 @@ Dc
 UP
 PA
 HZ
-bm
-bm
-bm
-bm
+Ft
+QF
+vQ
+YW
 Dc
 zu
 Fl
 Xx
 yT
 yT
-bm
-bm
-bm
-bm
+Ft
+QF
+vQ
+YW
 bm
 yT
 yT
@@ -88992,7 +89319,7 @@ kg
 gR
 gR
 DA
-eW
+gu
 UE
 UE
 UE
@@ -89225,20 +89552,20 @@ Dc
 LL
 sD
 HZ
-bm
-bm
-bm
-bm
+gn
+ML
+oE
+tW
 Dc
 GE
 PA
 HZ
 bm
 bm
-bm
-bm
-bm
-bm
+gn
+ML
+oE
+tW
 bm
 bm
 bm
@@ -89249,8 +89576,8 @@ kg
 gR
 Iv
 gR
-eW
-UE
+gu
+gu
 UE
 UE
 UE
@@ -89506,8 +89833,8 @@ sE
 gR
 Nt
 Ga
-eW
-UE
+gR
+gu
 UE
 UE
 UE
@@ -89763,9 +90090,9 @@ sE
 gR
 bq
 Jd
-eW
-UE
-UE
+Ga
+gu
+gu
 UE
 UE
 UE
@@ -90017,12 +90344,12 @@ IM
 XJ
 yQ
 kg
-gR
+Cf
 Fg
 gR
-eW
-UE
-UE
+Ga
+Jd
+gu
 UE
 UE
 UE
@@ -90277,9 +90604,9 @@ kg
 Iv
 Ga
 io
-eW
-UE
-UE
+bq
+Ga
+gu
 UE
 UE
 UE
@@ -90478,7 +90805,7 @@ yj
 aC
 pU
 aC
-aC
+gB
 aC
 sH
 sH
@@ -90498,7 +90825,7 @@ Zg
 Zg
 Zg
 Zg
-XJ
+bY
 XJ
 XJ
 XJ
@@ -90510,20 +90837,20 @@ Dc
 UP
 PA
 HZ
-bm
-bm
-bm
-bm
+Ft
+rm
+iT
+if
 Dc
 zu
 Ty
 HZ
 bm
 bm
-bm
-bm
-bm
-bm
+Ft
+Nc
+iT
+if
 bm
 bm
 bm
@@ -90534,9 +90861,9 @@ kg
 Fg
 pA
 Od
-eW
-UE
-UE
+gR
+Cf
+gu
 UE
 UE
 UE
@@ -90767,20 +91094,20 @@ Dc
 vG
 Fl
 HZ
-bm
-bm
-bm
-bm
+Ft
+eq
+fY
+aR
 Dc
 eO
 sD
 Xq
 Bn
 Bn
-bm
-bm
-bm
-bm
+Ft
+Tj
+fY
+aR
 bm
 Bn
 Bn
@@ -90791,9 +91118,9 @@ sE
 gR
 ZM
 IK
-eW
-UE
-UE
+gR
+gu
+gu
 UE
 UE
 UE
@@ -91024,20 +91351,20 @@ Dc
 LI
 PA
 HZ
-bm
-bm
-bm
-bm
+Ft
+Ms
+uV
+Si
 Dc
 iV
 kT
 HZ
 bm
 bm
-bm
-bm
-bm
-bm
+Ft
+Ms
+Je
+Si
 bm
 bm
 bm
@@ -91048,8 +91375,8 @@ sE
 EF
 Nt
 gR
-eW
-UE
+gu
+gu
 UE
 UE
 UE
@@ -91259,7 +91586,7 @@ aC
 aC
 jr
 Et
-aC
+gB
 sH
 aC
 aC
@@ -91281,20 +91608,20 @@ Dc
 zu
 sD
 HZ
-bm
-bm
-bm
-bm
+Ft
+eq
+fY
+aR
 Dc
 iV
 VE
 Xq
 Bn
 Bn
-bm
-bm
-bm
-bm
+Ft
+Tj
+HQ
+aR
 bm
 Bn
 Bn
@@ -91305,7 +91632,7 @@ kg
 Jd
 Ga
 Fg
-eW
+gu
 UE
 UE
 UE
@@ -91538,20 +91865,20 @@ Dc
 ED
 Ty
 HZ
-bm
-bm
-bm
-bm
+Ft
+mj
+fY
+aR
 Dc
 GE
 PA
 HZ
 bm
 bm
-bm
-bm
-bm
-bm
+Ft
+Ts
+fY
+aR
 bm
 bm
 bm
@@ -91561,8 +91888,8 @@ Qm
 kg
 gR
 bq
-gR
-eW
+Cf
+gu
 UE
 UE
 UE
@@ -91766,7 +92093,7 @@ aC
 aC
 Qp
 pU
-aC
+pN
 aC
 aC
 aC
@@ -91795,20 +92122,20 @@ Dc
 ED
 Zp
 HZ
-bm
-bm
-bm
-bm
+Ft
+eq
+fY
+aR
 Dc
 kZ
 PA
 Xq
 Bn
 Bn
-bm
-bm
-bm
-bm
+Ft
+Tj
+HQ
+aR
 bm
 Bn
 Bn
@@ -91819,7 +92146,7 @@ kg
 gR
 DA
 Jd
-eW
+gu
 UE
 UE
 UE
@@ -92052,20 +92379,20 @@ Dc
 vG
 PA
 HZ
-bm
-bm
-bm
-bm
+Ft
+Ms
+uV
+aR
 Dc
 zu
 Fl
 HZ
 bm
 bm
-bm
-bm
-bm
-bm
+Ft
+Ms
+uV
+aR
 bm
 bm
 bm
@@ -92076,7 +92403,7 @@ sE
 io
 Nt
 gR
-eW
+gu
 UE
 UE
 UE
@@ -92285,7 +92612,7 @@ pU
 hr
 yw
 pU
-aC
+gB
 nx
 Et
 aC
@@ -92309,20 +92636,20 @@ Dc
 eO
 Fl
 HZ
-bm
-bm
-bm
-bm
+Ft
+eq
+fY
+aR
 Dc
 vG
 PA
 Xq
 Bn
 Bn
-bm
-bm
-bm
-bm
+Ft
+Tj
+HQ
+aR
 bm
 Bn
 Bn
@@ -92333,7 +92660,7 @@ sE
 gR
 gR
 io
-eW
+gu
 UE
 UE
 UE
@@ -92566,20 +92893,20 @@ Dc
 zu
 VE
 HZ
-bm
-bm
-bm
-bm
+Ft
+gK
+vQ
+YW
 Dc
 LI
 sD
 HZ
 bm
 bm
-bm
-bm
-bm
-bm
+Ft
+QF
+vQ
+YW
 bm
 bm
 bm
@@ -92823,20 +93150,20 @@ Dc
 KG
 PA
 HZ
-bm
-bm
-iM
-bm
+gn
+ML
+oE
+tW
 Dc
 Yl
 QK
 Xq
 Bn
 Bn
-bm
-bm
-bm
-bm
+gn
+ML
+oE
+tW
 bm
 Bn
 Bn
@@ -93325,7 +93652,7 @@ MP
 Pc
 HR
 Zg
-Jd
+yc
 VE
 XJ
 XJ
@@ -93871,7 +94198,7 @@ Vs
 Vs
 Vs
 Vs
-Vs
+Vx
 Vs
 Vs
 Vs
@@ -96441,7 +96768,7 @@ Ih
 Ih
 Ih
 Ih
-Ih
+jI
 Ih
 Ih
 Ih
@@ -97180,7 +97507,7 @@ xN
 kt
 tN
 Nn
-Yt
+KZ
 BF
 XJ
 gd
@@ -97709,22 +98036,22 @@ sE
 sE
 sE
 sE
-aC
-aC
+pU
+pU
 aC
 sv
 sv
 sv
+pU
+aC
+sH
+aC
+pU
+gB
+pU
 aC
 aC
-aC
-aC
-aC
-aC
-aC
-aC
-aC
-aC
+pU
 aC
 sE
 sE
@@ -97966,26 +98293,26 @@ sE
 aC
 xZ
 aC
-aC
-aC
-aC
+dj
+pU
+jr
 aC
 sv
 sv
 sv
 aC
+pU
+aC
+nx
+pU
 aC
 aC
 aC
+dj
 aC
+pU
 aC
-aC
-aC
-aC
-aC
-aC
-aC
-aC
+nx
 aC
 eW
 UE
@@ -98209,39 +98536,39 @@ od
 AM
 BM
 Nn
+gB
 aC
+nx
+jr
 aC
+nx
+sH
+sH
 aC
-aC
-aC
-aC
-aC
-aC
-aC
-aC
+jr
 aC
 aC
 xZ
 bj
-aC
-aC
-aC
+pU
+JC
+sH
 aC
 sv
 sv
 sv
 aC
 aC
+ix
+aC
+dj
+sH
 bj
+pU
+gB
+nx
 aC
-aC
-aC
-bj
-aC
-aC
-aC
-aC
-bj
+Qy
 aC
 aC
 eW
@@ -98467,23 +98794,23 @@ GI
 HM
 Nn
 aC
-aC
+jr
 bj
-aC
-aC
-aC
-aC
+sH
+sH
+Et
+nx
 bj
+jr
+nx
 aC
-aC
-aC
-aC
+jr
 UH
-aC
-aC
-aC
-aC
-aC
+pU
+jr
+jt
+Wx
+oX
 aC
 sv
 sv
@@ -98492,14 +98819,14 @@ aC
 aC
 aC
 aC
+nx
 aC
 aC
 aC
-aC
-aC
-aC
-aC
-aC
+Et
+nx
+SQ
+pU
 aC
 eW
 UE
@@ -98723,41 +99050,41 @@ Nn
 Nn
 Nn
 Nn
-aC
-aC
-aC
-aC
+nx
+SQ
+sH
+nx
 Fi
 Fi
+fF
 Fi
+fF
 Fi
-Fi
-Fi
-aC
+Et
 aC
 xZ
-aC
-aC
-aC
-aC
-aC
+SQ
+pU
+nx
+sH
+pU
 aC
 sv
 sv
 sv
 aC
 aC
+sH
+oX
+Et
 aC
 aC
 aC
+Eu
+pU
+sH
 aC
-aC
-aC
-aC
-aC
-aC
-aC
-aC
+pU
 eW
 UE
 UE
@@ -98976,13 +99303,14 @@ aC
 Nn
 Nn
 Nn
+nx
 aC
 aC
-aC
-aC
-aC
-aC
-aC
+jr
+sH
+pU
+Et
+fF
 Fi
 Fi
 Fi
@@ -98990,28 +99318,27 @@ Fi
 Fi
 Fi
 Fi
-Fi
-aC
+nx
 xZ
 aC
 aC
-aC
-aC
-aC
-aC
+UD
+jr
+nx
+pU
 sv
 sv
 sv
 sv
 aC
+SQ
 aC
 aC
+oX
 aC
-aC
-aC
-aC
-aC
-aC
+sH
+sH
+jr
 aC
 aC
 aC
@@ -99233,12 +99560,12 @@ aC
 aC
 aC
 aC
-aC
-aC
+sH
+sH
 bj
-aC
-aC
-aC
+oX
+sH
+nx
 Fi
 Fi
 Fi
@@ -99247,31 +99574,31 @@ Fi
 Fi
 Fi
 Fi
-Fi
-aC
+fF
+gB
 xZ
 aC
 aC
 aC
+pU
 aC
 aC
-aC
-aC
+pU
 sv
 sv
 sv
 aC
+pU
+sH
+SQ
+sH
+sH
 aC
+Et
+pU
 aC
-aC
-aC
-aC
-aC
-aC
-aC
-aC
-aC
-aC
+nx
+nx
 eW
 UE
 UE
@@ -99489,13 +99816,13 @@ aC
 aC
 bj
 aC
+nx
+jr
 aC
-aC
-aC
-aC
-aC
-aC
-Fi
+nx
+sH
+Et
+fF
 Fi
 Fi
 Fi
@@ -99510,24 +99837,24 @@ Ml
 Ny
 rK
 aC
-aC
-aC
-aC
+pU
+dj
+nx
 aC
 sv
 sv
 sv
 aC
+nx
+Et
+pU
+sH
 aC
+nx
+pU
 aC
-aC
-aC
-aC
-aC
-aC
-aC
-aC
-aC
+pU
+Fh
 aC
 eW
 UE
@@ -99748,9 +100075,9 @@ aC
 aC
 aC
 aC
-aC
-aC
-aC
+nx
+jr
+Et
 Fi
 Fi
 Fi
@@ -99763,27 +100090,27 @@ Fi
 Fi
 Fi
 Fi
-Fi
+fF
 Ml
 Ny
 aC
 aC
-aC
-aC
-aC
+SQ
+pU
+sH
 sv
 sv
 sv
 aC
 aC
+nx
 aC
+pU
+SQ
 aC
+pU
 aC
-aC
-aC
-aC
-aC
-aC
+pU
 aC
 aC
 eW
@@ -100004,15 +100331,15 @@ aC
 aC
 aC
 aC
+KN
 aC
-aC
-aC
-aC
-aC
-aC
+nx
+sH
+pU
+oL
+fF
 Fi
-Fi
-Fi
+fF
 Fi
 Fi
 Fi
@@ -100024,9 +100351,9 @@ Fi
 Fi
 xZ
 aC
-aC
-aC
-aC
+pU
+sH
+jr
 aC
 aC
 sv
@@ -100035,13 +100362,13 @@ sv
 aC
 aC
 aC
+dj
 aC
-aC
-aC
-aC
-aC
-aC
-aC
+sH
+nx
+jr
+pU
+Et
 aC
 eW
 UE
@@ -100256,19 +100583,19 @@ RM
 kG
 aC
 aC
+bj
 aC
 aC
 aC
 aC
 aC
+sH
 aC
-aC
-aC
-aC
-aC
-aC
-aC
-aC
+sH
+sH
+Et
+sH
+gB
 aC
 Fi
 Fi
@@ -100281,24 +100608,24 @@ Fi
 Fi
 Ml
 Ny
-aC
-aC
-aC
-aC
+SQ
+pU
+pU
+jr
 aC
 sv
 sv
 sv
 aC
 aC
+pU
 aC
+Et
+nx
+gB
 aC
-aC
-aC
-aC
-aC
-aC
-aC
+JC
+pU
 aC
 eW
 UE
@@ -100526,7 +100853,8 @@ kG
 kG
 kG
 kG
-aC
+nx
+fF
 Fi
 Fi
 Fi
@@ -100535,27 +100863,26 @@ Fi
 Fi
 Fi
 Fi
-Fi
-Fi
+fF
 Ml
 Ny
 aC
-aC
-aC
+pU
+sH
 aC
 aC
 sv
 sv
 sv
 aC
+nx
+pU
 aC
+sH
+pU
+nx
 aC
-aC
-aC
-aC
-aC
-aC
-aC
+sH
 aC
 eW
 UE
@@ -100783,8 +101110,8 @@ RM
 RM
 RM
 kG
-aC
-aC
+pU
+sH
 Fi
 Fi
 Fi
@@ -100798,7 +101125,7 @@ Fi
 xZ
 aC
 aC
-aC
+dj
 aC
 aC
 sv
@@ -100806,14 +101133,14 @@ sv
 sv
 aC
 aC
+sH
+nx
 aC
+pU
 aC
+dj
 aC
-aC
-aC
-aC
-aC
-aC
+nx
 eW
 UE
 UE
@@ -101040,8 +101367,8 @@ RM
 RM
 RM
 kG
-aC
-aC
+jr
+bj
 Fi
 Fi
 Fi
@@ -101054,10 +101381,10 @@ Fi
 Fi
 Ml
 Ny
-rK
+HS
+pN
 aC
-aC
-aC
+sH
 aC
 sv
 sv
@@ -101065,11 +101392,11 @@ sv
 aC
 aC
 aC
+JC
+sH
 aC
-aC
-aC
-aC
-aC
+pU
+pU
 aC
 eW
 UE
@@ -101297,8 +101624,8 @@ RM
 RM
 RM
 kG
-aC
-Fi
+Et
+fF
 Fi
 Fi
 Fi
@@ -101312,21 +101639,21 @@ Fi
 Fi
 xZ
 aC
-aC
-aC
-aC
+pU
+sH
+jr
 aC
 sv
 sv
 sv
 aC
 aC
+oX
 aC
-aC
-aC
-aC
-aC
-aC
+JC
+Et
+pU
+sH
 aC
 eW
 UE
@@ -101554,7 +101881,7 @@ RM
 RM
 RM
 kG
-aC
+pU
 Fi
 Fi
 Fi
@@ -101566,10 +101893,10 @@ Fi
 Fi
 Fi
 Fi
-Fi
+fF
 Ml
 Ny
-aC
+pU
 aC
 aC
 aC
@@ -101578,12 +101905,12 @@ sv
 sv
 aC
 aC
-aC
-aC
-aC
-aC
-aC
-aC
+pN
+pU
+Et
+sH
+pU
+nx
 aC
 eW
 UE
@@ -101828,19 +102155,19 @@ Fi
 xZ
 aC
 aC
-aC
-aC
+dj
+sH
 aC
 sv
 sv
 sv
 aC
 aC
+pU
 aC
 aC
 aC
-aC
-aC
+dj
 aC
 eW
 UE
@@ -102068,8 +102395,8 @@ RM
 RM
 RM
 kG
-Fi
-Fi
+fF
+ZI
 Fi
 Fi
 Fi
@@ -102081,20 +102408,20 @@ cW
 cW
 Fi
 Fi
-Fi
+fF
 xZ
 aC
-aC
-aC
-aC
+jt
+Et
+pU
 aC
 sv
 sv
 sv
 aC
 aC
-aC
-aC
+dj
+pU
 aC
 aC
 aC
@@ -102341,21 +102668,21 @@ Fi
 Fi
 xZ
 aC
+gB
+Pg
 aC
-aC
-aC
-aC
+sH
 aC
 sv
 sv
 aC
 aC
+oX
 aC
-aC
-aC
-aC
-aC
-aC
+pU
+Et
+sH
+nx
 eW
 UE
 UE
@@ -102601,16 +102928,16 @@ Ny
 aC
 aC
 aC
-aC
+dj
 aC
 sv
 sv
 sv
 aC
-aC
-aC
-aC
-aC
+Et
+nx
+sH
+nx
 aC
 aC
 eW
@@ -102839,8 +103166,8 @@ RM
 RM
 RM
 kG
-aC
-Fi
+pU
+fF
 Fi
 Fi
 Fi
@@ -102856,7 +103183,7 @@ Fi
 Fi
 xZ
 aC
-aC
+dj
 aC
 aC
 aC
@@ -102866,10 +103193,10 @@ sv
 sv
 aC
 aC
+pU
 aC
-aC
-aC
-aC
+dj
+pU
 eW
 UE
 UE
@@ -103096,13 +103423,13 @@ kG
 kG
 kG
 kG
-aC
-aC
+pU
+gB
+fF
 Fi
-Fi
 cW
 cW
-cW
+jg
 cW
 cW
 cW
@@ -103114,17 +103441,17 @@ Fi
 Ml
 Ny
 rK
+sH
 aC
-aC
-aC
+sH
 aC
 sv
 sv
 sv
 aC
 aC
-aC
-aC
+dj
+nx
 aC
 aC
 eW
@@ -103354,7 +103681,7 @@ aC
 aC
 aC
 aC
-aC
+KN
 Fi
 Fi
 cW
@@ -103362,28 +103689,28 @@ cW
 zg
 ON
 zg
+jg
 cW
 cW
 cW
 cW
-cW
-Fi
-Fi
+ZI
+fF
 xZ
-aC
-aC
-aC
-aC
+SQ
+pU
+jr
+pU
 aC
 aC
 sv
 sv
 sv
 aC
+sH
 aC
-aC
-aC
-aC
+SQ
+nx
 eW
 UE
 UE
@@ -103611,7 +103938,7 @@ aC
 aC
 aC
 aC
-aC
+pU
 aC
 Fi
 cW
@@ -103621,26 +103948,26 @@ ON
 ON
 cW
 cW
-cW
+jg
 cW
 cW
 Fi
 Fi
 mD
+pU
+sH
 aC
 aC
-aC
-aC
-aC
+Et
 aC
 sv
 sv
 sv
 aC
-aC
-aC
-aC
-aC
+pU
+pU
+sH
+pU
 eW
 UE
 UE
@@ -103869,8 +104196,8 @@ aC
 aC
 aC
 aC
-aC
-Fi
+sH
+fF
 cW
 cW
 ON
@@ -103882,20 +104209,20 @@ cW
 cW
 cW
 Fi
-Fi
+fF
 xZ
+pU
 aC
 aC
-aC
-aC
-aC
+UD
+pU
 aC
 sv
 sv
 sv
-aC
-aC
-aC
+nx
+sH
+pU
 aC
 aC
 eW
@@ -104126,35 +104453,35 @@ px
 px
 US
 Up
-aC
+pU
 Fi
 cW
-cW
+jg
 ON
 ON
 ON
+jg
 cW
 cW
-cW
-cW
+jg
 cW
 Fi
 Fi
 xZ
+gB
+pU
 aC
-aC
-aC
-aC
-aC
+pU
+jr
 aC
 aC
 sv
 sv
 aC
 aC
-aC
-aC
-aC
+nx
+sH
+sH
 eW
 UE
 UE
@@ -104400,18 +104727,18 @@ lN
 lN
 aC
 aC
+jr
 aC
-aC
-aC
-aC
+pU
+pU
 aC
 sv
 sv
 aC
-aC
-aC
-aC
-aC
+sH
+pU
+pU
+nx
 eW
 UE
 UE
@@ -104657,18 +104984,18 @@ JQ
 lN
 rK
 aC
+dj
 aC
-aC
-aC
-aC
+SQ
+jr
 aC
 sv
 sv
 sv
 aC
 aC
-aC
-aC
+dj
+pU
 eW
 UE
 UE
@@ -104914,17 +105241,17 @@ ar
 lN
 aC
 aC
-aC
-aC
-aC
-aC
+gB
+sH
+sH
+pU
 aC
 sv
 sv
 sv
 aC
 aC
-aC
+pU
 aC
 eW
 UE
@@ -105171,17 +105498,17 @@ uE
 lN
 aC
 aC
+jr
+sH
 aC
 aC
-aC
-aC
-aC
+pU
 aC
 sv
 sv
 aC
-aC
-aC
+nx
+zT
 aC
 eW
 UE
@@ -105427,19 +105754,19 @@ ZG
 Bc
 lN
 td
+sH
 aC
 aC
 aC
-aC
-aC
-aC
-aC
+dj
+nx
+pU
 sv
 sv
 sv
-aC
-aC
-aC
+pU
+nx
+pU
 eW
 UE
 UE
@@ -105684,19 +106011,19 @@ lN
 Dk
 vU
 aC
+sH
 aC
 aC
 aC
 aC
-aC
-aC
+sH
 aC
 sv
 sv
 sv
 aC
-aC
-aC
+jr
+sH
 eW
 UE
 UE
@@ -105941,10 +106268,10 @@ Ix
 jk
 wN
 id
+jr
 aC
-aC
-aC
-aC
+sH
+jr
 aC
 aC
 aC
@@ -106203,7 +106530,7 @@ aC
 aC
 aC
 aC
-aC
+sH
 aC
 aC
 sv
