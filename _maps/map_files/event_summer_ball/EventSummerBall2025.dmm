@@ -179,6 +179,19 @@
 "aB" = (
 /obj/structure/table/wood,
 /obj/machinery/computer/security/telescreen/entertainment/directional/east,
+/obj/item/plate/large,
+/obj/item/food/cookie/oatmeal{
+	pixel_x = 3;
+	pixel_y = 5
+	},
+/obj/item/food/cookie/oatmeal{
+	pixel_y = -5;
+	pixel_x = -3
+	},
+/obj/item/food/cookie/oatmeal{
+	pixel_y = 1;
+	pixel_x = 4
+	},
 /turf/open/floor/iron/dark/diagonal,
 /area/awaymission/secret)
 "aC" = (
@@ -1147,10 +1160,6 @@
 	dir = 1
 	},
 /turf/open/floor/iron/smooth,
-/area/awaymission/secret)
-"dy" = (
-/obj/effect/turf_decal/sand,
-/turf/closed/indestructible/rock,
 /area/awaymission/secret)
 "dz" = (
 /obj/effect/turf_decal/siding/wood,
@@ -2991,6 +3000,13 @@
 /obj/effect/turf_decal/siding/white,
 /turf/open/floor/asphalt,
 /area/awaymission/secret/fullbright)
+"iK" = (
+/obj/machinery/door/airlock/multi_tile/public{
+	name = "Changing Room B"
+	},
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/iron/textured_half,
+/area/awaymission/secret)
 "iL" = (
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/iron/smooth_edge{
@@ -5515,10 +5531,7 @@
 /area/awaymission/museum/mothroachvoid)
 "pX" = (
 /obj/structure/table/wood,
-/obj/item/food/cookie/macaron{
-	pixel_y = 6;
-	pixel_x = 5
-	},
+/obj/item/plate/large,
 /obj/item/food/cookie/macaron{
 	pixel_y = 6;
 	pixel_x = -5
@@ -5526,19 +5539,18 @@
 /obj/item/food/cookie/macaron{
 	pixel_y = 7
 	},
-/obj/item/food/cookie/oatmeal{
-	pixel_y = -6;
-	pixel_x = 4
+/obj/item/food/cookie/macaron{
+	pixel_y = -2;
+	pixel_x = 5
 	},
-/obj/item/food/cookie/oatmeal{
-	pixel_y = -5;
-	pixel_x = -3
+/obj/item/food/cookie/macaron{
+	pixel_y = -2;
+	pixel_x = -5
 	},
-/obj/item/food/cookie/oatmeal{
-	pixel_y = -4;
-	pixel_x = 3
+/obj/item/food/cookie/macaron{
+	pixel_y = 6;
+	pixel_x = 5
 	},
-/obj/item/plate/large,
 /turf/open/floor/iron/dark/diagonal,
 /area/awaymission/secret)
 "pY" = (
@@ -6479,15 +6491,6 @@
 	},
 /turf/open/floor/asphalt,
 /area/awaymission/secret/fullbright)
-"sN" = (
-/obj/effect/turf_decal/sand,
-/obj/merge_conflict_marker{
-	name = "---Merge Conflict Marker---";
-	
-	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete."
-	},
-/turf/open/misc/beach/sand,
-/area/awaymission/secret)
 "sO" = (
 /turf/open/misc/grass/jungle/station,
 /area/awaymission/secret/fullbright)
@@ -7016,6 +7019,7 @@
 /obj/structure/railing/wooden_fence{
 	dir = 8
 	},
+/obj/structure/glowshroom/single,
 /turf/open/misc/ashplanet/rocky/safe,
 /area/awaymission/secret)
 "uu" = (
@@ -8773,6 +8777,11 @@
 	},
 /turf/open/floor/iron,
 /area/station/security/checkpoint/arrivals)
+"yY" = (
+/obj/structure/fluff/minepost,
+/obj/structure/glowshroom/single,
+/turf/open/misc/ashplanet/rocky/safe,
+/area/awaymission/secret)
 "yZ" = (
 /obj/effect/turf_decal/siding/wideplating/dark/corner{
 	dir = 1
@@ -11569,9 +11578,10 @@
 /area/station/medical/cryo)
 "GH" = (
 /obj/structure/chair/sofa/corp/left,
-/obj/item/toy/plush/lizard_plushie{
+/obj/item/toy/plush/lizard_plushie/greyscale{
 	name = "Sips-the-Brew";
-	desc = "An adorable stuffed toy that resembles a lizardperson. This one has a few coffee stains on its mouth."
+	desc = "An adorable stuffed toy that resembles a lizardperson. This one has a few coffee stains on its mouth.";
+	greyscale_colors = "#B7410E#000000"
 	},
 /turf/open/floor/iron/dark/diagonal,
 /area/awaymission/secret)
@@ -27615,7 +27625,7 @@ qR
 qc
 qc
 Mr
-qc
+HT
 gu
 Kb
 gu
@@ -27879,7 +27889,7 @@ qc
 HT
 qc
 jf
-qc
+HT
 qc
 Rs
 gu
@@ -28384,11 +28394,11 @@ gu
 gu
 us
 Zw
-qc
+HT
 qc
 gu
 gu
-xe
+yY
 wf
 qc
 qc
@@ -28639,7 +28649,7 @@ gu
 gu
 gu
 gu
-HT
+qc
 oE
 gu
 gu
@@ -28651,7 +28661,7 @@ qc
 HT
 gu
 gu
-qc
+HT
 qc
 jf
 qc
@@ -28897,7 +28907,7 @@ gu
 gu
 gu
 qc
-qc
+HT
 gu
 gu
 gu
@@ -39441,7 +39451,7 @@ jO
 jO
 AH
 eQ
-HS
+iK
 ei
 sU
 YB
@@ -41234,7 +41244,7 @@ Nu
 LC
 Wy
 EW
-gu
+Nw
 Nw
 uB
 rz
@@ -41493,7 +41503,7 @@ LC
 LC
 ec
 Wy
-sN
+aU
 aU
 Wy
 Nw
@@ -41751,7 +41761,7 @@ LC
 LC
 LC
 aU
-dy
+aU
 Nw
 EW
 gu
@@ -42007,9 +42017,9 @@ aU
 aU
 aU
 aU
-LC
 aU
-gu
+aU
+LC
 Nw
 gu
 gu
@@ -42265,7 +42275,7 @@ aU
 aU
 aU
 aU
-LC
+aU
 LC
 gu
 gu
