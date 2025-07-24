@@ -17,6 +17,13 @@
 	},
 /turf/open/misc/grass,
 /area/awaymission/secret/fullbright)
+"ae" = (
+/obj/structure/fluff/commsbuoy_processor{
+	name = "tgstation";
+	desc = "What you're playing on!"
+	},
+/turf/open/floor/sepia,
+/area/awaymission/secret)
 "ag" = (
 /obj/structure/fluff/tram_rail/electric/anchor,
 /obj/structure/transport/linear/tram,
@@ -29,6 +36,13 @@
 /obj/effect/turf_decal/tile/green/full,
 /turf/open/floor/iron/white/smooth_large,
 /area/station/medical/cryo)
+"ai" = (
+/obj/item/flashlight/flare/candle/infinite{
+	pixel_x = 6;
+	light_range = 3
+	},
+/turf/open/misc/ashplanet/wateryrock/safe,
+/area/awaymission/secret)
 "aj" = (
 /obj/structure/sign/directions/engineering/directional/south,
 /turf/open/openspace,
@@ -66,6 +80,22 @@
 	dir = 4
 	},
 /turf/open/floor/iron/freezer,
+/area/awaymission/secret)
+"aq" = (
+/obj/item/toy/plush/pkplush{
+	name = "D.E.R.P";
+	pixel_y = 6;
+	pixel_x = -6;
+	anchored = 1;
+	desc = "Designed the dressing rooms."
+	},
+/obj/item/toy/plush/slimeplushie{
+	pixel_y = -7;
+	name = "Rex";
+	anchored = 1;
+	desc = "Designed the roller coaster."
+	},
+/turf/open/floor/sepia,
 /area/awaymission/secret)
 "ar" = (
 /obj/structure/closet/secure_closet/brig{
@@ -606,10 +636,6 @@
 	},
 /turf/open/floor/bluespace,
 /area/awaymission/museum/mothroachvoid)
-"ct" = (
-/obj/effect/turf_decal/tile/neutral/tram,
-/turf/closed/indestructible/rock,
-/area/awaymission/secret)
 "cu" = (
 /obj/structure/chair/sofa/bench/right{
 	dir = 1
@@ -830,7 +856,9 @@
 /turf/open/misc/grass,
 /area/station/security/prison)
 "de" = (
-/obj/structure/stairs/stone,
+/obj/structure/stairs/wood{
+	dir = 1
+	},
 /turf/open/floor/wood/large,
 /area/awaymission/secret)
 "df" = (
@@ -959,10 +987,6 @@
 	},
 /turf/open/openspace,
 /area/awaymission/museum/mothroachvoid)
-"dL" = (
-/obj/structure/stairs/stone,
-/turf/open/openspace,
-/area/awaymission/secret)
 "dM" = (
 /obj/effect/turf_decal/trimline/red/filled/line{
 	dir = 1
@@ -1248,6 +1272,14 @@
 /obj/machinery/transport/destination_sign/split/north,
 /turf/open/openspace,
 /area/awaymission/museum/mothroachvoid)
+"eL" = (
+/obj/item/flashlight/flare/candle/infinite{
+	pixel_x = -5;
+	light_range = 3;
+	pixel_y = 6
+	},
+/turf/open/misc/ashplanet/rocky/safe,
+/area/awaymission/secret)
 "eN" = (
 /obj/effect/spawner/random/structure/closet_maintenance,
 /obj/effect/spawner/random/maintenance/three,
@@ -1315,6 +1347,20 @@
 	dir = 9
 	},
 /turf/open/floor/stone,
+/area/awaymission/secret)
+"eZ" = (
+/obj/item/toy/plush/human{
+	pixel_y = 11;
+	anchored = 1;
+	name = "Tram Conductor MMMiracles";
+	desc = "Designed much of the central lake and the tramway."
+	},
+/obj/item/toy/plush/human{
+	pixel_x = -10;
+	desc = "Contributed coaster code.";
+	name = "Anturk"
+	},
+/turf/open/floor/sepia,
 /area/awaymission/secret)
 "fb" = (
 /obj/item/toy/katana,
@@ -1456,6 +1502,10 @@
 	},
 /turf/open/floor/wood/parquet,
 /area/awaymission/secret/fullbright)
+"fE" = (
+/obj/structure/mineral_door/gold,
+/turf/open/misc/ashplanet/rocky/safe,
+/area/awaymission/secret)
 "fG" = (
 /obj/structure/moisture_trap,
 /turf/open/floor/plating,
@@ -1738,6 +1788,13 @@
 	},
 /turf/open/floor/tram,
 /area/awaymission/secret/fullbright)
+"gA" = (
+/obj/item/flashlight/flare/candle/infinite{
+	pixel_x = 9;
+	light_range = 3
+	},
+/turf/open/misc/ashplanet/wateryrock/safe,
+/area/awaymission/secret)
 "gB" = (
 /obj/structure/railing{
 	dir = 8
@@ -1913,6 +1970,9 @@
 /obj/effect/mapping_helpers/airlock/access/any/medical/maintenance,
 /obj/effect/mapping_helpers/airlock/access/any/service/maintenance,
 /turf/open/floor/plating,
+/area/awaymission/secret)
+"hm" = (
+/turf/open/floor/sepia,
 /area/awaymission/secret)
 "hn" = (
 /obj/structure/flora/tree/jungle/small/style_random,
@@ -2146,6 +2206,13 @@
 	},
 /turf/open/misc/grass,
 /area/awaymission/secret/fullbright)
+"if" = (
+/obj/item/flashlight/flare/candle/infinite{
+	pixel_y = 10;
+	light_range = 3
+	},
+/turf/open/misc/ashplanet/wateryrock/safe,
+/area/awaymission/secret)
 "ig" = (
 /obj/structure/railing{
 	dir = 6
@@ -2238,7 +2305,7 @@
 /obj/structure/stairs/stone{
 	dir = 1
 	},
-/turf/closed/indestructible/iron,
+/turf/open/misc/ashplanet/rocky/safe,
 /area/awaymission/secret)
 "iw" = (
 /obj/effect/turf_decal/stripes/white/line{
@@ -2314,6 +2381,13 @@
 	},
 /obj/structure/flora/bush/jungle/a/style_random,
 /turf/open/floor/grass,
+/area/awaymission/secret)
+"iL" = (
+/obj/item/flashlight/flare/candle/infinite{
+	pixel_x = 5;
+	light_range = 3
+	},
+/turf/open/misc/ashplanet/rocky/safe,
 /area/awaymission/secret)
 "iM" = (
 /obj/effect/spawner/structure/window/reinforced/indestructible,
@@ -2510,6 +2584,11 @@
 	dir = 4
 	},
 /area/station/security/checkpoint)
+"jy" = (
+/obj/structure/rack,
+/obj/structure/bedsheetbin,
+/turf/open/misc/ashplanet/rocky/safe,
+/area/awaymission/secret)
 "jz" = (
 /obj/structure/closet/crate/bin,
 /obj/effect/spawner/random/trash/food_packaging,
@@ -2531,13 +2610,6 @@
 /obj/effect/mapping_helpers/airlock/access/all/security/hos,
 /turf/open/floor/iron,
 /area/station/command/heads_quarters/hos)
-"jD" = (
-/obj/structure/stairs/stone,
-/obj/structure/stairs/stone{
-	dir = 1
-	},
-/turf/open/floor/wood/large,
-/area/awaymission/secret)
 "jE" = (
 /turf/open/misc/beach/coast/corner{
 	dir = 4
@@ -2883,6 +2955,30 @@
 	},
 /turf/open/floor/iron/white,
 /area/station/command/heads_quarters/cmo)
+"kO" = (
+/obj/item/toy/plush/lizard_plushie/green{
+	name = "Zytolg";
+	greyscale_colors = "#960000#000000";
+	anchored = 1;
+	pixel_y = 18;
+	pixel_x = -6;
+	flipped = 1;
+	desc = "Designed the petting zoo."
+	},
+/obj/item/toy/plush/moth{
+	pixel_y = 17;
+	pixel_x = 9;
+	name = "Litebrite";
+	desc = "Created some of the new wearable outfits."
+	},
+/obj/item/toy/plush/lizard_plushie/green{
+	flipped = 1;
+	name = "Injustice12345";
+	desc = "Created some of the new wearable outfits.";
+	sideways = 1
+	},
+/turf/open/floor/sepia,
+/area/awaymission/secret)
 "kP" = (
 /obj/structure/tram,
 /obj/structure/transport/linear/tram,
@@ -3145,6 +3241,12 @@
 	},
 /turf/open/floor/stone,
 /area/awaymission/secret/fullbright)
+"lM" = (
+/obj/structure/chair/stool/bamboo{
+	dir = 4
+	},
+/turf/open/misc/ashplanet/wateryrock/safe,
+/area/awaymission/secret)
 "lN" = (
 /turf/closed/indestructible/syndicate,
 /area/station/security/processing)
@@ -3417,6 +3519,9 @@
 	},
 /turf/open/floor/bluespace,
 /area/awaymission/museum/mothroachvoid)
+"mR" = (
+/turf/open/water/hot_spring,
+/area/awaymission/secret)
 "mT" = (
 /obj/structure/stairs/stone{
 	dir = 8
@@ -3592,6 +3697,24 @@
 /obj/structure/sign/poster/official/nanotrasen_logo/directional/west,
 /turf/open/floor/iron/white/small,
 /area/station/medical/storage)
+"nz" = (
+/obj/effect/light_emitter/tendril,
+/obj/item/toy/plush/beeplushie{
+	anchored = 1;
+	name = "Spockye Spes";
+	pixel_y = 17;
+	pixel_x = 6;
+	desc = "Designed the cart track."
+	},
+/obj/item/toy/plush/human{
+	pixel_y = 4;
+	anchored = 1;
+	pixel_x = 11;
+	name = "Norsvenska";
+	desc = "Designed the arrivals area."
+	},
+/turf/open/floor/sepia,
+/area/awaymission/secret)
 "nA" = (
 /obj/effect/turf_decal/siding/thinplating/corner,
 /turf/open/misc/sandy_dirt,
@@ -3804,6 +3927,10 @@
 	},
 /turf/open/floor/bluespace,
 /area/awaymission/museum/mothroachvoid)
+"ok" = (
+/obj/item/toy/plush/narplush,
+/turf/closed/indestructible/binary,
+/area/awaymission/secret)
 "ol" = (
 /obj/structure/chair/sofa/bamboo/right{
 	dir = 1
@@ -3826,7 +3953,7 @@
 /turf/open/floor/stone,
 /area/awaymission/secret/fullbright)
 "oo" = (
-/obj/structure/stairs/stone{
+/obj/structure/stairs/wood{
 	dir = 4
 	},
 /turf/open/floor/wood/large,
@@ -4652,6 +4779,19 @@
 /obj/effect/turf_decal/siding/dark,
 /turf/open/floor/stone,
 /area/awaymission/secret/fullbright)
+"rl" = (
+/obj/item/toy/plush/human{
+	pixel_x = 15;
+	pixel_y = -6;
+	name = "Twaticus";
+	desc = "Planned out the map's general layout.";
+	anchored = 1
+	},
+/turf/open/floor/sepia,
+/area/awaymission/secret)
+"rm" = (
+/turf/closed/indestructible/fakeglass,
+/area/awaymission/secret)
 "ro" = (
 /obj/structure/flora/grass/jungle/b/style_random,
 /turf/open/misc/dirt/station,
@@ -5104,6 +5244,14 @@
 	dir = 1
 	},
 /area/awaymission/secret)
+"sM" = (
+/obj/item/flashlight/flare/candle/infinite{
+	pixel_x = -5;
+	pixel_y = 5;
+	light_range = 3
+	},
+/turf/open/misc/ashplanet/rocky/safe,
+/area/awaymission/secret)
 "sO" = (
 /turf/open/misc/grass/jungle/station,
 /area/awaymission/secret/fullbright)
@@ -5295,6 +5443,13 @@
 	},
 /turf/open/floor/stone,
 /area/station/command/heads_quarters/hop)
+"tz" = (
+/obj/structure/closet/cabinet,
+/obj/item/flashlight/lantern,
+/obj/item/flashlight/lantern,
+/obj/item/flashlight/lantern,
+/turf/open/misc/ashplanet/rocky/safe,
+/area/awaymission/secret)
 "tA" = (
 /obj/structure/railing,
 /turf/open/floor/plating,
@@ -5320,6 +5475,13 @@
 "tH" = (
 /obj/structure/bonfire,
 /turf/open/misc/beach/sand,
+/area/awaymission/secret)
+"tI" = (
+/obj/item/flashlight/flare/candle/infinite{
+	pixel_x = -5;
+	light_range = 3
+	},
+/turf/open/misc/ashplanet/rocky/safe,
 /area/awaymission/secret)
 "tJ" = (
 /obj/structure/disposalpipe/segment,
@@ -5373,6 +5535,14 @@
 /obj/structure/fence/cut/large,
 /turf/open/misc/sandy_dirt,
 /area/awaymission/secret/fullbright)
+"tX" = (
+/obj/structure/closet/cabinet,
+/obj/item/flashlight/lantern,
+/obj/item/flashlight/lantern,
+/obj/item/flashlight/lantern,
+/obj/item/flashlight/lantern,
+/turf/open/misc/ashplanet/rocky/safe,
+/area/awaymission/secret)
 "tY" = (
 /obj/structure/flora/bush/jungle/a/style_random,
 /obj/effect/light_emitter/fake_outdoors,
@@ -6572,12 +6742,6 @@
 	},
 /turf/open/misc/grass,
 /area/awaymission/secret/fullbright)
-"xU" = (
-/obj/structure/stairs/stone{
-	dir = 8
-	},
-/turf/open/openspace,
-/area/awaymission/secret)
 "xV" = (
 /obj/machinery/vending/sustenance,
 /turf/open/misc/asteroid,
@@ -7827,6 +7991,24 @@
 /obj/item/reagent_containers/cup/rag,
 /turf/open/floor/iron/large,
 /area/awaymission/secret/fullbright)
+"Cy" = (
+/obj/item/toy/plush/lizard_plushie/green{
+	name = "Smells-The-Roses";
+	greyscale_colors = "#7f6100#ffffff";
+	pixel_y = 9;
+	pixel_x = 11;
+	anchored = 1;
+	flipped = 1;
+	desc = "Designed the hospital, sauna, service area, and the room you're standing in now - hi!"
+	},
+/obj/item/toy/plush/lizard_plushie/green{
+	name = "Xemo";
+	anchored = 1;
+	flipped = 1;
+	desc = "Designed the bar and stage."
+	},
+/turf/open/floor/sepia,
+/area/awaymission/secret)
 "Cz" = (
 /obj/structure/chair/sofa/middle/brown{
 	dir = 1
@@ -8172,6 +8354,22 @@
 /obj/effect/turf_decal/siding/wideplating/dark,
 /turf/open/floor/stone,
 /area/awaymission/secret/fullbright)
+"DI" = (
+/obj/structure/rack,
+/obj/item/flashlight/flare/torch,
+/obj/item/flashlight/flare/torch,
+/obj/item/flashlight/flare/torch,
+/obj/item/flashlight/flare/torch,
+/obj/item/flashlight/flare/torch,
+/obj/item/flashlight/flare/torch,
+/obj/item/flashlight/flare/torch,
+/obj/item/flashlight/flare/torch,
+/obj/item/flashlight/flare/torch,
+/obj/item/flashlight/flare/torch,
+/obj/item/flashlight/flare/torch,
+/obj/item/flashlight/flare/torch,
+/turf/open/misc/ashplanet/rocky/safe,
+/area/awaymission/secret)
 "DJ" = (
 /obj/structure/fluff/drake_statue,
 /turf/open/floor/stone,
@@ -8974,6 +9172,33 @@
 "Gu" = (
 /turf/open/floor/grass,
 /area/awaymission/secret/fullbright)
+"Gv" = (
+/obj/effect/light_emitter/tendril,
+/obj/item/toy/plush/lizard_plushie/green{
+	name = "Ponders-The-Precision";
+	greyscale_colors = "#666699#800000";
+	anchored = 1;
+	pixel_y = 18;
+	pixel_x = -6;
+	flipped = 1;
+	desc = "Design the security wing with EEASAS."
+	},
+/obj/item/food/grown/potato{
+	pixel_y = 3;
+	pixel_x = -9;
+	name = "Potato";
+	anchored = 1;
+	offset_at_init = 0;
+	desc = "Contributed coaster code and support."
+	},
+/obj/item/megaphone/clown{
+	pixel_y = 23;
+	pixel_x = 10;
+	name = "Rave Radbury";
+	desc = "Kept eventsbus on track."
+	},
+/turf/open/floor/sepia,
+/area/awaymission/secret)
 "Gw" = (
 /obj/structure/chair/sofa/bamboo/left{
 	dir = 8
@@ -9081,6 +9306,13 @@
 /obj/item/storage/cans/sixbeer,
 /turf/open/misc/beach/sand,
 /area/awaymission/secret/fullbright)
+"GQ" = (
+/obj/item/flashlight/flare/candle/infinite{
+	pixel_y = 7;
+	light_range = 3
+	},
+/turf/open/misc/ashplanet/rocky/safe,
+/area/awaymission/secret)
 "GR" = (
 /obj/item/radio/intercom/directional/east,
 /turf/open/floor/iron/freezer,
@@ -9549,6 +9781,13 @@
 "IA" = (
 /obj/machinery/piratepad,
 /turf/open/floor/wood/large,
+/area/awaymission/secret)
+"IB" = (
+/obj/structure/fluff/commsbuoy_processor{
+	name = "eventsbus";
+	desc = "The brains of the operation."
+	},
+/turf/open/floor/sepia,
 /area/awaymission/secret)
 "IC" = (
 /obj/structure/billboard/nanotrasen,
@@ -10447,6 +10686,21 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/kitchen_coldroom/freezerfloor,
 /area/awaymission/secret/fullbright)
+"Lz" = (
+/obj/item/toy/plush/human{
+	pixel_y = 21;
+	pixel_x = 19;
+	name = "Trexter";
+	desc = "Designed the maze leading down to here."
+	},
+/obj/item/toy/plush/human{
+	pixel_y = 11;
+	pixel_x = 15;
+	name = "Smartkar";
+	desc = "Contributed arena code and designed the arena(s)."
+	},
+/turf/open/floor/sepia,
+/area/awaymission/secret)
 "LA" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -10711,6 +10965,20 @@
 /obj/structure/flora/grass/jungle/a/style_random,
 /turf/open/misc/grass,
 /area/awaymission/secret/fullbright)
+"Mu" = (
+/obj/structure/sign/plaques/kiddie/contributors{
+	pixel_y = 31
+	},
+/obj/item/flashlight/flare/candle/infinite{
+	pixel_x = 9;
+	light_range = 3
+	},
+/obj/item/flashlight/flare/candle/infinite{
+	pixel_x = -11;
+	light_range = 3
+	},
+/turf/open/misc/ashplanet/rocky/safe,
+/area/awaymission/secret)
 "Mv" = (
 /obj/structure/closet/athletic_mixed,
 /obj/machinery/light/directional/north,
@@ -11063,6 +11331,11 @@
 	},
 /turf/open/floor/plating,
 /area/station/maintenance/department/security/upper)
+"NH" = (
+/turf/closed/indestructible/iron{
+	opacity = 1
+	},
+/area/awaymission/secret)
 "NI" = (
 /obj/effect/decal/cleanable/blood/old,
 /obj/structure/chair,
@@ -11121,6 +11394,24 @@
 /obj/structure/transport/linear/tram,
 /turf/open/openspace,
 /area/awaymission/secret/fullbright)
+"NT" = (
+/obj/structure/sign/map/left{
+	pixel_x = 15;
+	name = "SDMM";
+	desc = "What a disaster!";
+	plane = -6;
+	layer = 10003
+	},
+/obj/item/paint_palette{
+	plane = -6;
+	anchored = 1;
+	layer = 10004;
+	pixel_x = 6;
+	name = "Aesprite";
+	desc = "How do I compile this thing?"
+	},
+/turf/open/floor/sepia,
+/area/awaymission/secret)
 "NU" = (
 /obj/structure/chair/wood,
 /obj/structure/disposalpipe/segment{
@@ -11584,6 +11875,9 @@
 /obj/machinery/light/directional/south,
 /turf/open/floor/iron/white,
 /area/station/medical/cryo)
+"PD" = (
+/turf/open/misc/ashplanet/wateryrock/safe,
+/area/awaymission/secret)
 "PE" = (
 /obj/machinery/defibrillator_mount/directional/south,
 /obj/effect/turf_decal/tile/blue/half/contrasted{
@@ -11605,6 +11899,13 @@
 "PK" = (
 /obj/structure/fluff/beach_umbrella/science,
 /turf/open/misc/beach/sand,
+/area/awaymission/secret)
+"PL" = (
+/obj/item/flashlight/flare/candle/infinite{
+	pixel_y = 10;
+	light_range = 3
+	},
+/turf/open/misc/ashplanet/rocky/safe,
 /area/awaymission/secret)
 "PN" = (
 /obj/structure/table,
@@ -12536,6 +12837,16 @@
 /obj/structure/fence/cut/medium,
 /turf/open/misc/sandy_dirt,
 /area/awaymission/secret/fullbright)
+"Tb" = (
+/obj/structure/sign/map/right{
+	pixel_x = 15;
+	name = "SDMM";
+	desc = "What a disaster!";
+	plane = -6;
+	layer = 10003
+	},
+/turf/open/floor/sepia,
+/area/awaymission/secret)
 "Tc" = (
 /obj/structure/table/reinforced,
 /obj/machinery/fax{
@@ -12973,6 +13284,9 @@
 	},
 /turf/open/floor/stone,
 /area/awaymission/secret/fullbright)
+"UD" = (
+/turf/closed/indestructible/binary,
+/area/awaymission/secret)
 "UE" = (
 /turf/cordon,
 /area/space)
@@ -13083,6 +13397,11 @@
 	},
 /turf/open/floor/stone,
 /area/station/security/checkpoint/arrivals)
+"Vc" = (
+/turf/closed/indestructible/fakedoor{
+	name = "Escape to Reality"
+	},
+/area/awaymission/secret)
 "Vd" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
@@ -13541,6 +13860,10 @@
 "WT" = (
 /turf/open/floor/iron/textured_large,
 /area/awaymission/secret/fullbright)
+"WV" = (
+/obj/structure/mineral_door/sandstone,
+/turf/open/misc/ashplanet/rocky/safe,
+/area/awaymission/secret)
 "WW" = (
 /obj/structure/chair/sofa/bamboo/right,
 /obj/effect/turf_decal/siding/wideplating/dark{
@@ -13756,6 +14079,17 @@
 /obj/effect/mapping_helpers/airlock/access/any/medical/general,
 /turf/open/floor/iron/white,
 /area/station/medical/storage)
+"XG" = (
+/obj/item/flashlight/flare/candle/infinite{
+	pixel_x = -19;
+	pixel_y = -6;
+	light_range = 3
+	},
+/obj/structure/chair/stool/bamboo{
+	dir = 4
+	},
+/turf/open/misc/ashplanet/rocky/safe,
+/area/awaymission/secret)
 "XI" = (
 /obj/structure/flora/tree/jungle/style_random,
 /turf/open/floor/grass,
@@ -13968,11 +14302,30 @@
 /obj/machinery/vending/coffee,
 /turf/open/floor/iron,
 /area/station/security/checkpoint/arrivals)
+"Ys" = (
+/obj/item/flashlight/flare/candle/infinite{
+	pixel_x = 9;
+	light_range = 3
+	},
+/turf/open/misc/ashplanet/rocky/safe,
+/area/awaymission/secret)
+"Yt" = (
+/obj/item/flashlight/flare/candle/infinite{
+	pixel_x = -5;
+	pixel_y = 8;
+	light_range = 3
+	},
+/turf/open/misc/ashplanet/wateryrock/safe,
+/area/awaymission/secret)
 "Yu" = (
 /obj/structure/flora/tree/jungle/style_random,
 /obj/structure/flora/grass/jungle/b/style_random,
 /turf/open/misc/grass,
 /area/awaymission/secret/fullbright)
+"Yv" = (
+/obj/structure/chair/stool/bamboo,
+/turf/open/misc/ashplanet/rocky/safe,
+/area/awaymission/secret)
 "Yw" = (
 /obj/structure/closet/secure_closet{
 	name = "contraband locker";
@@ -14335,6 +14688,12 @@
 /obj/effect/spawner/structure/window/reinforced/indestructible,
 /turf/open/floor/plating,
 /area/station/medical/storage)
+"ZI" = (
+/obj/structure/chair/stool/bamboo{
+	dir = 4
+	},
+/turf/open/misc/ashplanet/rocky/safe,
+/area/awaymission/secret)
 "ZJ" = (
 /obj/effect/turf_decal/stripes/line,
 /obj/effect/turf_decal/trimline/red/filled/line{
@@ -14411,6 +14770,13 @@
 	icon_state = "sand_dug";
 	base_icon_state = "sand_dug"
 	},
+/area/awaymission/secret)
+"ZZ" = (
+/obj/item/flashlight/flare/candle/infinite{
+	pixel_x = -5;
+	light_range = 3
+	},
+/turf/open/misc/ashplanet/wateryrock/safe,
 /area/awaymission/secret)
 
 (1,1,1) = {"
@@ -29386,16 +29752,16 @@ gu
 gu
 gu
 gu
-gu
-gu
-qc
-gu
-gu
-gu
-gu
-gu
-gu
-gu
+NH
+NH
+NH
+NH
+NH
+NH
+NH
+NH
+NH
+NH
 gu
 gu
 gu
@@ -29641,19 +30007,19 @@ UE
 UE
 gu
 gu
-pR
-pR
-pR
+NH
+NH
+NH
 qc
 qc
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
+tI
+qc
+qc
+qc
+qc
+qc
+NH
+NH
 gu
 gu
 gu
@@ -29898,20 +30264,20 @@ UE
 UE
 gu
 gu
-pR
+NH
 iv
 qc
 qc
 qc
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
+qc
+qc
+qc
+qc
+qc
+qc
+qc
+NH
+NH
 gu
 gu
 gu
@@ -30155,21 +30521,21 @@ UE
 UE
 gu
 gu
-pR
+NH
 iv
 qc
 qc
 qc
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
+qc
+qc
+qc
+qc
+qc
+qc
+qc
+qc
+NH
+NH
 gu
 gu
 gu
@@ -30412,21 +30778,21 @@ UE
 UE
 gu
 gu
-pR
+NH
 iv
 qc
 qc
 qc
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
+qc
+qc
+qc
+qc
+qc
+qc
+qc
+qc
+tI
+NH
 gu
 gu
 gu
@@ -30669,22 +31035,22 @@ UE
 UE
 gu
 gu
-pR
-pR
-pR
+NH
+NH
+NH
 qc
 qc
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
+iL
+qc
+qc
+qc
+qc
+qc
+qc
+qc
+qc
+NH
+NH
 gu
 gu
 gu
@@ -30928,20 +31294,20 @@ gu
 gu
 gu
 gu
-gu
-gu
+NH
+NH
+NH
+NH
+NH
+NH
+NH
+iL
 qc
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
+qc
+qc
+qc
+qc
+NH
 gu
 gu
 gu
@@ -31191,14 +31557,14 @@ gu
 gu
 gu
 gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
+NH
+NH
+qc
+qc
+qc
+qc
+qc
+NH
 gu
 gu
 gu
@@ -31449,13 +31815,13 @@ gu
 gu
 gu
 gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
+NH
+NH
+qc
+qc
+qc
+qc
+NH
 gu
 gu
 gu
@@ -31707,12 +32073,12 @@ gu
 gu
 gu
 gu
-gu
-gu
-gu
-gu
-gu
-gu
+NH
+qc
+qc
+qc
+qc
+NH
 gu
 gu
 gu
@@ -31964,12 +32330,12 @@ gu
 gu
 gu
 gu
-gu
-gu
-gu
-gu
-gu
-gu
+NH
+qc
+qc
+qc
+tI
+NH
 gu
 gu
 gu
@@ -32220,13 +32586,13 @@ gu
 gu
 gu
 gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
+NH
+NH
+qc
+qc
+qc
+NH
+NH
 gu
 gu
 gu
@@ -32477,12 +32843,12 @@ gu
 gu
 gu
 gu
-gu
-gu
-gu
-gu
-gu
-gu
+NH
+qc
+qc
+qc
+qc
+NH
 gu
 gu
 gu
@@ -32734,13 +33100,13 @@ gu
 gu
 gu
 gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
+NH
+qc
+qc
+qc
+qc
+NH
+NH
 gu
 gu
 gu
@@ -32991,14 +33357,14 @@ gu
 gu
 gu
 gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
+NH
+NH
+qc
+qc
+qc
+qc
+NH
+NH
 gu
 gu
 gu
@@ -33249,13 +33615,13 @@ gu
 gu
 gu
 gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
+NH
+iL
+qc
+qc
+qc
+qc
+NH
 gu
 gu
 gu
@@ -33506,13 +33872,13 @@ gu
 gu
 gu
 gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
+NH
+NH
+qc
+qc
+qc
+qc
+NH
 gu
 gu
 gu
@@ -33764,13 +34130,13 @@ gu
 gu
 gu
 gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
+NH
+NH
+qc
+qc
+qc
+NH
+NH
 gu
 gu
 gu
@@ -34022,12 +34388,12 @@ gu
 gu
 gu
 gu
-gu
-gu
-gu
-gu
-gu
-gu
+NH
+qc
+qc
+qc
+qc
+NH
 gu
 gu
 gu
@@ -34278,13 +34644,13 @@ gu
 gu
 gu
 gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
+NH
+NH
+qc
+qc
+qc
+qc
+NH
 gu
 gu
 gu
@@ -34534,14 +34900,14 @@ gu
 gu
 gu
 gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
+NH
+NH
+qc
+qc
+qc
+qc
+iL
+NH
 gu
 gu
 gu
@@ -34791,14 +35157,14 @@ gu
 gu
 gu
 gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
+NH
+tI
+qc
+qc
+qc
+qc
+NH
+NH
 gu
 gu
 gu
@@ -35047,14 +35413,14 @@ gu
 gu
 gu
 gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
+NH
+NH
+qc
+qc
+qc
+qc
+NH
+NH
 gu
 gu
 gu
@@ -35303,14 +35669,14 @@ gu
 gu
 gu
 gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
+NH
+NH
+qc
+qc
+qc
+qc
+qc
+NH
 gu
 gu
 gu
@@ -35560,14 +35926,14 @@ gu
 gu
 gu
 gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
+NH
+qc
+qc
+qc
+qc
+qc
+NH
+NH
 gu
 gu
 gu
@@ -35817,13 +36183,13 @@ gu
 gu
 gu
 gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
+NH
+qc
+qc
+qc
+qc
+NH
+NH
 gu
 gu
 gu
@@ -36074,12 +36440,12 @@ gu
 gu
 gu
 gu
-gu
-gu
-gu
-gu
-gu
-gu
+NH
+NH
+tI
+qc
+tI
+NH
 gu
 gu
 gu
@@ -36332,11 +36698,11 @@ gu
 gu
 gu
 gu
-gu
-gu
-gu
-gu
-gu
+NH
+NH
+qc
+NH
+NH
 gu
 gu
 gu
@@ -36589,11 +36955,11 @@ gu
 gu
 gu
 gu
-gu
-gu
-gu
-gu
-gu
+NH
+NH
+qc
+NH
+NH
 gu
 gu
 gu
@@ -36846,12 +37212,12 @@ gu
 gu
 gu
 gu
-gu
-gu
-gu
-gu
-gu
-gu
+NH
+qc
+qc
+qc
+NH
+NH
 gu
 gu
 gu
@@ -37103,13 +37469,13 @@ gu
 gu
 gu
 gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
+NH
+qc
+qc
+qc
+qc
+NH
+NH
 gu
 gu
 gu
@@ -37360,14 +37726,14 @@ gu
 gu
 gu
 gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
+NH
+NH
+tI
+qc
+qc
+qc
+NH
+NH
 gu
 gu
 gu
@@ -37610,21 +37976,21 @@ gu
 gu
 gu
 gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
+NH
+NH
+NH
+NH
+NH
+NH
+NH
+NH
+NH
+NH
+qc
+qc
+qc
+qc
+NH
 gu
 gu
 gu
@@ -37866,22 +38232,22 @@ UE
 gu
 gu
 gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
+NH
+NH
+Cy
+kO
+rm
+qc
+qc
+qc
+qc
+tI
+NH
+NH
+qc
+qc
+qc
+NH
 gu
 gu
 gu
@@ -38122,23 +38488,23 @@ UE
 UE
 gu
 gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
+UD
+NH
+IB
+Gv
+NT
+rm
+qc
+qc
+qc
+qc
+qc
+qc
+NH
+qc
+qc
+tI
+NH
 gu
 gu
 gu
@@ -38379,23 +38745,23 @@ UE
 UE
 gu
 gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
+ok
+Vc
+rl
+hm
+Tb
+rm
+qc
+qc
+pR
+Mu
+qc
+qc
+fE
+qc
+qc
+NH
+NH
 gu
 gu
 gu
@@ -38636,22 +39002,22 @@ UE
 UE
 gu
 gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
+UD
+NH
+ae
+nz
+Lz
+rm
+qc
+qc
+qc
+qc
+qc
+qc
+NH
+iL
+NH
+NH
 gu
 gu
 gu
@@ -38894,20 +39260,20 @@ UE
 gu
 gu
 gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
+NH
+NH
+aq
+eZ
+rm
+qc
+qc
+qc
+qc
+iL
+NH
+NH
+NH
+NH
 gu
 gu
 gu
@@ -39152,16 +39518,16 @@ gu
 gu
 gu
 gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
+NH
+NH
+NH
+NH
+NH
+NH
+NH
+NH
+NH
+NH
 gu
 gu
 gu
@@ -42744,8 +43110,8 @@ UE
 UE
 UE
 UE
-UE
-UE
+gu
+gu
 gu
 gu
 gu
@@ -43001,7 +43367,7 @@ UE
 UE
 UE
 UE
-UE
+gu
 Aq
 Aq
 Aq
@@ -43258,7 +43624,7 @@ UE
 UE
 UE
 UE
-UE
+gu
 Aq
 kB
 dV
@@ -43515,7 +43881,7 @@ UE
 UE
 UE
 UE
-UE
+gu
 Aq
 kB
 kB
@@ -46590,9 +46956,9 @@ UE
 UE
 UE
 UE
-UE
-UE
-UE
+gu
+gu
+gu
 gu
 Us
 Us
@@ -46847,7 +47213,7 @@ UE
 UE
 UE
 UE
-UE
+gu
 Aq
 Aq
 Aq
@@ -47104,7 +47470,7 @@ UE
 UE
 UE
 UE
-UE
+gu
 Aq
 oA
 BH
@@ -47361,7 +47727,7 @@ UE
 UE
 UE
 UE
-UE
+gu
 Aq
 Ty
 sX
@@ -47618,7 +47984,7 @@ UE
 UE
 UE
 UE
-UE
+gu
 Aq
 Ja
 vI
@@ -47682,11 +48048,11 @@ gu
 gu
 gu
 gu
+Wg
+Wg
+Wg
 gu
-gu
-gu
-gu
-gu
+LC
 LC
 aU
 gu
@@ -47875,7 +48241,7 @@ UE
 UE
 UE
 UE
-UE
+gu
 Aq
 sx
 Ty
@@ -47939,11 +48305,11 @@ gu
 gu
 gu
 gu
-gu
-gu
-gu
-gu
-gu
+Wg
+DI
+Wg
+Wg
+Wg
 aU
 aU
 gu
@@ -48132,7 +48498,7 @@ UE
 UE
 UE
 UE
-UE
+gu
 Aq
 ZP
 ZP
@@ -48196,11 +48562,11 @@ gu
 gu
 gu
 gu
-gu
-gu
-gu
-gu
-gu
+Wg
+qc
+qc
+qc
+qc
 aU
 aU
 LC
@@ -48389,7 +48755,7 @@ UE
 UE
 UE
 UE
-UE
+gu
 Aq
 Aq
 Aq
@@ -48452,12 +48818,12 @@ LC
 gu
 gu
 gu
-gu
-gu
-gu
-gu
-gu
-gu
+Wg
+Wg
+qc
+PD
+PD
+qc
 aU
 aU
 aU
@@ -48646,9 +49012,9 @@ UE
 UE
 UE
 UE
-UE
-UE
-UE
+gu
+gu
+gu
 gu
 gu
 gu
@@ -48709,12 +49075,12 @@ gu
 gu
 gu
 gu
-gu
-gu
-gu
-gu
-gu
-gu
+Wg
+qc
+PD
+PD
+Wg
+Wg
 LC
 aU
 aU
@@ -48965,12 +49331,12 @@ gu
 gu
 gu
 gu
-gu
-gu
-gu
-gu
-gu
-gu
+Wg
+Wg
+PD
+PD
+PD
+Wg
 gu
 gu
 mw
@@ -49222,12 +49588,12 @@ gu
 gu
 gu
 gu
-gu
-gu
-gu
-gu
-gu
-gu
+Wg
+PD
+PD
+PD
+Wg
+Wg
 gu
 gu
 gu
@@ -49474,16 +49840,16 @@ gu
 gu
 gu
 gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
+Wg
+Wg
+Wg
+Wg
+Wg
+Wg
+PD
+PD
+qc
+Wg
 gu
 gu
 gu
@@ -49728,19 +50094,19 @@ gu
 gu
 gu
 gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
+Wg
+Wg
+Wg
+Wg
+ZI
+ZI
+ZI
+Wg
+Wg
+Ys
+PD
+Wg
+Wg
 gu
 gu
 gu
@@ -49984,19 +50350,19 @@ gu
 gu
 gu
 gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
+Wg
+Wg
+PD
+ZZ
+PD
+PD
+qc
+qc
+eL
+Wg
+Yv
+qc
+Wg
 gu
 gu
 gu
@@ -50240,23 +50606,23 @@ gu
 gu
 gu
 gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
+Wg
+Wg
+mR
+mR
+mR
+mR
+gA
+PD
+qc
+qc
+WV
+qc
+qc
+Wg
+Wg
+Wg
+Wg
 gu
 gu
 gu
@@ -50497,24 +50863,24 @@ gu
 gu
 gu
 gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
+Wg
+mR
+mR
+mR
+mR
+mR
+mR
+PD
+PD
+qc
+WV
+qc
+tI
+WV
+qc
+qc
+Wg
+Wg
 gu
 gu
 gu
@@ -50754,24 +51120,24 @@ gu
 gu
 gu
 gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
+Wg
+mR
+mR
+mR
+mR
+mR
+mR
+ZZ
+PD
+PD
+Wg
+jy
+Wg
+Wg
+GQ
+qc
+Yv
+Wg
 gu
 gu
 gu
@@ -51008,27 +51374,27 @@ gu
 gu
 gu
 gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
+Wg
+Wg
+Wg
+Wg
+Wg
+mR
+mR
+mR
+mR
+mR
+PD
+PD
+Wg
+Wg
+Wg
+Wg
+tz
+qc
+qc
+Yv
+Wg
 gu
 gu
 gu
@@ -51262,30 +51628,30 @@ gu
 gu
 gu
 gu
+Wg
+Wg
+Wg
+Wg
 gu
 gu
 gu
+Wg
+Wg
+mR
+mR
+mR
+Wg
+PD
+PD
+Wg
 gu
 gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
+Wg
+tz
+qc
+qc
+Yv
+Wg
 gu
 gu
 gu
@@ -51518,33 +51884,33 @@ gu
 gu
 gu
 gu
+Wg
+Wg
+mR
+mR
+Wg
+Wg
 gu
 gu
 gu
+Wg
+Wg
+Wg
+Wg
+Wg
+PD
+tI
+Wg
 gu
 gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
+Wg
+Wg
+tz
+tz
+Wg
+Wg
+Wg
+Wg
 gu
 gu
 gu
@@ -51775,34 +52141,34 @@ gu
 gu
 gu
 gu
+Wg
+mR
+mR
+mR
+mR
+Wg
+Wg
+gu
+Wg
+Wg
+tX
+tX
+tX
+Wg
+qc
+PD
+Wg
+Wg
 gu
 gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
+Wg
+Wg
+Wg
+Wg
+mR
+mR
+Wg
+Wg
 gu
 gu
 gu
@@ -52032,34 +52398,34 @@ gu
 gu
 gu
 gu
+Wg
+mR
+mR
+mR
+mR
+mR
+Wg
+Wg
+Wg
+sM
+qc
+qc
+qc
+WV
+qc
+PD
+PD
+Wg
 gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
+Wg
+Wg
+qc
+PD
+mR
+mR
+mR
+mR
+Wg
 gu
 gu
 gu
@@ -52289,35 +52655,35 @@ gu
 gu
 gu
 gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
+Wg
+mR
+mR
+mR
+mR
+mR
+if
+Yv
+Wg
+Wg
+Wg
+ZI
+ZI
+Wg
+qc
+qc
+PD
+Wg
+Wg
+Wg
+eL
+qc
+PD
+ZZ
+mR
+mR
+mR
+Wg
+Wg
 gu
 gu
 gu
@@ -52546,35 +52912,35 @@ gu
 gu
 gu
 gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
+Wg
+Wg
+mR
+mR
+mR
+PD
+PD
+Yv
+Wg
+ZI
+Wg
+Wg
+Wg
+Wg
+Wg
+qc
+qc
+qc
+WV
+qc
+qc
+qc
+qc
+PD
+PD
+mR
+mR
+mR
+Wg
 gu
 gu
 gu
@@ -52804,34 +53170,34 @@ gu
 gu
 gu
 gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
+Wg
+mR
+mR
+mR
+Yt
+qc
+qc
+WV
+PL
+qc
+PD
+Wg
+PD
+tI
+PD
+qc
+qc
+WV
+qc
+qc
+qc
+qc
+PD
+gA
+mR
+mR
+mR
+Wg
 gu
 gu
 gu
@@ -53061,34 +53427,34 @@ gu
 gu
 gu
 gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
+Wg
+Wg
+mR
+mR
+PD
+qc
+qc
+WV
+qc
+PD
+PD
+PD
+PD
+PD
+PD
+PD
+Wg
+Wg
+Wg
+ZI
+ZI
+ai
+PD
+mR
+mR
+mR
+mR
+Wg
 gu
 gu
 gu
@@ -53319,33 +53685,33 @@ gu
 gu
 gu
 gu
+Wg
+Wg
+lM
+XG
+lM
+Wg
+Wg
+Wg
+Wg
+PL
+PD
+PD
+Wg
+Wg
+Wg
+Wg
 gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
+Wg
+Wg
+Wg
+Wg
+mR
+mR
+mR
+mR
+Wg
+Wg
 gu
 gu
 gu
@@ -53577,6 +53943,18 @@ gu
 gu
 gu
 gu
+Wg
+Wg
+Wg
+Wg
+Wg
+gu
+gu
+Wg
+Wg
+Wg
+Wg
+Wg
 gu
 gu
 gu
@@ -53584,24 +53962,12 @@ gu
 gu
 gu
 gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
-gu
+Wg
+Wg
+Wg
+Wg
+Wg
+Wg
 gu
 gu
 gu
@@ -55586,7 +55952,7 @@ UE
 UE
 UE
 UE
-UE
+gu
 gu
 gu
 gu
@@ -55843,7 +56209,7 @@ UE
 UE
 UE
 UE
-UE
+gu
 Aq
 Aq
 nl
@@ -56100,7 +56466,7 @@ UE
 UE
 UE
 UE
-UE
+gu
 Aq
 rQ
 lU
@@ -56357,7 +56723,7 @@ UE
 UE
 UE
 UE
-UE
+gu
 Aq
 Nt
 cG
@@ -56614,7 +56980,7 @@ UE
 UE
 UE
 UE
-UE
+gu
 Aq
 Aq
 YX
@@ -56871,7 +57237,7 @@ UE
 UE
 UE
 UE
-UE
+gu
 Aq
 rQ
 Zg
@@ -57128,7 +57494,7 @@ UE
 UE
 UE
 UE
-UE
+gu
 Aq
 pf
 nS
@@ -57385,7 +57751,7 @@ UE
 UE
 UE
 UE
-UE
+gu
 Aq
 Aq
 YX
@@ -57642,7 +58008,7 @@ UE
 UE
 UE
 UE
-UE
+gu
 Aq
 rQ
 lw
@@ -57899,7 +58265,7 @@ UE
 UE
 UE
 UE
-UE
+gu
 Aq
 Ch
 gw
@@ -57908,7 +58274,7 @@ uS
 dT
 Vg
 Aq
-UE
+gu
 gu
 gu
 gu
@@ -58156,7 +58522,7 @@ UE
 UE
 UE
 UE
-UE
+gu
 Aq
 nl
 rQ
@@ -58165,7 +58531,7 @@ nl
 Xh
 si
 Aq
-UE
+gu
 gu
 gu
 gu
@@ -58413,7 +58779,7 @@ UE
 UE
 UE
 UE
-UE
+gu
 gu
 Aq
 Aq
@@ -58422,7 +58788,7 @@ Aq
 Aq
 Aq
 Aq
-UE
+gu
 gu
 gu
 gu
@@ -58670,16 +59036,16 @@ UE
 UE
 UE
 UE
-UE
-UE
-UE
-UE
-UE
-UE
-UE
-UE
-UE
-UE
+gu
+gu
+gu
+gu
+gu
+gu
+gu
+gu
+gu
+gu
 gu
 gu
 gu
@@ -88478,7 +88844,7 @@ ac
 ac
 Cd
 ac
-jD
+de
 Cd
 Cd
 Cd
@@ -88735,7 +89101,7 @@ ac
 Cd
 Cd
 ac
-jD
+de
 Cd
 Cd
 Cd
@@ -95432,7 +95798,7 @@ MB
 Yo
 AL
 Yo
-dL
+gE
 NM
 Yo
 zl
@@ -95689,7 +96055,7 @@ DT
 Yo
 Yo
 Yo
-dL
+gE
 NM
 Yo
 zl
@@ -95946,7 +96312,7 @@ Yo
 Yo
 AL
 Yo
-dL
+gE
 NM
 Yo
 zl
@@ -160968,7 +161334,7 @@ Yo
 Yo
 SE
 zl
-gE
+zl
 Yo
 Yo
 Yo
@@ -161225,7 +161591,7 @@ Yo
 DJ
 SE
 zl
-gE
+zl
 Yo
 Yo
 Yo
@@ -161482,7 +161848,7 @@ Yo
 Yo
 SE
 zl
-gE
+zl
 Yo
 Yo
 Yo
@@ -165314,7 +165680,7 @@ Yj
 UE
 UE
 UE
-ct
+gu
 gu
 gu
 gu
@@ -165571,7 +165937,7 @@ Yj
 UE
 UE
 UE
-ct
+gu
 gu
 gu
 gu
@@ -165828,7 +166194,7 @@ Yj
 UE
 UE
 UE
-ct
+gu
 gu
 qc
 qc
@@ -166085,7 +166451,7 @@ Yj
 UE
 UE
 UE
-ct
+gu
 gu
 qc
 gu
@@ -166342,7 +166708,7 @@ Yj
 UE
 UE
 UE
-ct
+gu
 gu
 qc
 gu
@@ -166599,7 +166965,7 @@ UE
 UE
 UE
 UE
-ct
+gu
 gu
 qc
 gu
@@ -166856,9 +167222,9 @@ UE
 UE
 UE
 UE
-ct
 gu
-xU
+gu
+zl
 gu
 gu
 qc
@@ -167113,7 +167479,7 @@ UE
 UE
 UE
 UE
-ct
+gu
 gu
 gu
 gu
@@ -167370,7 +167736,7 @@ UE
 UE
 UE
 UE
-ct
+gu
 gu
 qc
 qc
@@ -167627,7 +167993,7 @@ UE
 UE
 UE
 UE
-ct
+gu
 qc
 qc
 qc
@@ -171236,7 +171602,7 @@ gu
 gu
 gu
 gu
-PP
+zl
 qc
 gu
 gu
