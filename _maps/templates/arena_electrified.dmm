@@ -1,130 +1,183 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "a" = (
-/obj/structure/window/reinforced/spawner/directional/south,
-/obj/structure/grille,
-/obj/structure/cable,
-/turf/open/floor/plating,
-/area/template_noop)
-"e" = (
-/obj/structure/window/reinforced/spawner/directional/south,
-/obj/structure/window/reinforced/spawner/directional/west,
-/obj/structure/grille,
-/obj/structure/cable,
-/turf/open/floor/plating,
-/area/template_noop)
-"k" = (
-/obj/structure/window/reinforced/spawner/directional/east,
-/obj/structure/window/reinforced/spawner/directional/south,
-/obj/structure/grille,
-/obj/structure/cable,
-/turf/open/floor/plating,
-/area/template_noop)
-"m" = (
-/obj/effect/landmark/ragecage/second,
-/obj/effect/turf_decal/box,
-/turf/open/floor/engine,
-/area/template_noop)
-"p" = (
-/obj/structure/window/reinforced/spawner/directional/east,
-/obj/structure/grille,
-/obj/structure/cable,
-/turf/open/floor/plating,
-/area/template_noop)
-"y" = (
-/obj/structure/window/reinforced/spawner/directional/east,
-/obj/structure/window/reinforced/spawner/directional/north,
-/obj/structure/grille,
-/obj/structure/cable,
-/turf/open/floor/plating,
-/area/template_noop)
-"C" = (
+/obj/structure/flora/bush/fullgrass/style_random,
+/turf/open/misc/grass,
+/area/space)
+"b" = (
+/turf/open/misc/dirt/jungle,
+/area/space)
+"c" = (
+/turf/open/misc/sandy_dirt,
+/area/space)
+"d" = (
+/obj/structure/flora/bush/fullgrass/style_random,
 /obj/effect/landmark/ragecage,
-/obj/effect/turf_decal/box,
-/turf/open/floor/engine,
-/area/template_noop)
-"J" = (
-/obj/structure/window/reinforced/spawner/directional/north,
-/obj/structure/window/reinforced/spawner/directional/west,
-/obj/structure/grille,
+/turf/open/misc/grass/jungle/station,
+/area/space)
+"e" = (
+/obj/structure/grille/indestructible/shocked,
+/turf/open/floor/plating,
+/area/space)
+"g" = (
+/turf/open/misc/grass/jungle/station,
+/area/space)
+"q" = (
+/obj/effect/spawner/random/engineering/toolbox,
+/turf/open/misc/sandy_dirt,
+/area/space)
+"u" = (
+/obj/structure/flora/bush/fullgrass/style_random,
+/turf/open/misc/grass/jungle/station,
+/area/space)
+"v" = (
+/obj/effect/landmark/ragecage,
+/turf/open/misc/grass/jungle/station,
+/area/space)
+"w" = (
+/obj/item/spear,
+/turf/open/misc/dirt/jungle,
+/area/space)
+"x" = (
+/obj/effect/landmark/ragecage/second,
+/turf/open/misc/dirt/jungle,
+/area/space)
+"z" = (
+/obj/effect/landmark/ragecage,
+/turf/open/misc/dirt/jungle,
+/area/space)
+"A" = (
+/obj/effect/landmark/ragecage/second,
+/turf/open/misc/grass,
+/area/space)
+"C" = (
+/obj/structure/flora/bush/jungle/b/style_random,
+/turf/open/misc/grass/jungle/station,
+/area/space)
+"D" = (
+/obj/item/clothing/gloves/color/fyellow,
 /obj/structure/cable,
 /turf/open/floor/plating,
-/area/template_noop)
-"L" = (
-/obj/structure/window/reinforced/spawner/directional/west,
-/obj/structure/grille,
+/area/space)
+"F" = (
+/obj/structure/flora/bush/fullgrass/style_random,
+/obj/effect/landmark/ragecage/second,
+/turf/open/misc/grass,
+/area/space)
+"I" = (
+/turf/open/misc/grass,
+/area/space)
+"M" = (
+/obj/item/clothing/gloves/cut,
+/turf/open/misc/dirt/jungle,
+/area/space)
+"Q" = (
+/obj/item/spear,
+/turf/open/misc/grass,
+/area/space)
+"R" = (
 /obj/structure/cable,
 /turf/open/floor/plating,
-/area/template_noop)
-"O" = (
-/obj/structure/window/reinforced/spawner/directional/north,
-/obj/structure/grille,
-/obj/structure/cable,
-/turf/open/floor/plating,
-/area/template_noop)
-"S" = (
-/turf/open/floor/engine,
-/area/template_noop)
+/area/space)
+"Y" = (
+/obj/effect/spawner/random/engineering/toolbox,
+/turf/open/misc/dirt/jungle,
+/area/space)
 
 (1,1,1) = {"
-J
-L
-L
-L
+e
+e
+e
+e
+e
+e
+e
+e
+e
+e
+e
 e
 "}
 (2,1,1) = {"
-O
+e
+b
+v
+u
 C
-S
-C
+M
+R
+Y
 a
+F
+I
+e
 "}
 (3,1,1) = {"
-O
-S
-C
-S
+e
+g
+u
+v
+Y
+b
+R
+b
+A
+Q
 a
+e
 "}
 (4,1,1) = {"
-O
-S
-S
-S
+e
+b
+d
+b
+b
+R
+D
+b
+b
+F
 a
+e
 "}
 (5,1,1) = {"
-O
-S
-S
-S
-a
+e
+w
+b
+z
+b
+R
+c
+b
+x
+b
+b
+e
 "}
 (6,1,1) = {"
-O
-S
-S
-S
-a
+e
+b
+z
+b
+b
+R
+q
+c
+b
+x
+b
+e
 "}
 (7,1,1) = {"
-O
-S
-m
-S
-a
-"}
-(8,1,1) = {"
-O
-m
-S
-m
-a
-"}
-(9,1,1) = {"
-y
-p
-p
-p
-k
+e
+e
+e
+e
+e
+e
+e
+e
+e
+e
+e
+e
 "}

@@ -14,6 +14,15 @@
 	template_id = "arena_electrified"
 	mappath = "_maps/templates/arena_electrified.dmm"
 
+/datum/map_template/arena/flooded
+	name = "Arena - Flooded"
+	template_id = "arena_flooded"
+	mappath = "_maps/templates/arena_flooded.dmm"
+
 /area/centcom/tdome/arena/ragecage
 	name = "Ragecage Arena"
-	area_flags = UNIQUE_AREA | LOCAL_TELEPORT | EVENT_PROTECTED
+	ambience_index = AMBIENCE_AWAY
+	sound_environment = SOUND_ENVIRONMENT_ROOM
+	area_flags = UNIQUE_AREA | LOCAL_TELEPORT | EVENT_PROTECTED | HIDDEN_AREA
+	static_lighting = FALSE
+	base_lighting_alpha = 255
