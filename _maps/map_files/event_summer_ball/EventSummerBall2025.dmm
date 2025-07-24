@@ -35,10 +35,6 @@
 /obj/structure/chair/sofa/bench/tram,
 /turf/open/openspace,
 /area/awaymission/museum/mothroachvoid)
-"ah" = (
-/obj/structure/flora/bush/flowers_yw/style_3,
-/turf/open/misc/sandy_dirt,
-/area/awaymission/secret/fullbright)
 "ai" = (
 /obj/structure/flora/grass/jungle/b/style_random,
 /obj/structure/flora/tree/jungle/style_random,
@@ -49,12 +45,6 @@
 	dir = 1
 	},
 /turf/open/floor/tram,
-/area/awaymission/secret/fullbright)
-"ak" = (
-/obj/structure/flora/bush/large/style_2{
-	pixel_x = -33
-	},
-/turf/open/misc/grass,
 /area/awaymission/secret/fullbright)
 "al" = (
 /turf/open/misc/dirt/jungle/dark,
@@ -67,6 +57,10 @@
 	},
 /turf/open/floor/iron/large,
 /area/awaymission/secret/fullbright)
+"ap" = (
+/obj/effect/turf_decal/siding/wood,
+/turf/open/floor/wood/tile,
+/area/awaymission/secret)
 "ar" = (
 /obj/structure/closet/secure_closet/brig{
 	name = "Prisoner Locker"
@@ -106,6 +100,10 @@
 "aC" = (
 /turf/open/misc/grass,
 /area/awaymission/secret/fullbright)
+"aE" = (
+/obj/structure/flora/bush/flowers_yw/style_3,
+/turf/open/misc/sandy_dirt,
+/area/awaymission/secret/fullbright)
 "aF" = (
 /obj/structure/flora/grass/jungle/b/style_random,
 /turf/open/misc/dirt/station,
@@ -127,13 +125,20 @@
 /obj/structure/fake_stairs/directional/west,
 /turf/open/misc/beach/sand,
 /area/awaymission/secret)
+"aJ" = (
+/obj/structure/flora/tree/jungle/small/style_3,
+/turf/open/misc/sandy_dirt,
+/area/awaymission/secret/fullbright)
 "aK" = (
 /turf/open/misc/beach/coast{
 	dir = 10
 	},
 /area/awaymission/secret/fullbright)
 "aM" = (
-/obj/effect/turf_decal/siding/wood,
+/obj/effect/turf_decal/siding/wood/corner,
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 8
+	},
 /turf/open/floor/wood/tile,
 /area/awaymission/secret)
 "aN" = (
@@ -144,12 +149,6 @@
 /obj/structure/showcase/perfect_employee,
 /turf/open/floor/plating,
 /area/station/maintenance/department/security)
-"aR" = (
-/obj/structure/railing/wooden_fence{
-	dir = 1
-	},
-/turf/open/misc/grass/jungle,
-/area/awaymission/secret)
 "aS" = (
 /obj/effect/turf_decal/tile/red/half/contrasted{
 	dir = 4
@@ -158,16 +157,16 @@
 /obj/effect/turf_decal/bot,
 /turf/open/floor/iron/dark/textured,
 /area/station/ai_monitored/security/armory)
+"aU" = (
+/mob/living/basic/raptor/yellow,
+/turf/open/misc/sandy_dirt,
+/area/awaymission/secret/fullbright)
 "aV" = (
 /obj/structure/railing{
 	dir = 8
 	},
 /turf/open/floor/stone,
 /area/awaymission/secret)
-"aW" = (
-/obj/structure/flora/tree/dead/style_3,
-/turf/open/misc/asteroid/snow/atmosphere,
-/area/awaymission/secret/fullbright)
 "aX" = (
 /obj/effect/turf_decal/siding/wood/corner{
 	dir = 1
@@ -271,6 +270,13 @@
 /obj/effect/light_emitter/fake_outdoors,
 /turf/open/misc/ashplanet/rocky/safe,
 /area/awaymission/secret)
+"bA" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/mob/living/basic/raptor/blue,
+/turf/open/misc/dirt/jungle/dark,
+/area/awaymission/secret)
 "bB" = (
 /obj/machinery/vending/hydronutrients{
 	all_products_free = 1
@@ -295,6 +301,12 @@
 /obj/structure/closet/crate/grave,
 /turf/open/misc/dirt/station,
 /area/awaymission/secret)
+"bG" = (
+/obj/structure/railing/wooden_fence{
+	dir = 8
+	},
+/turf/open/openspace,
+/area/awaymission/secret/fullbright)
 "bH" = (
 /obj/effect/light_emitter/fake_outdoors,
 /turf/open/openspace,
@@ -318,6 +330,12 @@
 /obj/effect/light_emitter/fake_outdoors,
 /turf/open/misc/asteroid,
 /area/awaymission/secret/fullbright)
+"bM" = (
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 1
+	},
+/turf/open/floor/wood/tile,
+/area/awaymission/secret)
 "bN" = (
 /obj/effect/decal/cleanable/vomit/old,
 /turf/open/misc/beach/sand{
@@ -377,12 +395,6 @@
 	dir = 1
 	},
 /turf/open/misc/dirt/jungle/wasteland,
-/area/awaymission/secret)
-"cf" = (
-/obj/effect/turf_decal/siding/wood{
-	dir = 6
-	},
-/turf/open/floor/wood/tile,
 /area/awaymission/secret)
 "cg" = (
 /obj/structure/fluff/tram_rail/electric{
@@ -548,23 +560,6 @@
 /obj/structure/table/wood,
 /turf/open/misc/ashplanet/rocky/safe,
 /area/awaymission/secret)
-"cR" = (
-/obj/structure/table/reinforced,
-/obj/item/clothing/head/cowboy,
-/obj/item/clothing/head/cowboy{
-	pixel_y = 2
-	},
-/obj/item/clothing/head/cowboy{
-	pixel_y = 4
-	},
-/obj/item/clothing/head/cowboy{
-	pixel_y = 6
-	},
-/obj/item/clothing/head/cowboy{
-	pixel_y = 8
-	},
-/turf/open/floor/stone,
-/area/awaymission/secret)
 "cS" = (
 /obj/structure/closet/crate/secure/weapon{
 	req_access = list("armory");
@@ -618,6 +613,12 @@
 /obj/effect/turf_decal/siding/wood,
 /turf/open/floor/wood/parquet,
 /area/awaymission/secret/fullbright)
+"db" = (
+/mob/living/basic/chicken{
+	real_name = Colonel
+	},
+/turf/open/floor/hay,
+/area/awaymission/secret)
 "dc" = (
 /obj/machinery/power/rtg/advanced,
 /obj/structure/cable,
@@ -696,6 +697,10 @@
 	dir = 9
 	},
 /area/awaymission/secret)
+"dw" = (
+/obj/structure/flora/rock/pile/style_3,
+/turf/open/misc/sandy_dirt,
+/area/awaymission/secret/fullbright)
 "dz" = (
 /obj/structure/flora/bush/reed/style_random,
 /turf/open/misc/beach/coast{
@@ -726,6 +731,10 @@
 /obj/item/toy/katana,
 /turf/open/floor/wood/large,
 /area/awaymission/secret)
+"dF" = (
+/obj/effect/invisible_wall,
+/turf/open/floor/wood,
+/area/awaymission/secret/fullbright)
 "dG" = (
 /obj/structure/railing{
 	dir = 8
@@ -820,6 +829,10 @@
 	},
 /turf/open/floor/wood/large,
 /area/awaymission/secret)
+"ec" = (
+/mob/living/basic/raptor/white,
+/turf/open/misc/asteroid/snow/atmosphere,
+/area/awaymission/secret/fullbright)
 "ee" = (
 /obj/structure/grille,
 /obj/structure/window/spawner/directional/west,
@@ -838,6 +851,15 @@
 	},
 /turf/open/floor/mineral/titanium/tiled/blue,
 /area/awaymission/secret/fullbright)
+"ei" = (
+/mob/living/basic/cow,
+/turf/open/misc/grass,
+/area/awaymission/secret)
+"el" = (
+/obj/structure/flora/bush/fullgrass/style_random,
+/obj/effect/turf_decal/weather/dirt,
+/turf/open/misc/sandy_dirt,
+/area/awaymission/secret/fullbright)
 "em" = (
 /obj/effect/landmark/start/hangover,
 /obj/effect/turf_decal/tile/neutral/tram,
@@ -845,6 +867,12 @@
 /obj/structure/thermoplastic/light,
 /turf/open/indestructible/tram/plate,
 /area/awaymission/museum/mothroachvoid)
+"en" = (
+/obj/effect/turf_decal/siding/wideplating/dark/corner{
+	dir = 4
+	},
+/turf/open/floor/stone,
+/area/awaymission/secret)
 "er" = (
 /turf/open/floor/tram,
 /area/awaymission/secret/fullbright)
@@ -960,6 +988,13 @@
 "eW" = (
 /turf/closed/indestructible/rock,
 /area/awaymission/secret/fullbright)
+"eY" = (
+/obj/structure/railing/wooden_fence{
+	dir = 1
+	},
+/obj/effect/invisible_wall,
+/turf/open/misc/asteroid/snow/atmosphere,
+/area/awaymission/secret/fullbright)
 "eZ" = (
 /obj/structure/railing,
 /obj/effect/turf_decal/siding/dark{
@@ -1000,25 +1035,20 @@
 	},
 /turf/open/floor/iron,
 /area/station/security/processing)
-"fk" = (
-/obj/structure/fake_stairs/stone{
+"fl" = (
+/obj/structure/railing/wooden_fence{
 	dir = 4
 	},
-/turf/open/misc/asteroid/snow/atmosphere,
-/area/awaymission/secret/fullbright)
+/turf/open/misc/sandy_dirt,
+/area/awaymission/secret)
 "fn" = (
 /obj/structure/flora/bush/fullgrass/style_random,
-/mob/living/basic/raptor/green,
+/obj/structure/railing/wooden_fence{
+	dir = 1
+	},
+/obj/effect/invisible_wall,
 /turf/open/misc/sandy_dirt,
 /area/awaymission/secret/fullbright)
-"fo" = (
-/obj/effect/turf_decal/siding/dark_blue{
-	dir = 8
-	},
-/obj/structure/table/reinforced/rglass,
-/obj/item/pen/fountain,
-/turf/open/floor/plastic,
-/area/awaymission/secret)
 "fp" = (
 /obj/effect/decal/remains/human,
 /turf/open/floor/wood/parquet,
@@ -1054,15 +1084,6 @@
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/iron,
 /area/station/security/brig/upper)
-"fy" = (
-/turf/open/misc/beach/coast/corner{
-	dir = 1
-	},
-/area/awaymission/secret/fullbright)
-"fz" = (
-/obj/effect/turf_decal/siding/wood/end,
-/turf/open/floor/wood/tile,
-/area/awaymission/secret)
 "fA" = (
 /obj/structure/fence/corner,
 /turf/open/misc/sandy_dirt,
@@ -1096,14 +1117,19 @@
 /obj/structure/moisture_trap,
 /turf/open/floor/plating,
 /area/station/maintenance/department/security)
+"fI" = (
+/obj/structure/fake_stairs/wood/directional/west{
+	dir = 2
+	},
+/turf/open/misc/sandy_dirt,
+/area/awaymission/secret/fullbright)
 "fL" = (
 /obj/structure/fluff/divine/defensepylon,
 /turf/open/floor/stone,
 /area/awaymission/secret)
 "fM" = (
-/obj/structure/fake_stairs/wood/directional/west{
-	dir = 1
-	},
+/obj/structure/statue/bone/rib,
+/obj/effect/invisible_wall,
 /turf/open/misc/sandy_dirt,
 /area/awaymission/secret/fullbright)
 "fN" = (
@@ -1121,10 +1147,6 @@
 /obj/structure/flora/bush/lavendergrass/style_4,
 /turf/open/misc/dirt/jungle/dark,
 /area/awaymission/secret)
-"fS" = (
-/obj/structure/curtain/bounty,
-/turf/open/floor/hay,
-/area/awaymission/secret)
 "fT" = (
 /turf/open/floor/iron/white,
 /area/station/medical/medbay/lobby)
@@ -1138,19 +1160,15 @@
 /obj/machinery/newscaster/directional/west,
 /turf/open/floor/iron,
 /area/station/security/brig/lower)
+"fW" = (
+/obj/effect/invisible_wall,
+/turf/open/openspace,
+/area/awaymission/secret/fullbright)
 "fX" = (
 /obj/structure/transport/linear/tram/corner/southwest,
 /obj/structure/tram/spoiler,
 /turf/open/openspace,
 /area/awaymission/museum/mothroachvoid)
-"fY" = (
-/mob/living/basic/raptor/purple,
-/turf/open/misc/dirt/jungle/dark,
-/area/awaymission/secret)
-"fZ" = (
-/obj/structure/flora/bush/flowers_pp/style_3,
-/turf/open/misc/grass,
-/area/awaymission/secret/fullbright)
 "ga" = (
 /obj/machinery/power/rtg/advanced,
 /obj/structure/cable,
@@ -1231,6 +1249,11 @@
 /obj/effect/turf_decal/siding/wideplating/dark,
 /turf/open/floor/stone,
 /area/awaymission/secret/fullbright)
+"gw" = (
+/obj/structure/flora/bush/fullgrass/style_random,
+/mob/living/basic/raptor/green,
+/turf/open/misc/sandy_dirt,
+/area/awaymission/secret/fullbright)
 "gy" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 8
@@ -1240,6 +1263,12 @@
 	},
 /turf/open/floor/wood,
 /area/awaymission/secret)
+"gA" = (
+/obj/structure/flora/tree/jungle/small/style_3{
+	pixel_x = -41
+	},
+/turf/open/misc/grass,
+/area/awaymission/secret/fullbright)
 "gB" = (
 /obj/structure/railing/wooden_fence{
 	dir = 6
@@ -1267,6 +1296,10 @@
 /obj/structure/flora/rock/style_random,
 /turf/open/misc/ashplanet/rocky/safe,
 /area/awaymission/secret)
+"gG" = (
+/mob/living/basic/raptor/yellow,
+/turf/open/misc/grass,
+/area/awaymission/secret/fullbright)
 "gH" = (
 /obj/structure/window/spawner/directional/south,
 /obj/structure/window/spawner/directional/north,
@@ -1300,6 +1333,10 @@
 /obj/item/clothing/suit/costume/pirate,
 /turf/open/floor/wood/large,
 /area/awaymission/secret)
+"gT" = (
+/obj/structure/curtain/bounty,
+/turf/open/floor/hay,
+/area/awaymission/secret)
 "gU" = (
 /obj/structure/table/reinforced,
 /obj/item/storage/box/drinkingglasses{
@@ -1314,16 +1351,6 @@
 /obj/item/storage/box/drinkingglasses,
 /turf/open/floor/iron/large,
 /area/awaymission/secret/fullbright)
-"gV" = (
-/obj/structure/flora/bush/fullgrass/style_random,
-/turf/open/misc/sandy_dirt,
-/area/awaymission/secret/fullbright)
-"gW" = (
-/obj/effect/turf_decal/siding/wood/corner{
-	dir = 1
-	},
-/turf/open/floor/wood/tile,
-/area/awaymission/secret)
 "gX" = (
 /turf/open/misc/beach/coast{
 	dir = 9
@@ -1494,11 +1521,6 @@
 /obj/machinery/light/directional/south,
 /turf/open/floor/iron,
 /area/station/security/brig/lower)
-"hF" = (
-/obj/effect/turf_decal/weather/dirt,
-/obj/structure/flora/rock/pile/style_2,
-/turf/open/misc/sandy_dirt,
-/area/awaymission/secret/fullbright)
 "hG" = (
 /obj/effect/turf_decal/tile/blue/full,
 /obj/item/radio/intercom/directional/west,
@@ -1516,12 +1538,6 @@
 /obj/structure/fence/corner,
 /turf/open/misc/dirt/jungle,
 /area/awaymission/secret/fullbright)
-"hN" = (
-/obj/structure/railing{
-	dir = 6
-	},
-/turf/open/misc/grass,
-/area/awaymission/secret)
 "hO" = (
 /obj/effect/turf_decal/tile/red/anticorner/contrasted{
 	dir = 8
@@ -1531,13 +1547,9 @@
 /obj/structure/railing,
 /turf/open/floor/iron/textured,
 /area/station/security/brig/upper)
-"hR" = (
-/obj/structure/flora/bush/sunny/style_2{
-	pixel_y = 5;
-	pixel_x = -10
-	},
-/obj/structure/flora/bush/fullgrass/style_random,
-/turf/open/misc/sandy_dirt,
+"hP" = (
+/obj/structure/flora/rock/style_3,
+/turf/open/misc/asteroid/snow/atmosphere,
 /area/awaymission/secret/fullbright)
 "hS" = (
 /obj/effect/turf_decal/siding/wideplating/dark{
@@ -1551,6 +1563,10 @@
 	},
 /turf/open/floor/iron/white,
 /area/station/medical/treatment_center)
+"hU" = (
+/obj/structure/railing,
+/turf/open/misc/grass,
+/area/awaymission/secret)
 "hY" = (
 /obj/structure/table/reinforced/rglass,
 /obj/effect/turf_decal/trimline/green/filled/line{
@@ -1590,6 +1606,10 @@
 	},
 /turf/open/misc/dirt/station,
 /area/awaymission/secret/fullbright)
+"ik" = (
+/obj/structure/flora/bush/flowers_pp/style_3,
+/turf/open/misc/sandy_dirt,
+/area/awaymission/secret/fullbright)
 "il" = (
 /obj/structure/rack,
 /obj/effect/spawner/random/armory/e_gun,
@@ -1598,6 +1618,10 @@
 "im" = (
 /turf/open/misc/hay,
 /area/awaymission/museum/mothroachvoid)
+"in" = (
+/obj/effect/invisible_wall,
+/turf/open/floor/engine/hull/air,
+/area/awaymission/secret/fullbright)
 "io" = (
 /obj/structure/table/wood,
 /obj/item/kitchen/spoon{
@@ -1651,17 +1675,12 @@
 	},
 /turf/closed/indestructible/iron,
 /area/awaymission/secret)
-"iw" = (
-/obj/structure/railing{
-	dir = 10
+"iy" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
 	},
-/turf/open/misc/grass,
+/turf/open/floor/wood/large,
 /area/awaymission/secret)
-"ix" = (
-/turf/open/misc/beach/coast/corner{
-	dir = 8
-	},
-/area/awaymission/secret/fullbright)
 "iz" = (
 /obj/structure/fence/corner{
 	dir = 8
@@ -1767,8 +1786,8 @@
 /turf/open/misc/asteroid,
 /area/awaymission/secret/fullbright)
 "iU" = (
-/obj/structure/flora/rock/icy,
-/turf/open/misc/asteroid/snow/atmosphere,
+/obj/structure/flora/bush/flowers_pp/style_3,
+/turf/open/misc/grass,
 /area/awaymission/secret/fullbright)
 "iV" = (
 /obj/structure/flora/grass/jungle/a/style_random,
@@ -1794,6 +1813,11 @@
 /obj/structure/flora/grass/jungle/b/style_random,
 /obj/structure/flora/grass/jungle/b/style_random,
 /turf/open/misc/grass,
+/area/awaymission/secret/fullbright)
+"iY" = (
+/obj/structure/flora/bush/flowers_yw/style_3,
+/obj/effect/turf_decal/weather/dirt,
+/turf/open/misc/sandy_dirt,
 /area/awaymission/secret/fullbright)
 "ja" = (
 /obj/machinery/transport/crossing_signal/southeast{
@@ -1862,10 +1886,6 @@
 /obj/machinery/newscaster/directional/east,
 /turf/open/floor/wood/large,
 /area/station/medical/break_room)
-"jq" = (
-/obj/effect/turf_decal/siding/wood,
-/turf/open/floor/hay,
-/area/awaymission/secret)
 "jr" = (
 /obj/structure/railing/wooden_fence{
 	dir = 8
@@ -1996,15 +2016,6 @@
 /obj/item/radio/intercom/directional/south,
 /turf/open/floor/iron/white,
 /area/station/medical/treatment_center)
-"jQ" = (
-/obj/structure/railing{
-	dir = 5
-	},
-/obj/structure/railing{
-	dir = 6
-	},
-/turf/open/misc/grass,
-/area/awaymission/secret)
 "jS" = (
 /obj/effect/turf_decal/tile/blue/fourcorners,
 /obj/item/storage/medkit/emergency,
@@ -2040,13 +2051,6 @@
 /obj/effect/turf_decal/bot,
 /turf/open/floor/iron/textured,
 /area/station/security/brig/upper)
-"kb" = (
-/obj/effect/turf_decal/siding/wood{
-	dir = 4
-	},
-/obj/structure/sink/kitchen/directional/west,
-/turf/open/floor/wood/tile,
-/area/awaymission/secret)
 "kc" = (
 /obj/effect/turf_decal/trimline/red/filled/line{
 	dir = 6
@@ -2082,6 +2086,10 @@
 	},
 /turf/open/openspace,
 /area/awaymission/museum/mothroachvoid)
+"kj" = (
+/obj/effect/turf_decal/weather/dirt,
+/turf/open/misc/sandy_dirt,
+/area/awaymission/secret/fullbright)
 "kk" = (
 /obj/structure/railing{
 	dir = 8
@@ -2091,6 +2099,10 @@
 	},
 /turf/open/floor/wood/large,
 /area/awaymission/secret)
+"kl" = (
+/obj/effect/invisible_wall,
+/turf/open/misc/grass,
+/area/awaymission/secret/fullbright)
 "kn" = (
 /obj/structure/fluff/tram_rail/electric/anchor{
 	dir = 1
@@ -2106,6 +2118,11 @@
 /obj/structure/railing{
 	dir = 1
 	},
+/turf/open/misc/grass,
+/area/awaymission/secret/fullbright)
+"ks" = (
+/obj/structure/flora/bush/flowers_yw/style_3,
+/mob/living/basic/raptor/yellow,
 /turf/open/misc/grass,
 /area/awaymission/secret/fullbright)
 "kt" = (
@@ -2173,16 +2190,6 @@
 	},
 /turf/open/floor/iron/freezer,
 /area/station/medical/storage)
-"kK" = (
-/mob/living/basic/pet/cat/feral,
-/turf/open/misc/grass,
-/area/awaymission/secret/fullbright)
-"kM" = (
-/obj/structure/fake_stairs/wood/directional/west{
-	dir = 1
-	},
-/turf/open/floor/asphalt/lavaland,
-/area/awaymission/secret/fullbright)
 "kP" = (
 /obj/machinery/stasis{
 	dir = 8
@@ -2198,12 +2205,6 @@
 /area/station/security/brig/upper)
 "kS" = (
 /obj/effect/turf_decal/siding/wideplating/dark,
-/turf/open/floor/stone,
-/area/awaymission/secret)
-"kT" = (
-/obj/effect/turf_decal/siding/wideplating/dark{
-	dir = 5
-	},
 /turf/open/floor/stone,
 /area/awaymission/secret)
 "kV" = (
@@ -2284,12 +2285,6 @@
 /obj/machinery/computer/records/security,
 /turf/open/floor/iron/dark,
 /area/station/security/brig/lower)
-"lo" = (
-/obj/structure/railing{
-	dir = 1
-	},
-/turf/open/misc/dirt/jungle/dark,
-/area/awaymission/secret)
 "lq" = (
 /obj/effect/turf_decal/stripes/corner,
 /obj/effect/turf_decal/trimline/red/filled/corner,
@@ -2303,12 +2298,22 @@
 /obj/machinery/light/directional/east,
 /turf/open/floor/iron/dark,
 /area/station/security/brig/lower)
+"ls" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/turf/open/floor/hay,
+/area/awaymission/secret)
 "lt" = (
 /obj/structure/closet/crate/bin,
 /obj/effect/spawner/random/trash/cigbutt,
 /obj/effect/spawner/random/trash/crushed_can,
 /obj/effect/spawner/random/trash/crushed_can,
 /turf/open/misc/grass,
+/area/awaymission/secret/fullbright)
+"lu" = (
+/obj/structure/flora/rock/pile,
+/turf/open/misc/asteroid/snow/atmosphere,
 /area/awaymission/secret/fullbright)
 "lv" = (
 /obj/structure/bed/maint,
@@ -2327,10 +2332,6 @@
 /obj/machinery/light/dim/directional/east,
 /turf/open/floor/iron/dark,
 /area/station/medical/morgue)
-"lA" = (
-/obj/effect/turf_decal/siding/wood/corner,
-/turf/open/floor/wood/tile,
-/area/awaymission/secret)
 "lB" = (
 /turf/closed/indestructible/syndicate,
 /area/station/medical/cryo)
@@ -2498,10 +2499,6 @@
 /obj/machinery/light/dim/directional/east,
 /turf/open/openspace,
 /area/station/medical/treatment_center)
-"mp" = (
-/mob/living/basic/raptor/green,
-/turf/open/misc/sandy_dirt,
-/area/awaymission/secret/fullbright)
 "ms" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
@@ -2526,12 +2523,6 @@
 /obj/structure/flora/bush/flowers_br/style_random,
 /turf/open/misc/dirt/station,
 /area/awaymission/secret/fullbright)
-"mz" = (
-/obj/effect/turf_decal/siding/wood{
-	dir = 8
-	},
-/turf/open/floor/wood/tile,
-/area/awaymission/secret)
 "mB" = (
 /obj/item/storage/toolbox/fishing,
 /turf/open/misc/ashplanet/rocky/safe,
@@ -2552,6 +2543,13 @@
 /turf/open/misc/beach/coast/corner{
 	dir = 8
 	},
+/area/awaymission/secret)
+"mH" = (
+/obj/structure/railing/wooden_fence{
+	dir = 1
+	},
+/obj/effect/invisible_wall,
+/turf/open/misc/grass,
 /area/awaymission/secret)
 "mI" = (
 /obj/machinery/conveyor_switch/oneway{
@@ -2585,19 +2583,6 @@
 	},
 /turf/open/misc/grass,
 /area/awaymission/secret)
-"mN" = (
-/obj/effect/turf_decal/siding/wideplating/dark/corner{
-	dir = 4
-	},
-/turf/open/floor/stone,
-/area/awaymission/secret)
-"mP" = (
-/obj/structure/flora/bush/flowers_pp/style_3,
-/obj/structure/railing/wooden_fence{
-	dir = 1
-	},
-/turf/open/misc/grass,
-/area/awaymission/secret/fullbright)
 "mQ" = (
 /obj/structure/stairs/north,
 /turf/open/floor/iron/white/smooth_half{
@@ -2622,6 +2607,18 @@
 	},
 /turf/open/floor/wood/parquet,
 /area/awaymission/secret)
+"mT" = (
+/obj/structure/signpost{
+	desc = "A Sign depicting the various locations of the Expedition Area";
+	name = "Expedition Guidepost"
+	},
+/turf/open/misc/sandy_dirt,
+/area/awaymission/secret/fullbright)
+"mU" = (
+/obj/structure/flora/bush/flowers_yw/style_3,
+/obj/effect/invisible_wall,
+/turf/open/misc/sandy_dirt,
+/area/awaymission/secret/fullbright)
 "mW" = (
 /obj/structure/disposalpipe/junction/flip{
 	dir = 8
@@ -2631,18 +2628,6 @@
 	},
 /turf/open/floor/iron,
 /area/station/security/brig/lower)
-"mX" = (
-/obj/structure/railing{
-	dir = 8
-	},
-/turf/open/misc/grass,
-/area/awaymission/secret)
-"mZ" = (
-/obj/effect/turf_decal/siding/wood/corner{
-	dir = 4
-	},
-/turf/open/floor/wood/tile,
-/area/awaymission/secret)
 "na" = (
 /obj/structure/disposalpipe/segment,
 /obj/effect/turf_decal/tile/red/half/contrasted{
@@ -2651,6 +2636,12 @@
 /obj/structure/cable,
 /turf/open/floor/iron,
 /area/station/command/heads_quarters/hos)
+"nc" = (
+/obj/structure/railing{
+	dir = 10
+	},
+/turf/open/misc/grass,
+/area/awaymission/secret)
 "nf" = (
 /obj/structure/railing{
 	dir = 5
@@ -2661,10 +2652,6 @@
 /obj/structure/fluff/beach_umbrella/engine,
 /turf/open/misc/beach/sand,
 /area/awaymission/secret)
-"nh" = (
-/obj/structure/flora/bush/flowers_br,
-/turf/open/misc/grass,
-/area/awaymission/secret/fullbright)
 "ni" = (
 /obj/structure/flora/bush/fullgrass/style_random,
 /turf/open/misc/grass/jungle,
@@ -2679,23 +2666,11 @@
 /obj/machinery/light/directional/south,
 /turf/open/floor/wood/parquet,
 /area/awaymission/secret)
-"nl" = (
-/obj/structure/flora/tree/palm/style_2{
-	pixel_y = 4
-	},
-/turf/open/misc/beach/sand,
-/area/awaymission/secret)
 "nm" = (
 /turf/open/floor/iron/white/small,
 /area/station/medical/surgery/aft)
 "nn" = (
 /turf/open/misc/grass,
-/area/awaymission/secret)
-"no" = (
-/obj/structure/railing/wooden_fence{
-	dir = 8
-	},
-/turf/open/misc/sandy_dirt,
 /area/awaymission/secret)
 "np" = (
 /obj/structure/closet/secure_closet/medical1,
@@ -2713,12 +2688,6 @@
 /obj/structure/transport/linear/tram/corner/southwest,
 /turf/open/openspace,
 /area/awaymission/secret/fullbright)
-"nt" = (
-/obj/effect/turf_decal/siding/wood{
-	dir = 1
-	},
-/turf/open/floor/wood/tile,
-/area/awaymission/secret)
 "nu" = (
 /obj/machinery/vending/boozeomat/syndicate,
 /turf/open/misc/ashplanet/rocky/safe,
@@ -2755,6 +2724,10 @@
 	},
 /turf/open/openspace,
 /area/awaymission/museum/mothroachvoid)
+"nK" = (
+/obj/structure/flora/bush/flowers_yw/style_random,
+/turf/open/misc/sandy_dirt,
+/area/awaymission/secret)
 "nL" = (
 /obj/vehicle/ridden/lavaboat{
 	dir = 4
@@ -2772,6 +2745,11 @@
 "nQ" = (
 /turf/closed/indestructible/syndicate,
 /area/station/maintenance/department/security)
+"nR" = (
+/obj/structure/flora/bush/flowers_yw/style_3,
+/obj/structure/flora/rock/pile/jungle/large/style_2,
+/turf/open/misc/grass,
+/area/awaymission/secret/fullbright)
 "nS" = (
 /obj/structure/chair/stool/directional/north,
 /obj/item/reagent_containers/cup/glass/bottle/beer/almost_empty{
@@ -2783,6 +2761,12 @@
 "nT" = (
 /obj/structure/fake_stairs/wood/directional/north,
 /turf/open/misc/beach/sand,
+/area/awaymission/secret)
+"nU" = (
+/obj/structure/railing/wooden_fence{
+	dir = 8
+	},
+/turf/open/misc/sandy_dirt,
 /area/awaymission/secret)
 "nV" = (
 /mob/living/basic/crab/evil,
@@ -2928,12 +2912,6 @@
 	},
 /turf/open/floor/iron/large,
 /area/awaymission/secret/fullbright)
-"oM" = (
-/obj/structure/flora/tree/jungle/small/style_3{
-	pixel_x = -41
-	},
-/turf/open/misc/grass,
-/area/awaymission/secret/fullbright)
 "oP" = (
 /obj/structure/railing{
 	dir = 5
@@ -2970,16 +2948,17 @@
 /obj/effect/light_emitter/fake_outdoors,
 /turf/open/misc/dirt/jungle,
 /area/station/security/prison)
+"oX" = (
+/obj/structure/fake_stairs/wood/directional/west{
+	dir = 1
+	},
+/turf/open/floor/asphalt/lavaland,
+/area/awaymission/secret/fullbright)
 "oY" = (
 /obj/effect/turf_decal/siding/red{
 	dir = 4
 	},
 /turf/open/floor/tram,
-/area/awaymission/secret/fullbright)
-"oZ" = (
-/obj/structure/flora/bush/fullgrass/style_random,
-/mob/living/basic/pony,
-/turf/open/misc/sandy_dirt,
 /area/awaymission/secret/fullbright)
 "pa" = (
 /mob/living/basic/mining/gutlunch/milk,
@@ -3001,19 +2980,28 @@
 /obj/effect/turf_decal/tile/red/half/contrasted,
 /turf/open/floor/iron/textured,
 /area/station/security/brig/upper)
+"pd" = (
+/obj/structure/flora/bush/fullgrass/style_random,
+/mob/living/basic/raptor/red,
+/turf/open/misc/sandy_dirt,
+/area/awaymission/secret/fullbright)
 "pe" = (
 /obj/structure/flora/grass/jungle/a/style_random,
 /obj/structure/flora/bush/flowers_yw/style_random,
 /turf/open/misc/grass,
 /area/awaymission/secret/fullbright)
-"ph" = (
-/obj/structure/railing,
-/turf/open/misc/grass,
-/area/awaymission/secret)
-"pi" = (
-/obj/effect/turf_decal/weather/dirt,
-/turf/open/misc/grass,
+"pg" = (
+/obj/structure/flora/bush/flowers_br,
+/obj/effect/invisible_wall,
+/turf/open/misc/sandy_dirt,
 /area/awaymission/secret/fullbright)
+"pi" = (
+/obj/structure/flora/bush/flowers_br/style_random,
+/obj/structure/railing/wooden_fence{
+	dir = 8
+	},
+/turf/open/misc/sandy_dirt,
+/area/awaymission/secret)
 "pj" = (
 /obj/structure/fluff/tram_rail/electric{
 	dir = 1
@@ -3031,6 +3019,14 @@
 "po" = (
 /obj/effect/light_emitter/fake_outdoors,
 /turf/open/water/beach,
+/area/awaymission/secret)
+"pq" = (
+/obj/effect/turf_decal/siding/dark_blue{
+	dir = 8
+	},
+/obj/structure/table/reinforced/rglass,
+/obj/item/storage/backpack/saddlepack,
+/turf/open/floor/plastic,
 /area/awaymission/secret)
 "pr" = (
 /obj/structure/rack,
@@ -3065,12 +3061,6 @@
 	},
 /turf/open/floor/tram,
 /area/awaymission/secret/fullbright)
-"pw" = (
-/obj/effect/turf_decal/siding/wood{
-	dir = 4
-	},
-/turf/open/floor/wood/tile,
-/area/awaymission/secret)
 "px" = (
 /obj/structure/flora/grass/jungle/a/style_random,
 /obj/structure/flora/bush/flowers_br/style_random,
@@ -3106,17 +3096,34 @@
 /obj/effect/turf_decal/siding/blue,
 /turf/open/floor/iron/white,
 /area/station/medical/treatment_center)
+"pI" = (
+/obj/structure/table/reinforced,
+/obj/item/clothing/head/cowboy,
+/obj/item/clothing/head/cowboy{
+	pixel_y = 2
+	},
+/obj/item/clothing/head/cowboy{
+	pixel_y = 4
+	},
+/obj/item/clothing/head/cowboy{
+	pixel_y = 6
+	},
+/obj/item/clothing/head/cowboy{
+	pixel_y = 8
+	},
+/turf/open/floor/stone,
+/area/awaymission/secret)
 "pK" = (
 /obj/item/radio/intercom/directional/south,
 /obj/structure/table/glass,
 /obj/item/storage/box/rxglasses,
 /turf/open/floor/iron/white,
 /area/station/medical/treatment_center)
-"pN" = (
-/obj/structure/railing,
-/obj/structure/fluff/minepost,
+"pM" = (
+/obj/structure/flora/bush/fullgrass/style_random,
+/mob/living/basic/raptor/yellow,
 /turf/open/misc/grass,
-/area/awaymission/secret)
+/area/awaymission/secret/fullbright)
 "pO" = (
 /obj/structure/railing{
 	dir = 1
@@ -3250,6 +3257,14 @@
 	},
 /turf/open/misc/dirt/station,
 /area/awaymission/secret/fullbright)
+"qv" = (
+/obj/structure/flora/rock/style_3{
+	pixel_y = 7;
+	pixel_x = 8
+	},
+/obj/effect/invisible_wall,
+/turf/open/misc/sandy_dirt,
+/area/awaymission/secret/fullbright)
 "qw" = (
 /obj/structure/rack,
 /obj/item/storage/box/teargas{
@@ -3298,12 +3313,6 @@
 /obj/effect/turf_decal/siding/wideplating/dark,
 /turf/open/floor/stone,
 /area/awaymission/secret/fullbright)
-"qG" = (
-/obj/structure/railing/wooden_fence{
-	dir = 5
-	},
-/turf/open/misc/sandy_dirt,
-/area/awaymission/secret)
 "qH" = (
 /obj/effect/turf_decal/tile/red/anticorner/contrasted{
 	dir = 4
@@ -3321,14 +3330,17 @@
 /obj/effect/mapping_helpers/airlock/access/any/medical/cmo,
 /turf/open/floor/iron/white,
 /area/station/command/heads_quarters/cmo)
-"qK" = (
-/obj/structure/flora/bush/flowers_pp/style_3,
-/turf/open/misc/sandy_dirt,
-/area/awaymission/secret/fullbright)
 "qL" = (
 /obj/structure/cable,
 /turf/open/floor/iron/dark,
 /area/station/ai_monitored/security/armory)
+"qM" = (
+/obj/structure/railing/wooden_fence{
+	dir = 1
+	},
+/obj/effect/invisible_wall,
+/turf/open/misc/sandy_dirt,
+/area/awaymission/secret/fullbright)
 "qO" = (
 /turf/open/floor/wood,
 /area/awaymission/secret)
@@ -3373,6 +3385,12 @@
 	},
 /turf/open/floor/stone,
 /area/awaymission/secret/fullbright)
+"qZ" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/turf/open/floor/wood/tile,
+/area/awaymission/secret)
 "ra" = (
 /obj/structure/railing{
 	dir = 6
@@ -3398,9 +3416,6 @@
 /obj/structure/flora/bush/flowers_br/style_random,
 /turf/open/misc/grass,
 /area/awaymission/secret/fullbright)
-"rh" = (
-/turf/open/floor/hay,
-/area/awaymission/secret)
 "ri" = (
 /turf/open/floor/asphalt/lavaland,
 /area/awaymission/secret/fullbright)
@@ -3410,6 +3425,11 @@
 /obj/structure/thermoplastic/light,
 /turf/open/openspace,
 /area/awaymission/museum/mothroachvoid)
+"rk" = (
+/obj/effect/invisible_wall,
+/obj/structure/statue/bone/rib,
+/turf/open/misc/sandy_dirt,
+/area/awaymission/secret/fullbright)
 "rl" = (
 /obj/structure/flora/bush/reed,
 /turf/open/water/beach,
@@ -3430,6 +3450,10 @@
 	},
 /turf/open/floor/plating,
 /area/station/maintenance/department/security)
+"rs" = (
+/obj/effect/turf_decal/siding/wood/end,
+/turf/open/floor/wood/tile,
+/area/awaymission/secret)
 "rt" = (
 /obj/structure/water_source/puddle,
 /turf/open/misc/grass,
@@ -3439,6 +3463,10 @@
 	dir = 9
 	},
 /turf/open/floor/wood,
+/area/awaymission/secret/fullbright)
+"rv" = (
+/obj/effect/invisible_wall,
+/turf/open/misc/asteroid/snow/atmosphere,
 /area/awaymission/secret/fullbright)
 "rx" = (
 /obj/structure/railing{
@@ -3472,12 +3500,6 @@
 /obj/structure/transport/linear/tram/corner/southeast,
 /turf/open/openspace,
 /area/awaymission/secret/fullbright)
-"rD" = (
-/obj/effect/turf_decal/siding/wood{
-	dir = 10
-	},
-/turf/open/floor/wood/tile,
-/area/awaymission/secret)
 "rE" = (
 /obj/structure/closet/athletic_mixed,
 /turf/open/floor/iron/freezer,
@@ -3494,6 +3516,10 @@
 	dir = 4
 	},
 /turf/open/misc/grass,
+/area/awaymission/secret/fullbright)
+"rL" = (
+/obj/structure/statue/bone/rib,
+/turf/open/misc/sandy_dirt,
 /area/awaymission/secret/fullbright)
 "rM" = (
 /obj/structure/railing,
@@ -3559,6 +3585,11 @@
 /obj/item/radio/intercom/directional/east,
 /turf/open/floor/iron/freezer,
 /area/station/medical/cryo)
+"rZ" = (
+/obj/effect/turf_decal/weather/dirt,
+/obj/structure/flora/rock/pile/style_2,
+/turf/open/misc/sandy_dirt,
+/area/awaymission/secret/fullbright)
 "sa" = (
 /obj/structure/fence/corner{
 	dir = 4
@@ -3624,12 +3655,6 @@
 "si" = (
 /turf/open/floor/iron,
 /area/awaymission/secret)
-"sj" = (
-/obj/effect/turf_decal/siding/wood{
-	dir = 8
-	},
-/turf/open/floor/wood/large,
-/area/awaymission/secret)
 "sk" = (
 /obj/structure/railing/wooden_fence{
 	dir = 4
@@ -3676,10 +3701,12 @@
 	dir = 4
 	},
 /area/station/medical/treatment_center)
-"sr" = (
-/mob/living/basic/raptor/green,
-/turf/open/misc/grass,
-/area/awaymission/secret)
+"st" = (
+/obj/structure/flora/bush/fullgrass/style_random,
+/obj/effect/turf_decal/weather/dirt,
+/mob/living/basic/raptor/yellow,
+/turf/open/misc/sandy_dirt,
+/area/awaymission/secret/fullbright)
 "su" = (
 /mob/living/basic/crab/evil,
 /turf/open/water/beach,
@@ -3856,10 +3883,6 @@
 	},
 /turf/open/misc/dirt/station,
 /area/awaymission/secret/fullbright)
-"tj" = (
-/obj/structure/flora/rock/pile/style_3,
-/turf/open/misc/sandy_dirt,
-/area/awaymission/secret/fullbright)
 "tk" = (
 /obj/structure/railing{
 	dir = 1
@@ -3945,6 +3968,12 @@
 /obj/item/reagent_containers/cup/glass/flask/gold,
 /turf/open/floor/stone,
 /area/awaymission/secret)
+"tE" = (
+/obj/structure/railing{
+	dir = 8
+	},
+/turf/open/misc/grass,
+/area/awaymission/secret)
 "tF" = (
 /turf/open/floor/iron/dark/smooth_large,
 /area/awaymission/secret/fullbright)
@@ -3985,10 +4014,6 @@
 /obj/machinery/power/apc/auto_name/directional/west,
 /turf/open/misc/grass,
 /area/station/security/prison)
-"tQ" = (
-/mob/living/basic/raptor/white,
-/turf/open/misc/asteroid/snow/atmosphere,
-/area/awaymission/secret/fullbright)
 "tR" = (
 /obj/vehicle/ridden/secway,
 /obj/effect/turf_decal/bot,
@@ -3997,11 +4022,6 @@
 	},
 /turf/open/floor/iron/textured,
 /area/station/security/brig/upper)
-"tS" = (
-/obj/structure/flora/bush/fullgrass/style_random,
-/mob/living/basic/raptor/yellow,
-/turf/open/misc/grass,
-/area/awaymission/secret/fullbright)
 "tU" = (
 /obj/structure/disposalpipe/segment{
 	dir = 5
@@ -4054,18 +4074,10 @@
 /turf/open/floor/wood/parquet,
 /area/awaymission/secret)
 "uc" = (
-/obj/effect/turf_decal/siding/wood{
-	dir = 8
-	},
-/mob/living/basic/raptor/blue,
-/turf/open/misc/dirt/jungle/dark,
-/area/awaymission/secret)
-"ud" = (
-/obj/effect/turf_decal/siding/wood/corner{
-	dir = 8
-	},
-/turf/open/floor/wood/tile,
-/area/awaymission/secret)
+/obj/structure/flora/bush/fullgrass/style_random,
+/mob/living/basic/pony,
+/turf/open/misc/sandy_dirt,
+/area/awaymission/secret/fullbright)
 "ue" = (
 /obj/effect/turf_decal/tile/blue/half/contrasted,
 /obj/machinery/light/dim/directional/south,
@@ -4118,6 +4130,11 @@
 	dir = 4
 	},
 /turf/open/floor/mineral/titanium/tiled/blue,
+/area/awaymission/secret/fullbright)
+"up" = (
+/obj/structure/flora/bush/fullgrass/style_random,
+/obj/structure/statue/bone/rib,
+/turf/open/misc/sandy_dirt,
 /area/awaymission/secret/fullbright)
 "uq" = (
 /turf/open/misc/grass/jungle,
@@ -4222,10 +4239,6 @@
 /obj/effect/turf_decal/siding/wideplating/dark/end,
 /turf/open/floor/stone,
 /area/awaymission/secret/fullbright)
-"uK" = (
-/obj/structure/flora/rock/pile/style_2,
-/turf/open/misc/sandy_dirt,
-/area/awaymission/secret/fullbright)
 "uL" = (
 /obj/structure/flora/bush/fullgrass/style_random,
 /turf/open/misc/dirt/jungle/wasteland,
@@ -4239,20 +4252,9 @@
 /turf/open/floor/iron/white/smooth_large,
 /area/station/medical/storage)
 "uN" = (
-/obj/structure/flora/bush/fullgrass/style_random,
-/obj/effect/turf_decal/weather/dirt,
-/mob/living/basic/raptor/yellow,
+/obj/structure/flora/bush/flowers_br,
 /turf/open/misc/sandy_dirt,
 /area/awaymission/secret/fullbright)
-"uO" = (
-/obj/structure/railing{
-	dir = 9
-	},
-/obj/structure/railing{
-	dir = 10
-	},
-/turf/open/misc/grass,
-/area/awaymission/secret)
 "uP" = (
 /mob/living/basic/mothroach,
 /turf/open/misc/grass,
@@ -4380,12 +4382,6 @@
 	},
 /turf/open/floor/iron/dark,
 /area/station/ai_monitored/security/armory)
-"vw" = (
-/obj/structure/fake_stairs/stone{
-	dir = 4
-	},
-/turf/open/misc/asteroid,
-/area/awaymission/secret/fullbright)
 "vA" = (
 /turf/open/misc/asteroid,
 /area/awaymission/museum/mothroachvoid)
@@ -4440,6 +4436,12 @@
 	},
 /turf/open/misc/dirt/jungle/dark,
 /area/awaymission/secret)
+"vL" = (
+/obj/structure/railing{
+	dir = 1
+	},
+/turf/open/misc/dirt/jungle/dark,
+/area/awaymission/secret)
 "vM" = (
 /mob/living/basic/crab/evil/kreb{
 	name = "Krebby Jones"
@@ -4474,6 +4476,10 @@
 /obj/structure/railing{
 	dir = 6
 	},
+/turf/open/misc/grass,
+/area/awaymission/secret/fullbright)
+"vT" = (
+/obj/effect/turf_decal/weather/dirt,
 /turf/open/misc/grass,
 /area/awaymission/secret/fullbright)
 "vU" = (
@@ -4532,6 +4538,11 @@
 	},
 /turf/open/floor/iron,
 /area/station/security/brig/upper)
+"wg" = (
+/obj/effect/meteor/sand,
+/obj/effect/invisible_wall,
+/turf/open/misc/sandy_dirt,
+/area/awaymission/secret/fullbright)
 "wi" = (
 /mob/living/basic/crab/evil,
 /obj/item/clothing/head/costume/pirate/bandana,
@@ -4654,6 +4665,10 @@
 	},
 /turf/open/floor/iron/white,
 /area/station/medical/treatment_center)
+"wH" = (
+/mob/living/basic/raptor/black,
+/turf/open/misc/grass,
+/area/awaymission/secret/fullbright)
 "wI" = (
 /obj/structure/table/wood,
 /obj/structure/curtain/bounty/start_closed{
@@ -4689,6 +4704,11 @@
 	},
 /turf/open/floor/iron,
 /area/station/security/brig/upper)
+"wR" = (
+/obj/structure/flora/bush/fullgrass/style_random,
+/obj/effect/invisible_wall,
+/turf/open/misc/sandy_dirt,
+/area/awaymission/secret/fullbright)
 "wT" = (
 /obj/machinery/requests_console/directional/west{
 	department = "Security";
@@ -4742,13 +4762,6 @@
 /obj/effect/mapping_helpers/airlock/access/any/medical/morgue,
 /turf/open/floor/iron/dark,
 /area/station/medical/morgue)
-"xd" = (
-/obj/effect/turf_decal/siding/wood{
-	dir = 8
-	},
-/obj/structure/sink/kitchen/directional/east,
-/turf/open/floor/wood/tile,
-/area/awaymission/secret)
 "xe" = (
 /obj/machinery/light/directional/north,
 /obj/structure/sign/warning/cold_temp/directional/north,
@@ -4768,10 +4781,6 @@
 /obj/structure/table/wood,
 /turf/open/floor/light,
 /area/awaymission/secret)
-"xk" = (
-/mob/living/basic/raptor/yellow,
-/turf/open/misc/sandy_dirt,
-/area/awaymission/secret/fullbright)
 "xm" = (
 /turf/open/floor/carpet/stellar,
 /area/awaymission/secret)
@@ -4779,6 +4788,12 @@
 /obj/effect/light_emitter/fake_outdoors,
 /turf/open/misc/dirt/station,
 /area/awaymission/secret/fullbright)
+"xo" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/turf/open/floor/wood/tile,
+/area/awaymission/secret)
 "xp" = (
 /obj/machinery/suit_storage_unit/security,
 /obj/effect/turf_decal/tile/red/half/contrasted,
@@ -4828,12 +4843,6 @@
 "xA" = (
 /turf/open/floor/wood/large,
 /area/station/medical/break_room)
-"xB" = (
-/obj/structure/railing/wooden_fence{
-	dir = 8
-	},
-/turf/open/misc/grass,
-/area/awaymission/secret)
 "xD" = (
 /obj/effect/turf_decal/stripes/white/line{
 	dir = 8
@@ -4842,12 +4851,6 @@
 	dir = 8
 	},
 /turf/open/indestructible/tram,
-/area/awaymission/secret/fullbright)
-"xE" = (
-/obj/structure/railing/wooden_fence{
-	dir = 8
-	},
-/turf/open/openspace,
 /area/awaymission/secret/fullbright)
 "xF" = (
 /obj/structure/closet/secure_closet/medical3,
@@ -4975,19 +4978,14 @@
 /obj/structure/cable,
 /turf/open/floor/plating,
 /area/station/maintenance/department/security)
-"yb" = (
-/obj/structure/railing{
-	dir = 5
-	},
-/turf/open/misc/grass,
-/area/awaymission/secret)
-"yd" = (
-/obj/item/storage/backpack/saddlepack,
-/turf/open/misc/sandy_dirt,
-/area/awaymission/secret)
 "yh" = (
 /obj/effect/decal/remains/human,
 /turf/open/floor/wood/large,
+/area/awaymission/secret/fullbright)
+"yi" = (
+/turf/open/misc/beach/coast/corner{
+	dir = 8
+	},
 /area/awaymission/secret/fullbright)
 "yj" = (
 /turf/open/misc/sandy_dirt,
@@ -5001,6 +4999,12 @@
 /obj/effect/turf_decal/siding/wideplating/dark,
 /turf/open/floor/stone,
 /area/awaymission/secret/fullbright)
+"ym" = (
+/obj/structure/railing/wooden_fence{
+	dir = 1
+	},
+/turf/open/misc/sandy_dirt,
+/area/awaymission/secret)
 "yn" = (
 /obj/effect/spawner/structure/window/reinforced/indestructible,
 /turf/open/floor/plating,
@@ -5158,31 +5162,16 @@
 /obj/structure/fluff/beach_umbrella/security,
 /turf/open/misc/beach/sand,
 /area/awaymission/secret)
-"yU" = (
-/obj/structure/railing/wooden_fence{
-	dir = 1
+"yX" = (
+/obj/structure/railing{
+	dir = 5
 	},
-/turf/open/misc/sandy_dirt,
-/area/awaymission/secret)
-"yV" = (
-/mob/living/basic/raptor/black,
-/turf/open/misc/dirt/jungle/dark,
-/area/awaymission/secret)
-"yW" = (
-/obj/structure/railing/wooden_fence{
-	dir = 9
-	},
-/turf/open/misc/sandy_dirt,
+/turf/open/misc/grass,
 /area/awaymission/secret)
 "yY" = (
 /obj/structure/fake_stairs/wood/directional/west,
 /obj/structure/railing/wooden_fence,
 /turf/open/floor/stone,
-/area/awaymission/secret/fullbright)
-"za" = (
-/turf/open/misc/beach/coast/corner{
-	dir = 4
-	},
 /area/awaymission/secret/fullbright)
 "zc" = (
 /obj/structure/chair/sofa/bench/right,
@@ -5265,12 +5254,6 @@
 	},
 /turf/open/floor/stone,
 /area/awaymission/secret/fullbright)
-"zy" = (
-/obj/structure/railing/wooden_fence{
-	dir = 1
-	},
-/turf/open/misc/sandy_dirt,
-/area/awaymission/secret/fullbright)
 "zz" = (
 /obj/structure/cable,
 /turf/open/floor/iron,
@@ -5279,10 +5262,6 @@
 /obj/structure/flora/bush/lavendergrass/style_4,
 /turf/open/misc/grass,
 /area/awaymission/secret)
-"zB" = (
-/obj/structure/flora/bush/fullgrass/style_random,
-/turf/open/misc/grass,
-/area/awaymission/secret/fullbright)
 "zD" = (
 /obj/effect/turf_decal/tile/blue/full,
 /obj/item/radio/intercom/directional/south,
@@ -5322,9 +5301,9 @@
 /turf/open/floor/iron/dark,
 /area/station/security/brig/lower)
 "zL" = (
-/obj/effect/light_emitter/fake_outdoors,
-/turf/open/floor/engine/hull/air,
-/area/awaymission/secret/fullbright)
+/mob/living/basic/raptor/blue,
+/turf/open/misc/dirt/jungle/dark,
+/area/awaymission/secret)
 "zM" = (
 /obj/effect/turf_decal/siding/wideplating/dark{
 	dir = 1
@@ -5379,6 +5358,10 @@
 /obj/machinery/newscaster/directional/south,
 /turf/open/floor/iron/freezer,
 /area/station/medical/storage)
+"Ae" = (
+/obj/item/storage/backpack/saddlepack,
+/turf/open/misc/sandy_dirt,
+/area/awaymission/secret)
 "Ag" = (
 /obj/effect/turf_decal/trimline/red/filled/line,
 /turf/open/floor/iron/dark,
@@ -5414,6 +5397,10 @@
 	},
 /turf/open/misc/sandy_dirt,
 /area/awaymission/secret/fullbright)
+"Ao" = (
+/mob/living/basic/cow,
+/turf/open/misc/sandy_dirt,
+/area/awaymission/secret/fullbright)
 "Ap" = (
 /obj/effect/turf_decal/trimline/green/filled/line,
 /turf/open/floor/iron,
@@ -5424,6 +5411,11 @@
 	},
 /turf/open/floor/iron,
 /area/station/security/brig/lower)
+"At" = (
+/obj/structure/railing,
+/obj/structure/fluff/minepost,
+/turf/open/misc/grass,
+/area/awaymission/secret)
 "Au" = (
 /obj/structure/tram,
 /obj/structure/transport/linear/tram,
@@ -5445,6 +5437,11 @@
 "Ay" = (
 /turf/open/floor/iron/white,
 /area/station/medical/storage)
+"Az" = (
+/turf/open/misc/beach/coast{
+	dir = 6
+	},
+/area/awaymission/secret/fullbright)
 "AA" = (
 /turf/open/openspace,
 /area/station/medical/treatment_center)
@@ -5458,10 +5455,6 @@
 /obj/item/storage/box/bodybags,
 /turf/open/floor/iron/dark,
 /area/station/medical/morgue)
-"AD" = (
-/obj/structure/flora/tree/jungle/small/style_3,
-/turf/open/misc/sandy_dirt,
-/area/awaymission/secret/fullbright)
 "AE" = (
 /obj/structure/flora/rock/style_random,
 /turf/open/water/beach,
@@ -5470,22 +5463,29 @@
 /obj/effect/turf_decal/stripes/white/full,
 /turf/open/misc/beach/sand,
 /area/awaymission/secret)
-"AH" = (
-/obj/structure/fake_stairs/stone{
-	dir = 1
-	},
-/turf/open/misc/sandy_dirt,
-/area/awaymission/secret/fullbright)
 "AI" = (
 /obj/machinery/door/airlock/wood/glass{
 	name = "Bass Pro Shop"
 	},
 /turf/open/floor/wood/parquet,
 /area/awaymission/secret)
+"AJ" = (
+/obj/structure/railing/wooden_fence{
+	dir = 1
+	},
+/turf/open/floor/hay,
+/area/awaymission/secret)
 "AL" = (
 /obj/item/flashlight/lantern/syndicate,
 /turf/open/floor/stone,
 /area/awaymission/secret)
+"AO" = (
+/obj/structure/flora/bush/large/style_2{
+	pixel_x = -33
+	},
+/obj/structure/flora/bush/fullgrass/style_random,
+/turf/open/misc/sandy_dirt,
+/area/awaymission/secret/fullbright)
 "AP" = (
 /obj/effect/turf_decal/siding/dark,
 /obj/effect/light_emitter/fake_outdoors,
@@ -5498,10 +5498,6 @@
 /obj/structure/railing,
 /turf/open/misc/asteroid,
 /area/awaymission/secret)
-"AS" = (
-/obj/structure/flora/tree/jungle/small/style_3,
-/turf/open/misc/grass,
-/area/awaymission/secret/fullbright)
 "AT" = (
 /obj/structure/stairs/stone{
 	dir = 1
@@ -5510,6 +5506,12 @@
 	dir = 4
 	},
 /turf/open/floor/stone,
+/area/awaymission/secret)
+"AU" = (
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 8
+	},
+/turf/open/floor/wood/large,
 /area/awaymission/secret)
 "AV" = (
 /obj/machinery/door/poddoor/preopen{
@@ -5668,11 +5670,22 @@
 "BJ" = (
 /turf/open/misc/asteroid,
 /area/awaymission/secret)
+"BK" = (
+/obj/effect/turf_decal/siding/wideplating/dark{
+	dir = 5
+	},
+/turf/open/floor/stone,
+/area/awaymission/secret)
 "BM" = (
 /obj/structure/disposalpipe/segment{
 	dir = 10
 	},
 /turf/open/misc/dirt/station,
+/area/awaymission/secret/fullbright)
+"BP" = (
+/obj/effect/turf_decal/weather/dirt,
+/obj/structure/statue/bone/rib,
+/turf/open/misc/sandy_dirt,
 /area/awaymission/secret/fullbright)
 "BR" = (
 /obj/structure/table/wood,
@@ -5762,6 +5775,13 @@
 /obj/machinery/portable_atmospherics/scrubber/huge/movable,
 /turf/open/floor/plating,
 /area/station/maintenance/department/security)
+"Cm" = (
+/obj/structure/flora/bush/large/style_3{
+	pixel_y = 1
+	},
+/obj/structure/flora/bush/flowers_pp/style_3,
+/turf/open/misc/grass,
+/area/awaymission/secret/fullbright)
 "Co" = (
 /obj/effect/turf_decal/stripes/white/line{
 	dir = 4
@@ -5810,6 +5830,10 @@
 /obj/structure/mirror/directional/east,
 /turf/open/floor/iron/freezer,
 /area/station/medical/cryo)
+"CD" = (
+/obj/effect/turf_decal/weather/dirt,
+/turf/open/misc/asteroid,
+/area/awaymission/secret/fullbright)
 "CE" = (
 /obj/structure/sign/poster/official/bless_this_spess/directional/north,
 /obj/effect/turf_decal/stripes/line{
@@ -5837,9 +5861,9 @@
 	},
 /turf/open/floor/iron,
 /area/station/security/brig/lower)
-"CI" = (
-/mob/living/basic/raptor/yellow,
-/turf/open/misc/grass,
+"CH" = (
+/obj/structure/flora/rock/pile/style_2,
+/turf/open/misc/sandy_dirt,
 /area/awaymission/secret/fullbright)
 "CJ" = (
 /obj/structure/closet/crate/bin,
@@ -5860,21 +5884,6 @@
 /obj/effect/mapping_helpers/airlock/access/any/medical/morgue,
 /turf/open/floor/iron/dark,
 /area/station/medical/morgue)
-"CP" = (
-/obj/structure/table/reinforced,
-/obj/item/reagent_containers/cup/bucket/wooden{
-	pixel_y = 10;
-	pixel_x = -1
-	},
-/obj/item/reagent_containers/cup/bucket/wooden{
-	pixel_y = 1;
-	pixel_x = -6
-	},
-/obj/item/bikehorn/rubberducky{
-	pixel_x = 8
-	},
-/turf/open/misc/sandy_dirt,
-/area/awaymission/secret)
 "CQ" = (
 /obj/machinery/door/airlock/multi_tile/public/glass{
 	name = "Cryo Sleep Dormitory"
@@ -5913,13 +5922,6 @@
 /obj/machinery/light/directional/north,
 /turf/open/floor/iron/freezer,
 /area/station/medical/cryo)
-"Dd" = (
-/obj/structure/flora/bush/large/style_2{
-	pixel_x = -33
-	},
-/obj/structure/flora/bush/fullgrass/style_random,
-/turf/open/misc/sandy_dirt,
-/area/awaymission/secret/fullbright)
 "Df" = (
 /obj/machinery/conveyor/auto{
 	id = "secexecution";
@@ -5963,6 +5965,9 @@
 	},
 /turf/open/floor/stone,
 /area/awaymission/secret/fullbright)
+"Do" = (
+/turf/open/floor/hay,
+/area/awaymission/secret)
 "Dp" = (
 /obj/effect/turf_decal/stripes/white/line{
 	dir = 1
@@ -5972,6 +5977,10 @@
 	},
 /turf/open/floor/stone,
 /area/awaymission/secret/fullbright)
+"Dq" = (
+/obj/item/food/chococoin,
+/turf/open/misc/sandy_dirt,
+/area/awaymission/secret)
 "Dr" = (
 /turf/open/floor/carpet/blue,
 /area/awaymission/secret)
@@ -6051,6 +6060,13 @@
 	pixel_y = 11
 	},
 /turf/open/misc/beach/sand,
+/area/awaymission/secret)
+"DL" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/obj/structure/sink/kitchen/directional/east,
+/turf/open/floor/wood/tile,
 /area/awaymission/secret)
 "DN" = (
 /obj/effect/turf_decal/siding/dark{
@@ -6150,12 +6166,6 @@
 /obj/effect/turf_decal/bot,
 /turf/open/floor/iron/dark/textured,
 /area/station/ai_monitored/security/armory)
-"Ee" = (
-/obj/effect/turf_decal/siding/wood{
-	dir = 4
-	},
-/turf/open/floor/wood/large,
-/area/awaymission/secret)
 "Ef" = (
 /obj/structure/curtain,
 /obj/machinery/shower/directional/north,
@@ -6176,12 +6186,13 @@
 "Ei" = (
 /turf/closed/indestructible/syndicate,
 /area/station/security/brig/upper)
-"Ej" = (
-/turf/open/misc/beach/coast/corner,
-/area/awaymission/secret/fullbright)
 "Ek" = (
 /turf/open/floor/iron/freezer,
 /area/station/medical/storage)
+"El" = (
+/obj/effect/invisible_wall,
+/turf/open/misc/sandy_dirt,
+/area/awaymission/secret/fullbright)
 "En" = (
 /obj/structure/sign/poster/official/moth_meth/directional/east,
 /turf/open/floor/iron/freezer,
@@ -6333,12 +6344,6 @@
 /mob/living/basic/mothroach,
 /turf/open/misc/ashplanet/rocky/safe,
 /area/awaymission/secret)
-"EY" = (
-/mob/living/basic/chicken{
-	real_name = Colonel
-	},
-/turf/open/floor/hay,
-/area/awaymission/secret)
 "EZ" = (
 /obj/effect/turf_decal/siding/wideplating/dark/corner{
 	dir = 4
@@ -6409,6 +6414,12 @@
 	dir = 8
 	},
 /area/awaymission/secret)
+"Fn" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/turf/open/floor/wood/large,
+/area/awaymission/secret)
 "Fo" = (
 /obj/effect/turf_decal/siding/wideplating/dark/corner{
 	dir = 1
@@ -6440,6 +6451,11 @@
 /mob/living/basic/rabbit/easter/space,
 /turf/open/floor/stone,
 /area/awaymission/secret)
+"Ft" = (
+/turf/open/misc/beach/coast/corner{
+	dir = 1
+	},
+/area/awaymission/secret/fullbright)
 "Fw" = (
 /obj/structure/railing{
 	dir = 6
@@ -6473,6 +6489,12 @@
 	},
 /turf/open/floor/wood/parquet,
 /area/awaymission/secret)
+"FF" = (
+/obj/structure/fake_stairs/wood/directional/west{
+	dir = 1
+	},
+/turf/open/misc/sandy_dirt,
+/area/awaymission/secret/fullbright)
 "FH" = (
 /obj/machinery/suit_storage_unit/hos,
 /obj/effect/turf_decal/bot,
@@ -6533,7 +6555,7 @@
 	dir = 8
 	},
 /obj/structure/table/reinforced/rglass,
-/obj/item/storage/backpack/saddlepack,
+/obj/item/pen/fountain,
 /turf/open/floor/plastic,
 /area/awaymission/secret)
 "FV" = (
@@ -6606,10 +6628,6 @@
 "Gj" = (
 /turf/open/misc/grass,
 /area/awaymission/museum/mothroachvoid)
-"Gk" = (
-/mob/living/basic/raptor/blue,
-/turf/open/misc/dirt/jungle/dark,
-/area/awaymission/secret)
 "Gm" = (
 /obj/effect/turf_decal/tile/blue/full,
 /obj/item/storage/medkit/emergency,
@@ -6656,6 +6674,10 @@
 /obj/structure/statue/bone/skull,
 /turf/open/water/beach,
 /area/awaymission/secret/fullbright)
+"Gu" = (
+/obj/structure/flora/tree/dead/style_3,
+/turf/open/misc/asteroid/snow/atmosphere,
+/area/awaymission/secret/fullbright)
 "Gw" = (
 /obj/structure/table/reinforced/rglass,
 /obj/machinery/computer/pod/old{
@@ -6663,6 +6685,10 @@
 	},
 /turf/open/floor/plastic,
 /area/awaymission/secret)
+"Gy" = (
+/obj/structure/flora/tree/jungle/small/style_3,
+/turf/open/misc/grass,
+/area/awaymission/secret/fullbright)
 "GA" = (
 /obj/structure/chair/sofa/bamboo/right{
 	dir = 4
@@ -6707,6 +6733,12 @@
 /obj/effect/turf_decal/siding/wideplating/dark,
 /turf/open/floor/stone,
 /area/awaymission/secret/fullbright)
+"GG" = (
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 8
+	},
+/turf/open/floor/wood/tile,
+/area/awaymission/secret)
 "GI" = (
 /obj/effect/spawner/surgery_tray/full,
 /obj/effect/turf_decal/tile/blue/full,
@@ -6750,6 +6782,12 @@
 "GP" = (
 /obj/item/storage/cans/sixbeer,
 /turf/open/misc/beach/sand,
+/area/awaymission/secret/fullbright)
+"GR" = (
+/obj/structure/railing/wooden_fence{
+	dir = 4
+	},
+/turf/open/openspace,
 /area/awaymission/secret/fullbright)
 "GU" = (
 /obj/structure/table/reinforced,
@@ -6814,10 +6852,6 @@
 /obj/structure/cable,
 /turf/open/floor/iron,
 /area/station/security/brig/lower)
-"He" = (
-/obj/item/food/chococoin,
-/turf/open/misc/sandy_dirt,
-/area/awaymission/secret)
 "Hh" = (
 /obj/structure/sign/warning/electric_shock/directional/east,
 /turf/open/misc/asteroid,
@@ -6883,10 +6917,8 @@
 /turf/open/floor/wood/large,
 /area/awaymission/secret)
 "Hv" = (
-/obj/effect/turf_decal/siding/wood/corner{
-	dir = 1
-	},
-/turf/open/floor/hay,
+/obj/effect/turf_decal/siding/wood/corner,
+/turf/open/floor/wood/tile,
 /area/awaymission/secret)
 "Hw" = (
 /obj/structure/table,
@@ -6930,10 +6962,8 @@
 "HH" = (
 /turf/open/floor/wood/large,
 /area/awaymission/secret/fullbright)
-"HJ" = (
-/obj/structure/railing{
-	dir = 1
-	},
+"HK" = (
+/mob/living/basic/raptor/green,
 /turf/open/misc/grass,
 /area/awaymission/secret)
 "HL" = (
@@ -6953,6 +6983,10 @@
 "HP" = (
 /turf/open/misc/dirt/jungle,
 /area/awaymission/museum/mothroachvoid)
+"HQ" = (
+/obj/effect/light_emitter/fake_outdoors,
+/turf/open/floor/glass/airless,
+/area/awaymission/secret/fullbright)
 "HR" = (
 /obj/effect/turf_decal/tile/blue/fourcorners,
 /obj/machinery/door/airlock/medical/glass{
@@ -6960,6 +6994,13 @@
 	},
 /turf/open/floor/iron/white,
 /area/station/medical/medbay/lobby)
+"HT" = (
+/obj/structure/railing/wooden_fence{
+	dir = 1
+	},
+/obj/effect/invisible_wall,
+/turf/open/misc/dirt/jungle/dark,
+/area/awaymission/secret)
 "HU" = (
 /obj/effect/turf_decal/trimline/red/filled/line{
 	dir = 1
@@ -7053,10 +7094,6 @@
 	},
 /turf/open/floor/iron,
 /area/station/security/brig/upper)
-"Ir" = (
-/obj/effect/turf_decal/weather/dirt,
-/turf/open/misc/sandy_dirt,
-/area/awaymission/secret/fullbright)
 "Is" = (
 /obj/effect/turf_decal/tile/blue/fourcorners,
 /obj/item/storage/box/syringes{
@@ -7073,10 +7110,6 @@
 /obj/structure/lattice/catwalk,
 /turf/open/floor/plating,
 /area/station/maintenance/department/security)
-"Iv" = (
-/obj/structure/flora/tree/pine,
-/turf/open/misc/asteroid/snow/atmosphere,
-/area/awaymission/secret/fullbright)
 "Iw" = (
 /obj/structure/fence/end{
 	dir = 8
@@ -7100,6 +7133,10 @@
 /obj/machinery/piratepad,
 /turf/open/floor/wood/large,
 /area/awaymission/secret)
+"ID" = (
+/obj/structure/flora/tree/jungle/style_6,
+/turf/open/misc/grass,
+/area/awaymission/secret/fullbright)
 "IE" = (
 /obj/machinery/disposal/bin,
 /obj/structure/disposalpipe/trunk{
@@ -7145,10 +7182,6 @@
 "IN" = (
 /turf/open/misc/ashplanet,
 /area/awaymission/museum/mothroachvoid)
-"IO" = (
-/obj/structure/flora/bush/flowers_yw/style_3,
-/turf/open/misc/grass,
-/area/awaymission/secret/fullbright)
 "IP" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 4
@@ -7158,6 +7191,10 @@
 	},
 /turf/open/floor/wood/parquet,
 /area/awaymission/secret/fullbright)
+"IR" = (
+/obj/structure/curtain/bounty,
+/turf/open/misc/sandy_dirt,
+/area/awaymission/secret)
 "IT" = (
 /obj/structure/fluff/tram_rail,
 /obj/structure/transport/linear/tram,
@@ -7184,6 +7221,11 @@
 /obj/structure/flora/bush/sparsegrass/style_random,
 /turf/open/misc/asteroid,
 /area/awaymission/secret/fullbright)
+"IX" = (
+/obj/effect/invisible_wall,
+/obj/structure/flora/rock/icy,
+/turf/open/misc/asteroid/snow/atmosphere,
+/area/awaymission/secret/fullbright)
 "IZ" = (
 /obj/structure/sign/nanotrasen{
 	pixel_y = 32
@@ -7199,17 +7241,6 @@
 "Jb" = (
 /obj/effect/decal/cleanable/glass,
 /turf/open/floor/plating,
-/area/awaymission/secret)
-"Jc" = (
-/obj/structure/table/reinforced,
-/obj/item/reagent_containers/cup/bucket/wooden{
-	pixel_y = 4;
-	pixel_x = 8
-	},
-/obj/item/clothing/shoes/cowboy{
-	pixel_x = -7
-	},
-/turf/open/misc/sandy_dirt,
 /area/awaymission/secret)
 "Jd" = (
 /obj/effect/turf_decal/tile/blue/opposingcorners,
@@ -7252,9 +7283,10 @@
 /turf/open/water/beach,
 /area/awaymission/secret/fullbright)
 "Jm" = (
-/obj/structure/flora/bush/flowers_yw/style_3,
-/mob/living/basic/raptor/yellow,
-/turf/open/misc/grass,
+/obj/structure/statue/bone/rib,
+/obj/structure/flora/bush/fullgrass/style_random,
+/obj/effect/invisible_wall,
+/turf/open/misc/sandy_dirt,
 /area/awaymission/secret/fullbright)
 "Jn" = (
 /obj/machinery/door/poddoor/preopen{
@@ -7314,13 +7346,6 @@
 	},
 /turf/open/floor/stone,
 /area/awaymission/secret/fullbright)
-"Jx" = (
-/obj/effect/turf_decal/siding/wood/corner,
-/obj/effect/turf_decal/siding/wood/corner{
-	dir = 8
-	},
-/turf/open/floor/wood/tile,
-/area/awaymission/secret)
 "Jy" = (
 /turf/open/floor/iron/freezer,
 /area/awaymission/secret)
@@ -7401,10 +7426,6 @@
 "JI" = (
 /turf/open/floor/iron,
 /area/station/security/brig/upper)
-"JJ" = (
-/obj/structure/flora/bush/flowers_br,
-/turf/open/misc/sandy_dirt,
-/area/awaymission/secret/fullbright)
 "JK" = (
 /obj/structure/secure_safe/directional/north{
 	name = "armory safe B"
@@ -7494,12 +7515,6 @@
 /obj/effect/turf_decal/tile/green/full,
 /turf/open/floor/iron/white/smooth_large,
 /area/station/medical/cryo)
-"Kc" = (
-/obj/structure/railing/wooden_fence{
-	dir = 1
-	},
-/turf/open/floor/hay,
-/area/awaymission/secret)
 "Ke" = (
 /turf/open/misc/sandy_dirt,
 /area/awaymission/secret)
@@ -7558,21 +7573,6 @@
 /obj/structure/cable,
 /turf/open/floor/iron/dark/textured,
 /area/station/ai_monitored/security/armory)
-"Kr" = (
-/obj/structure/table/reinforced,
-/obj/item/restraints/legcuffs/bola{
-	pixel_y = 4;
-	pixel_x = -6
-	},
-/obj/item/restraints/legcuffs/bola{
-	pixel_y = 4;
-	pixel_x = 6
-	},
-/obj/item/restraints/legcuffs/bola{
-	pixel_y = 4
-	},
-/turf/open/floor/stone,
-/area/awaymission/secret)
 "Ks" = (
 /obj/machinery/transport/power_rectifier{
 	configured_transport_id = "eventtram_1"
@@ -7828,9 +7828,12 @@
 /obj/structure/cable,
 /turf/open/floor/iron,
 /area/station/security/brig/upper)
-"Lw" = (
-/mob/living/basic/pet/penguin/emperor,
-/turf/open/floor/asphalt/lavaland,
+"Lx" = (
+/obj/structure/flora/bush/fullgrass/style_random,
+/obj/structure/flora/bush/large/style_2{
+	pixel_x = -33
+	},
+/turf/open/misc/sandy_dirt,
 /area/awaymission/secret/fullbright)
 "Ly" = (
 /obj/effect/turf_decal/siding/wideplating/dark{
@@ -7873,6 +7876,12 @@
 "LE" = (
 /turf/open/floor/iron/dark/textured_half,
 /area/station/medical/morgue)
+"LF" = (
+/obj/structure/railing/wooden_fence{
+	dir = 8
+	},
+/turf/open/misc/grass,
+/area/awaymission/secret)
 "LH" = (
 /obj/structure/closet/crate/freezer/surplus_limbs,
 /obj/effect/turf_decal/tile/blue/half{
@@ -7910,11 +7919,6 @@
 /obj/effect/turf_decal/siding/dark,
 /obj/effect/turf_decal/siding/wideplating/dark/corner,
 /turf/open/floor/stone,
-/area/awaymission/secret/fullbright)
-"LO" = (
-/obj/structure/flora/bush/fullgrass/style_random,
-/obj/effect/turf_decal/weather/dirt,
-/turf/open/misc/sandy_dirt,
 /area/awaymission/secret/fullbright)
 "LP" = (
 /obj/item/ammo_box/magazine/m38/trac,
@@ -8003,16 +8007,18 @@
 /obj/effect/spawner/random/trash/mess,
 /turf/open/floor/plating,
 /area/station/maintenance/department/security)
-"Md" = (
-/obj/structure/flora/tree/jungle/style_6,
-/turf/open/misc/grass,
-/area/awaymission/secret/fullbright)
 "Mf" = (
 /obj/structure/fence{
 	dir = 8
 	},
 /obj/structure/sign/nanotrasen,
 /turf/open/floor/mineral/titanium/tiled/blue,
+/area/awaymission/secret/fullbright)
+"Mg" = (
+/obj/structure/fake_stairs/stone{
+	dir = 4
+	},
+/turf/open/misc/asteroid,
 /area/awaymission/secret/fullbright)
 "Mh" = (
 /obj/structure/thermoplastic/light,
@@ -8110,6 +8116,12 @@
 /obj/effect/turf_decal/tile/blue/opposingcorners,
 /turf/open/floor/iron/white,
 /area/station/medical/medbay/lobby)
+"MF" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 6
+	},
+/turf/open/floor/wood/tile,
+/area/awaymission/secret)
 "MG" = (
 /obj/effect/turf_decal/trimline/red/filled/warning{
 	dir = 4
@@ -8311,13 +8323,6 @@
 "Nu" = (
 /turf/open/misc/dirt/station,
 /area/awaymission/secret)
-"Nv" = (
-/obj/structure/signpost{
-	desc = "A Sign depicting the various locations of the Expedition Area";
-	name = "Expedition Guidepost"
-	},
-/turf/open/misc/sandy_dirt,
-/area/awaymission/secret/fullbright)
 "NA" = (
 /obj/machinery/door/airlock/security/glass{
 	id_tag = "outerbrig";
@@ -8333,6 +8338,12 @@
 /obj/structure/tram/split,
 /turf/open/openspace,
 /area/awaymission/museum/mothroachvoid)
+"NE" = (
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 1
+	},
+/turf/open/floor/hay,
+/area/awaymission/secret)
 "NF" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 8
@@ -8377,6 +8388,17 @@
 /area/awaymission/secret)
 "NM" = (
 /turf/closed/indestructible/riveted/boss,
+/area/awaymission/secret)
+"NO" = (
+/obj/structure/table/reinforced,
+/obj/item/reagent_containers/cup/bucket/wooden{
+	pixel_y = 4;
+	pixel_x = 8
+	},
+/obj/item/clothing/shoes/cowboy{
+	pixel_x = -7
+	},
+/turf/open/misc/sandy_dirt,
 /area/awaymission/secret)
 "NP" = (
 /obj/effect/turf_decal/trimline/red/filled/line{
@@ -8461,6 +8483,13 @@
 /obj/structure/table/wood,
 /turf/open/misc/ashplanet/rocky/safe,
 /area/awaymission/secret)
+"On" = (
+/obj/structure/flora/tree/jungle/style_6{
+	pixel_x = -41;
+	pixel_y = -4
+	},
+/turf/open/misc/grass,
+/area/awaymission/secret/fullbright)
 "Oo" = (
 /turf/closed/indestructible/syndicate,
 /area/station/maintenance/department/security/upper)
@@ -8491,12 +8520,6 @@
 	},
 /turf/open/floor/iron/white,
 /area/station/medical/treatment_center)
-"Oy" = (
-/obj/structure/fake_stairs/wood/directional/west{
-	dir = 2
-	},
-/turf/open/misc/sandy_dirt,
-/area/awaymission/secret/fullbright)
 "Oz" = (
 /obj/machinery/suit_storage_unit/security,
 /obj/effect/turf_decal/tile/red/half/contrasted,
@@ -8684,6 +8707,12 @@
 /obj/structure/flora/coconuts,
 /turf/open/misc/grass,
 /area/awaymission/secret)
+"Pk" = (
+/obj/effect/turf_decal/siding/wideplating/dark{
+	dir = 10
+	},
+/turf/open/floor/stone,
+/area/awaymission/secret)
 "Pm" = (
 /obj/structure/table,
 /obj/item/storage/medkit/o2,
@@ -8705,10 +8734,6 @@
 	dir = 4
 	},
 /turf/open/floor/stone,
-/area/awaymission/secret/fullbright)
-"Pp" = (
-/obj/structure/statue/snow/snowman,
-/turf/open/misc/asteroid/snow/atmosphere,
 /area/awaymission/secret/fullbright)
 "Pq" = (
 /obj/effect/turf_decal/siding/thinplating{
@@ -8791,6 +8816,12 @@
 	},
 /turf/open/floor/iron/white,
 /area/station/medical/medbay/lobby)
+"PH" = (
+/obj/structure/railing/wooden_fence{
+	dir = 5
+	},
+/turf/open/misc/sandy_dirt,
+/area/awaymission/secret)
 "PI" = (
 /obj/structure/chair/sofa/bench/left,
 /turf/open/misc/dirt/station,
@@ -8805,10 +8836,6 @@
 /area/station/security/brig/lower)
 "PK" = (
 /turf/open/floor/glass,
-/area/awaymission/secret/fullbright)
-"PL" = (
-/mob/living/basic/raptor/black,
-/turf/open/misc/grass,
 /area/awaymission/secret/fullbright)
 "PM" = (
 /obj/effect/turf_decal/siding/dark{
@@ -8859,12 +8886,22 @@
 /obj/structure/flora/bush/reed/style_random,
 /turf/open/water/beach,
 /area/awaymission/secret)
+"PZ" = (
+/obj/structure/flora/tree/palm/style_2{
+	pixel_y = 4
+	},
+/turf/open/misc/beach/sand,
+/area/awaymission/secret)
 "Qa" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
 /turf/open/floor/iron,
 /area/station/security/brig/upper)
+"Qb" = (
+/obj/structure/flora/tree/pine,
+/turf/open/misc/asteroid/snow/atmosphere,
+/area/awaymission/secret/fullbright)
 "Qc" = (
 /obj/structure/fermenting_barrel,
 /turf/open/water/beach,
@@ -8921,6 +8958,12 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/freezer,
 /area/station/medical/cryo)
+"Qm" = (
+/obj/structure/flora/bush/large/style_2{
+	pixel_x = -33
+	},
+/turf/open/misc/grass,
+/area/awaymission/secret/fullbright)
 "Qn" = (
 /obj/machinery/light/small/directional/north,
 /obj/machinery/computer/security/telescreen/entertainment/directional/north,
@@ -8940,6 +8983,12 @@
 	},
 /turf/open/misc/sandy_dirt,
 /area/awaymission/secret/fullbright)
+"Qq" = (
+/obj/structure/railing{
+	dir = 9
+	},
+/turf/open/misc/grass,
+/area/awaymission/secret)
 "Qr" = (
 /obj/effect/turf_decal/tile/blue/half/contrasted,
 /obj/structure/sign/poster/official/plasma_effects/directional/south,
@@ -8990,19 +9039,25 @@
 	},
 /turf/open/floor/stone,
 /area/awaymission/secret)
+"QC" = (
+/obj/effect/invisible_wall,
+/turf/open/floor/glass/airless,
+/area/awaymission/secret/fullbright)
 "QE" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
 	},
 /turf/open/floor/stone,
 /area/awaymission/secret/fullbright)
+"QF" = (
+/obj/structure/fake_stairs/stone{
+	dir = 4
+	},
+/turf/open/misc/asteroid/snow/atmosphere,
+/area/awaymission/secret/fullbright)
 "QG" = (
 /obj/structure/fake_stairs/wood/directional/east,
 /turf/open/floor/stone,
-/area/awaymission/secret/fullbright)
-"QH" = (
-/obj/structure/flora/rock/pile,
-/turf/open/misc/asteroid/snow/atmosphere,
 /area/awaymission/secret/fullbright)
 "QI" = (
 /obj/effect/turf_decal/siding/wood,
@@ -9022,16 +9077,29 @@
 	},
 /area/awaymission/secret)
 "QL" = (
-/obj/effect/turf_decal/siding/wideplating/dark{
-	dir = 10
+/obj/structure/flora/bush/fullgrass/style_random,
+/turf/open/misc/grass,
+/area/awaymission/secret/fullbright)
+"QM" = (
+/obj/structure/table/reinforced,
+/obj/item/restraints/legcuffs/bola{
+	pixel_y = 4;
+	pixel_x = -6
+	},
+/obj/item/restraints/legcuffs/bola{
+	pixel_y = 4;
+	pixel_x = 6
+	},
+/obj/item/restraints/legcuffs/bola{
+	pixel_y = 4
 	},
 /turf/open/floor/stone,
 /area/awaymission/secret)
-"QM" = (
-/obj/effect/turf_decal/siding/wood/corner{
+"QN" = (
+/obj/effect/turf_decal/siding/wood{
 	dir = 8
 	},
-/turf/open/floor/wood/large,
+/turf/open/floor/wood/tile,
 /area/awaymission/secret)
 "QP" = (
 /obj/machinery/door/airlock/medical/glass{
@@ -9048,11 +9116,6 @@
 /obj/structure/cable,
 /turf/open/floor/iron/dark,
 /area/station/ai_monitored/security/armory)
-"QR" = (
-/turf/open/misc/beach/coast{
-	dir = 6
-	},
-/area/awaymission/secret/fullbright)
 "QV" = (
 /obj/structure/railing/wooden_fence{
 	dir = 10
@@ -9062,10 +9125,29 @@
 	},
 /turf/open/floor/wood,
 /area/awaymission/secret/fullbright)
+"QW" = (
+/obj/structure/flora/bush/fullgrass/style_random,
+/turf/open/misc/sandy_dirt,
+/area/awaymission/secret/fullbright)
 "Ra" = (
 /obj/machinery/biogenerator,
 /turf/open/misc/grass/jungle/station,
 /area/awaymission/secret/fullbright)
+"Rb" = (
+/obj/structure/table/reinforced,
+/obj/item/reagent_containers/cup/bucket/wooden{
+	pixel_y = 10;
+	pixel_x = -1
+	},
+/obj/item/reagent_containers/cup/bucket/wooden{
+	pixel_y = 1;
+	pixel_x = -6
+	},
+/obj/item/bikehorn/rubberducky{
+	pixel_x = 8
+	},
+/turf/open/misc/sandy_dirt,
+/area/awaymission/secret)
 "Rd" = (
 /obj/structure/flora/bush/large/style_3{
 	pixel_x = -30;
@@ -9204,6 +9286,12 @@
 	},
 /turf/open/floor/iron/freezer,
 /area/station/medical/cryo)
+"RB" = (
+/obj/structure/railing{
+	dir = 6
+	},
+/turf/open/misc/grass,
+/area/awaymission/secret)
 "RD" = (
 /obj/structure/mannequin,
 /turf/open/floor/wood/parquet,
@@ -9258,12 +9346,6 @@
 "RM" = (
 /turf/open/floor/iron,
 /area/awaymission/secret/fullbright)
-"RN" = (
-/obj/structure/railing/wooden_fence{
-	dir = 1
-	},
-/turf/open/misc/asteroid/snow/atmosphere,
-/area/awaymission/secret/fullbright)
 "RQ" = (
 /obj/effect/turf_decal/siding/wood,
 /turf/open/floor/wood,
@@ -9292,12 +9374,23 @@
 /obj/machinery/airalarm/directional/north,
 /turf/open/floor/iron/dark,
 /area/station/ai_monitored/security/armory)
+"Sf" = (
+/obj/structure/railing/wooden_fence{
+	dir = 1
+	},
+/obj/effect/invisible_wall,
+/turf/open/misc/grass/jungle,
+/area/awaymission/secret)
 "Sj" = (
 /obj/effect/turf_decal/trimline/red/filled/line{
 	dir = 1
 	},
 /turf/open/floor/iron,
 /area/station/security/brig/lower)
+"Sm" = (
+/mob/living/basic/pet/penguin/emperor,
+/turf/open/floor/asphalt/lavaland,
+/area/awaymission/secret/fullbright)
 "Sn" = (
 /obj/structure/flora/bush/ferny/style_random,
 /turf/open/misc/beach/coast/corner{
@@ -9403,6 +9496,10 @@
 /obj/structure/flora/grass/jungle/a/style_5,
 /turf/open/misc/dirt/jungle/dark,
 /area/awaymission/secret)
+"SL" = (
+/mob/living/basic/raptor/black,
+/turf/open/misc/dirt/jungle/dark,
+/area/awaymission/secret)
 "SM" = (
 /obj/effect/turf_decal/stripes/white/line{
 	dir = 1
@@ -9481,17 +9578,6 @@
 /obj/structure/fence/cut/medium,
 /turf/open/misc/sandy_dirt,
 /area/awaymission/secret/fullbright)
-"Tc" = (
-/mob/living/basic/cow,
-/turf/open/misc/sandy_dirt,
-/area/awaymission/secret/fullbright)
-"Te" = (
-/obj/structure/flora/tree/jungle/style_6{
-	pixel_x = -41;
-	pixel_y = -4
-	},
-/turf/open/misc/grass,
-/area/awaymission/secret/fullbright)
 "Th" = (
 /turf/open/misc/grass/jungle/station,
 /area/awaymission/secret/fullbright)
@@ -9536,15 +9622,6 @@
 /obj/structure/flora/grass/jungle/b/style_random,
 /turf/open/misc/grass,
 /area/awaymission/secret/fullbright)
-"Tq" = (
-/obj/effect/turf_decal/siding/wood{
-	dir = 8
-	},
-/obj/machinery/door/airlock/multi_tile/public/glass{
-	name = "Barn"
-	},
-/turf/open/floor/wood/tile,
-/area/awaymission/secret)
 "Tr" = (
 /obj/structure/fluff/tram_rail/electric{
 	dir = 1
@@ -9562,6 +9639,10 @@
 	dir = 4
 	},
 /turf/open/floor/wood,
+/area/awaymission/secret/fullbright)
+"Tu" = (
+/obj/structure/flora/rock/icy,
+/turf/open/misc/asteroid/snow/atmosphere,
 /area/awaymission/secret/fullbright)
 "Tv" = (
 /obj/structure/cannon{
@@ -9638,6 +9719,10 @@
 /obj/effect/turf_decal/tile/blue/full,
 /turf/open/floor/iron/white/smooth_large,
 /area/station/medical/surgery/fore)
+"TR" = (
+/obj/effect/meteor/sand,
+/turf/open/misc/sandy_dirt,
+/area/awaymission/secret/fullbright)
 "TT" = (
 /obj/structure/table/wood,
 /obj/item/reagent_containers/condiment/peppermill{
@@ -9742,6 +9827,12 @@
 	},
 /turf/open/floor/stone,
 /area/awaymission/secret/fullbright)
+"Uo" = (
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 4
+	},
+/turf/open/floor/wood/tile,
+/area/awaymission/secret)
 "Uq" = (
 /obj/structure/sink/directional/east,
 /obj/structure/mirror/directional/west,
@@ -9773,13 +9864,6 @@
 	},
 /turf/open/floor/wood/tile,
 /area/station/command/heads_quarters/hos)
-"Uv" = (
-/obj/structure/flora/bush/fullgrass/style_random,
-/obj/structure/flora/bush/large/style_2{
-	pixel_x = -33
-	},
-/turf/open/misc/sandy_dirt,
-/area/awaymission/secret/fullbright)
 "Uw" = (
 /obj/structure/sign/nanotrasen{
 	pixel_y = -32
@@ -9828,6 +9912,10 @@
 	},
 /turf/open/floor/tram,
 /area/awaymission/secret/fullbright)
+"UD" = (
+/mob/living/basic/pet/cat/feral,
+/turf/open/misc/grass,
+/area/awaymission/secret/fullbright)
 "UE" = (
 /turf/cordon,
 /area/space)
@@ -9846,6 +9934,13 @@
 /obj/structure/cable,
 /turf/open/floor/iron,
 /area/station/security/brig/lower)
+"UH" = (
+/turf/open/misc/beach/coast/corner,
+/area/awaymission/secret/fullbright)
+"UI" = (
+/mob/living/basic/raptor/green,
+/turf/open/misc/sandy_dirt,
+/area/awaymission/secret/fullbright)
 "UK" = (
 /obj/structure/rack,
 /obj/item/storage/toolbox/fishing{
@@ -9871,16 +9966,26 @@
 /turf/open/floor/iron,
 /area/station/security/brig/lower)
 "UP" = (
-/obj/structure/railing{
+/obj/effect/turf_decal/siding/wood{
 	dir = 4
 	},
-/turf/open/misc/grass,
+/obj/structure/sink/kitchen/directional/west,
+/turf/open/floor/wood/tile,
 /area/awaymission/secret)
 "UR" = (
 /turf/open/floor/plastic,
 /area/awaymission/secret)
 "US" = (
 /turf/open/misc/dirt/station,
+/area/awaymission/secret/fullbright)
+"UT" = (
+/obj/structure/statue/snow/snowman,
+/turf/open/misc/asteroid/snow/atmosphere,
+/area/awaymission/secret/fullbright)
+"UV" = (
+/turf/open/misc/beach/coast/corner{
+	dir = 4
+	},
 /area/awaymission/secret/fullbright)
 "UY" = (
 /obj/structure/chair/office/tactical{
@@ -9984,8 +10089,13 @@
 	},
 /turf/open/floor/stone,
 /area/awaymission/secret/fullbright)
-"Vx" = (
-/mob/living/basic/cow,
+"Vy" = (
+/obj/structure/railing{
+	dir = 9
+	},
+/obj/structure/railing{
+	dir = 10
+	},
 /turf/open/misc/grass,
 /area/awaymission/secret)
 "Vz" = (
@@ -10040,13 +10150,6 @@
 	},
 /turf/open/floor/wood/parquet,
 /area/awaymission/secret/fullbright)
-"VR" = (
-/obj/structure/flora/bush/fullgrass/style_random,
-/obj/structure/railing/wooden_fence{
-	dir = 1
-	},
-/turf/open/misc/sandy_dirt,
-/area/awaymission/secret/fullbright)
 "VS" = (
 /obj/structure/weightmachine/weightlifter,
 /turf/open/misc/grass,
@@ -10076,12 +10179,6 @@
 /turf/open/misc/beach/coast{
 	dir = 4
 	},
-/area/awaymission/secret)
-"Wb" = (
-/obj/structure/railing{
-	dir = 9
-	},
-/turf/open/misc/grass,
 /area/awaymission/secret)
 "Wc" = (
 /obj/structure/railing{
@@ -10207,12 +10304,15 @@
 	},
 /turf/open/water/beach,
 /area/awaymission/secret)
-"WG" = (
-/obj/structure/railing/wooden_fence{
-	dir = 1
+"WH" = (
+/obj/structure/railing{
+	dir = 5
+	},
+/obj/structure/railing{
+	dir = 6
 	},
 /turf/open/misc/grass,
-/area/awaymission/secret/fullbright)
+/area/awaymission/secret)
 "WI" = (
 /obj/structure/sign/eyechart/directional/east,
 /turf/open/floor/iron/white,
@@ -10232,12 +10332,6 @@
 	},
 /turf/open/misc/dirt/jungle/dark,
 /area/awaymission/secret)
-"WM" = (
-/obj/structure/railing/wooden_fence{
-	dir = 4
-	},
-/turf/open/openspace,
-/area/awaymission/secret/fullbright)
 "WO" = (
 /obj/structure/table/reinforced,
 /obj/item/storage/box/zipties{
@@ -10261,12 +10355,15 @@
 /obj/structure/sign/poster/official/ion_rifle/directional/south,
 /turf/open/floor/wood/tile,
 /area/station/command/heads_quarters/hos)
-"WS" = (
-/obj/structure/flora/bush/flowers_br/style_random,
+"WT" = (
 /obj/structure/railing/wooden_fence{
-	dir = 8
+	dir = 9
 	},
 /turf/open/misc/sandy_dirt,
+/area/awaymission/secret)
+"WU" = (
+/obj/effect/turf_decal/siding/wood,
+/turf/open/floor/hay,
 /area/awaymission/secret)
 "WV" = (
 /obj/structure/fence/end,
@@ -10297,12 +10394,6 @@
 /obj/structure/transport/linear/tram,
 /turf/open/indestructible/tram/plate,
 /area/awaymission/secret/fullbright)
-"Xd" = (
-/obj/structure/railing/wooden_fence{
-	dir = 4
-	},
-/turf/open/misc/sandy_dirt,
-/area/awaymission/secret)
 "Xe" = (
 /obj/structure/fluff/tram_rail/electric{
 	dir = 1
@@ -10369,10 +10460,6 @@
 /obj/structure/cable,
 /turf/open/floor/plating,
 /area/station/security/brig/lower)
-"Xs" = (
-/obj/effect/light_emitter/fake_outdoors,
-/turf/open/floor/glass/airless,
-/area/awaymission/secret/fullbright)
 "Xt" = (
 /obj/structure/water_source/puddle,
 /obj/structure/flora/bush/reed/style_random{
@@ -10449,10 +10536,6 @@
 /obj/effect/turf_decal/siding/wood,
 /turf/open/floor/wood,
 /area/awaymission/secret/fullbright)
-"XI" = (
-/obj/structure/flora/rock/style_3,
-/turf/open/misc/asteroid/snow/atmosphere,
-/area/awaymission/secret/fullbright)
 "XJ" = (
 /turf/open/floor/stone,
 /area/awaymission/secret/fullbright)
@@ -10469,6 +10552,15 @@
 	},
 /turf/open/openspace,
 /area/awaymission/museum/mothroachvoid)
+"XO" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/obj/machinery/door/airlock/multi_tile/public/glass{
+	name = "Barn"
+	},
+/turf/open/floor/wood/tile,
+/area/awaymission/secret)
 "XP" = (
 /obj/structure/fence{
 	dir = 1
@@ -10550,21 +10642,9 @@
 "Ye" = (
 /turf/open/misc/grass/jungle,
 /area/awaymission/museum/mothroachvoid)
-"Yi" = (
-/obj/structure/railing/wooden_fence{
-	dir = 1
-	},
-/turf/open/misc/dirt/jungle/dark,
-/area/awaymission/secret)
 "Yj" = (
 /turf/closed/indestructible/rock,
 /area/awaymission/museum/mothroachvoid)
-"Yk" = (
-/obj/effect/turf_decal/siding/wood{
-	dir = 8
-	},
-/turf/open/floor/hay,
-/area/awaymission/secret)
 "Ym" = (
 /obj/structure/table/wood,
 /obj/item/gun/energy/disabler/smoothbore/prime,
@@ -10658,6 +10738,14 @@
 /obj/structure/thermoplastic/light,
 /turf/open/openspace,
 /area/awaymission/museum/mothroachvoid)
+"YJ" = (
+/obj/structure/flora/bush/flowers_pp/style_3,
+/obj/structure/railing/wooden_fence{
+	dir = 1
+	},
+/obj/effect/invisible_wall,
+/turf/open/misc/grass,
+/area/awaymission/secret/fullbright)
 "YK" = (
 /obj/machinery/digital_clock/directional/west,
 /turf/open/floor/iron/white,
@@ -10671,10 +10759,6 @@
 	dir = 4
 	},
 /area/awaymission/secret)
-"YM" = (
-/obj/structure/flora/bush/flowers_yw/style_random,
-/turf/open/misc/sandy_dirt,
-/area/awaymission/secret)
 "YN" = (
 /obj/structure/railing/wooden_fence{
 	dir = 8
@@ -10687,6 +10771,12 @@
 	dir = 4
 	},
 /turf/open/floor/stone,
+/area/awaymission/secret/fullbright)
+"YP" = (
+/obj/structure/fake_stairs/stone{
+	dir = 1
+	},
+/turf/open/misc/sandy_dirt,
 /area/awaymission/secret/fullbright)
 "YQ" = (
 /obj/structure/cable/multilayer/multiz,
@@ -10725,16 +10815,24 @@
 /turf/open/floor/stone,
 /area/awaymission/secret/fullbright)
 "YW" = (
-/obj/structure/flora/bush/fullgrass/style_random,
-/mob/living/basic/raptor/red,
-/turf/open/misc/sandy_dirt,
-/area/awaymission/secret/fullbright)
+/obj/structure/railing{
+	dir = 1
+	},
+/turf/open/misc/grass,
+/area/awaymission/secret)
 "YY" = (
 /obj/effect/turf_decal/tile/neutral/tram,
 /obj/structure/transport/linear/tram,
 /obj/structure/tram,
 /turf/open/indestructible/tram/plate,
 /area/awaymission/museum/mothroachvoid)
+"Za" = (
+/obj/structure/railing/wooden_fence{
+	dir = 1
+	},
+/obj/effect/invisible_wall,
+/turf/open/misc/grass,
+/area/awaymission/secret/fullbright)
 "Zc" = (
 /obj/item/clothing/suit/costume/pirate/captain,
 /turf/open/floor/wood/parquet,
@@ -10792,6 +10890,12 @@
 /obj/structure/cable,
 /turf/open/floor/iron,
 /area/station/security/brig/upper)
+"Zo" = (
+/obj/structure/railing{
+	dir = 4
+	},
+/turf/open/misc/grass,
+/area/awaymission/secret)
 "Zr" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 5
@@ -10809,10 +10913,6 @@
 	},
 /turf/open/misc/beach/sand,
 /area/awaymission/secret/fullbright)
-"Zu" = (
-/obj/structure/curtain/bounty,
-/turf/open/misc/sandy_dirt,
-/area/awaymission/secret)
 "Zv" = (
 /obj/vehicle/sealed/mecha/gygax,
 /turf/open/floor/iron/dark/textured,
@@ -10835,6 +10935,12 @@
 /obj/structure/cable,
 /turf/open/floor/iron,
 /area/station/security/brig/lower)
+"ZF" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 10
+	},
+/turf/open/floor/wood/tile,
+/area/awaymission/secret)
 "ZG" = (
 /obj/effect/turf_decal/trimline/red/filled/line{
 	dir = 4
@@ -10848,6 +10954,11 @@
 	},
 /turf/open/misc/beach/sand,
 /area/awaymission/secret)
+"ZI" = (
+/obj/effect/light_emitter/fake_outdoors,
+/obj/effect/invisible_wall,
+/turf/open/floor/engine/hull/air,
+/area/awaymission/secret/fullbright)
 "ZJ" = (
 /obj/effect/turf_decal/stripes/line,
 /obj/effect/turf_decal/trimline/red/filled/line{
@@ -10876,6 +10987,14 @@
 /obj/structure/bonfire/dense/prelit,
 /turf/open/misc/dirt/station,
 /area/awaymission/secret/fullbright)
+"ZR" = (
+/obj/structure/flora/bush/flowers_br,
+/turf/open/misc/grass,
+/area/awaymission/secret/fullbright)
+"ZS" = (
+/obj/structure/flora/bush/flowers_yw/style_3,
+/turf/open/misc/grass,
+/area/awaymission/secret/fullbright)
 "ZT" = (
 /obj/effect/turf_decal/tile/red/anticorner/contrasted{
 	dir = 4
@@ -10893,6 +11012,10 @@
 /obj/structure/extinguisher_cabinet/directional/south,
 /turf/open/floor/iron/dark,
 /area/station/medical/morgue)
+"ZZ" = (
+/mob/living/basic/raptor/purple,
+/turf/open/misc/dirt/jungle/dark,
+/area/awaymission/secret)
 
 (1,1,1) = {"
 UE
@@ -43686,8 +43809,8 @@ bU
 jA
 GL
 mM
-xB
-WS
+LF
+pi
 ac
 ac
 ac
@@ -43946,15 +44069,15 @@ Lt
 ii
 Ke
 ac
-rh
-yU
-rh
+Do
+ym
+Do
 ac
-yd
+Ae
 ac
-rh
-yU
-rh
+Do
+ym
+Do
 ac
 gu
 gu
@@ -44198,20 +44321,20 @@ LC
 LC
 jA
 GL
-nl
+PZ
 Lt
 nn
 nn
 ac
-Zu
-Kc
-fS
+IR
+AJ
+gT
 ac
-Zu
+IR
 ac
-Zu
-yU
-Zu
+IR
+ym
+IR
 ac
 gu
 gu
@@ -44454,20 +44577,20 @@ LC
 LC
 TF
 pD
-QM
-sj
-sj
-sj
-sj
-Tq
-mz
-mz
-mz
-mz
-mz
-Yk
-mz
-rD
+AU
+Fn
+Fn
+Fn
+Fn
+XO
+QN
+QN
+QN
+QN
+QN
+ls
+QN
+ZF
 Ke
 ac
 ac
@@ -44710,24 +44833,24 @@ LC
 EE
 lE
 XS
-Ee
-Ee
-Ee
-Ee
-Ee
-Ee
-pw
-pw
-mZ
-lA
-pw
-kb
-pw
-mZ
-aM
-CP
-yU
-He
+iy
+iy
+iy
+iy
+iy
+iy
+qZ
+qZ
+Uo
+Hv
+qZ
+UP
+qZ
+Uo
+ap
+Rb
+ym
+Dq
 ac
 gu
 gu
@@ -44975,16 +45098,16 @@ nn
 nn
 ac
 ac
-nt
-aM
-cR
+xo
+ap
+pI
 ac
-Kr
-nt
-Jx
-fz
+QM
+xo
+aM
+rs
 Ke
-rh
+Do
 ac
 gu
 gu
@@ -45230,18 +45353,18 @@ LC
 Lt
 Ke
 ii
-Tq
-mz
-Hv
-ud
-mz
-xd
-mz
-gW
-jq
-Jc
-yU
-EY
+XO
+QN
+NE
+GG
+QN
+DL
+QN
+bM
+WU
+NO
+ym
+db
 ac
 gu
 gu
@@ -45480,22 +45603,22 @@ TF
 pD
 cy
 qs
-nl
+PZ
 LC
 EE
 bU
-yU
+ym
 Ke
 nn
-pw
-pw
-pw
-pw
-pw
-pw
-pw
-pw
-cf
+qZ
+qZ
+qZ
+qZ
+qZ
+qZ
+qZ
+qZ
+MF
 Ke
 ac
 ac
@@ -45739,21 +45862,21 @@ qs
 kS
 LC
 LC
-yW
-no
-no
+WT
+nU
+nU
 nn
 Ke
 ac
-Zu
-Kc
-Zu
+IR
+AJ
+IR
 ac
-fS
+gT
 ac
-Zu
-yU
-Zu
+IR
+ym
+IR
 ac
 gu
 gu
@@ -45996,20 +46119,20 @@ Yo
 lD
 hS
 hS
-QL
-YM
+Pk
+nK
 nn
 Ke
 nn
 ac
 Ke
-yU
-rh
+ym
+Do
 ac
-rh
+Do
 ac
-rh
-yU
+Do
+ym
 Ke
 ac
 gu
@@ -46257,7 +46380,7 @@ kS
 Ke
 nn
 Ke
-Vx
+ei
 ac
 ac
 ac
@@ -46767,12 +46890,12 @@ kS
 LC
 EE
 LC
-qG
-Xd
+PH
+fl
 Ke
 Ke
 nn
-Yi
+HT
 LK
 fq
 nn
@@ -47021,15 +47144,15 @@ Cd
 Yo
 Yo
 lD
-QL
+Pk
 LC
 LC
 bU
-yU
+ym
 nn
 Ke
 Ke
-Lt
+mH
 RG
 ii
 LK
@@ -47043,7 +47166,7 @@ uU
 uU
 uU
 uU
-yV
+SL
 tx
 tx
 LK
@@ -47279,16 +47402,16 @@ Yo
 Yo
 Yo
 lD
-QL
+Pk
 LC
 LC
-yU
+ym
 Ke
 DX
 ii
-Lt
+mH
 LK
-sr
+HK
 ii
 nn
 tx
@@ -47535,15 +47658,15 @@ hj
 hj
 hj
 hj
-mN
+en
 kS
-nl
+PZ
 LC
-yU
+ym
 ii
 nn
 nn
-Lt
+mH
 qU
 al
 nn
@@ -47794,13 +47917,13 @@ LC
 LC
 eT
 lD
-QL
+Pk
 EE
 mM
 tX
 YN
 Nc
-aR
+Sf
 zS
 nn
 LK
@@ -47810,7 +47933,7 @@ cA
 cd
 cA
 cA
-Gk
+zL
 al
 Kz
 LK
@@ -48049,15 +48172,15 @@ LC
 LC
 LC
 LC
-kT
-mN
+BK
+en
 kS
 LC
 Lt
 nn
 nn
 nn
-aR
+Sf
 nn
 RG
 al
@@ -48309,12 +48432,12 @@ nn
 nn
 eT
 lD
-QL
+Pk
 Lt
 nn
 nn
 nn
-aR
+Sf
 LK
 nn
 LK
@@ -48560,18 +48683,18 @@ Wg
 Wg
 LC
 nn
-UP
-UP
-UP
+Zo
+Zo
+Zo
 nn
-kT
-mN
+BK
+en
 kS
 rm
 sF
 Ty
 nn
-Yi
+HT
 LK
 DX
 nn
@@ -48816,11 +48939,11 @@ gu
 gu
 LC
 nn
-hN
+RB
 cA
 cA
 cA
-yb
+yX
 nn
 eT
 kS
@@ -48828,7 +48951,7 @@ Lt
 KO
 Ws
 BJ
-Yi
+HT
 al
 tx
 zA
@@ -48838,7 +48961,7 @@ LK
 uU
 tx
 al
-fY
+ZZ
 ob
 ma
 Fl
@@ -49072,13 +49195,13 @@ gu
 gu
 gu
 nn
-ph
+hU
 cA
 cA
-uO
+Vy
 cA
 cA
-HJ
+YW
 eT
 kS
 Lt
@@ -49329,13 +49452,13 @@ gu
 gu
 gu
 nn
-ph
+hU
 cA
-Wb
+Qq
 nn
-iw
+nc
 cA
-HJ
+YW
 eT
 kS
 Lt
@@ -49586,13 +49709,13 @@ gu
 gu
 gu
 nn
-ph
+hU
 cA
-lo
+vL
 nn
-ph
+hU
 cA
-HJ
+YW
 eT
 kS
 Lt
@@ -49843,13 +49966,13 @@ gu
 gu
 gu
 gu
-ph
+hU
 cA
-lo
+vL
 al
-pN
+At
 cA
-HJ
+YW
 eT
 kS
 Lt
@@ -50100,13 +50223,13 @@ gu
 gu
 gu
 gu
-ph
+hU
 cA
-lo
+vL
 al
-ph
+hU
 cA
-HJ
+YW
 eT
 kS
 Lt
@@ -50359,11 +50482,11 @@ gu
 gu
 gu
 cA
-yb
+yX
 nn
-hN
+RB
 cA
-HJ
+YW
 eT
 kS
 Qi
@@ -50392,7 +50515,7 @@ fv
 DQ
 DQ
 tq
-Gk
+zL
 tx
 tx
 gu
@@ -50617,10 +50740,10 @@ gu
 gu
 cA
 cA
-jQ
+WH
 cA
 cA
-HJ
+YW
 eT
 lD
 hS
@@ -50872,7 +50995,7 @@ gu
 gu
 gu
 gu
-iw
+nc
 cA
 cA
 cA
@@ -51130,9 +51253,9 @@ gu
 gu
 gu
 gu
-mX
-mX
-mX
+tE
+tE
+tE
 cA
 nn
 eT
@@ -51145,8 +51268,8 @@ gh
 NZ
 NZ
 NZ
-fo
 FU
+pq
 gh
 Ry
 Ry
@@ -51154,7 +51277,7 @@ Ry
 Kf
 NF
 Kt
-uc
+bA
 Ry
 Ry
 bC
@@ -51929,7 +52052,7 @@ LJ
 al
 al
 LK
-yV
+SL
 vK
 Ry
 fR
@@ -53462,7 +53585,7 @@ gu
 gu
 uU
 ML
-fY
+ZZ
 OR
 TD
 LJ
@@ -109224,9 +109347,9 @@ FT
 iQ
 iQ
 iQ
-zL
-bW
-bW
+ZI
+in
+in
 hu
 sv
 sv
@@ -109481,10 +109604,10 @@ iQ
 iQ
 iQ
 iQ
+in
 bW
-bW
-bW
-bW
+in
+in
 kp
 sv
 sv
@@ -109738,10 +109861,10 @@ iQ
 iQ
 iQ
 iQ
+in
 bW
 bW
-bW
-bW
+in
 Or
 rI
 sv
@@ -109761,15 +109884,15 @@ aC
 lc
 aC
 aC
-zB
-zB
-gV
-uK
-xk
-yj
-gV
-gV
-gV
+QL
+QL
+QW
+CH
+aU
+rL
+QW
+QW
+QW
 lc
 sv
 sv
@@ -109995,14 +110118,14 @@ iQ
 iQ
 iQ
 iQ
-bW
+in
 Ff
 Ff
-Ff
-Ff
-Ff
+dF
+dF
+dF
 lY
-pi
+vT
 lc
 lc
 lc
@@ -110017,16 +110140,16 @@ aC
 aC
 lc
 aC
-Md
-zB
-oZ
+ID
+QL
+uc
 yj
 yj
 yj
 yj
-gV
-Uv
-gV
+QW
+Lx
+QW
 lc
 sv
 sv
@@ -110252,20 +110375,20 @@ FT
 iQ
 iQ
 iQ
-zL
+ZI
 Ff
 Jv
 Jv
-Xs
-Jv
+HQ
+QC
 Or
 fu
-WG
-zB
-zB
-gV
-gV
-IO
+Za
+QL
+QL
+QW
+QW
+ZS
 aC
 lc
 lc
@@ -110277,13 +110400,13 @@ aC
 yj
 yj
 yj
-JJ
+uN
 yj
 yj
 aC
 aC
-gV
-gV
+QW
+QW
 lc
 sv
 sv
@@ -110509,35 +110632,35 @@ iQ
 iQ
 iQ
 iQ
-bW
+in
 Ff
 Ff
 Ff
 Ff
-Ff
-Ff
-bW
-WG
-kK
-Dd
-gV
+dF
+dF
+in
+Za
+UD
+AO
+QW
 yj
-CI
-yj
-yj
-yj
-JJ
+gG
 yj
 yj
-gV
-gV
 yj
+uN
+rL
+yj
+QW
+QW
+TR
 yj
 yj
 yj
 yj
 aC
-AS
+Gy
 aC
 yj
 yj
@@ -110766,7 +110889,7 @@ iQ
 iQ
 iQ
 iQ
-bW
+in
 bW
 jJ
 jJ
@@ -110774,10 +110897,10 @@ jJ
 jJ
 bW
 bW
-zy
-uK
+qM
+CH
 yj
-Tc
+Ao
 yj
 yj
 sv
@@ -110796,16 +110919,16 @@ sv
 aC
 aC
 yj
-xk
+aU
 yj
 lc
 sv
 sv
 aC
-zy
-gV
-gV
-zB
+qM
+QW
+QW
+QL
 eW
 UE
 UE
@@ -111023,7 +111146,7 @@ iQ
 iQ
 iQ
 iQ
-bW
+in
 Ff
 Ff
 Ff
@@ -111031,7 +111154,7 @@ Ff
 Ff
 Ff
 bW
-zy
+qM
 yj
 aC
 aC
@@ -111054,15 +111177,15 @@ sv
 sv
 yj
 yj
-yj
+rL
 lc
 sv
 sv
 aC
-zy
+qM
 yj
-zB
-zB
+QL
+QL
 eW
 UE
 UE
@@ -111280,15 +111403,15 @@ FT
 iQ
 iQ
 iQ
-zL
+ZI
 Ff
 Jv
 Jv
-Xs
+HQ
 Jv
 Ff
 bW
-zy
+qM
 YD
 aC
 aC
@@ -111311,15 +111434,15 @@ sv
 sv
 yj
 yj
-JJ
+uN
 lc
 sv
 sv
 aC
-zy
+qM
 aC
-PL
-JJ
+wH
+uN
 eW
 UE
 UE
@@ -111537,7 +111660,7 @@ iQ
 iQ
 iQ
 iQ
-bW
+in
 Ff
 Ff
 Ff
@@ -111545,10 +111668,10 @@ Ff
 Ff
 Ff
 bW
-zy
-gV
+qM
+QW
 aC
-IO
+ZS
 lc
 iQ
 iQ
@@ -111556,11 +111679,11 @@ iQ
 iQ
 iQ
 iQ
-iQ
+fW
+rL
 yj
-yj
-gV
-gV
+QW
+QW
 yj
 yj
 yj
@@ -111571,7 +111694,7 @@ yj
 yj
 lc
 sv
-sv
+CD
 lc
 lc
 aC
@@ -111794,17 +111917,17 @@ iQ
 iQ
 iQ
 iQ
-bW
-bW
-bW
-bW
-bW
-bW
-bW
-bW
-zy
-AS
-tS
+in
+in
+in
+in
+in
+in
+in
+in
+qM
+Gy
+pM
 aC
 lc
 iQ
@@ -111813,27 +111936,27 @@ iQ
 iQ
 iQ
 iQ
-iQ
+fW
 yj
-gV
-LO
+QW
+el
 eW
 eW
 eW
 eW
-vw
-vw
+Mg
+Mg
 eW
 eW
 eW
 lc
 sv
-sv
+CD
 eW
 eW
-nh
-gV
-gV
+ZR
+QW
+QW
 eW
 UE
 UE
@@ -112059,10 +112182,10 @@ iQ
 iQ
 iQ
 iQ
-zy
-zB
-zB
-gV
+qM
+QL
+QL
+up
 lc
 iQ
 iQ
@@ -112070,27 +112193,27 @@ iQ
 iQ
 iQ
 iQ
-iQ
-gV
-YW
-LO
-zy
-gV
-gV
+fW
+QW
+pd
+el
+qM
+QW
+QW
 yj
 yj
 yj
-tj
-hR
-zB
+dw
+QL
+eW
 lc
 sv
-sv
-eW
+CD
+qv
 eW
 yj
-gV
-Tc
+QW
+Ao
 eW
 UE
 UE
@@ -112327,27 +112450,27 @@ iQ
 iQ
 iQ
 iQ
-iQ
-gV
-Dd
-LO
-zy
-gV
+fW
+QW
+AO
+el
+qM
+QW
 yj
 yj
 yj
 yj
-gV
-zB
-oM
+QW
+gA
+eW
 lc
 sv
-sv
+CD
+wR
 eW
-eW
-yj
-gV
-gV
+rL
+QW
+QW
 eW
 UE
 UE
@@ -112584,11 +112707,11 @@ iQ
 iQ
 iQ
 iQ
-iQ
+fW
 yj
 yj
-uN
-zy
+st
+qM
 aC
 yj
 eW
@@ -112599,12 +112722,12 @@ eW
 eW
 lc
 sv
-sv
+CD
 eW
 eW
 yj
 aC
-zB
+QL
 eW
 UE
 UE
@@ -112841,27 +112964,27 @@ iQ
 iQ
 iQ
 iQ
-iQ
-JJ
+fW
+uN
 yj
-Ir
-zy
+kj
+qM
 yj
 yj
-AH
+YP
 sv
 sv
 yj
 yj
-Oy
+fI
 lc
 sv
-sv
+CD
 eW
-fM
+FF
 yj
 yj
-zB
+QL
 eW
 UE
 UE
@@ -113098,24 +113221,24 @@ iQ
 iQ
 iQ
 iQ
-iQ
+fW
 yj
 yj
-Ir
-VR
+BP
+fn
 yj
 yj
-AH
+YP
 sv
 sv
 yj
 yj
-Oy
+fI
 lc
 sv
-sv
+CD
 eW
-fM
+FF
 yj
 yj
 aC
@@ -113357,20 +113480,20 @@ iQ
 lc
 lc
 yj
-qK
-Ir
-WG
-Jm
-fZ
+ik
+kj
+Za
+ks
+iU
 eW
 sv
-sv
+CD
 eW
 eW
 eW
 lc
 sv
-sv
+CD
 eW
 eW
 aC
@@ -113611,28 +113734,28 @@ iQ
 iQ
 iQ
 iQ
-WG
-Jm
+Za
+ks
 yj
 yj
-Ir
-mP
-IO
-IO
+kj
+YJ
+ZS
+ZS
 eW
 sv
-sv
-eW
-eW
+CD
+fM
+ik
 eW
 lc
 sv
-sv
+CD
+pg
 eW
-eW
-zB
-IO
-mp
+QL
+nR
+UI
 eW
 UE
 UE
@@ -113868,28 +113991,28 @@ iQ
 iQ
 iQ
 iQ
-WG
+Za
 aC
-IO
+ZS
 yj
-hF
+rZ
 lc
 lc
 eW
 eW
 sv
-sv
+CD
 eW
 eW
 eW
 lc
 sv
-sv
+CD
 eW
 eW
-zB
-zB
-Te
+QL
+QL
+On
 eW
 UE
 UE
@@ -114132,8 +114255,8 @@ lc
 lc
 lc
 lc
-eW
-eW
+kl
+Cm
 sv
 sv
 lc
@@ -114141,7 +114264,7 @@ lc
 lc
 lc
 sv
-sv
+CD
 lc
 lc
 lc
@@ -114646,7 +114769,7 @@ iQ
 iQ
 iQ
 iQ
-eW
+wR
 eW
 sv
 sv
@@ -114903,7 +115026,7 @@ iQ
 iQ
 iQ
 iQ
-eW
+wR
 eW
 sv
 sv
@@ -115160,7 +115283,7 @@ iQ
 iQ
 iQ
 iQ
-eW
+Jm
 eW
 sv
 sv
@@ -115417,7 +115540,7 @@ iQ
 iQ
 iQ
 iQ
-eW
+wR
 eW
 sv
 sv
@@ -115674,7 +115797,7 @@ iQ
 iQ
 iQ
 iQ
-eW
+El
 eW
 sv
 sv
@@ -115931,7 +116054,7 @@ iQ
 iQ
 iQ
 iQ
-eW
+El
 eW
 sv
 sv
@@ -116188,7 +116311,7 @@ iQ
 iQ
 iQ
 iQ
-eW
+wg
 eW
 sv
 sv
@@ -116445,7 +116568,7 @@ iQ
 iQ
 iQ
 iQ
-eW
+mU
 eW
 sv
 sv
@@ -116964,7 +117087,7 @@ sv
 sv
 sv
 yj
-qK
+ik
 lc
 aC
 sv
@@ -117221,7 +117344,7 @@ sv
 sv
 sv
 yj
-gV
+up
 lc
 sv
 sv
@@ -117472,13 +117595,13 @@ iQ
 iQ
 lc
 lc
-Nv
-ah
+mT
+aE
 yj
 yj
 yj
-fn
-gV
+gw
+QW
 lc
 sv
 sv
@@ -117729,13 +117852,13 @@ iQ
 iQ
 iQ
 iQ
-tj
+dw
 yj
 yj
 yj
-gV
-gV
-gV
+QW
+QW
+QW
 lc
 sv
 sv
@@ -117985,12 +118108,12 @@ iQ
 iQ
 iQ
 iQ
-iQ
+fW
+rL
 yj
 yj
 yj
-yj
-AD
+aJ
 lc
 lc
 lc
@@ -118242,12 +118365,12 @@ iQ
 iQ
 iQ
 iQ
-iQ
+fW
 sv
 sv
 yj
-gV
-gV
+QW
+QW
 lc
 aC
 sv
@@ -118499,11 +118622,11 @@ iQ
 iQ
 iQ
 iQ
-iQ
+fW
 sv
 sv
-qK
-gV
+ik
+QW
 lc
 lc
 sv
@@ -118760,7 +118883,7 @@ lc
 sv
 sv
 yj
-gV
+QW
 lc
 aC
 sv
@@ -119004,18 +119127,18 @@ iQ
 iQ
 iQ
 iQ
-zy
-gV
-gV
-yj
+qM
+QW
+QW
+rL
 yj
 yj
 lc
-qK
+ik
 yj
 yj
 sv
-sv
+CD
 eW
 eW
 lc
@@ -119261,19 +119384,19 @@ iQ
 iQ
 iQ
 iQ
-zy
+qM
 yj
-oZ
-gV
-gV
+uc
+QW
+QW
 yj
-AH
+YP
 yj
-xk
+aU
 yj
 yj
-yj
-eW
+kj
+El
 eW
 lc
 sv
@@ -119282,11 +119405,11 @@ sv
 aC
 eW
 eW
-Iv
+Qb
 SZ
 SZ
 SZ
-iU
+Tu
 eW
 UE
 UE
@@ -119518,31 +119641,31 @@ iQ
 iQ
 iQ
 iQ
-zy
-JJ
+qM
+uN
 yj
-gV
-gV
-gV
+QW
+QW
+QW
 lc
 yj
-gV
-gV
-Tc
-yj
-eW
+QW
+QW
+Ao
+kj
+El
 eW
 lc
 sv
 sv
 sv
 aC
-eW
+IX
 eW
 SZ
-QH
+lu
 SZ
-aW
+Gu
 SZ
 eW
 UE
@@ -119782,11 +119905,11 @@ lc
 lc
 lc
 lc
-gV
-gV
-gV
+QW
+QW
+QW
 yj
-ah
+iY
 eW
 eW
 lc
@@ -120037,22 +120160,22 @@ lc
 lc
 lc
 lc
-zy
-yj
-gV
-Dd
-gV
+qM
+rL
+QW
+AO
+QW
 co
 co
 co
-Oy
+fI
 lc
 sv
 sv
 aC
 aC
 eW
-kM
+oX
 ri
 ri
 ri
@@ -120294,27 +120417,27 @@ sv
 aC
 aC
 aC
-zy
-JJ
-gV
+qM
+uN
+QW
 yj
-Ej
-ix
+UH
+yi
 co
 co
-Oy
+fI
 lc
 sv
 sv
 aC
 aC
 eW
-kM
+oX
 ri
 ri
 ri
 SZ
-tQ
+ec
 eW
 UE
 UE
@@ -120551,13 +120674,13 @@ sv
 sv
 aC
 aC
-zy
+qM
 yj
 yj
-Ej
-QR
+UH
+Az
 RR
-CI
+gG
 eW
 eW
 lc
@@ -120567,11 +120690,11 @@ aC
 aC
 eW
 eW
-Pp
+UT
 ri
 ri
 SZ
-Iv
+Qb
 eW
 UE
 UE
@@ -120808,21 +120931,21 @@ sv
 sv
 aC
 aC
-zy
-ah
+qM
+aE
 yj
-fy
+Ft
 fC
-za
-IO
-eW
+UV
+ZS
+rk
 eW
 lc
 sv
 sv
 aC
 aC
-eW
+rv
 eW
 SZ
 SZ
@@ -121065,12 +121188,12 @@ sv
 sv
 aC
 aC
-zy
+qM
 yj
-tj
+dw
 co
 co
-ak
+Qm
 aC
 eW
 eW
@@ -121079,13 +121202,13 @@ sv
 sv
 sv
 aC
+rv
 eW
-eW
-aW
+Gu
 SZ
-XI
+hP
 SZ
-QH
+lu
 eW
 UE
 UE
@@ -121338,11 +121461,11 @@ sv
 aC
 eW
 eW
-iU
+Tu
 SZ
 SZ
 SZ
-aW
+Gu
 eW
 UE
 UE
@@ -121598,7 +121721,7 @@ lc
 lc
 lc
 lc
-fk
+QF
 lc
 eW
 UE
@@ -121851,12 +121974,12 @@ sv
 sv
 aC
 aC
-RN
+eY
 SZ
-QH
+lu
 SZ
 SZ
-Iv
+Qb
 eW
 UE
 UE
@@ -122108,9 +122231,9 @@ sv
 sv
 aC
 aC
-RN
+eY
 SZ
-Iv
+Qb
 SZ
 ri
 ri
@@ -122365,11 +122488,11 @@ sv
 sv
 aC
 aC
-RN
-aW
+eY
+Gu
 SZ
 SZ
-Lw
+Sm
 ri
 eW
 UE
@@ -122622,9 +122745,9 @@ sv
 sv
 sv
 aC
-RN
+eY
 SZ
-tQ
+ec
 SZ
 ri
 ri
@@ -122879,11 +123002,11 @@ sv
 sv
 sv
 aC
-RN
+eY
 SZ
 SZ
-aW
-iU
+Gu
+Tu
 SZ
 eW
 UE
@@ -178132,12 +178255,12 @@ iQ
 iQ
 iQ
 iQ
-WM
-WM
-WM
-WM
-WM
-WM
+GR
+GR
+GR
+GR
+GR
+GR
 iQ
 iQ
 iQ
@@ -178903,12 +179026,12 @@ iQ
 iQ
 iQ
 iQ
-xE
-xE
-xE
-xE
-xE
-xE
+bG
+bG
+bG
+bG
+bG
+bG
 iQ
 iQ
 iQ
@@ -185324,14 +185447,14 @@ iQ
 iQ
 iQ
 iQ
-WM
-WM
-WM
-WM
-WM
-WM
-WM
-WM
+GR
+GR
+GR
+GR
+GR
+GR
+GR
+GR
 iQ
 iQ
 iQ
@@ -186095,14 +186218,14 @@ iQ
 iQ
 iQ
 iQ
-xE
-xE
-xE
-xE
-xE
-xE
-xE
-xE
+bG
+bG
+bG
+bG
+bG
+bG
+bG
+bG
 iQ
 iQ
 iQ
