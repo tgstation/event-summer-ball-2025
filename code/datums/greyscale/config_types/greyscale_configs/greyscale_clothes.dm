@@ -2,6 +2,7 @@
 // HEAD
 //
 
+
 /datum/greyscale_config/sombrero
 	name = "Sombrero"
 	icon_file = 'icons/obj/clothing/head/sombrero.dmi'
