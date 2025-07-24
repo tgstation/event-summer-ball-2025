@@ -1,83 +1,174 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "a" = (
-/obj/structure/grille,
-/obj/structure/window/reinforced/fulltile/indestructible,
-/turf/open/floor/plating,
-/area/template_noop)
-"d" = (
-/turf/open/floor/engine,
-/area/template_noop)
-"M" = (
+/obj/structure/flora/bush/fullgrass/style_random,
+/turf/open/misc/grass,
+/area/space)
+"b" = (
 /obj/effect/landmark/ragecage,
-/obj/effect/turf_decal/box,
-/turf/open/floor/engine,
-/area/template_noop)
-"P" = (
+/obj/structure/flora/bush/fullgrass/style_random,
+/turf/open/misc/grass/jungle/station,
+/area/space)
+"j" = (
+/obj/item/chair/stool/bamboo,
+/turf/open/misc/sandy_dirt,
+/area/space)
+"m" = (
+/obj/structure/flora/bush/jungle/c/style_random{
+	pixel_x = -2;
+	pixel_y = 4
+	},
+/turf/open/misc/grass/jungle/station,
+/area/space)
+"p" = (
 /obj/effect/landmark/ragecage/second,
-/obj/effect/turf_decal/box,
-/turf/open/floor/engine,
-/area/template_noop)
+/obj/structure/flora/bush/fullgrass/style_random,
+/turf/open/misc/grass,
+/area/space)
+"q" = (
+/obj/effect/landmark/ragecage/second,
+/turf/open/misc/grass,
+/area/space)
+"t" = (
+/turf/open/misc/sandy_dirt,
+/area/space)
+"y" = (
+/obj/effect/landmark/ragecage,
+/turf/open/misc/dirt/jungle,
+/area/space)
+"z" = (
+/obj/effect/landmark/ragecage/second,
+/turf/open/misc/dirt/jungle,
+/area/space)
+"A" = (
+/turf/open/misc/grass,
+/area/space)
+"B" = (
+/obj/item/fireaxe/boneaxe,
+/turf/open/misc/dirt/jungle,
+/area/space)
+"D" = (
+/obj/structure/flora/bush/fullgrass/style_random,
+/turf/open/misc/grass/jungle/station,
+/area/space)
+"F" = (
+/obj/structure/flora/bush/jungle/b/style_random,
+/turf/open/misc/grass/jungle/station,
+/area/space)
+"G" = (
+/turf/open/misc/dirt/jungle,
+/area/space)
+"I" = (
+/obj/item/spear/bamboospear,
+/turf/open/misc/dirt/jungle,
+/area/space)
+"S" = (
+/obj/structure/bonfire/dense/prelit,
+/obj/item/melee/roastingstick,
+/turf/open/misc/sandy_dirt,
+/area/space)
+"T" = (
+/turf/open/misc/grass/jungle/station,
+/area/space)
+"X" = (
+/obj/item/pickaxe/rusted,
+/turf/open/misc/sandy_dirt,
+/area/space)
 
 (1,1,1) = {"
+G
+G
+m
+D
+I
+G
+G
+G
+G
+A
 a
-a
-a
-a
-a
+G
 "}
 (2,1,1) = {"
+G
+y
+T
+D
+F
+G
+G
+G
 a
-M
-d
-M
 a
+q
+G
 "}
 (3,1,1) = {"
+G
+T
+b
+T
+G
+G
+G
+G
+A
+q
 a
-d
-M
-d
 a
 "}
 (4,1,1) = {"
+G
+y
+D
+G
+G
+B
+G
+G
+G
 a
-d
-d
-d
-a
+p
+G
 "}
 (5,1,1) = {"
-a
-d
-d
-d
-a
+G
+G
+y
+G
+G
+A
+j
+G
+G
+z
+G
+G
 "}
 (6,1,1) = {"
-a
-d
-d
-d
-a
+G
+y
+G
+G
+G
+t
+S
+X
+G
+G
+z
+G
 "}
 (7,1,1) = {"
-a
-d
-P
-d
-a
-"}
-(8,1,1) = {"
-a
-P
-d
-P
-a
-"}
-(9,1,1) = {"
-a
-a
-a
-a
-a
+G
+G
+G
+G
+G
+G
+j
+t
+G
+G
+G
+G
 "}
