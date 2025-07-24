@@ -10691,7 +10691,8 @@
 	pixel_y = 21;
 	pixel_x = 19;
 	name = "Trexter";
-	desc = "Designed the maze leading down to here."
+	desc = "Designed the maze leading down to here.";
+	color = "#990099"
 	},
 /obj/item/toy/plush/human{
 	pixel_y = 11;
