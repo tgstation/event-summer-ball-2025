@@ -17117,8 +17117,8 @@
 	},
 /area/awaymission/secret/fullbright)
 "bca" = (
-/obj/structure/ladder/unbreakable,
 /obj/effect/turf_decal/sand/plating,
+/obj/structure/ladder,
 /turf/open/floor/plating,
 /area/awaymission/secret/fullbright)
 "bcs" = (
@@ -20138,7 +20138,7 @@
 /turf/open/floor/stone,
 /area/awaymission/secret/fullbright)
 "jmo" = (
-/obj/structure/ladder/unbreakable,
+/obj/structure/ladder,
 /turf/open/floor/wood,
 /area/awaymission/secret)
 "joj" = (
@@ -21242,8 +21242,8 @@
 /turf/open/misc/grass/jungle/station,
 /area/centcom/tdome/arena/ragecage)
 "lMe" = (
-/obj/structure/ladder/unbreakable,
 /obj/effect/turf_decal/sand/plating,
+/obj/structure/ladder,
 /turf/open/floor/plating,
 /area/awaymission/secret)
 "lTC" = (
