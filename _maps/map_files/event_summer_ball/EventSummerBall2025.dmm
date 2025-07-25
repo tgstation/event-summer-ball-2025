@@ -17406,6 +17406,13 @@
 /mob/living/basic/mothroach,
 /turf/open/misc/ashplanet/rocky/safe,
 /area/awaymission/secret/powered)
+"bLY" = (
+/obj/item/flashlight/flare/candle/infinite{
+	pixel_x = -9;
+	light_range = 3
+	},
+/turf/open/misc/ashplanet/rocky/safe,
+/area/awaymission/secret)
 "bMO" = (
 /obj/item/toy/plush/awakenedplushie{
 	desc = "Sometimes the journey along the way is the true reward. Or the mapper couldn't think of a better gimmick item for the event map. You're lucky you're getting this, we're on a time limit here man. Go find the others or something bro keep yourself busy.";
@@ -18018,6 +18025,10 @@
 	dir = 8
 	},
 /obj/structure/glowshroom/single,
+/turf/open/misc/ashplanet/rocky/safe,
+/area/awaymission/secret)
+"dtg" = (
+/obj/structure/fluff/arc,
 /turf/open/misc/ashplanet/rocky/safe,
 /area/awaymission/secret)
 "dto" = (
@@ -21373,7 +21384,7 @@
 	pixel_x = 11;
 	anchored = 1;
 	flipped = 1;
-	desc = "Designed the hospital, sauna, service area, and the room you're standing in now - hi!"
+	desc = "Kept the map up to date, and designed the hospital, sauna, service area, and the room you're standing in now - hi!"
 	},
 /obj/item/toy/plush/lizard_plushie/green{
 	name = "Xemo";
@@ -50381,7 +50392,7 @@ tfe
 tfe
 tfe
 tfe
-tfe
+klj
 tfe
 tfe
 tfe
@@ -50636,11 +50647,11 @@ agu
 agu
 agu
 agu
-agu
-agu
-agu
-agu
-agu
+tfe
+aqc
+aqc
+aqc
+tfe
 agu
 agu
 agu
@@ -50892,12 +50903,12 @@ agu
 agu
 agu
 agu
-agu
-agu
-agu
-agu
-agu
-agu
+tfe
+tfe
+bLY
+aqc
+tfe
+tfe
 agu
 agu
 agu
@@ -51149,11 +51160,11 @@ agu
 agu
 agu
 agu
-agu
-agu
-agu
-agu
-agu
+tfe
+dtg
+aqc
+aqc
+tfe
 agu
 agu
 agu
@@ -51406,11 +51417,11 @@ agu
 agu
 agu
 agu
-agu
-agu
-agu
-agu
-agu
+tfe
+tfe
+gxd
+tfe
+tfe
 agu
 agu
 agu
@@ -51664,9 +51675,9 @@ agu
 agu
 agu
 agu
-agu
-agu
-agu
+tfe
+tfe
+tfe
 agu
 agu
 agu
