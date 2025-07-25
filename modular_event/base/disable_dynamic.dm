@@ -1,6 +1,4 @@
-/datum/controller/subsystem/dynamic/New()
-	. = ..()
-	GLOB.dynamic_forced_extended = TRUE
-
-/datum/controller/subsystem/dynamic/send_intercept()
-	return
+/datum/controller/subsystem/dynamic/set_tier(picked_tier, population)
+	// Overrides set tier to always set to greenshift
+	picked_tier = /datum/dynamic_tier/greenshift
+	return ..()
