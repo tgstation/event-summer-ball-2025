@@ -391,3 +391,16 @@ INITIALIZE_IMMEDIATE(/turf/closed/indestructible/splashscreen)
 	smoothing_flags = SMOOTH_BITMASK
 	smoothing_groups = SMOOTH_GROUP_WALLS
 	canSmoothWith = SMOOTH_GROUP_WALLS
+
+/turf/closed/indestructible/cliff_face
+	name = "Rocky Cliff Face"
+	desc = "A sloped cliff face made of rock. With the right tools you could probably climb this."
+	icon = 'icons/turf/cliff/cliff_face.dmi'
+	icon_state = "cliff_face"
+	base_icon_state = "cliff_face"
+	opacity = FALSE
+
+/turf/closed/indestructible/cliff_face/corner
+	icon = 'icons/turf/cliff/cliff_face.dmi'
+	icon_state = "cliff_face_corner"
+	base_icon_state = "cliff_face_corner"
