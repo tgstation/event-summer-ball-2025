@@ -1353,7 +1353,7 @@
 	pixel_y = 11;
 	anchored = 1;
 	name = "Tram Conductor MMMiracles";
-	desc = "Designed much of the central lake and the tramway."
+	desc = "Designed much of the central lake and the tramway. Also finalized landscaping."
 	},
 /obj/item/toy/plush/human{
 	pixel_x = -10;
@@ -5869,6 +5869,11 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/large,
 /area/station/security/checkpoint/arrivals)
+"vc" = (
+/turf/closed/indestructible/rock{
+	opacity = 0
+	},
+/area/awaymission/secret/fullbright)
 "vd" = (
 /obj/structure/railing{
 	dir = 1
@@ -8731,6 +8736,15 @@
 /obj/effect/turf_decal/tile/bar/opposingcorners,
 /obj/effect/spawner/random/food_or_drink/booze,
 /turf/open/floor/iron,
+/area/awaymission/secret/fullbright)
+"EO" = (
+/obj/effect/turf_decal/siding/wideplating/dark{
+	dir = 1
+	},
+/obj/structure/sign/plaques/kiddie/contributors{
+	pixel_y = 31
+	},
+/turf/open/floor/stone,
 /area/awaymission/secret/fullbright)
 "EP" = (
 /obj/effect/turf_decal/siding/wood{
@@ -13131,12 +13145,6 @@
 "Ue" = (
 /turf/open/misc/asteroid/moon,
 /area/awaymission/museum/mothroachvoid)
-"Uf" = (
-/turf/open/floor/iron/goonplaque{
-	desc = "placeholder desc lol";
-	name = "placeholder plaque put something inspiring here or w/e idk bro"
-	},
-/area/awaymission/secret/fullbright)
 "Ug" = (
 /obj/effect/turf_decal/siding/wood,
 /obj/structure/flora/bush/flowers_br/style_random,
@@ -107420,9 +107428,9 @@ iQ
 iQ
 iQ
 US
-AK
-cA
-Uf
+vc
+EO
+XJ
 we
 Rf
 sH
