@@ -14125,6 +14125,13 @@
 /obj/structure/closet/crate/miningcar/rollercoaster,
 /turf/open/floor/wood/large,
 /area/awaymission/secret/fullbright)
+"diK" = (
+/obj/structure/flora/rock/pile/jungle/large/style_random{
+	pixel_y = -10;
+	pixel_x = -2
+	},
+/turf/open/misc/dirt/station,
+/area/awaymission/secret/fullbright)
 "diR" = (
 /obj/structure/fluff/bus/passable{
 	icon_state = "topdoor"
@@ -24792,6 +24799,13 @@
 "wBb" = (
 /obj/structure/flora/grass/jungle/a/style_random,
 /obj/structure/flora/bush/flowers_yw/style_random,
+/turf/open/misc/dirt/station,
+/area/awaymission/secret/fullbright)
+"wBR" = (
+/obj/structure/flora/rock/pile/jungle/large/style_random{
+	pixel_x = -4;
+	pixel_y = -27
+	},
 /turf/open/misc/dirt/station,
 /area/awaymission/secret/fullbright)
 "wCt" = (
@@ -133624,7 +133638,7 @@ pzp
 asH
 asH
 aaC
-aaC
+aiQ
 aiQ
 aiQ
 aFT
@@ -133881,7 +133895,7 @@ faa
 aUS
 aUX
 apU
-aaC
+aiQ
 aiQ
 aiQ
 aiQ
@@ -134138,14 +134152,14 @@ aUS
 faa
 aUS
 aUS
-apU
-apU
-aaC
-apU
-aUS
-aUS
-aUS
-aUS
+aiQ
+aiQ
+aiQ
+aiQ
+aiQ
+aiQ
+aiQ
+aiQ
 pdN
 ayj
 aTo
@@ -134399,9 +134413,9 @@ aUS
 pzp
 aUS
 aUS
-faa
+diK
 aro
-faa
+wBR
 aUS
 pdN
 apB
