@@ -102,6 +102,7 @@
 	. = ..()
 	ADD_TRAIT(src, TRAIT_MESSAGE_IN_A_BOTTLE_LOCATION, INNATE_TRAIT)
 
+
 /// Deep water drains stamina and starts drowning you
 /turf/open/water/deep_beach
 	name = "deep water"

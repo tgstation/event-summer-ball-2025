@@ -59,6 +59,40 @@
 	. = ..()
 	icon_state = "beach-corner"
 
+
+/// Summer Ball 2025 Turfs. These are Varients of /beach for other nuture-y Turf types.
+
+/turf/open/misc/beach/grass_shore
+	name = "grassy bank"
+	desc = "Water sifts and churns through the marsh"
+	icon = 'icons/turf/beach.dmi'
+	icon_state = "grass_shore"
+	base_icon_state = "grass_shore"
+	footstep = FOOTSTEP_WATER
+	barefootstep = FOOTSTEP_WATER
+	clawfootstep = FOOTSTEP_WATER
+	heavyfootstep = FOOTSTEP_WATER
+
+/turf/open/misc/beach/coast/Initialize(mapload)
+	. = ..()
+	ADD_TRAIT(src, TRAIT_MESSAGE_IN_A_BOTTLE_LOCATION, INNATE_TRAIT)
+
+/turf/open/misc/beach/grass_shore/break_tile()
+	. = ..()
+	icon_state = "grass_shore"
+
+/turf/open/misc/beach/grass_shore/corner
+	icon_state = "grass_shore-corner"
+	base_icon_state = "grass_shore-corner"
+
+/turf/open/misc/beach/grass_shore/corner/break_tile()
+	. = ..()
+	icon_state = "grass_shore-corner"
+
+
+/// End Event Code
+
+
 /turf/open/misc/sandy_dirt
 	gender = PLURAL
 	name = "dirt"
