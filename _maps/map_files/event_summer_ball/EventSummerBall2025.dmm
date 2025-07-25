@@ -12887,13 +12887,6 @@
 	base_icon_state = "sand_dug"
 	},
 /area/awaymission/secret)
-"baG" = (
-/obj/structure/fluff{
-	icon = 'icons/obj/F13-trash.dmi';
-	icon_state = "four_b"
-	},
-/turf/open/misc/asteroid,
-/area/awaymission/secret/fullbright)
 "baO" = (
 /obj/effect/decal/remains/human,
 /turf/open/misc/asteroid,
@@ -13109,13 +13102,6 @@
 /obj/structure/railing/wooden_fence,
 /turf/open/floor/wood,
 /area/awaymission/secret)
-"bns" = (
-/obj/effect/turf_decal/siding/white{
-	dir = 8
-	},
-/obj/effect/turf_decal/trimline/red/filled/warning,
-/turf/open/misc/asteroid,
-/area/awaymission/secret/fullbright)
 "bnB" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/iron/smooth_edge{
@@ -14125,13 +14111,6 @@
 /obj/structure/closet/crate/miningcar/rollercoaster,
 /turf/open/floor/wood/large,
 /area/awaymission/secret/fullbright)
-"diK" = (
-/obj/structure/flora/rock/pile/jungle/large/style_random{
-	pixel_y = -10;
-	pixel_x = -2
-	},
-/turf/open/misc/dirt/station,
-/area/awaymission/secret/fullbright)
 "diR" = (
 /obj/structure/fluff/bus/passable{
 	icon_state = "topdoor"
@@ -14415,16 +14394,6 @@
 	},
 /turf/open/floor/glass,
 /area/awaymission/secret/powered)
-"dLr" = (
-/obj/structure/fluff{
-	icon = 'icons/obj/F13-trash.dmi';
-	icon_state = "five_t"
-	},
-/obj/item/v8_engine{
-	anchored = 1
-	},
-/turf/open/misc/grass,
-/area/awaymission/secret/fullbright)
 "dLB" = (
 /obj/structure/fluff/bus/dense,
 /turf/open/floor/bluespace,
@@ -15880,11 +15849,11 @@
 /turf/open/misc/sandy_dirt,
 /area/awaymission/secret/fullbright)
 "gsE" = (
-/obj/structure/fluff{
-	icon = 'icons/obj/F13-trash.dmi';
-	icon_state = "five_t"
+/obj/structure/flora/rock/pile/jungle/large/style_random{
+	pixel_x = -4;
+	pixel_y = -27
 	},
-/turf/open/misc/asteroid,
+/turf/open/misc/dirt/station,
 /area/awaymission/secret/fullbright)
 "guy" = (
 /obj/structure/spacevine{
@@ -18333,11 +18302,12 @@
 /turf/open/misc/sandy_dirt,
 /area/awaymission/secret)
 "kXk" = (
-/obj/structure/fluff{
-	icon = 'icons/obj/F13-trash.dmi';
-	icon_state = "five_t"
+/obj/structure/flora/bush/flowers_pp/style_3,
+/mob/living/basic/raptor/blue{
+	name = "Tetto";
+	desc = "Hear him Echo"
 	},
-/turf/open/misc/grass,
+/turf/open/misc/sandy_dirt,
 /area/awaymission/secret/fullbright)
 "kXu" = (
 /obj/structure/table,
@@ -20129,12 +20099,6 @@
 	},
 /turf/open/floor/stone,
 /area/awaymission/secret)
-"obO" = (
-/obj/effect/turf_decal/siding/white{
-	dir = 9
-	},
-/turf/open/misc/asteroid,
-/area/awaymission/secret/fullbright)
 "obX" = (
 /obj/effect/turf_decal/trimline/white/corner,
 /turf/open/floor/asphalt,
@@ -23489,10 +23453,8 @@
 /turf/open/misc/dirt/station,
 /area/awaymission/secret/fullbright)
 "uhE" = (
-/obj/effect/turf_decal/siding/white/corner{
-	dir = 4
-	},
-/turf/open/misc/asteroid,
+/obj/structure/flora/bush/sparsegrass/style_random,
+/turf/open/misc/grass,
 /area/awaymission/secret/fullbright)
 "uii" = (
 /obj/structure/flora/rock/style_3,
@@ -24711,10 +24673,11 @@
 /turf/open/misc/sandy_dirt,
 /area/awaymission/secret/fullbright)
 "wrH" = (
-/obj/effect/turf_decal/siding/white{
-	dir = 1
+/obj/structure/flora/rock/pile/jungle/large/style_random{
+	pixel_y = -10;
+	pixel_x = -2
 	},
-/turf/open/misc/asteroid,
+/turf/open/misc/dirt/station,
 /area/awaymission/secret/fullbright)
 "wrR" = (
 /obj/structure/table/wood/fancy/blue,
@@ -24799,13 +24762,6 @@
 "wBb" = (
 /obj/structure/flora/grass/jungle/a/style_random,
 /obj/structure/flora/bush/flowers_yw/style_random,
-/turf/open/misc/dirt/station,
-/area/awaymission/secret/fullbright)
-"wBR" = (
-/obj/structure/flora/rock/pile/jungle/large/style_random{
-	pixel_x = -4;
-	pixel_y = -27
-	},
 /turf/open/misc/dirt/station,
 /area/awaymission/secret/fullbright)
 "wCt" = (
@@ -128522,7 +128478,7 @@ bbv
 asv
 aee
 aui
-ahr
+kXk
 bbv
 bbv
 asv
@@ -133371,8 +133327,8 @@ aJO
 aRi
 aOR
 acb
-asv
-asv
+aaC
+aaC
 apU
 aaC
 aaC
@@ -133626,10 +133582,10 @@ ayj
 acA
 aRi
 acb
-asv
-asv
-aFo
-asv
+aaC
+aaC
+uhE
+aaC
 asH
 aUS
 aUS
@@ -133882,9 +133838,9 @@ aUC
 adI
 atZ
 acb
-asv
-asv
-asv
+aaC
+aaC
+aaC
 asH
 aUS
 aUS
@@ -134138,8 +134094,8 @@ adI
 aJO
 aRi
 acb
-aFo
-asv
+uhE
+aaC
 aaC
 aUS
 aUS
@@ -134147,7 +134103,7 @@ aUS
 aUS
 aUS
 aUS
-asv
+aUS
 aUS
 faa
 aUS
@@ -134394,15 +134350,15 @@ aJO
 aXJ
 aXJ
 acb
-asv
-asv
+aaC
+aaC
 asH
 aUS
 aUS
 aUS
 aUS
 aUS
-asv
+aUS
 aUS
 aUS
 aUS
@@ -134413,9 +134369,9 @@ aUS
 pzp
 aUS
 aUS
-diK
+wrH
 aro
-wBR
+gsE
 aUS
 pdN
 apB
@@ -134656,7 +134612,7 @@ aUS
 aUS
 ujV
 ujV
-gsE
+ujV
 ujV
 ujV
 xnf
@@ -134912,7 +134868,7 @@ aUS
 aUS
 ujV
 ujV
-obO
+ylS
 aUs
 aUs
 oEI
@@ -134928,7 +134884,7 @@ aUS
 ujV
 ujV
 xnf
-baG
+xnf
 ujV
 ujV
 gTE
@@ -135168,7 +135124,7 @@ aUS
 aUS
 qdm
 qdm
-obO
+ylS
 aRD
 abm
 abm
@@ -135186,11 +135142,11 @@ ujV
 ylS
 aUs
 aUs
-bns
+oEI
 aUs
 aUs
 kcn
-dLr
+ojm
 xnf
 vyv
 pdN
@@ -135424,7 +135380,7 @@ aUS
 aUS
 qdm
 qdm
-obO
+ylS
 aRD
 abm
 aHR
@@ -135444,7 +135400,7 @@ aRD
 abm
 abm
 fOS
-asv
+abm
 abm
 anz
 kcn
@@ -135680,7 +135636,7 @@ aUS
 aUS
 syg
 jbi
-obO
+ylS
 aRD
 abm
 abm
@@ -135689,7 +135645,7 @@ aUS
 aUS
 aUS
 qcq
-uhE
+aHK
 abm
 xJe
 ujV
@@ -135702,10 +135658,10 @@ abm
 aHR
 pZj
 aHK
-asv
+abm
 abm
 xJe
-kXk
+ujV
 ujV
 pdN
 aYh
@@ -135937,7 +135893,7 @@ aUS
 aUS
 syg
 jbi
-wrH
+ceW
 abm
 abm
 aHR
@@ -135945,7 +135901,7 @@ gxw
 aUS
 aUS
 aUS
-asv
+aUS
 ceW
 abm
 xJe
@@ -135960,7 +135916,7 @@ gxw
 aUS
 qcq
 aHK
-asv
+abm
 anz
 kcn
 ujV
@@ -136193,7 +136149,7 @@ aUS
 aUS
 syg
 qdm
-obO
+ylS
 aRD
 abm
 abm
@@ -136201,7 +136157,7 @@ xJe
 aUS
 aUS
 amE
-asv
+aaC
 aUS
 ceW
 abm
@@ -136217,7 +136173,7 @@ abm
 aUS
 aUS
 qcq
-uhE
+aHK
 abm
 anz
 kcn
