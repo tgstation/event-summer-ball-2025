@@ -7,3 +7,6 @@
 
 /datum/component/riding/vehicle/lavaboat
 	keytype = null
+
+/datum/component/riding/vehicle/bicycle
+	vehicle_move_delay = 1 // sovlless
