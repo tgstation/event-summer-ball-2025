@@ -1151,7 +1151,11 @@
 	},
 /obj/structure/fluff{
 	icon = 'icons/obj/F13-trash.dmi';
-	icon_state = "five_t"
+	density = 1;
+	icon_state = "five_t";
+	name = "tires";
+	gender = "plural";
+	desc = "Who'd spell tire with a 'y' anyway?"
 	},
 /turf/open/floor/asphalt,
 /area/event/ball)
@@ -7014,7 +7018,11 @@
 	},
 /obj/structure/fluff{
 	icon = 'icons/obj/F13-trash.dmi';
-	icon_state = "five_t"
+	density = 1;
+	icon_state = "five_t";
+	name = "tires";
+	gender = "plural";
+	desc = "Who'd spell tire with a 'y' anyway?"
 	},
 /turf/open/floor/asphalt,
 /area/event/ball)
@@ -7181,8 +7189,12 @@
 "dqr" = (
 /obj/structure/fluff{
 	icon = 'icons/obj/F13-trash.dmi';
+	density = 1;
 	icon_state = "five_t";
-	pixel_x = -9
+	pixel_x = -9;
+	name = "tires";
+	gender = "plural";
+	desc = "Who'd spell tire with a 'y' anyway?"
 	},
 /turf/open/misc/dirt/station,
 /area/event/ball)
@@ -7549,7 +7561,11 @@
 "dPX" = (
 /obj/structure/fluff{
 	icon = 'icons/obj/F13-trash.dmi';
-	icon_state = "five_t"
+	density = 1;
+	icon_state = "five_t";
+	name = "tires";
+	gender = "plural";
+	desc = "Who'd spell tire with a 'y' anyway?"
 	},
 /turf/open/misc/dirt/station,
 /area/event/ball)
@@ -9217,9 +9233,12 @@
 	},
 /obj/structure/fluff{
 	icon = 'icons/obj/F13-trash.dmi';
+	density = 1;
 	icon_state = "one_b";
 	pixel_x = 2;
-	pixel_y = -14
+	pixel_y = -14;
+	name = "barrel";
+	desc = "Not red, not explosive."
 	},
 /turf/open/floor/stone,
 /area/event/ball)
@@ -10262,12 +10281,20 @@
 	},
 /obj/structure/fluff{
 	icon = 'icons/obj/F13-trash.dmi';
-	icon_state = "four_b"
+	density = 1;
+	icon_state = "four_b";
+	name = "barrels";
+	gender = "plural";
+	desc = "Not red, not explosive."
 	},
 /obj/structure/fluff{
 	icon = 'icons/obj/F13-trash.dmi';
+	density = 1;
 	icon_state = "five_t";
-	pixel_y = -19
+	pixel_y = -19;
+	name = "tires";
+	gender = "plural";
+	desc = "Who'd spell tire with a 'y' anyway?"
 	},
 /turf/open/misc/sandy_dirt,
 /area/event/ball)
@@ -10650,9 +10677,12 @@
 	},
 /obj/structure/fluff{
 	icon = 'icons/obj/F13-trash.dmi';
+	density = 1;
 	icon_state = "one_t";
 	pixel_x = 7;
-	pixel_y = -7
+	pixel_y = -7;
+	name = "tire";
+	desc = "Like, clothes. Get it? A tire?"
 	},
 /turf/open/misc/sandy_dirt,
 /area/event/ball)
@@ -11749,7 +11779,7 @@
 "iih" = (
 /obj/structure/closet/crate/large,
 /obj/structure/closet/crate/large{
-	pixel_y = 17
+	pixel_z = 17
 	},
 /turf/open/floor/wood,
 /area/event/ball)
@@ -12890,7 +12920,11 @@
 "jBw" = (
 /obj/structure/fluff{
 	icon = 'icons/obj/F13-trash.dmi';
-	icon_state = "five_t"
+	density = 1;
+	icon_state = "five_t";
+	name = "tires";
+	gender = "plural";
+	desc = "Who'd spell tire with a 'y' anyway?"
 	},
 /turf/open/misc/dirt/station,
 /area/event/ball/beach_ambience)
@@ -14485,21 +14519,31 @@
 	},
 /obj/structure/fluff{
 	icon = 'icons/obj/F13-trash.dmi';
+	density = 1;
 	icon_state = "two_t";
 	pixel_x = -3;
-	pixel_y = 14
+	pixel_y = 14;
+	name = "tires";
+	gender = "plural";
+	desc = "Who'd spell tire with a 'y' anyway?"
 	},
 /obj/structure/fluff{
 	icon = 'icons/obj/F13-trash.dmi';
+	density = 1;
 	icon_state = "half_t";
 	pixel_x = 11;
-	pixel_y = 14
+	pixel_y = 14;
+	name = "half-tire";
+	desc = "Tragic."
 	},
 /obj/structure/fluff{
 	icon = 'icons/obj/F13-trash.dmi';
+	density = 1;
 	icon_state = "one_t";
 	pixel_x = 7;
-	pixel_y = -7
+	pixel_y = -7;
+	name = "tire";
+	desc = "Like, clothes. Get it? A tire?"
 	},
 /turf/open/floor/grass,
 /area/event/ball)
@@ -14988,21 +15032,31 @@
 "lWp" = (
 /obj/structure/fluff{
 	icon = 'icons/obj/F13-trash.dmi';
+	density = 1;
 	icon_state = "two_t";
 	pixel_y = 17;
-	pixel_x = -7
+	pixel_x = -7;
+	name = "tires";
+	gender = "plural";
+	desc = "Who'd spell tire with a 'y' anyway?"
 	},
 /obj/structure/fluff{
 	icon = 'icons/obj/F13-trash.dmi';
+	density = 1;
 	icon_state = "one_t";
 	pixel_x = -8;
-	pixel_y = -3
+	pixel_y = -3;
+	name = "tire";
+	desc = "So tired..."
 	},
 /obj/structure/fluff{
 	icon = 'icons/obj/F13-trash.dmi';
+	density = 1;
 	icon_state = "one_b";
 	pixel_x = 7;
-	pixel_y = -4
+	pixel_y = -4;
+	name = "barrel";
+	desc = "Not red, not explosive."
 	},
 /turf/open/floor/grass,
 /area/event/ball)
@@ -16819,7 +16873,11 @@
 "nWa" = (
 /obj/structure/fluff{
 	icon = 'icons/obj/F13-trash.dmi';
-	icon_state = "four_b"
+	density = 1;
+	icon_state = "four_b";
+	name = "barrels";
+	gender = "plural";
+	desc = "Not red, not explosive."
 	},
 /turf/open/misc/dirt/station,
 /area/event/ball)
@@ -16917,7 +16975,11 @@
 "odg" = (
 /obj/structure/fluff{
 	icon = 'icons/obj/F13-trash.dmi';
-	icon_state = "five_t"
+	density = 1;
+	icon_state = "five_t";
+	name = "tires";
+	gender = "plural";
+	desc = "Who'd spell tire with a 'y' anyway?"
 	},
 /obj/item/v8_engine{
 	anchored = 1
@@ -17107,6 +17169,17 @@
 	},
 /turf/open/floor/iron,
 /area/station/commons)
+"ooN" = (
+/obj/structure/fluff{
+	icon = 'icons/obj/F13-trash.dmi';
+	density = 1;
+	icon_state = "five_t";
+	name = "tires";
+	gender = "plural";
+	desc = "Who'd spell tire with a 'y' anyway?"
+	},
+/turf/open/floor/grass,
+/area/event/ball)
 "oqg" = (
 /obj/structure/chair/sofa/bench/right{
 	dir = 1
@@ -19263,9 +19336,12 @@
 /obj/structure/flora/bush/flowers_yw,
 /obj/structure/fluff{
 	icon = 'icons/obj/F13-trash.dmi';
+	density = 1;
 	icon_state = "one_b";
 	pixel_x = -17;
-	pixel_y = -9
+	pixel_y = -9;
+	name = "barrel";
+	desc = "Not red, not explosive."
 	},
 /turf/open/misc/hay,
 /area/event/ball)
@@ -19666,7 +19742,11 @@
 "qYj" = (
 /obj/structure/fluff{
 	icon = 'icons/obj/F13-trash.dmi';
-	icon_state = "five_t"
+	density = 1;
+	icon_state = "five_t";
+	name = "tires";
+	gender = "plural";
+	desc = "Who'd spell tire with a 'y' anyway?"
 	},
 /turf/open/misc/hay,
 /area/event/ball)
@@ -19902,7 +19982,7 @@
 /obj/structure/sign/tram_plate{
 	pixel_y = 6;
 	name = "Information - Safari Area";
-	specific_transport_id = null;
+	specific_transport_id = "stop auto linking";
 	desc = "Don't feed the animals!"
 	},
 /turf/open/misc/grass,
@@ -20958,7 +21038,11 @@
 	},
 /obj/structure/fluff{
 	icon = 'icons/obj/F13-trash.dmi';
-	icon_state = "four_b"
+	density = 1;
+	icon_state = "four_b";
+	name = "barrels";
+	gender = "plural";
+	desc = "Not red, not explosive."
 	},
 /turf/open/floor/asphalt,
 /area/event/ball)
@@ -21824,20 +21908,30 @@
 "tmw" = (
 /obj/structure/fluff{
 	icon = 'icons/obj/F13-trash.dmi';
+	density = 1;
 	icon_state = "one_b";
 	pixel_x = 1;
-	pixel_y = 7
+	pixel_y = 7;
+	name = "barrel";
+	desc = "Not red, not explosive."
 	},
 /obj/structure/fluff{
 	icon = 'icons/obj/F13-trash.dmi';
+	density = 1;
 	icon_state = "one_b";
 	pixel_x = -17;
-	pixel_y = 15
+	pixel_y = 15;
+	name = "barrel";
+	desc = "Not red, not explosive."
 	},
 /obj/structure/fluff{
 	icon = 'icons/obj/F13-trash.dmi';
+	density = 1;
 	icon_state = "five_t";
-	pixel_x = -9
+	pixel_x = -9;
+	desc = "Who'd spell tire with a 'y' anyway?";
+	name = "tires";
+	gender = "plural"
 	},
 /turf/open/misc/dirt/station,
 /area/event/ball)
@@ -22870,15 +22964,21 @@
 	},
 /obj/structure/fluff{
 	icon = 'icons/obj/F13-trash.dmi';
+	density = 1;
 	icon_state = "one_b";
 	pixel_x = -12;
-	pixel_y = -3
+	pixel_y = -3;
+	name = "barrel";
+	desc = "Not red, not explosive."
 	},
 /obj/structure/fluff{
 	icon = 'icons/obj/F13-trash.dmi';
+	density = 1;
 	icon_state = "one_b";
 	pixel_x = 4;
-	pixel_y = 5
+	pixel_y = 5;
+	name = "barrel";
+	desc = "Not red, not explosive."
 	},
 /turf/open/floor/asphalt,
 /area/event/ball)
@@ -23103,7 +23203,11 @@
 "uGe" = (
 /obj/structure/fluff{
 	icon = 'icons/obj/F13-trash.dmi';
-	icon_state = "five_t"
+	density = 1;
+	icon_state = "five_t";
+	name = "tires";
+	gender = "plural";
+	desc = "Who'd spell tire with a 'y' anyway?"
 	},
 /obj/effect/light_emitter/fake_outdoors,
 /turf/open/misc/dirt/station,
@@ -23120,7 +23224,11 @@
 "uGH" = (
 /obj/structure/fluff{
 	icon = 'icons/obj/F13-trash.dmi';
-	icon_state = "four_b"
+	density = 1;
+	icon_state = "four_b";
+	name = "barrels";
+	gender = "plural";
+	desc = "Not red, not explosive."
 	},
 /turf/open/misc/hay,
 /area/event/ball)
@@ -23349,21 +23457,30 @@
 "uRd" = (
 /obj/structure/fluff{
 	icon = 'icons/obj/F13-trash.dmi';
+	density = 1;
 	icon_state = "one_t";
 	pixel_x = 7;
-	pixel_y = 6
+	pixel_y = 6;
+	name = "tire";
+	desc = "Like, clothes. Get it? A tire?"
 	},
 /obj/structure/fluff{
 	icon = 'icons/obj/F13-trash.dmi';
+	density = 1;
 	icon_state = "one_t";
 	pixel_x = -14;
-	pixel_y = 1
+	pixel_y = 1;
+	name = "tire";
+	desc = "Like, clothes. Get it? A tire?"
 	},
 /obj/structure/fluff{
 	icon = 'icons/obj/F13-trash.dmi';
+	density = 1;
 	icon_state = "one_b";
 	pixel_x = 1;
-	pixel_y = -5
+	pixel_y = -5;
+	name = "barrel";
+	desc = "Not red, not explosive."
 	},
 /turf/open/misc/dirt/station,
 /area/event/ball)
@@ -24250,9 +24367,6 @@
 	},
 /turf/open/floor/iron/terracotta,
 /area/station/commons)
-"vMc" = (
-/turf/closed/indestructible/syndicate,
-/area/event/ball/beach_ambience)
 "vMu" = (
 /obj/structure/railing/wooden_fence{
 	dir = 4
@@ -24463,6 +24577,9 @@
 /obj/effect/turf_decal/sand/plating,
 /turf/open/floor/plating,
 /area/event/ball)
+"vYW" = (
+/turf/cordon,
+/area/event/ball/not_fullbright)
 "vZk" = (
 /obj/effect/turf_decal/siding/wideplating/dark{
 	dir = 6
@@ -25696,15 +25813,22 @@
 	},
 /obj/structure/fluff{
 	icon = 'icons/obj/F13-trash.dmi';
+	density = 1;
 	icon_state = "one_t";
 	pixel_x = 7;
-	pixel_y = -7
+	pixel_y = -7;
+	name = "tire";
+	desc = "Like, clothes. Get it? A tire?"
 	},
 /obj/structure/fluff{
 	icon = 'icons/obj/F13-trash.dmi';
+	density = 1;
 	icon_state = "two_t";
 	pixel_x = -3;
-	pixel_y = 7
+	pixel_y = 7;
+	name = "tires";
+	gender = "plural";
+	desc = "Who'd spell tire with a 'y' anyway?"
 	},
 /turf/open/misc/sandy_dirt,
 /area/event/ball)
@@ -98028,7 +98152,7 @@ aUE
 aUE
 aUE
 aUE
-aUE
+vYW
 aUE
 aUE
 aUE
@@ -126616,13 +126740,13 @@ uOn
 nlq
 pmv
 mZI
-vMc
-igO
-hHI
-hHI
-iIf
-mau
-idk
+jAu
+jVm
+xRg
+xRg
+mZI
+iLy
+ejR
 mZI
 xRg
 jVm
@@ -126872,9 +126996,9 @@ jPr
 jPr
 xID
 jPr
-dmx
-dmx
-dmx
+jAu
+jAu
+jAu
 jPr
 xID
 ioA
@@ -127130,7 +127254,7 @@ uLY
 uLY
 vDk
 gtv
-dmx
+jAu
 lLJ
 igO
 mMb
@@ -145415,7 +145539,7 @@ rrE
 rrE
 cWA
 lyc
-lyc
+ooN
 lyc
 qkP
 kcS
@@ -145671,7 +145795,7 @@ tPs
 tPs
 tPs
 tPs
-lyc
+ooN
 lyc
 cXk
 lyc
