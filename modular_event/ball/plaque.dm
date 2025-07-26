@@ -28,6 +28,7 @@
 			Spockye, \
 			TheBibleMelts, \
 			Trexter, \
+			Twaticus, \
 			Zytolg \
 		<br>\
 		<b>Special Thanks</b>: \
