@@ -177,7 +177,7 @@
 	icon_state = "pareoswimop"
 	inhand_icon_state = null
 	can_adjust = FALSE
-	greyscale_colors = "#eeeeee#7598e4#d2ba83"
+	greyscale_colors = "#eeeeee#eeeeee"
 	greyscale_config = /datum/greyscale_config/pareoswimop
 	greyscale_config_worn = /datum/greyscale_config/pareoswimop/worn
 	flags_1 = IS_PLAYER_COLORABLE_1
