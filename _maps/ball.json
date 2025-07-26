@@ -10,7 +10,7 @@
 	"minetype": "none",
 	"traits": [
 		{
-			"Baseturf": "/turf/open/misc/dirt/jungle",
+			"Baseturf": "/turf/open/misc/dirt/station",
 			"Gravity": true,
 			"No Parallax": true
 		},
