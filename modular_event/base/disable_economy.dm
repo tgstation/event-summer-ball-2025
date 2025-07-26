@@ -8,4 +8,4 @@
 /obj/machinery/vending/Initialize(mapload)
 	. = ..()
 
-	onstation = FALSE
+	all_products_free = TRUE
