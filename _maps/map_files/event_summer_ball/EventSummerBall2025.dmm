@@ -23229,6 +23229,10 @@
 	},
 /turf/open/floor/wood,
 /area/event/ball)
+"qEz" = (
+/obj/machinery/telecomms/allinone/indestructible,
+/turf/open/floor/plating,
+/area/station/maintenance/department/security)
 "qEB" = (
 /obj/effect/turf_decal/weather/dirt{
 	dir = 6
@@ -60972,7 +60976,7 @@ anQ
 avn
 aOD
 aaG
-aXa
+qEz
 aga
 aIt
 aga
